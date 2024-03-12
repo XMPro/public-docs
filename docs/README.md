@@ -1,7 +1,7 @@
 # What is XMPro?
 
 XMPro’s Application Development Platform empowers engineers and subject matter experts to build real-time applications without coding. The platform consists of 3 main software components:
-TODO: Remove this.
+TODO: Remove this by 1 April.
 
 ### XMPro App Designer
 
