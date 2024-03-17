@@ -96,7 +96,7 @@ def update_readme(folder_path, md_files, readme_filename):
         with open(readme_file, 'w', encoding='utf-8') as file:
             file.write("# Copy Me Solutions\n\n")
             for md_file in md_files:
-                relative_path = os.path.relpath( md_file['filename'])
+                relative_path = os.path.relpath(md_file['filename'])
                 # Replace backslashes with forward slashes
                 relative_path = relative_path.replace("\\", "/")
                 relative_path = relative_path.replace("docs/", "")
@@ -134,7 +134,7 @@ def main():
         soup = BeautifulSoup(response.text, "html.parser")
         
         # Find the specified div element
-        div_element = soup.find("div", class_="row", id="row-169340132")
+        div_element = soup.find("div", class_="col small-12 large-12", id="col-1436051962")
         
         # Check if the div element exists
         if div_element:

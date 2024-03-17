@@ -1,0 +1,12 @@
+# XMPro Joins the Australian AI Ecosystem Discoverability Portal - XMPRO
+
+URL: https://xmpro.com/xmpro-joins-the-australian-ai-ecosystem-discoverability-portal/
+
+06 October 2023, Dallas, TX: XMPro, a leading provider in Intelligent Digital Twin Solutions, is pleased to announce its inclusion in the Australian AI Ecosystem Discoverability Portal, an initiative steered by the National Artificial Intelligence Centre (NAIC). 
+ As part of this collaboration, XMPro will be working alongside experts, regulatory bodies, training organisations, and practitioners. This diverse and unified coalition underscores the breadth and depth of Australia’s AI expertise and reaffirms the commitment to fostering a multi-dimensional, inclusive AI ecosystem. 
+The Australian Government’s establishment of the National AI Centre showcases the nation’s ambition to be at the forefront of the global AI and digital landscape. The Centre, housing the country’s paramount AI research and technology capabilities, is primed to guide Australia into an AI-driven future. 
+XMPro’s alignment with the Centre is set to boost the exploration and adoption of Intelligent Digital Twin Solutions across multiple sectors in Australia. By merging synergies with other partners from government, industry, research, and training domains, XMPro is poised to bridge knowledge gaps, champion technology advancements, and promote AI acceptance nationwide.  
+“We’re incredibly proud to be part of this innovative portal, a testament to our unwavering commitment and passion for the AI domain,” says XMPro CEO, Pieter van Schalkwyk. “With the combined strength of the National AI Centre, experts, regulatory bodies, training entities, and fellow practitioners, XMPro is dedicated to ushering in a redefined era of AI comprehension, innovation, and integration, positioning Australia as a global frontrunner in AI advancements.” 
+ By partnering with the National AI Centre, XMPro amplifies Australia’s AI prowess on the global stage, presenting the nation’s capabilities to international AI leaders and highlighting our multifaceted expertise. 
+About the National AI Centre:  
+As the national science agency, the National AI Centre is committed to pioneering and enhancing Australia’s AI ecosystem. Teaming up with partners from government, industry, research sectors, and training organisations, the Centre aims to elevate the understanding, creation, and embrace of AI in Australia for the collective betterment of its inhabitants. https://www.csiro.au/naic 

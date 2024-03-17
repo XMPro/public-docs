@@ -1,0 +1,9 @@
+# Making the most of your SharePoint investment with XMPro Business Process Management - XMPRO
+
+URL: https://xmpro.com/making-the-most-of-your-sharepoint-investment-with-xmpro-business-process-management/
+
+8 March 2011 – XMPro, specialists in enterprise Business Process Management software solutions, hosted a seminar in Sydney Australia teaching enterprises how to leverage Dynamic BPM to deliver the full benefits of their SharePoint Ecosystem.
+Pieter van Schalkwyk, Director of XMPro, presented the seminar and explains, ”With the release of SharePoint 2010 we’ve seen a growing number of enterprises embrace SharePoint’s expanding set of capabilities and make it central to their work environments. We are passionate about seeing these enterprises use their software appropriately and see them capitalise on their investment by extending the workflow capabilities”.
+In a 2010 AIIM survey, respondents reported that managing process change was the biggest single deployment issue they encountered during their SharePoint implementation projects. The seminar was design to address the business risk areas where organisations push SharePoint beyond its best use and have incorrect assumptions around the workflow or process automation capabilities. Suggestions were made as to how enterprises can avoid these business risks and strategize the best way forward. It then focussed on how to extend and enhance the SharePoint ecosystem with Dynamic BPM, when to do it and what benefits you can expect from it. A report summarising the seminar has been made available for download at https://xmpro.com/jumpto/articleswhitepapers.
+* * *
+Product and company names herein are the trademarks of their registered owners.

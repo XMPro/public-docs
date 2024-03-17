@@ -1,0 +1,11 @@
+# XMPro iBOS BPM Microsoft Azure Certified & Available In Azure Marketplace - XMPRO
+
+URL: https://xmpro.com/xmpro-ibos-bpm-microsoft-azure-certified-available-in-azure-marketplace/
+
+Dallas, TX, June 16, 2015 — XMPro, a business process management and operational intelligence platform provider, today announced the availability of XMPro iBOS BPM as a certified solution in the Azure Marketplace.
+“Customers now have the ability to evaluate and deploy XMPro’s innovative BPM solution from the Azure Marketplace with minimal setup and cost, making it easier than ever to harness the power of event-based BPM,” said Pieter van Schalkwyk, CEO of XMPro. “In addition to our Azure Certification, we have also expanded our service offering to assist customers with managing their Azure-based XMPro applications in the long-term.”
+XMPro iBOS BPM gives customers the flexibility to manage both traditional workflow style processes as well as unstructured process where the workflow is not known in advance. It caters for different levels of process configuration skills, by empowering Citizen Developers with drag and drop tools, and giving expert C# developers a platform to build complex business solutions.
+“Azure Certified applications, like XMPro iBOS BPM, have received their certification based on their ability to meet our technical requirements and provide a high-quality customer experience on Azure. The certification provides customers with the highest quality assurance that these applications are enterprise-ready and fully compatible with the Microsoft Cloud Platform.” said Nicole Herskowitz, Senior Director of Product Marketing, Microsoft Azure.
+About XMPro
+Since 2009, XMPro has been helping organizations improve operational excellence, reduce risk and improve asset utilization through its Intelligent Business Operations platform. XMPro iBOS combines Operational Intelligence with Business Process Management, which enables organizations to sense key business events, decide if action is needed and then take the appropriate action. XMPro is headquartered in Dallas, Texas with offices in Australia, the UK and South Africa.
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners. 

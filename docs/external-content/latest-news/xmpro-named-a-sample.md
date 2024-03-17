@@ -1,0 +1,9 @@
+# XMPro Named a Sample Vendor for Digital Twins in 2021
+
+URL: https://xmpro.com/xmpro-named-a-sample-vendor-for-digital-twins-in-2021-gartner-hype-cycle-for-the-future-of-applications/
+
+XMPro, a leading No-Code Application Composition Platform for asset-intensive industries, has been named as a Sample Vendor for Digital Twins in the 2021 Gartner Hype Cycle for the Future of Applications.  
+ According to the report, “Applications and software engineering leaders must leverage composable technology to adapt to the pace of business change. To deliver on digital transformation, organizations need applications that can be readily assembled, reassembled and extended.” 1  
+ “We’re once again delighted to be mentioned by Gartner as a Sample Vendor for digital twins in this report. Our Application Composition Platform allows subject matter experts to build digital twins by leveraging reusable integration connectors, machine learning algorithms and UI templates. We believe our no-code approach combined with a focus on composability are key to enabling rapid digital transformation,” said Pieter van Schalkwyk, CEO of XMPro. 
+ 1 Gartner, “Hype Cycle for the Future of Applications, 2021”, Micky Keck, Yefim Natis, Stefan Van Der Zijden, 10 August 2021. 
+GARTNER and HYPE CYCLE are a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally and are used herein with permission. Gartner does not endorse any vendor, product or service depicted in our research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose. 

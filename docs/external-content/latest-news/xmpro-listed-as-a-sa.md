@@ -1,0 +1,15 @@
+# XMPro listed as a Sample Vendor for Digital Twins in 2021
+
+URL: https://xmpro.com/xmpro-listed-as-a-sample-vendor-for-digital-twins-in-2021-gartner-hype-cycle-reports/
+
+ XMPro, a leading No-Code Application Development Platform for asset-intensive industries, today announced that it has been identified as a Sample Vendor for Digital Twins in four recent Gartner ®  Hype Cycle ™  Reports titled: Hype Cycle for Manufacturing Operations Strategy, 20211; Hype Cycle for Life Science Manufacturing, Quality and Supply Chain, 20212; Hype Cycle for Manufacturing Digital Transformation and Innovation, 20213; Hype Cycle for Manufacturing Digital Optimization and Modernization 20214.
+According to the 2021 Gartner Hype Cycle for Manufacturing Operations Strategy report, “The unparalleled disruption of 2020 and 2021’s economic recovery are compelling manufacturers to reprioritize initiatives. Digital ambitions that turn the art of possible into reality are accelerating.” 5 
+“We have seen an incredible acceleration in the adoption of Digital Twins across industries like manufacturing that need to manage large numbers of expensive assets in real-time,” said Pieter van Schalkwyk, CEO of XMPro. “Our No-Code Platform helps subject matter experts build Digital Twins in a fast and scalable way. And we believe being named by Gartner as a Sample Vendor in these reports reinforces the value of our unique approach to creating Digital Twins.”
+1 Gartner, “Hype Cycle for Manufacturing Operations Strategy, 2021”, Simon Jacobson, 16 July 2021.
+2 Gartner, “Hype Cycle for Life Science Manufacturing, Quality and Supply Chain, 2021”, Michael Shanler, Andrew Stevens, Rick Franzosa, 20 July 2021.
+3 Gartner, “Hype Cycle for Manufacturing Digital Transformation and Innovation, 2021”, Marc Halpern, Christian Hestermann, Rick Franzosa, Alexander Hoeppe, 23 July 2021.
+4 Gartner, “Hype Cycle for Manufacturing Digital Optimization and Modernization 2021”, Christian Hestermann, Rick Franzosa, Marc Halpern, Alexander Hoeppe, 23 July 2021.
+5 Gartner, “Hype Cycle for Manufacturing Operations Strategy, 2021”, Simon Jacobson, 16 July 2021.
+Gartner Disclaimer:
+GARTNER and Hype Cycle are a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally and is used herein with permission
+Gartner does not endorse any vendor, product or service depicted in our research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.

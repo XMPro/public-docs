@@ -1,0 +1,9 @@
+# XMPro Joins Industrial Internet Consortium Smart Factory Machine Learning Testbed - XMPRO
+
+URL: https://xmpro.com/xmpro-joins-industrial-internet-consortium-smart-factory-machine-learning-testbed/
+
+Dallas, TX, March 16, 2018 – XMPro, a leading IoT Application Development Platform provider, today announced its participation in the Industrial Internet Consortium® (IIC™) Smart Factory Machine Learning for Predictive Maintenance Testbed.
+The testbed aims to evaluate and validate machine learning techniques for predictive maintenance on high volume production machinery. Its objectives also include improving uptime and energy efficiency by using machine learning to enable the early detection of anomalies and fault conditions.
+“We look forward to contributing to this innovative testbed by using XMPro’s platform to drive actions from machine learning predictions, like initiating root cause analysis processes and creating work orders in Enterprise Asset Management systems,” stated Pieter van Schalkwyk, CEO of XMPro. “We hope to demonstrate how an Industrial IoT solution can be integrated with business workflows to support better decision making and help organizations respond faster to critical events.”
+“IIC Testbeds provide an opportunity to collaborate with pioneering companies in the industrial IoT ecosystem to test, evaluate and create solutions that solve real-world problems,” said IIC Executive Director, Dr. Richard Soley. “We are excited that XMPro will provide its knowledge in IoT technology and business workflows to the Smart Factory Machine Learning Testbed to help IIC members as together they discover solutions to help factories improve their operations.”
+For more information on the Smart Factory Machine Learning for Predictive Maintenance Testbed visit http://www.iiconsortium.org/smart-factory-machine-learning.htm 

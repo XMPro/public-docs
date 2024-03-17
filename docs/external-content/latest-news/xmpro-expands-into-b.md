@@ -1,0 +1,12 @@
+# XMPro Expands into Behavioral Analytics in Partnership with LTAnalytics - XMPRO
+
+URL: https://xmpro.com/xmpro-expands-into-behavioral-analytics-in-partnership-with-ltanalytics/
+
+28th September 2023, Dallas, TX: XMPro, a leading provider of intelligent Digital Twin Suites, has announced a strategic partnership with LTAnalytics, an innovator in real-time behavioral analytics. This partnership is a major advancement for XMPro, offering businesses cutting-edge tools to analyze and influence people’s movement through physical spaces.
+Businesses and organizations constantly face the challenge of maximizing revenue and customer engagement while staying attuned to rapidly shifting behavior. Recognizing the need for real-time behavioral insights, XMPro has partnered with LTAnalytics to integrate its cutting-edge LTAnalytics Decisioning Engine.
+The LTAnalytics Decisioning Engine decodes data on human interactions inside a physical space to reveal user patterns, allowing businesses to proactively engage customers, guests and staff. This innovative solution combines easily understandable business rules with machine learning model outputs, ensuring intelligent, data-driven decision-making. Immediate action can be taken through optimal communication channels, resulting in competitive advantages, increased efficiencies and new levels of customer service.
+The collaboration between XMPro and LTAnalytics promises to deliver exceptional results for all types of organizations, including but not limited to:
+About LTAnalytics
+LTAnalytics is in the business of turning a physical location into a digital footprint. Similar in approach to online analytics, our platform applies real-time machine learning and predictive analytics to human behavior inside physical spaces. www.ltanalytics.io.
+About XMPro
+XMPro is a leading Intelligent Digital Twin Suite provider focused on helping industrial companies integrate IoT technology with business workflows to enhance their operational capabilities. XMPro’s digital twin suite makes it easy to integrate OT & IT systems, get real-time visibility into operations and respond faster to critical events. Founded in 2009, XMPro has a proven track record of helping customers accelerate their digital transformation and generate 10x faster ROI on IoT innovation. www.xmpro.com.

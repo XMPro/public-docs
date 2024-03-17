@@ -1,0 +1,15 @@
+# How We’re Adapting as a High-Performance Distributed Team
+
+URL: https://xmpro.com/the-future-of-work-is-here-how-were-adapting-as-a-high-performance-distributed-team/
+
+Here’s a quick look at how the team at XMPRO have adapted to working in a post-pandemic world.
+Before COVID, we were already working in a semi-distributed way with some team members commuting to our offices in Dallas, Sydney, London or Pretoria and others working from home offices, especially those based in more remote locations like Cairns, Australia.
+Since many of our team members often travelled to customer sites and consortium meetings around the world, most of us were used to some form of remote working. Innovation is in our DNA. We’ve always embraced new technology and adopted Microsoft Teams to facilitate collaboration across locations and time zones.
+Before the lockdown restrictions were put in place to reduce the spread of the virus, we successfully completed a trial run working as a fully distributed company. We worked out the kinks before it was necessary and when the time came to go remote due to the pandemic, we were prepared.
+Right now, we’re happy to report that we’re thriving as a fully distributed team that’s focused on our mission to help asset-intensive companies accelerate their digital transformation. From product development, to UX design, customer support and sales, we’ve embraced this new era of distributed work. 
+We understand that having access to a local XMPRO team is important to our customers and we pride ourselves on being easy to reach and fast to respond.
+We’re in the process of reimagining how we want to work in future and we know that our office footprint will be smaller than before. But we are committed to providing our customers in North America, Australia, the UK and South Africa with world-class support from locally-based teams, even though they won’t be working from an office building.
+A core part of our mission at XMPRO is to teach subject matter experts (SMEs) and engineers to build their own real-time applications with our platform. Traditionally, these training sessions were held on-location at customer sites over a few days. When travel restrictions made this model impractical for the foreseeable future, we moved to providing live virtual training sessions. It has been a great experience watching SMEs gain the skills to use our platform from the comfort of their own homes. In many cases, they’ve also moved their office “From The Control Room To The Bedroom” due to the pandemic.
+We’ve since launched an online resource called XMPRO Courses, to provide on-demand access to our training material, as well as free courses for digital transformation skills. There’s also a new Youtube channel called XMPRO Learning to provide additional material to our users whenever they need it.
+While 2020 has presented many challenges and changes, we’re confident that the team at XMPRO is ready for the future of work.
+If you have any questions, please reach out to us at [email protected].

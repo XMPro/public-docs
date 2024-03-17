@@ -1,0 +1,13 @@
+# Prescriptive Recommendations and Azure Digital Twins Integration
+
+URL: https://xmpro.com/xmpro-extends-prescriptive-recommendations-and-includes-azure-digital-twins-integration-in-latest-version/
+
+XMPro, the leading No-Code Application Development Platform for asset-intensive industries, announced its release of XMPro Version 4, which brings together a suite of enhancements for creating digital twins and prescriptive recommendations. These new features will further enable engineers and subject matter experts to build sophisticated real-time applications without needing to code.
+“This latest release focuses on further empowering subject matter experts in fields like mining, oil and gas and manufacturing to build real-time applications that solve the problems they face every day”, said Pieter van Schalkwyk, XMPro CEO. “Our goal is to provide these users with a scalable No-Code Platform that enables them to build complex real-time apps that improve their maintenance scheduling, prevent environmental and safety incidents, and optimize their operations.”
+Key new features in the XMPro platform:
+Create new instances in Azure Digital Twins, upload DTDL models and set up new resources without leaving the XMPro interface. You can also use custom forms in your XMPro applications to update your digital twins in Microsoft Azure Digital Twins.
+Leverage custom forms to help your team send requests, complete on-site inspections, and create work orders in other systems like SAP EAM. Discussions provide a space to collaborate with colleagues while keeping the conversation part of the recommendation alert audit trail.
+The latest release allows you to set up rule-based notifications to trigger when an alert is generated, if the alert has been pending for a period of time or if a team member leaves a note. Users can also manage their own notification settings to decide which alerts they would like to receive.
+Whether your team works underground or out in the field, they can use XMPRO in the browser on their mobile device to get access to the recommendation alerts they need to respond to critical events. This update also provides offline capability and is available on both iOS and Android devices.
+Your XMPro Applications can now include D3 for custom data visualizations with fast loading times, Esri Maps to display maps with overlays and PowerBI to embed reports and historical analytics visualizations into your real-time applications.
+Looking for more details on the latest version of XMPro? Read the full release notes here.

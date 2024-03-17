@@ -1,0 +1,10 @@
+# R&D Lab Update: XMPro on Alpine at the Edge - XMPRO
+
+URL: https://xmpro.com/rd-lab-update-xmpro-on-alpine-at-the-edge/
+
+Our development team is continually working to improve how our customers deploy IoT in real industrial scenarios. This means pushing the boundaries of edge computing to come up with innovative deployment options that are both secure and cost-effective. We’re excited to share that we can run XMPro Stream Host in a docker container on Alpine Linux on an industrial router. (See the image below for the R&D setup.)
+This means our customers can run a complete IoT process at the edge and distribute it to thousands of devices. These IoT processes can include analytics, predictive models and even localized decision logic, which creates the opportunity to do prescriptive analytics at the edge.
+Running localized IoT processes reduces the bandwidth you need to deploy IoT in remote areas and leads to lower security risks.
+Alpine Linux is built around musl libc and busybox. This makes it smaller and more resource efficient than traditional GNU/Linux distributions. A container requires no more than 8 MB and a minimal installation to the disk requires around 130 MB of storage.
+Alpine is a light and simple Linux distribution which is so small that it can run in RAM. The idea is for a system to boot from read-only media which is removable once the system has booted; and run entirely in RAM. This works very well for the disposable container concept. Having such a small distribution makes Alpine very secure, as the surface area that can be attacked is much smaller.
+XMPro Stream Host is the Edge component of XMPro Stream Processing. It allows clients to transfer part of stream processing closer to the device, making the whole system secure and performance efficient. Many edge devices are resource constrained, which makes it challenging to run heavy applications. XMPro Stream Host can run inside Alpine Container, giving it a small footprint. This opens up many platforms for XMPro, e.g. Cisco IR829 router which supports Alpine containers as IOx Apps. 

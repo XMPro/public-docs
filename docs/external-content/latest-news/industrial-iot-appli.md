@@ -1,0 +1,7 @@
+# Industrial IoT Application Suite XMPro Announces SAP Startup Focus Partnership - XMPRO
+
+URL: https://xmpro.com/industrial-iot-application-suite-xmpro-announces-sap-startup-focus-partnership/
+
+Dallas, TX, August 4, 2016 – Today, XMPro announced its partnership with SAP as a SAP Startup Focus member. This integration partnership will enable SAP customers to rapidly develop IoT applications on top of their HANA analytics and machine learning data using XMPro’s Agile Application Suite for Industrial IoT. 
+The global SAP Startup Focus program includes innovative companies in the big data, predictive and real-time analytics space. XMPro CEO, Pieter van Schalkwyk, commented on the membership announcement, “We’re excited to join SAP on its mission to bring digital transformation to its enterprise customers. And we look forward to delivering groundbreaking Industrial IoT solutions together.”
+XMPro’s SAP integration makes it possible for customers to detect critical events in their data and take action in real-time. When critical events are detected in the data, XMPro can create automated actions. These actions can take the form of an email, task or a work order in their SAP Enterprise Asset Management System.

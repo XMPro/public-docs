@@ -1,0 +1,11 @@
+# XMPro Cited As A Sample Vendor in the Gartner Hype Cycle for the Internet of Things, 2015 - XMPRO
+
+URL: https://xmpro.com/xmpro-cited-as-a-sample-vendor-in-the-gartner-hype-cycle-for-the-internet-of-things-2015/
+
+Dallas, TX, July 30, 2015 — XMPro today announced that it has been listed as a sample vendor for Operational Intelligence Platforms in the recent Gartner Hype Cycle for the Internet of Things.*
+According to the report, “Operational intelligence platforms operationalize objectives such as reducing customer churn, expanding sales and lowering the cost of manufacturing or delivery. They help people share a common operating picture, which improves their ability to collaborate when making business decisions. They also improve the quality of decisions by providing more contextual information and logic to people and application programs.”
+“We’re delighted to be identified as a sample vendor in the 2015 Gartner Hype Cycle for the Internet of Things,” says XMPro CEO Pieter van Schalkwyk. “Organizations are being challenged by the enormous amount of data flooding in from systems, databases and sensors, and without an operational intelligence platform they simply cannot respond to this information fast enough. XMPro helps companies not only to sense data in real-time, but also to act on their data in real-time.”
+For more information read Pieter’s blog post “How Important are Processes to the Internet of Things?”
+Disclaimer:
+Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.
+*Gartner, Hype Cycle for the Internet of Things, 2015 by Alfonso Velosa, W. Roy Schulte, Benoit J. Lheureux , 21 July 2015. 

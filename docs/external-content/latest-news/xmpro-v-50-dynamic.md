@@ -1,0 +1,13 @@
+# XMPro v 5.0 Dynamic BPM and Work management - XMPRO
+
+URL: https://xmpro.com/xmpro-v-5-0-dynamic-bpm-and-work-management/
+
+Sydney, Australia – 29 March 2010. XMPro announced the release of XMPro v 5.0, the process management solution for both dynamic event-based processes and structured rule-based processes. “The sequential, production-line workflow approach only applies to a few of the tasks we have to perform every day. Over time our business processes have changed from simple predictable tasks to more complex knowledge based and collaborative on processes. Nowadays we react to business events rather than just being a cog in a simple work queue” says Pieter van Schalkwyk, Managing Director of XMPro from their Sydney offices.
+His view is supported by Gartner who recently announced their view on Dynamic BPM in their “Five Predictions for How BPM Will Evolve”. XMPro v5.0 gives users the best of both worlds by combing the benefits of a structured, well-defined and rules based workflow with dynamic content and routing based on the context of process. Van Schalkwyk gives an example of a customer onboarding process where a structured approach will enforce controls and segregation of duties, but the pre-defined and mapped out process can lead to user frustration as it does not respond the dynamic nature of customer processes. A dynamic event-based process created in XMPro will enforce the necessary controls but it will allow a user with knowledge around the specific instance of the process to choose the most suitable “next step” from a library of available activities that are associated with the specific processes. Defining all the various dynamic event options in a conventional workflow-based flow diagram will be incomprehensible and almost impossible to execute with a conventional business process management suite. “Add process improvement requirements to it where controlled changes need to be made regularly, and you’ll find that you quickly run out of enough real-estate on the flow-diagram to show all the process variants” says van Schalkwyk.
+XMPro v.5.0 delivers combined structured and dynamic processes in the same XMWorkspace environment available as:
+> XMPoint for Microsoft Sharepoint
+> XMOutlook for Microsoft Outlook
+> XMWeb for your favourite web browser
+> XMMobile for Windows Mobile, BlackBerry and iPhone
+> XMGadget for Windows 7 and Windows Vista desktop gadgets.
+Contact XMPro for more information on how XMPro v5.0 can solve your dynamic process problems.

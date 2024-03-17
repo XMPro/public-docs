@@ -1,0 +1,10 @@
+# XMPro Listed as a “Sample Vendor” in the Gartner Hype Cycle for Governance, Risk and Compliance Technologies, 2015 - XMPRO
+
+URL: https://xmpro.com/xmpro-listed-as-a-sample-vendor-in-the-gartner-hype-cycle-for-governance-risk-and-compliance-technologies-2015/
+
+Dallas, TX, July 24, 2015 — XMPro is proud to announce that it has been listed as a “Sample Vendor” for Operational Intelligence Platforms in the Gartner Hype Cycle for Governance, Risk and Compliance Technologies.
+According to the report “The market for operational intelligence platforms is gaining momentum because companies want to improve the situation awareness and sense-and-respond capabilities of their decision makers, and would prefer to buy, rather than build, the software that provides these functions.”
+Pieter van Schalkwyk, CEO of XMPro commented, “Real time risk management is fast becoming a critical requirement for governance, risk and compliance solutions. XMPro’s Operational Intelligence provides the situational awareness needed as organizations are starting to deal with the challenges of real time operations. We are excited to be listed as a sample vendor for Operational Intelligence platforms in this report.”
+Disclaimer:
+Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.
+*Gartner, Hype Cycle for Governance, Risk and Compliance Technologies, 2015 by John A. Wheeler, 10 July 2015. 

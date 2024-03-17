@@ -1,0 +1,12 @@
+# XMPro releases new iBOS Process-Mining Module, XMAnalyzer, for Intelligent Business Process Management (iBPM) solutions. - XMPRO
+
+URL: https://xmpro.com/xmpro-releases-new-ibos-process-mining-module-xmanalyzer/
+
+XMAnalyzer was released by XMPro with process-mining information as part of their iBOS (Intelligent Business Operations Server) solution. Unique to this field, the information produced is expected to provide invaluable insight into process management and compliance.
+Sydney, Australia 2012-07-23. XMPro, leading provider of Intelligent Business Process Management solutions, announces the release of XMAnalyzer, the process-mining module of XMPro iBOS (Intelligent Business Operations Server).
+Key features include:
+“This release of the XMAnalyzer is the perfect tool for our clients to pin-point their problem areas and gives them a visual illustration of what is really happening in their businesses. It is literally changing the way they are doing their daily business and helping them gain control,” says Pieter van Schalkwyk, CEO of XMPro. “After seeing the results from applying this tool to our clients’ processes, we are convinced that this is the best way to effectively analyze business processes. This is ground breaking technology and we are very proud of it.”
+XMPro is recognized by top industry analyst firm, Gartner, as a Cool Vendor for Business Process Management 2012 due to their innovative and intriguing approach to iBPMS solutions as well as the impact they are having on their client’s daily processes. Who should be interested in this new technology? Operations Managers and Process Improvement Analysts who are interested in operational risk, compliance and process improvement opportunities. For more information visit https://xmpro.com/xmpro-ibpms/xmanalyzer/.
+ 
+About Gartner’s Cool Vendors:
+Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.
