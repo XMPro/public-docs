@@ -41,7 +41,7 @@ def save_to_md(title, content, url, folder_path):
             # Truncate title if it's too long
             truncated_title = title[:20]
             # Remove special characters from the title and replace spaces with underscores
-            filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', truncated_title.strip().replace(' ', '_'))}.md")
+            filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', truncated_title.strip().replace(' ', '_')).lower().replace('_', '-')}.md")
         else:
             filename = os.path.join(folder_path, "Untitled.md")
 
@@ -50,8 +50,10 @@ def save_to_md(title, content, url, folder_path):
             file.write(f"URL: {url}\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
+        return filename
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
+        return None
 
 def get_all_blog_urls(base_url, num_pages):
     all_blog_urls = set()  # Use a set to avoid duplicate URLs
@@ -96,6 +98,22 @@ def get_max_page_numbers(html, base_url):
             pass  # Ignore non-integer page numbers
     return max_page
 
+def generate_readme(files, folder_path):
+    try:
+        readme_content = []
+        for file_info in files:
+            # Remove "docs/" from file path and replace "\" with "/"
+            file_path = file_info['path'].replace("docs/", "").replace("\\", "/")
+            readme_content.append(f"* [{file_info['title']}]({file_path})\n")
+        
+        # Create the README.md file in the same folder as the exported files
+        readme_file_path = os.path.join(folder_path, 'copy-me-latest-news.md')
+        with open(readme_file_path, 'w', encoding='utf-8') as readme_file:
+            readme_file.write("".join(readme_content))
+        print(f"README.md file created successfully at: {readme_file_path}")
+    except Exception as e:
+        print(f"Error occurred while generating README.md: {e}")
+
 def main():
     # Load configuration from JSON file
     with open('scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-latestnews-config.json') as json_file:
@@ -125,15 +143,21 @@ def main():
         num_pages = get_max_page_numbers(html_snippet, base_url)
 
         all_blog_urls = get_all_blog_urls(base_url, num_pages)
+        exported_files = []
 
         for url in all_blog_urls:
             # Introduce a delay of 1 second before scraping each page
             sleep(1)
             title, content = scrape_page(url)
             if title and content:
-                save_to_md(title, content, url, folder_path)  # Call save_to_md instead of save_to_txt
+                filename = save_to_md(title, content, url, folder_path)
+                if filename:
+                    exported_files.append({'title': title, 'path': filename})
             else:
                 print(f"Failed to scrape the page: {url}")
+
+        # Generate README.md file with links to exported files
+        generate_readme(exported_files, folder_path)
     else:
         print("Folder path not found in config.")
 

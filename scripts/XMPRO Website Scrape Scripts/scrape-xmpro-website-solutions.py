@@ -17,7 +17,8 @@ def save_to_md(title, content, url, folder_path):
         # Truncate the filename to a maximum of 20 characters
         truncated_title = truncate_title(sanitized_title)
         
-        filename = os.path.join(folder_path, f"{truncated_title}.md")
+        # Make the filename lowercase and replace spaces with hyphens
+        filename = os.path.join(folder_path, f"{truncated_title.lower().replace(' ', '-')}.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
@@ -31,6 +32,11 @@ def save_to_md(title, content, url, folder_path):
 # Function to scrape content from each page
 def scrape_page(url, folder_path):
     try:
+        # Skip scraping if the URL is excluded
+        if url == "https://xmpro.com/solutions-library/solutions/":
+            print("Excluded URL. Skipping scraping:", url)
+            return None
+
         # Send a GET request to the page URL
         response = requests.get(url)
 
@@ -44,12 +50,12 @@ def scrape_page(url, folder_path):
             if title_elem:
                 title = title_elem.text.strip()
 
-                # Find the portfolio-inner div
-                portfolio_inner_div = soup.find("div", class_="portfolio-inner")
-
-                if portfolio_inner_div:
-                    # Find all content elements within the portfolio-inner div
-                    content_elements = portfolio_inner_div.find_all(["p", "h1", "h2", "h3", "h4", "img"])
+                # Find the main element
+                main_element = soup.find("main", id="main")
+                
+                if main_element:
+                    # Find all content elements within the main element
+                    content_elements = main_element.find_all(["p", "h1", "h2", "h3", "h4", "img"])
 
                     # Initialize markdown content
                     markdown_content = ""
@@ -73,26 +79,32 @@ def scrape_page(url, folder_path):
                     # Save content to a Markdown file and return filename with title
                     return save_to_md(title, markdown_content, url, folder_path)
                 else:
-                    print("Portfolio inner div not found.")
+                    print("Main element not found for URL:", url)
             else:
-                print("Title element not found.")
+                print("Title element not found for URL:", url)
         else:
             print(f"Failed to retrieve page {url}. Status code: {response.status_code}")
     except Exception as e:
         print(f"Error occurred while scraping page {url}: {e}")
     return None
 
-# Function to update or create README.md with hyperlinks to exported markdown files
-def update_readme(folder_path, md_files, title):
+
+def update_readme(folder_path, md_files, readme_filename):
     try:
-        readme_file = os.path.join(folder_path, "README.md")
+        readme_file = os.path.join(folder_path, readme_filename)
+
         with open(readme_file, 'w', encoding='utf-8') as file:
-            file.write(f"# {title}\n\n")
+            file.write("# Copy Me Solutions\n\n")
             for md_file in md_files:
-                file.write(f"* [{md_file['title']}]({md_file['filename']})\n")
-        print(f"README.md updated with hyperlinks to exported markdown files.")
+                relative_path = os.path.relpath( md_file['filename'])
+                # Replace backslashes with forward slashes
+                relative_path = relative_path.replace("\\", "/")
+                relative_path = relative_path.replace("docs/", "")
+                file.write(f"* [{md_file['title']}]({relative_path})\n")
+        print(f"{readme_filename} updated with hyperlinks to exported markdown files.")
     except Exception as e:
-        print(f"Error occurred while updating README.md: {e}")
+        print(f"Error occurred while updating {readme_filename}: {e}")
+
 
 # Main function
 def main():
@@ -121,8 +133,8 @@ def main():
         # Parse the HTML content
         soup = BeautifulSoup(response.text, "html.parser")
         
-        # Find the div element with id "portfolio-1816263738"
-        div_element = soup.find("div", id="portfolio-1816263738")
+        # Find the specified div element
+        div_element = soup.find("div", class_="row", id="row-169340132")
         
         # Check if the div element exists
         if div_element:
@@ -137,14 +149,15 @@ def main():
                     md_file_info = scrape_page(full_url, folder_path)
                     if md_file_info:
                         md_files.append(md_file_info)
+                        print("Scraped content:", md_file_info)
         else:
-            print("Div element not found.")
+            print("Specified div element not found for URL:", url)
     else:
         print(f"Failed to retrieve the webpage. Status code: {response.status_code}")
 
     # Update or create README.md with hyperlinks to exported markdown files
     if md_files:
-        update_readme(folder_path, md_files, "Solutions")
+        update_readme(folder_path, md_files, "copy-me-solutions.md")
     else:
         print("No markdown files found to update README.md.")
 

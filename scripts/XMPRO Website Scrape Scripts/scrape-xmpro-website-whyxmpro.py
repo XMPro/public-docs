@@ -38,7 +38,8 @@ def save_to_md(content, page_title, page_url, folder_path):
         if title.strip():
             # Truncate title to a maximum of 20 characters
             truncated_title = title.strip()[:20]
-            filename = os.path.join(folder_path, f"{truncated_title}.md")
+            # Convert title to lowercase and replace spaces with "-"
+            filename = os.path.join(folder_path, f"{truncated_title.lower().replace(' ', '-')}.md")
         else:
             filename = os.path.join(folder_path, "Untitled.md")
 
@@ -49,8 +50,25 @@ def save_to_md(content, page_title, page_url, folder_path):
             file.write(f"URL: [{page_url}]({page_url})\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
+        return filename
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
+        return None
+
+def create_readme(file_info_list, folder_path):
+    try:
+        readme_content = "## Exported Files\n\n"
+        for file_info in file_info_list:
+            file_path = file_info['file_path'].replace('docs/', '')  # Remove "doc/" from file path
+            file_path = file_path.replace('\\', '/')  # Replace backslashes with forward slashes
+            readme_content += f"* [{file_info['file_name']}]({file_path})\n"
+        
+        readme_path = os.path.join(folder_path, "copy-me-why-xmpro.md")
+        with open(readme_path, 'w', encoding='utf-8') as readme_file:
+            readme_file.write(readme_content)
+        print(f"README file created at: {readme_path}")
+    except Exception as e:
+        print(f"Error occurred while creating README file: {e}")
 
 def scrape_why_xmpro_pages():
     base_url = "https://xmpro.com"
@@ -70,23 +88,19 @@ def scrape_why_xmpro_pages():
             # Find all links in the dropdown menu
             dropdown_links = dropdown_menu.find_all('a', href=True)
             
-            # Define the path to the config file
-            config_file_path = 'scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-whyxmpro-config.json'
-
             # Load JSON config file
-            with open(config_file_path) as json_file:
+            with open('scripts/XMPRO Website Scrape Scripts/scrape-xmpro-website-whyxmpro-config.json') as json_file:
                 config_data = json.load(json_file)
                 folder_path = config_data.get("folderPath")
-
+            
             os.makedirs(folder_path, exist_ok=True)
+
+            file_info_list = []
 
             for link in dropdown_links:
                 page_url = urljoin(base_url, link['href'])
                 content_div = scrape_page_content(page_url)
                 if content_div:
-                    folder_name = "Why XMPro"
-                    folder_path = "Why XMPro"
-                    os.makedirs(folder_path, exist_ok=True)
                     page_title = link.text.strip()
                     content_md = ""
                     for element in content_div.find_all(["p", "h1", "h2", "h3", "h4", "img"]):
@@ -103,11 +117,15 @@ def scrape_why_xmpro_pages():
                                 content_md += f"{'#' * heading_level} {element.get_text().strip()}\n\n"
                             else:
                                 content_md += f"{element.get_text().strip()}\n\n"
-                    save_to_md(content_md, page_title, page_url, folder_path)
+                    saved_file_path = save_to_md(content_md, page_title, page_url, folder_path)
+                    if saved_file_path:
+                        file_info_list.append({"file_name": page_title, "file_path": saved_file_path})
                 else:
                     print(f"Failed to scrape the page: {page_url}")
                 # Introduce a delay of 1 second before scraping the next page
                 sleep(1)
+            
+            create_readme(file_info_list, folder_path)
         else:
             print("Could not find the dropdown menu")
     except requests.RequestException as e:

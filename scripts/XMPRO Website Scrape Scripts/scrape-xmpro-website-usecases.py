@@ -13,7 +13,8 @@ def save_to_md(title, content, url, folder_path):
         # Truncate the filename to a maximum of 20 characters
         truncated_title = sanitized_title[:20]
         
-        filename = os.path.join(folder_path, f"{truncated_title}.md")
+        # Convert title to lowercase and replace spaces with "-"
+        filename = os.path.join(folder_path, f"{truncated_title.lower().replace(' ', '-')}.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
@@ -81,14 +82,18 @@ def scrape_page(url, folder_path):
 # Function to update or create README.md with hyperlinks to exported markdown files
 def update_readme(folder_path, md_files, title):
     try:
-        readme_file = os.path.join(folder_path, "README.md")
+        readme_file = os.path.join(folder_path, "copy-me-use-cases.md")
         with open(readme_file, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
             for md_file in md_files:
-                file.write(f"* [{md_file['title']}]({md_file['filename']})\n")
+                # Get the filename without the folder path
+                filename = os.path.basename(md_file['filename'])
+                # Get the folder path location without the "docs/" part and replace "\" with "/"
+                formatted_filename = md_file['filename'].replace("docs/", "").replace("\\", "/")
+                file.write(f"* [{md_file['title']}]({formatted_filename})\n")
         print(f"README.md updated with hyperlinks to exported markdown files.")
     except Exception as e:
-        print(f"Error occurred while updating README.md: {e}")
+        print(f"Error occurred while updating copy-me-use-cases.md: {e}")
 
 # Main function
 def main():
@@ -96,7 +101,7 @@ def main():
     url = "https://xmpro.com/solutions-library/use-cases/"
     
     # Define the path to the config file
-    config_file_path = 'scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-usecases-config.json'
+    config_file_path = 'scripts/XMPRO Website Scrape Scripts/scrape-xmpro-website-usecases-config.json'
 
     # Load JSON config file
     with open(config_file_path) as json_file:
@@ -134,7 +139,7 @@ def main():
 
     # Update or create README.md with hyperlinks to exported markdown files
     if md_files:
-        update_readme(folder_path, md_files, "Use Cases")
+        update_readme(folder_path, md_files, "Use-Cases")
     else:
         print("No markdown files found to update README.md.")
 

@@ -18,7 +18,8 @@ def scrape_and_export(url, folder_path):
 
                 # Ensure the title is not empty after truncation
                 if page_title.strip():
-                    filename = os.path.join(folder_path, f"{page_title}.md")
+                    # Format the filename to be all lowercase and replace spaces with hyphens ("-")
+                    filename = os.path.join(folder_path, f"{page_title.lower().replace(' ', '-')}.md")
                 else:
                     filename = os.path.join(folder_path, "Untitled.md")
 
@@ -54,12 +55,44 @@ def scrape_and_export(url, folder_path):
                                 file.write(f"{element.get_text().strip()}\n\n")
 
                 print(f"Content saved to {filename}")
+                return {'title': page_title, 'filename': filename}
             else:
                 print("Main content area not found.")
     except requests.RequestException as e:
         print(f"Failed to retrieve content from {url}: {e}")
     except Exception as e:
         print(f"Error occurred while fetching content from {url}: {e}")
+
+def generate_readme(files, folder_path):
+    try:
+        readme_content = []
+        for file_info in files:         
+            # Get the relative path of the file
+            relative_path = os.path.relpath(file_info['filename'], folder_path)
+            # Replace backslashes with forward slashes
+            relative_path = relative_path.replace("\\", "/")
+            # Modify the folder path to remove "docs/" prefix
+            modified_folder_path = folder_path.replace("docs/", "")
+            # Append the folder path and filename to the README content
+            readme_content.append(f"* [{file_info['title']}]({os.path.join(modified_folder_path, relative_path)})\n")
+        
+        # Create the README.md file in the same folder as the exported files
+        readme_file_path = os.path.join(folder_path, 'copy-me-key-features.md')
+        with open(readme_file_path, 'w', encoding='utf-8') as readme_file:
+            # Replace backslashes with forward slashes in the README content
+            readme_file.write("".join(readme_content).replace("\\", "/"))
+        print(f"README.md file created successfully at: {readme_file_path}")
+    except Exception as e:
+        print(f"Error occurred while generating copy-me-key-features.md: {e}")
+
+
+
+
+
+
+
+
+
 
 def main():
     # Load configuration from JSON file
@@ -82,8 +115,14 @@ def main():
         ]
 
         # Scrape and export content for each URL
+        exported_files = []
         for url in urls:
-            scrape_and_export(url, folder_path)
+            file_info = scrape_and_export(url, folder_path)
+            if file_info:
+                exported_files.append(file_info)
+        
+        # Generate README.md file with links to exported files
+        generate_readme(exported_files, folder_path)
     else:
         print("Folder path not found in config.")
 

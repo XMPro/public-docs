@@ -60,6 +60,8 @@ def save_to_md(content, page_title, page_url, folder_path):
         if title.strip():
             # Truncate the title if it's too long
             truncated_title = add_unique_title(title.strip(), titles_trunc, MAX_CHARS=20)
+            # Convert title to lowercase and replace spaces with "-"
+            truncated_title = truncated_title.lower().replace(' ', '-')
             filename = os.path.join(folder_path, f"{truncated_title}.md")
         else:
             filename = os.path.join(folder_path, "Untitled.md")
@@ -78,8 +80,46 @@ def save_to_md(content, page_title, page_url, folder_path):
             # Write the content
             file.write(content)
         print(f"Content saved to {filename}")
+        return truncated_title, filename
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
+        return None, None
+
+
+import os
+
+def create_readme(file_info_list, folder_path):
+    try:
+        readme_content = []
+        readme_filename = os.path.join(folder_path, "copy-me-platform.md")
+        # Remove "docs/" from the folder path
+        folder_path = folder_path.replace("docs/", "")
+        for file_info in file_info_list:
+            # Get relative path of the file
+            relative_path = os.path.relpath(file_info['filename'], folder_path)
+            # Remove "docs/" from the relative path
+            relative_path = relative_path.replace("docs/", "")
+            # Replace backslashes with forward slashes
+            relative_path = relative_path.replace("\\", "/")
+            # Construct the file path relative to the folder path
+            file_path = os.path.join(folder_path, relative_path)
+            # Remove "../../docs/" prefix from the file path
+            file_path = file_path.replace("../../docs/", "")
+            name = file_info['title'].title().replace("-", " ")
+
+            readme_content.append(f"* [{name} - XMPRO]({file_path})\n")
+        
+        with open(readme_filename, 'w', encoding='utf-8') as readme_file:
+            readme_file.write("".join(readme_content))
+        
+        print(f"README.md file created successfully at: {readme_filename}")
+    except Exception as e:
+        print(f"Error occurred while generating README.md: {e}")
+
+
+
+
+
 
 def scrape_xmpro_platform_pages(folder_path):
     base_url = "https://xmpro.com/platform/"
@@ -95,6 +135,7 @@ def scrape_xmpro_platform_pages(folder_path):
         if sub_menu:
             # Find all links in the sub-menu
             links = sub_menu.find_all('a', href=True)
+            exported_files = []
             for link in links:
                 page_url = urljoin(base_url, link['href'])
                 content_div = scrape_page_content(page_url)
@@ -121,12 +162,17 @@ def scrape_xmpro_platform_pages(folder_path):
                                 content_md += f"{'#' * heading_level} {element.get_text(strip=True)}\n\n"
                             else:
                                 content_md += f"{element.get_text(strip=True)}\n\n"
-                    save_to_md(content_md, page_title, page_url, folder_path)
+                    truncated_title, filename = save_to_md(content_md, page_title, page_url, folder_path)
+                    if truncated_title and filename:
+                        exported_files.append({'title': truncated_title, 'filename': filename})
                 else:
                     print(f"Failed to scrape the page: {page_url}")
                     print(f"Page URL with missing title: {page_url}")  # Print the URL with missing title
                 # Introduce a delay of 1 second before scraping the next page
                 sleep(1)
+            
+            # Create README.md file
+            create_readme(exported_files, folder_path)
         else:
             print("Could not find the sub-menu")
     except requests.RequestException as e:
