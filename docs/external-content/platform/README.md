@@ -6,6 +6,7 @@
 * [No Code Applicati...](external-content/platform/no-code-applicati....md)
 * [Platform Overview...](external-content/platform/platform-overview....md)
 * [Prescriptive Reco...](external-content/platform/prescriptive-reco....md)
+* [Readme](external-content/platform/README.md)
 * [Solutionssee Exa...](external-content/platform/solutionssee-exa....md)
 * [Xmpro Aibetter D...](external-content/platform/xmpro-aibetter-d....md)
 * [Xmpro Platform Ov...](external-content/platform/xmpro-platform-ov....md)

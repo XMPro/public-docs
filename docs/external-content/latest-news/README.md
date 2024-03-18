@@ -50,6 +50,7 @@
 * [Product Update Sap](external-content/latest-news/product-update-sap.md)
 * [Professional Advanta](external-content/latest-news/professional-advanta.md)
 * [Rd Lab Update Xmpr](external-content/latest-news/rd-lab-update-xmpr.md)
+* [Readme](external-content/latest-news/README.md)
 * [Senex Energy Limite](external-content/latest-news/senex-energy-limite.md)
 * [Softserve Partners W](external-content/latest-news/softserve-partners-w.md)
 * [Star Client In New Z](external-content/latest-news/star-client-in-new-z.md)
