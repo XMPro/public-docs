@@ -56,6 +56,9 @@ def make_windows_compatible_filename(filename):
 # Scrape YouTube videos
 videos = scrapetube.get_channel(channel_username="XMProLearning")
 
+# List to store information about saved markdown files
+md_files = []
+
 for video in videos:
     title = video['title']['runs'][0]['text']
     title = title.replace('|', '-').replace('?', '-')
@@ -100,4 +103,24 @@ for video in videos:
             print(text)
             continue    
 
+    md_files.append({'title': title, 'filename': filename})
+
     sleep(0.5)
+
+# Create or update README.md with links to the exported markdown files
+def update_readme(md_files, readme_filename):
+    try:
+        with open(readme_filename, 'w', encoding='utf-8') as file:
+            file.write("# XMPro Learning YouTube Videos\n\n")
+            for md_file in md_files:
+                relative_path = os.path.relpath(md_file['filename'], config["folderPath"])
+                relative_path = relative_path.replace("docs\\", "")
+                file.write(f"* [{md_file['title']}]({relative_path})\n")
+        print(f"{readme_filename} updated with hyperlinks to exported markdown files.")
+    except Exception as e:
+        print(f"Error occurred while updating {readme_filename}: {e}")
+
+if md_files:
+    update_readme(md_files, os.path.join(config["folderPath"], "README.md"))
+else:
+    print("No markdown files found to update README.md.")
