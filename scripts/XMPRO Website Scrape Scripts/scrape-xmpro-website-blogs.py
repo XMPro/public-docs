@@ -110,7 +110,7 @@ class BlogScraper:
 
 
 if __name__ == "__main__":
-    config_file = Path("scripts/scrape-xmpro-blogs-config.json")
+    config_file = Path("scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-blogs-config.json")
 
     with open(config_file, "r") as file:
         config = json.load(file)

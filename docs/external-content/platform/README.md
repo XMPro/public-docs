@@ -1,0 +1,12 @@
+# Platform
+* [Applicationsbuil...](external-content/platform/applicationsbuil....md)
+* [Build Real Time A...](external-content/platform/build-real-time-a....md)
+* [Copy Me Platform](external-content/platform/copy-me-platform.md)
+* [Data Stream Desig...](external-content/platform/data-stream-desig....md)
+* [No Code Applicati...](external-content/platform/no-code-applicati....md)
+* [Platform Overview...](external-content/platform/platform-overview....md)
+* [Prescriptive Reco...](external-content/platform/prescriptive-reco....md)
+* [Solutionssee Exa...](external-content/platform/solutionssee-exa....md)
+* [Xmpro Aibetter D...](external-content/platform/xmpro-aibetter-d....md)
+* [Xmpro Platform Ov...](external-content/platform/xmpro-platform-ov....md)
+* [Xmpro Solutions](external-content/platform/xmpro-solutions.md)
