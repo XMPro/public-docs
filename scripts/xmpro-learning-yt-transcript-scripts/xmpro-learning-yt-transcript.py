@@ -12,7 +12,7 @@ config_file = Path(r"scripts\xmpro-learning-yt-transcript-scripts\scrape-xmpro-l
 
 config = None
 
-with open(config_file, "rb") as file:
+with open(config_file, "r", encoding="utf-8") as file:
     config = json.load(file)
 
 if config is None:
@@ -113,14 +113,15 @@ def update_readme(md_files, readme_filename):
         with open(readme_filename, 'w', encoding='utf-8') as file:
             file.write("# XMPro Learning YouTube Videos\n\n")
             for md_file in md_files:
-                relative_path = os.path.relpath(md_file['filename'], config["folderPath"])
-                relative_path = relative_path.replace("docs\\", "")
-                file.write(f"* [{md_file['title']}]({relative_path})\n")
+                relative_path = os.path.relpath(md_file['filename'])
+                file_path = relative_path.replace("docs\\", "")
+                file_path = file_path.replace("\\", "/")
+                file.write(f"* [{md_file['title']}]({file_path})\n")
         print(f"{readme_filename} updated with hyperlinks to exported markdown files.")
     except Exception as e:
         print(f"Error occurred while updating {readme_filename}: {e}")
 
 if md_files:
-    update_readme(md_files, os.path.join(config["folderPath"], "README.md"))
+    update_readme(md_files, os.path.join(config["folderPath"], "copy-me-xmpro-learning.md"))
 else:
-    print("No markdown files found to update README.md.")
+    print("No markdown files found to update copy-me-xmpro-learning.md.")
