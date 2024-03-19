@@ -16,4 +16,4 @@ Software Composition Analysis scans all the components used in an application fo
 
 ## Results
 
-<table><thead><tr><th width="242">Product</th><th data-type="number">SAST Score</th><th>DAST Score</th><th>Date</th><th data-hidden></th></tr></thead><tbody><tr><td>Subscription Manager</td><td>91</td><td>95</td><td>11 Dec 23</td><td></td></tr><tr><td>App Designer</td><td>81</td><td>95</td><td>11 Dec 23</td><td></td></tr><tr><td>Data Stream Designer</td><td>88</td><td>95</td><td>11 Dec 23</td><td></td></tr><tr><td>XMPro AI</td><td>98</td><td>Not Available</td><td>11 Dec 23</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="242">Product</th><th data-type="number">SAST Score</th><th>DAST Score</th><th>Date</th><th data-hidden></th></tr></thead><tbody><tr><td>Subscription Manager</td><td>91</td><td>95</td><td>19 Mar 24</td><td></td></tr><tr><td>App Designer</td><td>80</td><td>95</td><td>19 Mar 24</td><td></td></tr><tr><td>Data Stream Designer</td><td>89</td><td>95</td><td>19 Mar 24</td><td></td></tr><tr><td>XMPro AI</td><td>99</td><td>Not Available</td><td>19 Mar 24</td><td></td></tr></tbody></table>
