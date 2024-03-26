@@ -75,13 +75,17 @@ docker-compose up -d stream-host
 ```
 
 
-## Uninstall
+## Uninstall/Stop Docker
 
-To uninstall a Stream Host, use the following command:
+```bash
+docker rm -f stream-host
 
-_`sudo dpkg -r xmpro-stream-host`_
+```
 
-The Stream Host will then be removed. Some files, such as logs, may not be removed because they were created after the installation.
+```bash
+docker-compose down
+
+```
 
 ## Next Step: Agents & Connectors
 
