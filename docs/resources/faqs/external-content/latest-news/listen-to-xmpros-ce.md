@@ -1,0 +1,34 @@
+<div class="large-9 col">
+<article class="post-5533 post type-post status-publish format-standard has-post-thumbnail hentry category-news" id="post-5533">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">Listen to XMPro’s CEO on the SAP Coffee Break with Game Changers Radio Show</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/listen-xmpros-ceo-sap-coffee-break-game-changers-radio-show/" rel="bookmark"><time class="entry-date published" datetime="2016-10-27T14:02:02+00:00">October 27, 2016</time><time class="updated" datetime="2020-04-22T03:15:37+00:00">April 22, 2020</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/xmpro/">xmpro</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p class="p1"><span class="s1"><a href="https://xmpro.com/wp-content/uploads/2016/10/SAPStartup-player-wide.jpg"><img height="193" src="https://xmpro.com/wp-content/uploads/2016/10/SAPStartup-player-wide.jpg" width="347"/>
+</a>XMPro’s CEO, Pieter van Schalkwyk, recently joined experts from SAP Startup Focus and iTiZZimo on<br/>
+the Coffee Break with Game Changers Radio Show presented by SAP. The discussion was centered around <i>The Startup Mindset: IoT Scenarios Adding Enterprise Value.</i></span></p>
+<p class="p1"><span class="s1">Here are 3 key insights Pieter shared in the interview:</span></p>
+<p class="p1"><span class="s1">“To get real ROI from IoT, often you have to choose the things that you are </span><span class="s2">not</span><span class="s1"> going to do and focus on those things that will give value to customers and give a return on investment.”</span></p>
+<p class="p1"><span class="s1">“One of the key outputs of using IoT is that you can invent new business models and find new ways of doing business.”</span></p>
+<p class="p1"><span class="s1">“IoT is not about sensors, it’s about actions. At the moment, discussions around IoT are technology centric. But what people often forget is that what you really want are the business actions that come out of IoT like creating work orders.”</span></p>
+<p class="p1"><span class="s2"><a href="https://www.voiceamerica.com/episode/95335/the-startup-mindset-iot-scenarios-adding-enterprise-value">Click here to listen to the episode</a></span></p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=Listen%20to%20XMPro%E2%80%99s%20CEO%20on%20the%20SAP%20Coffee%20Break%20with%20Game%20Changers%20Radio%20Show - https://xmpro.com/listen-xmpros-ceo-sap-coffee-break-game-changers-radio-show/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/listen-xmpros-ceo-sap-coffee-break-game-changers-radio-show/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/listen-xmpros-ceo-sap-coffee-break-game-changers-radio-show/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#3a05494f58505f594e077653494e5f541f080a4e551f080a62776a48551f7f081f020a1f0303491f080a797f751f080a55541f080a4e525f1f080a697b6a1f080a79555c5c5f5f1f080a78485f5b511f080a4d534e521f080a7d5b575f1f080a79525b545d5f48491f080a685b5e53551f080a6952554d1c58555e430779525f59511f080a4e5253491f080a554f4e1f097b1f080a524e4e4a491f097b1f087c1f087c42574a4855145955571f087c5653494e5f541742574a48554917595f5517495b4a1759555c5c5f5f1758485f5b51175d5b575f1759525b545d5f484917485b5e5355174952554d1f087c" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/listen-xmpros-ceo-sap-coffee-break-game-changers-radio-show/&amp;media=https://xmpro.com/wp-content/uploads/2016/10/SAPStartup-player-wide-1.jpg&amp;description=Listen%20to%20XMPro%E2%80%99s%20CEO%20on%20the%20SAP%20Coffee%20Break%20with%20Game%20Changers%20Radio%20Show" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/listen-xmpros-ceo-sap-coffee-break-game-changers-radio-show/&amp;title=Listen%20to%20XMPro%E2%80%99s%20CEO%20on%20the%20SAP%20Coffee%20Break%20with%20Game%20Changers%20Radio%20Show" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/xmpro-releases-new-white-paper-industry-4-0-business-model-dilemma-oems/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> XMPro Releases New White Paper – Industry 4.0 Business Model Dilemma for OEMs</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/xmpro-joins-ge-digital-alliance-program/" rel="next">XMPro Joins The GE Digital Alliance Program <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>

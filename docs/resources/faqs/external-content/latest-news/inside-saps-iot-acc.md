@@ -1,0 +1,29 @@
+<div class="large-9 col">
+<article class="post-5625 post type-post status-publish format-standard has-post-thumbnail hentry category-news" id="post-5625">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">Inside SAP’s IoT Accelerator – Podcast Interview with TechNative</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/inside-saps-iot-accelerator-podcast-interview-technative/" rel="bookmark"><time class="entry-date published updated" datetime="2017-02-10T09:55:03+00:00">February 10, 2017</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/xmpro/">xmpro</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p class="p1"><span class="s1"><a href="https://xmpro.com/wp-content/uploads/2017/02/TechNative.jpg"><img height="207" src="https://xmpro.com/wp-content/uploads/2017/02/TechNative-1024x564.jpg" width="376"/>
+</a>XMPro’s CEO recently joined Eva Zauke, head of the SAP IoT Startup Accelerator program and COO of IoT and Digital Supply Chain at SAP, on a podcast interview with TechNative about the new SAP IoT Accelerator program in Berlin. </span></p>
+<p class="p1"><span class="s2"><a href="https://www.technative.io/sap-boasts-the-iot-start-up-scene-with-new-accelerator-program/">Click here to listen to the podcast</a></span></p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=Inside%20SAP%E2%80%99s%20IoT%20Accelerator%20%26%238211%3B%20Podcast%20Interview%20with%20TechNative - https://xmpro.com/inside-saps-iot-accelerator-podcast-interview-technative/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/inside-saps-iot-accelerator-podcast-interview-technative/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/inside-saps-iot-accelerator-podcast-interview-technative/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#b18ec2c4d3dbd4d2c58cf8dfc2d8d5d4948381e2f0e194f483948981948888c2948381f8dee5948381f0d2d2d4ddd4c3d0c5dec3948381948387948382898380809482f3948381e1ded5d2d0c2c5948381f8dfc5d4c3c7d8d4c6948381c6d8c5d9948381e5d4d2d9ffd0c5d8c7d497d3ded5c88cf2d9d4d2da948381c5d9d8c2948381dec4c59482f0948381d9c5c5c1c29482f09483f79483f7c9dcc1c3de9fd2dedc9483f7d8dfc2d8d5d49cc2d0c1c29cd8dec59cd0d2d2d4ddd4c3d0c5dec39cc1ded5d2d0c2c59cd8dfc5d4c3c7d8d4c69cc5d4d2d9dfd0c5d8c7d49483f7" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/inside-saps-iot-accelerator-podcast-interview-technative/&amp;media=https://xmpro.com/wp-content/uploads/2017/02/TechNative-1024x564.jpg&amp;description=Inside%20SAP%E2%80%99s%20IoT%20Accelerator%20%26%238211%3B%20Podcast%20Interview%20with%20TechNative" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/inside-saps-iot-accelerator-podcast-interview-technative/&amp;title=Inside%20SAP%E2%80%99s%20IoT%20Accelerator%20%26%238211%3B%20Podcast%20Interview%20with%20TechNative" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/xmpro-iot-certified-powered-sap-hana/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> XMPro IoT Is Certified as Powered by SAP HANA®</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/join-xmpro-sap-centric-eam-conference/" rel="next">Join XMPro At The SAP-Centric EAM Conference <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>

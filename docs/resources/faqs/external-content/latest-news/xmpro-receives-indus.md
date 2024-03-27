@@ -1,0 +1,33 @@
+<div class="large-9 col">
+<article class="post-7191 post type-post status-publish format-standard has-post-thumbnail hentry category-news" id="post-7191">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">XMPro CEO Receives Industrial Internet Consortium Technical Innovation Award</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/xmpro-ceo-receives-industrial-internet-consortium-technical-innovation-award/" rel="bookmark"><time class="entry-date published" datetime="2019-02-21T05:45:31+00:00">February 21, 2019</time><time class="updated" datetime="2022-04-29T09:23:33+00:00">April 29, 2022</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/xmpro/">xmpro</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p><img height="350" src="https://xmpro.com/wp-content/uploads/2019/02/Pieter-van-Schalkwyk-IIC-Innovation-Award.jpg" width="350"/>
+</p>
+<p>We are excited to announce that XMPro’s CEO, Pieter van Schalkwyk, has been awarded the Industrial Internet Consortium (IIC) Technical Innovation Award.</p>
+<p>This award recognizes the individual who made the largest contribution in the area of Technical Innovation to advance the development of the IIC.</p>
+<p>Over the past year, Pieter has contributed to a wide range of technical groups in the IIC. Most notably, he has served as co-chair of both the Digital Twin Interoperability and Industrial Distributed Ledger Task Groups.</p>
+<p>Pieter also published well-received articles in the peer-reviewed IIC Journal of Innovation on the topics of <a href="https://www.iiconsortium.org/news/joi-articles/2018-June-JoI-Causal-Analytics-in-IIoT-XMPro.pdf" rel="noopener noreferrer" target="_blank">Causal Analytics </a>and <a href="https://www.iiconsortium.org/news/joi-articles/2018-March_PracFrameworkTechintoOpCap_XMPro.pdf" rel="noopener noreferrer" target="_blank">How to Turn IoT Technology into Operational Capability</a>.</p>
+<p>“I’m honored to be recognized by my peers at the Industrial Internet Consortium and to represent XMPro among the prestigious list of previous recipients from companies like Bosch SI, Intel and GE,” commented van Schalkwyk.</p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20CEO%20Receives%20Industrial%20Internet%20Consortium%20Technical%20Innovation%20Award - https://xmpro.com/xmpro-ceo-receives-industrial-internet-consortium-technical-innovation-award/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-ceo-receives-industrial-internet-consortium-technical-innovation-award/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-ceo-receives-industrial-internet-consortium-technical-innovation-award/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#b48bc7c1d6ded1d7c089ecf9e4c6db918684f7f1fb918684e6d1d7d1ddc2d1c7918684fddad0c1c7c0c6ddd5d8918684fddac0d1c6dad1c0918684f7dbdac7dbc6c0ddc1d9918684e0d1d7dcdaddd7d5d8918684fddadadbc2d5c0dddbda918684f5c3d5c6d092d6dbd0cd89f7dcd1d7df918684c0dcddc7918684dbc1c09187f5918684dcc0c0c4c79187f59186f29186f2ccd9c4c6db9ad7dbd99186f2ccd9c4c6db99d7d1db99c6d1d7d1ddc2d1c799dddad0c1c7c0c6ddd5d899dddac0d1c6dad1c099d7dbdac7dbc6c0ddc1d999c0d1d7dcdaddd7d5d899dddadadbc2d5c0dddbda99d5c3d5c6d09186f2" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-ceo-receives-industrial-internet-consortium-technical-innovation-award/&amp;media=https://xmpro.com/wp-content/uploads/2019/02/Pieter-van-Schalkwyk-IIC-Award-1024x1024.jpg&amp;description=XMPro%20CEO%20Receives%20Industrial%20Internet%20Consortium%20Technical%20Innovation%20Award" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-ceo-receives-industrial-internet-consortium-technical-innovation-award/&amp;title=XMPro%20CEO%20Receives%20Industrial%20Internet%20Consortium%20Technical%20Innovation%20Award" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/3-patterns-of-industrial-iot-use-cases/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> 3 Patterns of Industrial IoT Use Cases</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/is-this-my-digital-twin/" rel="next">My Digital Twin: Digital Twin Applications for Real-time Operations (Like Me) <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>

@@ -1,0 +1,31 @@
+<div class="large-9 col">
+<article class="post-5860 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-use-cases" id="post-5860">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">XMPro To Showcase Rapid IIoT Application Builder at SAP Leonardo Live</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/xmpro-showcase-rapid-iiot-application-builder-sap-leonardo-live/" rel="bookmark"><time class="entry-date published updated" datetime="2017-07-04T09:30:27+00:00">July 4, 2017</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/xmpro/">xmpro</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p class="Default"><a href="https://xmpro.com/wp-content/uploads/2017/07/DDfcX6lXUAAS_lS.jpg"><img height="213" src="https://xmpro.com/wp-content/uploads/2017/07/DDfcX6lXUAAS_lS-300x300.jpg" width="213"/>
+</a>As a member of the SAP IoT Startup Accelerator Program, XMPro has been invited to exhibit at the SAP Leonardo Live event in Frankfurt from 11-12 July 2017.</p>
+<p class="Body">XMPro will be taking part in a panel discussion led by SAP Global IoT evangelist and former industry analyst Tom Raftery on <b>Digitizing, innovating and scaling your business with IoT Startups and SAP. </b>Join us for the panel at 15:00 on 11 July.</p>
+<p class="Body">Our team will be doing live demonstrations of XMPro’s Rapid IIoT Application Builder at booth L2-DP3. Stop by to see how XMPro works with SAP HANA, PdMS, AIN and 3<sup>rd</sup> party applications to enable rapid prototyping and scalable deployment of IoT use cases.</p>
+<p class="Default"><a href="http://events.sap.com/de/leonardolive/en/home"><span class="Hyperlink0">Register for the event</span></a></p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20To%20Showcase%20Rapid%20IIoT%20Application%20Builder%20at%20SAP%20Leonardo%20Live - https://xmpro.com/xmpro-showcase-rapid-iiot-application-builder-sap-leonardo-live/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-showcase-rapid-iiot-application-builder-sap-leonardo-live/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-showcase-rapid-iiot-application-builder-sap-leonardo-live/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#5f602c2a3d353a3c2b6207120f2d307a6d6f0b307a6d6f0c3730283c3e2c3a7a6d6f0d3e2f363b7a6d6f1616300b7a6d6f1e2f2f33363c3e2b3630317a6d6f1d2a36333b3a2d7a6d6f3e2b7a6d6f0c1e0f7a6d6f133a30313e2d3b307a6d6f1336293a793d303b26621c373a3c347a6d6f2b37362c7a6d6f302a2b7a6c1e7a6d6f372b2b2f2c7a6c1e7a6d197a6d1927322f2d30713c30327a6d1927322f2d30722c3730283c3e2c3a722d3e2f363b723636302b723e2f2f33363c3e2b363031723d2a36333b3a2d722c3e2f72333a30313e2d3b30723336293a7a6d19" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-showcase-rapid-iiot-application-builder-sap-leonardo-live/&amp;media=https://xmpro.com/wp-content/uploads/2017/07/DDfcX6lXUAAS_lS.jpg&amp;description=XMPro%20To%20Showcase%20Rapid%20IIoT%20Application%20Builder%20at%20SAP%20Leonardo%20Live" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-showcase-rapid-iiot-application-builder-sap-leonardo-live/&amp;title=XMPro%20To%20Showcase%20Rapid%20IIoT%20Application%20Builder%20at%20SAP%20Leonardo%20Live" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/xmpro-joins-sap-partneredge-program/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> XMPro Joins SAP® PartnerEdge® Program</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/product-update-sap-ain-connectors/" rel="next">Product Update: SAP Asset Intelligence Network (AIN) Connectors <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>

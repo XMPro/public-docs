@@ -1,0 +1,31 @@
+<div class="large-9 col">
+<article class="post-5108 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-solutions" id="post-5108">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">XMPro Emerges as an “Action Hero” of Industrial IoT</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/xmpro-emerges-action-hero-industrial-iot/" rel="bookmark"><time class="entry-date published updated" datetime="2016-05-03T14:18:14+00:00">May 3, 2016</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/xmpro/">xmpro</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p><a href="http://www.bpinetwork.org/thought-leadership/views-commentary/416/xmpro-emerges-as-an-action-hero-of-industrial-iot-intervening-against-future-faults-and-helping-to-invent-the-future-itself"><img height="229" src="https://xmpro.com/wp-content/uploads/2016/05/BPI-Network-Interview-300x274.png" width="250"/>
+</a>Find out how XMPro is helping to invent the future of IIoT in this BPI Network interview with our CEO, Pieter van Schalkwyk.</p>
+<blockquote><p>Two industrial Fortune 10 companies are saving millions per quarter, thanks to the game-changing innovations and action-focus of one of the most exciting service providers on the IoT landscape.</p>
+<p>XMPro is rapidly gaining industry recognition for real-time data application solutions that go far beyond the traditional dashboard and visualization of incumbents in the Industrial IoT space – effectively serving as the “conductor” in the faults response orchestra for asset-intensive industries.</p></blockquote>
+<p><a href="http://www.bpinetwork.org/thought-leadership/views-commentary/416/xmpro-emerges-as-an-action-hero-of-industrial-iot-intervening-against-future-faults-and-helping-to-invent-the-future-itself">Click here to read the full interview </a> </p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20Emerges%20as%20an%20%E2%80%9CAction%20Hero%E2%80%9D%20of%20Industrial%20IoT - https://xmpro.com/xmpro-emerges-action-hero-industrial-iot/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-emerges-action-hero-industrial-iot/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-emerges-action-hero-industrial-iot/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#4b74383e29212e283f7613061b39246e797b0e262e392c2e386e797b2a386e797b2a256e797b6e0e796e737b6e72080a283f2224256e797b032e39246e0e796e737b6e720f6e797b242d6e797b02252f3e383f39222a276e797b02241f6d29242f327608232e28206e797b3f2322386e797b243e3f6e780a6e797b233f3f3b386e780a6e790d6e790d33263b3924652824266e790d33263b3924662e262e392c2e38662a283f22242566232e39246622252f3e383f39222a276622243f6e790d" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-emerges-action-hero-industrial-iot/&amp;media=https://xmpro.com/wp-content/uploads/2016/05/BPI-Network-Interview.png&amp;description=XMPro%20Emerges%20as%20an%20%E2%80%9CAction%20Hero%E2%80%9D%20of%20Industrial%20IoT" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-emerges-action-hero-industrial-iot/&amp;title=XMPro%20Emerges%20as%20an%20%E2%80%9CAction%20Hero%E2%80%9D%20of%20Industrial%20IoT" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/how-to-get-started-with-industrial-iot/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> How To Get Started With Industrial IoT</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/xmpro-now-texas-instruments-end-end-cloud-ready-partner/" rel="next">XMPro is Now a Texas Instruments End-to-End Cloud Ready Partner <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>

@@ -20,7 +20,7 @@ jobs:
           pip install beautifulsoup4
           pip install requests
       - name: Run script
-        run: python scripts/scrape-xmpro-blogs.py
+        run: python scripts/xmpro-website-scripts/scrape-xmpro-website-blogs.py
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"

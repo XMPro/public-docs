@@ -1,4 +1,6 @@
 {
-    "folderPath": "docs/resources/external-content/youtube",
-    "clean": false
+    "folderPath": "docs/resources/faqs/external-content/youtube",
+    "clean": false,
+    "channels": ["XMPro"]
 }
+

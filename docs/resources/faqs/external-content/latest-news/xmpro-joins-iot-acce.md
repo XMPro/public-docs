@@ -1,0 +1,35 @@
+<div class="large-9 col">
+<article class="post-5596 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-solutions" id="post-5596">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">XMPro Joins IoT Accelerator at SAP Data Space in Berlin</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/xmpro-joins-iot-accelerator-sap-data-space-berlin/" rel="bookmark"><time class="entry-date published updated" datetime="2016-12-14T09:04:03+00:00">December 14, 2016</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/xmpro/">xmpro</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p><a href="https://xmpro.com/wp-content/uploads/2016/12/XMPro-SAP-Data-Space-IoT-Berlin.jpg"><img height="192" src="https://xmpro.com/wp-content/uploads/2016/12/XMPro-SAP-Data-Space-IoT-Berlin.jpg" width="341"/>
+</a>XMPro is proud to announce that it will be moving an innovation team into the <a href="http://dataspace-berlin.com/en/">SAP Data Space</a> IoT Accelerator in Berlin, Germany.</p>
+<p>The Data Space is SAP’s flagship space in Berlin. It features a beautiful event area, a restaurant run by Berlin’s culinary legend Cookie and the Data Hub, which is home to the SAP IoT Startup Accelerator.</p>
+<p>At the opening event on December 12th, XMPro CEO, Pieter van Schalkwyk, gave a brief presentation about how XMPro’s Industrial IoT Orchestration &amp; Enablement Platform can help SAP customers leverage their existing SAP data to create real-time IoT applications.</p>
+<p>Following the event, van Schalkwyk commented, “We look forward to setting up our showcase in the SAP Data Space in Berlin to show European customers our innovative solutions for Industry 4.0. We are excited to work closely with SAP in 2017 to deliver groundbreaking IoT solutions to their customers”.</p>
+<blockquote class="twitter-tweet" data-dnt="true" data-width="550">
+<p dir="ltr" lang="en">Connecting industrial <a href="https://twitter.com/hashtag/IoT?src=hash&amp;ref_src=twsrc%5Etfw">#IoT</a> data to analytics applications. Welcome <a href="https://twitter.com/xmpro?ref_src=twsrc%5Etfw">@XMpro</a> to <a href="https://twitter.com/hashtag/DataSpace_SAP?src=hash&amp;ref_src=twsrc%5Etfw">#DataSpace_SAP</a>! <a href="https://twitter.com/SAP_IoT?ref_src=twsrc%5Etfw">@SAP_IoT</a> <a href="https://t.co/PIHQia4CO1">pic.twitter.com/PIHQia4CO1</a></p>
+<p>— Frank Wittmann (@wittfra) <a href="https://twitter.com/wittfra/status/808389936089038848?ref_src=twsrc%5Etfw">December 12, 2016</a></p></blockquote>
+<p><script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script> </p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20Joins%20IoT%20Accelerator%20at%20SAP%20Data%20Space%20in%20Berlin - https://xmpro.com/xmpro-joins-iot-accelerator-sap-data-space-berlin/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-joins-iot-accelerator-sap-data-space-berlin/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-joins-iot-accelerator-sap-data-space-berlin/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#0c337f796e66696f783154415c7e63293e3c466365627f293e3c456358293e3c4d6f6f6960697e6d78637e293e3c6d78293e3c5f4d5c293e3c486d786d293e3c5f7c6d6f69293e3c6562293e3c4e697e6065622a6e636875314f64696f67293e3c7864657f293e3c637978293f4d293e3c6478787c7f293f4d293e4a293e4a74617c7e63226f6361293e4a74617c7e6321666365627f21656378216d6f6f6960697e6d78637e217f6d7c21686d786d217f7c6d6f69216e697e606562293e4a" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-joins-iot-accelerator-sap-data-space-berlin/&amp;media=https://xmpro.com/wp-content/uploads/2016/12/XMPro-SAP-Data-Space-IoT-Berlin.jpg&amp;description=XMPro%20Joins%20IoT%20Accelerator%20at%20SAP%20Data%20Space%20in%20Berlin" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-joins-iot-accelerator-sap-data-space-berlin/&amp;title=XMPro%20Joins%20IoT%20Accelerator%20at%20SAP%20Data%20Space%20in%20Berlin" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/connect-iot-apps-sap-hana-osisoft-pi/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> Connect Your IoT Apps To SAP HANA &amp; OSIsoft PI</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/xmpro-iot-certified-powered-sap-hana/" rel="next">XMPro IoT Is Certified as Powered by SAP HANA® <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>

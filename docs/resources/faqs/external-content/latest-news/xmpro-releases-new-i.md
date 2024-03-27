@@ -1,0 +1,43 @@
+<div class="large-9 col">
+<article class="post-1218 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-bpm tag-intelligent-business-operations tag-solutions" id="post-1218">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">XMPro releases new iBOS Process-Mining Module, XMAnalyzer, for Intelligent Business Process Management (iBPM) solutions.</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/xmpro-releases-new-ibos-process-mining-module-xmanalyzer/" rel="bookmark"><time class="entry-date published" datetime="2012-07-25T01:15:53+00:00">July 25, 2012</time><time class="updated" datetime="2020-04-23T00:06:45+00:00">April 23, 2020</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/xmpro/">xmpro</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p><em>XMAnalyzer was released by XMPro with process-mining information as part of their iBOS (Intelligent Business Operations Server) solution. Unique to this field, the information produced is expected to provide invaluable insight into process management and compliance.</em></p>
+<p>Sydney, Australia 2012-07-23. XMPro, leading provider of Intelligent Business Process Management solutions, announces the release of XMAnalyzer, the process-mining module of XMPro iBOS (Intelligent Business Operations Server).</p>
+<p>Key features include:</p>
+<ul>
+<li>Insight into current operating business processes. Operations Managers are able to see a comprehensive picture demonstrating actual paths their processes are taking.</li>
+<li>Ability to analyze the tangible sequence flow of processes based on transactions, events or activities versus predetermined workflows. This includes processes that been structured with a workflow or BPM tool as well as processes that need to remain unstructured for flexibility purposes.</li>
+<li>Graphical illustration of all process paths consolidated into one diagram with the ability to see individual unique process paths.</li>
+<li>Quick user-friendly interpretable displays made up of color and line thicknesses.</li>
+<li>Easily accessible to end-users from their daily work areas.</li>
+<li>Manipulation controls such as pan and zoom to analyze complex or ‘Big’ data.</li>
+<li>Import and export functionality into Microsoft Excel for non XMPro iBOS database users</li>
+</ul>
+<p>“This release of the XMAnalyzer is the perfect tool for our clients to pin-point their problem areas and gives them a visual illustration of what is really happening in their businesses. It is literally changing the way they are doing their daily business and helping them gain control,” says Pieter van Schalkwyk, CEO of XMPro. “After seeing the results from applying this tool to our clients’ processes, we are convinced that this is the best way to effectively analyze business processes. This is ground breaking technology and we are very proud of it.”</p>
+<p>XMPro is recognized by top industry analyst firm, Gartner, as a Cool Vendor for Business Process Management 2012 due to their innovative and intriguing approach to iBPMS solutions as well as the impact they are having on their client’s daily processes. Who should be interested in this new technology? Operations Managers and Process Improvement Analysts who are interested in operational risk, compliance and process improvement opportunities. For more information visit <a href="https://xmpro.com/xmpro-ibpms/xmanalyzer/">https://xmpro.com/xmpro-ibpms/xmanalyzer/</a>.</p>
+<p> </p>
+<p><em>About Gartner’s Cool Vendors:</em></p>
+<p><em>Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</em></p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20releases%20new%20iBOS%20Process-Mining%20Module%2C%20XMAnalyzer%2C%20for%20Intelligent%20Business%20Process%20Management%20%28iBPM%29%20solutions. - https://xmpro.com/xmpro-releases-new-ibos-process-mining-module-xmanalyzer/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-releases-new-ibos-process-mining-module-xmanalyzer/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-releases-new-ibos-process-mining-module-xmanalyzer/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#033c707661696660773e5b4e53716c26313371666f66627066702631336d66742631336a414c5026313353716c606670702e4e6a6d6a6d642631334e6c67766f662631402631335b4e426d626f7a796671263140263133656c712631334a6d77666f6f6a64666d772631334176706a6d66707026313353716c606670702631334e626d6264666e666d7726313326313b6a41534e26313a263133706c6f76776a6c6d702d25616c677a3e406b666068263133776b6a702631336c76772630422631336b777773702630422631452631457b6e73716c2d606c6e2631457b6e73716c2e71666f66627066702e6d66742e6a616c702e73716c606670702e6e6a6d6a6d642e6e6c67766f662e7b6e626d626f7a796671263145" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-releases-new-ibos-process-mining-module-xmanalyzer/&amp;media=https://xmpro.com/wp-content/uploads/2020/04/Company-Profile.png&amp;description=XMPro%20releases%20new%20iBOS%20Process-Mining%20Module%2C%20XMAnalyzer%2C%20for%20Intelligent%20Business%20Process%20Management%20%28iBPM%29%20solutions." onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-releases-new-ibos-process-mining-module-xmanalyzer/&amp;title=XMPro%20releases%20new%20iBOS%20Process-Mining%20Module%2C%20XMAnalyzer%2C%20for%20Intelligent%20Business%20Process%20Management%20%28iBPM%29%20solutions." onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/unpredictable-processes/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> Operational Risk: When You Stick Your Head In The Sand</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/intelligent-business-operations-mobile-social-smart/" rel="next">Why Intelligent Business Operations is Mobile, Social and Smart <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>

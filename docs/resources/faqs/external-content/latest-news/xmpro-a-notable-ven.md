@@ -1,0 +1,41 @@
+<div class="large-9 col">
+<article class="post-3081 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-bpm" id="post-3081">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">XMPro a “Notable Vendor” in Gartner’s Midmarket Context: ‘Magic Quadrant for Intelligent Business Process Management Suites’</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/xmpro-a-notable-vendor-in-gartners-midmarket-context-magic-quadrant-for-intelligent-business-process-management-suites/" rel="bookmark"><time class="entry-date published" datetime="2014-08-04T14:13:07+00:00">August 4, 2014</time><time class="updated" datetime="2020-04-22T05:46:50+00:00">April 22, 2020</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/kschwarzer/">Kirsten Schwarzer</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p><img height="250" src="https://xmpro.com/wp-content/uploads/2014/08/XMPro_Intelligent_Business_Operations-2.png" width="250"/>
+We are proud to have been identified as a Notable Vendor in the recent Gartner Midmarket Context: ‘Magic Quadrant for Intelligent Business Process Management Suites’ report.</p>
+<p><strong>  An excerpt from the research:</strong></p>
+<p>“Although iBPMS offerings involve advanced BPM technologies, some are very appropriate for midmarket organizations that want to improve decision making with intelligent processes and compress the time it takes to go from insight to action.”<br/>
+ </p>
+<h4>Why XMPro works for midsize enterprises:</h4>
+<ul>
+<li>Our iBPMS is available as a cloud-based service which provides a secure operational platform at a low cost.</li>
+<li>XMPro’s comprehensive integration with Microsoft Sharepoint &amp; Outlook brings the power of process management to these applications and their users.</li>
+<li>The XMPro Internet of Things add-on gives organizations the ability to connect smart devices and sensors to event-based business processes.</li>
+</ul>
+[hr]
+<p><strong>Disclaimer:  </strong></p>
+<p>Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</p>
+<p>*Gartner, Midmarket Context: ‘Magic Quadrant for Intelligent Business Process Management Suites’, by Michele Cantara and Teresa Jones, 25 July 2014.</p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20a%20%E2%80%9CNotable%20Vendor%E2%80%9D%20in%20Gartner%E2%80%99s%20Midmarket%20Context%3A%20%E2%80%98Magic%20Quadrant%20for%20Intelligent%20Business%20Process%20Management%20Suites%E2%80%99 - https://xmpro.com/xmpro-a-notable-vendor-in-gartners-midmarket-context-magic-quadrant-for-intelligent-business-process-management-suites/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-a-notable-vendor-in-gartners-midmarket-context-magic-quadrant-for-intelligent-business-process-management-suites/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-a-notable-vendor-in-gartners-midmarket-context-magic-quadrant-for-intelligent-business-process-management-suites/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#615e1214030b0402155c392c31130e445351004453514424534459514458222f0e1500030d0444535137040f050e13442453445951445825445351080f445351260013150f0413442453445951445858124453512c08050c00130a0415445351220e0f150419154452204453514424534459514458592c000608024453513014000513000f15445351070e13445351280f15040d0d0806040f15445351231412080f04121244535131130e020412124453512c000f0006040c040f1544535132140815041244245344595144585847030e05185c220904020a445351150908124453510e14154452204453510915151112445220445327445327190c11130e4f020e0c445327190c11130e4c004c0f0e1500030d044c17040f050e134c080f4c060013150f0413124c0c08050c00130a04154c020e0f150419154c0c000608024c1014000513000f154c070e134c080f15040d0d0806040f154c031412080f0412124c11130e020412124c0c000f0006040c040f154c121408150412445327" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-a-notable-vendor-in-gartners-midmarket-context-magic-quadrant-for-intelligent-business-process-management-suites/&amp;media=https://xmpro.com/wp-content/uploads/2014/08/XMPro_Intelligent_Business_Operations-2.png&amp;description=XMPro%20a%20%E2%80%9CNotable%20Vendor%E2%80%9D%20in%20Gartner%E2%80%99s%20Midmarket%20Context%3A%20%E2%80%98Magic%20Quadrant%20for%20Intelligent%20Business%20Process%20Management%20Suites%E2%80%99" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-a-notable-vendor-in-gartners-midmarket-context-magic-quadrant-for-intelligent-business-process-management-suites/&amp;title=XMPro%20a%20%E2%80%9CNotable%20Vendor%E2%80%9D%20in%20Gartner%E2%80%99s%20Midmarket%20Context%3A%20%E2%80%98Magic%20Quadrant%20for%20Intelligent%20Business%20Process%20Management%20Suites%E2%80%99" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/xmpro-recognized-as-a-sample-vendor-in-gartner-hype-cycle-for-the-internet-of-things-2014/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> XMPro Recognized as a “Sample Vendor” in Gartner Hype Cycle for The Internet of Things, 2014</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/making-business-operations-intelligent/" rel="next">Making Business Operations More Intelligent <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>

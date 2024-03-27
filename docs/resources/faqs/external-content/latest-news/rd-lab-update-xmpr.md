@@ -1,0 +1,35 @@
+<div class="large-9 col">
+<article class="post-6400 post type-post status-publish format-standard has-post-thumbnail hentry category-news" id="post-6400">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">R&amp;D Lab Update: XMPro on Alpine at the Edge</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/rd-lab-update-xmpro-on-alpine-at-the-edge/" rel="bookmark"><time class="entry-date published" datetime="2018-04-24T09:05:38+00:00">April 24, 2018</time><time class="updated" datetime="2022-06-16T03:34:10+00:00">June 16, 2022</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/mali/">mali</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p>Our development team is continually working to improve how our customers deploy IoT in real industrial scenarios. This means pushing the boundaries of edge computing to come up with innovative deployment options that are both secure and cost-effective. We’re excited to share that we can run XMPro Stream Host in a docker container on Alpine Linux on an industrial router. (See the image below for the R&amp;D setup.)</p>
+<p>This means our customers can run a complete IoT process at the edge and distribute it to thousands of devices. These IoT processes can include analytics, predictive models and even localized decision logic, which creates the opportunity to do prescriptive analytics at the edge.</p>
+<p>Running localized IoT processes reduces the bandwidth you need to deploy IoT in remote areas and leads to lower security risks.</p>
+<h3><img height="1600" src="https://xmpro.com/wp-content/uploads/2018/04/XMPro-Alpine-Edge-1.jpg" width="1200"/>
+What is Alpine</h3>
+<p><a href="https://alpinelinux.org" rel="noopener noreferrer" target="_blank">Alpine Linux</a> is built around musl libc and busybox. This makes it smaller and more resource efficient than traditional GNU/Linux distributions. A container requires no more than 8 MB and a minimal installation to the disk requires around 130 MB of storage.</p>
+<p>Alpine is a light and simple Linux distribution which is so small that it can run in RAM. The idea is for a system to boot from read-only media which is removable once the system has booted; and run entirely in RAM. This works very well for the disposable container concept. Having such a small distribution makes Alpine very secure, as the surface area that can be attacked is much smaller.</p>
+<h3>XMPro and Alpine</h3>
+<p>XMPro Stream Host is the Edge component of XMPro Stream Processing. It allows clients to transfer part of stream processing closer to the device, making the whole system secure and performance efficient. Many edge devices are resource constrained, which makes it challenging to run heavy applications. XMPro Stream Host can run inside Alpine Container, giving it a small footprint. This opens up many platforms for XMPro, e.g. Cisco IR829 router which supports Alpine containers as IOx Apps. </p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=R%26%23038%3BD%20Lab%20Update%3A%20XMPro%20on%20Alpine%20at%20the%20Edge - https://xmpro.com/rd-lab-update-xmpro-on-alpine-at-the-edge/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/rd-lab-update-xmpro-on-alpine-at-the-edge/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/rd-lab-update-xmpro-on-alpine-at-the-edge/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#c2fdb1b7a0a8a7a1b6ff90e7f0f4e7f0f1f2f1fae7f18086e7f0f28ea3a0e7f0f297b2a6a3b6a7e7f183e7f0f29a8f92b0ade7f0f2adace7f0f283aeb2abaca7e7f0f2a3b6e7f0f2b6aaa7e7f0f287a6a5a7e4a0ada6bbff81aaa7a1a9e7f0f2b6aaabb1e7f0f2adb7b6e7f183e7f0f2aab6b6b2b1e7f183e7f084e7f084baafb2b0adeca1adafe7f084b0a6efaea3a0efb7b2a6a3b6a7efbaafb2b0adefadacefa3aeb2abaca7efa3b6efb6aaa7efa7a6a5a7e7f084" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/rd-lab-update-xmpro-on-alpine-at-the-edge/&amp;media=https://xmpro.com/wp-content/uploads/2018/04/XMPro-Alpine-Edge-768x1024.jpg&amp;description=R%26%23038%3BD%20Lab%20Update%3A%20XMPro%20on%20Alpine%20at%20the%20Edge" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/rd-lab-update-xmpro-on-alpine-at-the-edge/&amp;title=R%26%23038%3BD%20Lab%20Update%3A%20XMPro%20on%20Alpine%20at%20the%20Edge" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/xmpro-on-stage-at-international-sap-conference-for-utilities-2018/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> XMPro on Stage at International SAP Conference for Utilities 2018</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/xmpro-lufthansa-industry-solutions-demo-at-hannover-messe/" rel="next">XMPro &amp; Lufthansa Industry Solutions Demo at Hannover Messe <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>

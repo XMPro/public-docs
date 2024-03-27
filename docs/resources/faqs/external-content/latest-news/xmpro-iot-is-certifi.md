@@ -1,0 +1,35 @@
+<div class="large-9 col">
+<article class="post-5606 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-use-cases" id="post-5606">
+<div class="article-inner">
+<header class="entry-header">
+<div class="entry-header-text entry-header-text-top text-center">
+<h6 class="entry-category is-xsmall"><a href="https://xmpro.com/category/news/" rel="category tag">News</a></h6><h1 class="entry-title">XMPro IoT Is Certified as Powered by SAP HANA®</h1><div class="entry-divider is-divider small"></div>
+<div class="entry-meta uppercase is-xsmall">
+<span class="posted-on">Posted on <a href="https://xmpro.com/xmpro-iot-certified-powered-sap-hana/" rel="bookmark"><time class="entry-date published updated" datetime="2017-01-13T09:20:00+00:00">January 13, 2017</time></a></span> <span class="byline">by <span class="meta-author vcard"><a class="url fn n" href="https://xmpro.com/author/xmpro/">xmpro</a></span></span> </div>
+</div>
+</header>
+<div class="entry-content single-page">
+<p><img height="110" src="https://xmpro.com/wp-content/uploads/2017/01/SAP_HANA_powered_by_R-300x132.png" width="250"/>
+Dallas, TX, January 13, 2017 – XMPro, a global provider of software and services for Industrial IoT, today announced that XMPro IoT 1.0 has achieved SAP certification as powered by the SAP HANA® platform.</p>
+<p>The SAP® Integration and Certification Center (SAP ICC) has certified that XMPro IoT 1.0 is powered by SAP HANA. SAP HANA is revolutionizing the speed of data processing for reporting, analytics and computational tasks.</p>
+<p>“We are excited to kick off the new year by announcing that XMPro IoT is now certified as powered by SAP HANA,” said Pieter van Schalkwyk, CEO at XMPro. “Customers can now use SAP HANA as the database layer for their XMPro industrial IoT applications. By leveraging the unique in-memory capabilities of SAP HANA, XMPro IoT 1.0 can process large volumes of industrial IoT data at high speeds.”</p>
+<p>XMPro provides a visual, model-based approach to creating industrial IoT applications. This enables subject matter experts to create, prototype and deploy real-time IoT applications for a range of different use cases with little or no coding.</p>
+<p>Aligning with SAP’s ‘run simple’ principle, XMPro customers can integrate to SAP HANA using pre-configured connectors. These connectors make it easy to monitor SAP HANA tables for new records, read and display data for context and write data to SAP databases.</p>
+[hr]
+<p><span style="color: #999999;">SAP, SAP HANA and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE (or an SAP affiliate company) in Germany and other countries. See <a href="http://www.sap.com/corporate-en/legal/copyright/index.epx" style="color: #999999;">http://www.sap.com/corporate-en/legal/copyright/index.epx</a> for additional trademark information and notices.</span></p>
+<p><span style="color: #999999;">All other product and service names mentioned are the trademarks of their respective companies.</span> </p>
+<div class="blog-share text-center"><div class="is-divider medium"></div><div class="social-icons share-icons share-row relative"><a aria-label="Share on WhatsApp" class="icon button circle is-outline tooltip whatsapp show-for-medium" data-action="share/whatsapp/share" href="whatsapp://send?text=XMPro%20IoT%20Is%20Certified%20as%20Powered%20by%20SAP%20HANA%C2%AE - https://xmpro.com/xmpro-iot-certified-powered-sap-hana/" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a aria-label="Share on Facebook" class="icon button circle is-outline tooltip facebook" data-label="Facebook" href="https://www.facebook.com/sharer.php?u=https://xmpro.com/xmpro-iot-certified-powered-sap-hana/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Facebook"><i class="icon-facebook"></i></a><a aria-label="Share on Twitter" class="icon button circle is-outline tooltip twitter" href="https://twitter.com/share?url=https://xmpro.com/xmpro-iot-certified-powered-sap-hana/" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on Twitter"><i class="icon-twitter"></i></a><a aria-label="Email to a Friend" class="icon button circle is-outline tooltip email" href="/cdn-cgi/l/email-protection#89b6fafcebe3eceafdb4d1c4d9fbe6acbbb9c0e6ddacbbb9c0faacbbb9caecfbfde0efe0ecedacbbb9e8faacbbb9d9e6feecfbecedacbbb9ebf0acbbb9dac8d9acbbb9c1c8c7c8accabbacc8ccafebe6edf0b4cae1eceae2acbbb9fde1e0faacbbb9e6fcfdacbac8acbbb9e1fdfdf9faacbac8acbbcfacbbcff1e4f9fbe6a7eae6e4acbbcff1e4f9fbe6a4e0e6fda4eaecfbfde0efe0eceda4f9e6feecfbeceda4fae8f9a4e1e8e7e8acbbcf" rel="nofollow" title="Email to a Friend"><i class="icon-envelop"></i></a><a aria-label="Pin on Pinterest" class="icon button circle is-outline tooltip pinterest" href="https://pinterest.com/pin/create/button?url=https://xmpro.com/xmpro-iot-certified-powered-sap-hana/&amp;media=https://xmpro.com/wp-content/uploads/2017/01/XMPro-IoT-SAP-HANA-Certified.jpg&amp;description=XMPro%20IoT%20Is%20Certified%20as%20Powered%20by%20SAP%20HANA%C2%AE" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Pin on Pinterest"><i class="icon-pinterest"></i></a><a aria-label="Share on LinkedIn" class="icon button circle is-outline tooltip linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://xmpro.com/xmpro-iot-certified-powered-sap-hana/&amp;title=XMPro%20IoT%20Is%20Certified%20as%20Powered%20by%20SAP%20HANA%C2%AE" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px'); return false;" rel="noopener nofollow" target="_blank" title="Share on LinkedIn"><i class="icon-linkedin"></i></a></div></div></div>
+<nav class="navigation-post" id="nav-below" role="navigation">
+<div class="flex-row next-prev-nav bt bb">
+<div class="flex-col flex-grow nav-prev text-left">
+<div class="nav-previous"><a href="https://xmpro.com/xmpro-joins-iot-accelerator-sap-data-space-berlin/" rel="prev"><span class="hide-for-small"><i class="icon-angle-left"></i></span> XMPro Joins IoT Accelerator at SAP Data Space in Berlin</a></div>
+</div>
+<div class="flex-col flex-grow nav-next text-right">
+<div class="nav-next"><a href="https://xmpro.com/inside-saps-iot-accelerator-podcast-interview-technative/" rel="next">Inside SAP’s IoT Accelerator – Podcast Interview with TechNative <span class="hide-for-small"><i class="icon-angle-right"></i></span></a></div> </div>
+</div>
+</nav>
+</div>
+</article>
+<div class="comments-area" id="comments">
+</div>
+</div>
