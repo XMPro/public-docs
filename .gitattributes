@@ -1,0 +1,26 @@
+# Explicitly mark problematic files as binary
+docs/.gitbook/assets/Email.PNG binary
+docs/.gitbook/assets/Import_2.png binary
+docs/.gitbook/assets/Main.PNG binary
+docs/.gitbook/assets/PM\ Output.PNG binary
+docs/.gitbook/assets/Timeline.png binary
+docs/.gitbook/assets/Tooltip.png binary
+
+# Set all image files as binary by default
+*.png binary
+*.PNG binary
+*.jpg binary
+*.jpeg binary
+*.JPG binary
+*.gif binary
+*.GIF binary
+*.ico binary
+*.ICO binary
+*.bmp binary
+*.BMP binary
+*.tif binary
+*.TIF binary
+*.tiff binary
+*.TIFF binary
+*.webp binary
+*.WEBP binary
