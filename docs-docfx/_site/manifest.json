@@ -1,0 +1,221 @@
+{
+  "source_base_path": "C:/Work/Git/public-docs-pages/docs-docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "MIGRATION-README.md",
+      "output": {
+        ".html": {
+          "relative_path": "MIGRATION-README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/concepts/data-stream/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/concepts/data-stream/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/concepts/data-stream/stream-object-configuration.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/concepts/data-stream/stream-object-configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/concepts/data-stream/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/concepts/data-stream/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/concepts/data-stream/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/concepts/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/concepts/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/concepts/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/concepts/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/concepts/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started/browser-requirements.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started/browser-requirements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started/browser-requirements.sample.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started/browser-requirements.sample.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started/end-to-end-use-case.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started/end-to-end-use-case.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started/free-trial.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started/free-trial.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.sample.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.sample.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "handling-docfx-warnings.md",
+      "output": {
+        ".html": {
+          "relative_path": "handling-docfx-warnings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "logs/build_report.md",
+      "output": {
+        ".html": {
+          "relative_path": "logs/build_report.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "migration-plan.md",
+      "output": {
+        ".html": {
+          "relative_path": "migration-plan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

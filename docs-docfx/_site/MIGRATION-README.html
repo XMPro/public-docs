@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>XMPro Documentation Migration: GitBook to DocFX | XMPro </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="XMPro Documentation Migration: GitBook to DocFX | XMPro ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/XMPro/public-docs-pages/blob/gh-pages/docs-docfx/MIGRATION-README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="XMPro">
+            XMPro
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="xmpro-documentation-migration-gitbook-to-docfx">XMPro Documentation Migration: GitBook to DocFX</h1>
+
+<p>This document provides an overview of the migration process from GitBook to DocFX for the XMPro documentation.</p>
+<h2 id="migration-overview">Migration Overview</h2>
+<p>The XMPro documentation is being migrated from GitBook to DocFX. This migration involves:</p>
+<ol>
+<li>Setting up the DocFX project structure</li>
+<li>Migrating the navigation structure</li>
+<li>Migrating content pages</li>
+<li>Migrating images and other assets</li>
+<li>Implementing styling and customization</li>
+<li>Verifying links and functionality</li>
+<li>Deploying the migrated documentation</li>
+</ol>
+<h2 id="migration-plan">Migration Plan</h2>
+<p>The detailed migration plan is available in the <a href="migration-plan.html">migration-plan.md</a> file. This plan outlines the step-by-step process for migrating the documentation, including:</p>
+<ul>
+<li>Branching strategy</li>
+<li>Migration steps</li>
+<li>Content migration guidelines</li>
+<li>Image migration</li>
+<li>Link updates</li>
+<li>Progress tracking</li>
+</ul>
+<h2 id="migration-helper-script">Migration Helper Script</h2>
+<p>A PowerShell script (<code>migration-helper.ps1</code>) has been created to assist with the migration process. This script helps automate the following tasks:</p>
+<ul>
+<li>Creating the directory structure</li>
+<li>Converting GitBook Markdown to DocFX Markdown</li>
+<li>Migrating images</li>
+<li>Generating TOC files</li>
+</ul>
+<h3 id="using-the-migration-helper-script">Using the Migration Helper Script</h3>
+<p>To use the migration helper script, follow these steps:</p>
+<ol>
+<li>Open a PowerShell terminal</li>
+<li>Navigate to the <code>docs-docfx</code> directory</li>
+<li>Run the script with the appropriate parameters</li>
+</ol>
+<pre><code class="lang-powershell">.\migration-helper.ps1 -GitBookPath &quot;C:\path\to\gitbook&quot; -DocFXPath &quot;C:\path\to\docfx&quot;
+</code></pre>
+<h4 id="parameters">Parameters</h4>
+<ul>
+<li><code>-GitBookPath</code>: The path to the GitBook repository</li>
+<li><code>-DocFXPath</code>: The path to the DocFX repository</li>
+<li><code>-Section</code>: (Optional) The section to migrate (e.g., &quot;getting-started&quot;, &quot;concepts&quot;)</li>
+<li><code>-CreateStructure</code>: (Optional) Create the directory structure</li>
+<li><code>-MigrateContent</code>: (Optional) Migrate content</li>
+<li><code>-MigrateImages</code>: (Optional) Migrate images</li>
+<li><code>-GenerateToc</code>: (Optional) Generate TOC files</li>
+</ul>
+<h4 id="examples">Examples</h4>
+<p>Migrate everything:</p>
+<pre><code class="lang-powershell">.\migration-helper.ps1 -GitBookPath &quot;C:\Work\Git\public-docs-pages\docs-gitbook&quot; -DocFXPath &quot;C:\Work\Git\public-docs-pages\docs-docfx&quot;
+</code></pre>
+<p>Migrate a specific section:</p>
+<pre><code class="lang-powershell">.\migration-helper.ps1 -GitBookPath &quot;C:\Work\Git\public-docs-pages\docs-gitbook&quot; -DocFXPath &quot;C:\Work\Git\public-docs-pages\docs-docfx&quot; -Section &quot;getting-started&quot;
+</code></pre>
+<p>Create the directory structure only:</p>
+<pre><code class="lang-powershell">.\migration-helper.ps1 -GitBookPath &quot;C:\Work\Git\public-docs-pages\docs-gitbook&quot; -DocFXPath &quot;C:\Work\Git\public-docs-pages\docs-docfx&quot; -CreateStructure
+</code></pre>
+<h2 id="migration-progress-tracking">Migration Progress Tracking</h2>
+<p>The migration progress is tracked in the following way:</p>
+<ol>
+<li>Each step in the migration plan is done on a separate feature branch</li>
+<li>Each branch is reviewed and merged through a pull request</li>
+<li>The progress is tracked in the migration plan document</li>
+</ol>
+<h2 id="branching-strategy">Branching Strategy</h2>
+<p>The branching strategy for the migration is as follows:</p>
+<ol>
+<li>Create a feature branch for each step in the migration plan</li>
+<li>Implement the step on the feature branch</li>
+<li>Test the changes locally</li>
+<li>Create a pull request for review</li>
+<li>Merge the pull request to the main branch</li>
+</ol>
+<p>The branch naming convention is:</p>
+<pre><code>migrate/[section-name]/[specific-task]
+</code></pre>
+<p>For example:</p>
+<ul>
+<li><code>migrate/navigation/main-toc</code></li>
+<li><code>migrate/content/getting-started</code></li>
+<li><code>migrate/assets/images</code></li>
+</ul>
+<h3 id="creating-feature-branches">Creating Feature Branches</h3>
+<p>For each step in the migration process, create a new feature branch from the main branch:</p>
+<pre><code class="lang-bash"># Create and switch to the feature branch
+git checkout main
+git pull
+git checkout -b migrate/[section-name]/[specific-task]
+</code></pre>
+<h3 id="completing-a-migration-step">Completing a Migration Step</h3>
+<p>After completing a migration step:</p>
+<pre><code class="lang-bash"># Commit changes
+git add .
+git commit -m &quot;Description of changes&quot;
+git push -u origin migrate/[section-name]/[specific-task]
+
+# Create pull request (via GitHub UI)
+# After PR is approved and merged, proceed to the next step
+</code></pre>
+<p>The migration plan includes specific git commands for each step to ensure consistency throughout the migration process.</p>
+<h2 id="testing-the-migration">Testing the Migration</h2>
+<p>To test the migration, follow these steps:</p>
+<ol>
+<li>Build the DocFX project:</li>
+</ol>
+<pre><code class="lang-powershell">cd docs-docfx
+docfx build
+</code></pre>
+<ol start="2">
+<li>Serve the DocFX project locally:</li>
+</ol>
+<pre><code class="lang-powershell">cd docs-docfx
+docfx serve _site
+</code></pre>
+<ol start="3">
+<li><p>Open a browser and navigate to <code>http://localhost:8080</code></p>
+</li>
+<li><p>Verify that the documentation displays correctly</p>
+</li>
+</ol>
+<h3 id="handling-docfx-build-warnings">Handling DocFX Build Warnings</h3>
+<p>During the migration process, you will encounter various warnings when building the DocFX project. These warnings are normal and expected, especially during the early stages of migration when not all content has been migrated yet.</p>
+<p>For detailed information on how to handle these warnings, refer to the <a href="handling-docfx-warnings.html">handling-docfx-warnings.md</a> document. This document explains:</p>
+<ul>
+<li>Types of warnings you will encounter</li>
+<li>Why these warnings occur</li>
+<li>How to handle these warnings during the migration process</li>
+<li>Strategies for addressing specific warning types</li>
+<li>Using the migration helper script to resolve warnings</li>
+<li>Final cleanup process to address remaining warnings</li>
+</ul>
+<p>It's important to note that you can safely ignore most warnings during the migration process, as they will be resolved as you progress through the migration steps. However, it's good practice to keep track of warnings and address them incrementally as you migrate each section.</p>
+<h2 id="deployment">Deployment</h2>
+<p>A GitHub Actions workflow has been set up to automatically deploy the documentation to GitHub Pages whenever changes are merged into the main branch. This ensures that each migration step is immediately visible on the public documentation site once it's completed and merged.</p>
+<h3 id="github-actions-workflow">GitHub Actions Workflow</h3>
+<p>The deployment workflow is defined in <code>.github/workflows/deploy-docs.yml</code> and performs the following steps:</p>
+<ol>
+<li>Checks out the repository</li>
+<li>Sets up .NET</li>
+<li>Installs DocFX</li>
+<li>Builds the DocFX documentation</li>
+<li>Deploys the built site to the gh-pages branch</li>
+</ol>
+<h3 id="deployment-process">Deployment Process</h3>
+<p>The deployment process is as follows:</p>
+<ol>
+<li>Complete a migration step on a feature branch</li>
+<li>Test the changes locally</li>
+<li>Create a pull request for the feature branch</li>
+<li>Review and merge the pull request into the main branch</li>
+<li>GitHub Actions automatically builds and deploys the documentation to GitHub Pages</li>
+<li>Verify the changes on the live site</li>
+</ol>
+<h3 id="manual-deployment">Manual Deployment</h3>
+<p>If needed, you can also trigger a manual deployment by:</p>
+<ol>
+<li>Going to the GitHub repository</li>
+<li>Clicking on the &quot;Actions&quot; tab</li>
+<li>Selecting the &quot;Deploy DocFX to GitHub Pages&quot; workflow</li>
+<li>Clicking on &quot;Run workflow&quot;</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>This migration process is designed to be iterative and incremental. Each step is completed and verified before moving on to the next step. This approach minimizes the risk of issues and ensures that the migration is done correctly.</p>
+<p>If you have any questions or issues with the migration process, please contact the documentation team.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/XMPro/public-docs-pages/blob/gh-pages/docs-docfx/MIGRATION-README.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

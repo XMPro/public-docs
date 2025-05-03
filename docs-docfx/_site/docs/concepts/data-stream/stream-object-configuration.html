@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Stream Object Configuration | XMPro </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Stream Object Configuration | XMPro ">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/XMPro/public-docs-pages/blob/gh-pages/docs-docfx/docs/concepts/data-stream/stream-object-configuration.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="XMPro">
+            XMPro
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="stream-object-configuration">Stream Object Configuration</h1>
+
+<p>Stream Objects are the building blocks of a Data Stream. Each Stream Object is an instance of an Agent that performs a specific function in the data flow. This page explains how to configure Stream Objects in a Data Stream.</p>
+<h2 id="overview">Overview</h2>
+<p>When you add a Stream Object to a Data Stream, you need to configure it to perform the specific function you want. The configuration options depend on the type of Agent the Stream Object is based on.</p>
+<h2 id="configuration-process">Configuration Process</h2>
+<p>To configure a Stream Object:</p>
+<ol>
+<li>Double-click on the Stream Object in the Data Stream Designer, or select the Stream Object and click the &quot;Configure&quot; button in the toolbar.</li>
+<li>The configuration panel for the Stream Object will open, showing the available configuration options.</li>
+<li>Configure the Stream Object according to your requirements.</li>
+<li>Click &quot;Apply&quot; to save the configuration.</li>
+</ol>
+<h2 id="common-configuration-options">Common Configuration Options</h2>
+<p>While each Agent type has its own specific configuration options, there are some common options that apply to most Stream Objects:</p>
+<h3 id="name">Name</h3>
+<p>The name of the Stream Object. This is displayed on the Stream Object in the Data Stream Designer.</p>
+<h3 id="description">Description</h3>
+<p>A description of the Stream Object. This is useful for documenting the purpose of the Stream Object.</p>
+<h3 id="input-mappings">Input Mappings</h3>
+<p>Input Mappings define how data from the previous Stream Object is mapped to the inputs of the current Stream Object. This is particularly important when the output schema of the previous Stream Object doesn't match the input schema expected by the current Stream Object.</p>
+<h3 id="error-handling">Error Handling</h3>
+<p>Error Handling options define what happens when an error occurs in the Stream Object. Options typically include:</p>
+<ul>
+<li><strong>Continue</strong>: Continue processing data even if an error occurs.</li>
+<li><strong>Stop</strong>: Stop processing data if an error occurs.</li>
+<li><strong>Retry</strong>: Retry the operation if an error occurs.</li>
+</ul>
+<h2 id="agent-specific-configuration">Agent-Specific Configuration</h2>
+<p>Each Agent type has its own specific configuration options. For example:</p>
+<h3 id="listener-agents">Listener Agents</h3>
+<p>Listener Agents ingest data from external sources. Configuration options typically include:</p>
+<ul>
+<li><strong>Connection details</strong>: How to connect to the data source.</li>
+<li><strong>Data format</strong>: The format of the data being ingested.</li>
+<li><strong>Polling interval</strong>: How often to check for new data (for polling-based Listeners).</li>
+</ul>
+<h3 id="transformation-agents">Transformation Agents</h3>
+<p>Transformation Agents transform data as it flows through the Data Stream. Configuration options typically include:</p>
+<ul>
+<li><strong>Transformation logic</strong>: How to transform the data.</li>
+<li><strong>Output schema</strong>: The schema of the transformed data.</li>
+</ul>
+<h3 id="action-agents">Action Agents</h3>
+<p>Action Agents perform actions based on the data. Configuration options typically include:</p>
+<ul>
+<li><strong>Action details</strong>: What action to perform.</li>
+<li><strong>Trigger conditions</strong>: When to perform the action.</li>
+</ul>
+<h2 id="best-practices">Best Practices</h2>
+<p>When configuring Stream Objects, consider the following best practices:</p>
+<ul>
+<li><strong>Use meaningful names</strong>: Give your Stream Objects meaningful names that describe their purpose.</li>
+<li><strong>Document your configuration</strong>: Use the description field to document the purpose and configuration of the Stream Object.</li>
+<li><strong>Test your configuration</strong>: Use the Live View feature to test your configuration with sample data.</li>
+<li><strong>Keep it simple</strong>: Break complex transformations into multiple simple transformations for better maintainability.</li>
+</ul>
+<h2 id="related-concepts">Related Concepts</h2>
+<ul>
+<li><a href="index.html">Data Stream</a></li>
+<li><a href="verifying-stream-integrity.md">Verifying Stream Integrity</a></li>
+<li><a href="running-data-streams.md">Running Data Streams</a></li>
+<li><a href="timeline.md">Timeline</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/XMPro/public-docs-pages/blob/gh-pages/docs-docfx/docs/concepts/data-stream/stream-object-configuration.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

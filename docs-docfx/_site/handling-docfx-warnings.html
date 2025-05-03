@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Handling DocFX Build Warnings | XMPro </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Handling DocFX Build Warnings | XMPro ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/XMPro/public-docs-pages/blob/gh-pages/docs-docfx/handling-docfx-warnings.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="XMPro">
+            XMPro
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="handling-docfx-build-warnings">Handling DocFX Build Warnings</h1>
+
+<p>During the migration process from GitBook to DocFX, you will encounter various warnings when building the DocFX project. This document explains these warnings and how to handle them.</p>
+<h2 id="types-of-warnings">Types of Warnings</h2>
+<p>The main types of warnings you will encounter are:</p>
+<ol>
+<li><p><strong>Missing directories referenced in toc.yml files</strong></p>
+<pre><code>warning: Unable to find either toc.yml or toc.md inside xmpro-ai/. Make sure the file is included in config file docfx.json!
+</code></pre>
+</li>
+<li><p><strong>Invalid file links in markdown files</strong></p>
+<pre><code>warning InvalidFileLink: Invalid file link:(~/docs/images/What_is_XMPro_Search_Light.png).
+</code></pre>
+</li>
+<li><p><strong>Missing files referenced in toc.yml files</strong></p>
+<pre><code>Unable to find file &quot;collection.md&quot; for Href referenced by TOC file &quot;docs/concepts/toc.yml&quot;
+</code></pre>
+</li>
+</ol>
+<h2 id="why-these-warnings-occur">Why These Warnings Occur</h2>
+<p>These warnings are normal during the migration process because:</p>
+<ol>
+<li>We're setting up the structure before all content is migrated</li>
+<li>We're creating placeholder files that reference other files that don't exist yet</li>
+<li>We're migrating the navigation structure before all content is available</li>
+</ol>
+<h2 id="how-to-handle-these-warnings">How to Handle These Warnings</h2>
+<h3 id="during-the-migration-process">During the Migration Process</h3>
+<p>During the migration process, you can safely ignore most of these warnings as they will be resolved as you progress through the migration steps. However, it's good practice to:</p>
+<ol>
+<li><strong>Keep track of the warnings</strong>: Note which files and references are causing warnings so you can address them later</li>
+<li><strong>Prioritize critical warnings</strong>: Focus on warnings that might affect the functionality of the site</li>
+<li><strong>Address warnings incrementally</strong>: As you migrate each section, address the warnings related to that section</li>
+</ol>
+<h3 id="addressing-specific-warning-types">Addressing Specific Warning Types</h3>
+<h4 id="missing-directories">Missing Directories</h4>
+<p>For warnings about missing directories:</p>
+<ol>
+<li>Create the missing directory</li>
+<li>Create a placeholder toc.yml file in the directory</li>
+<li>Create a placeholder index.md file in the directory</li>
+</ol>
+<p>Example:</p>
+<pre><code class="lang-powershell">mkdir docs-docfx/docs/xmpro-ai
+touch docs-docfx/docs/xmpro-ai/toc.yml
+touch docs-docfx/docs/xmpro-ai/index.md
+</code></pre>
+<h4 id="invalid-file-links">Invalid File Links</h4>
+<p>For warnings about invalid file links:</p>
+<ol>
+<li>Create the missing images directory if it doesn't exist</li>
+<li>Copy the referenced images from the GitBook assets directory to the appropriate images directory</li>
+<li>Update the image references in the markdown files to use the correct paths</li>
+</ol>
+<p>Example:</p>
+<pre><code class="lang-powershell">mkdir docs-docfx/docs/images
+Copy-Item docs-gitbook/docs/assets/What_is_XMPro_Search_Light.png -Destination docs-docfx/docs/images/
+</code></pre>
+<h4 id="missing-files-referenced-in-toc">Missing Files Referenced in TOC</h4>
+<p>For warnings about missing files referenced in toc.yml files:</p>
+<ol>
+<li>Create placeholder files for the missing files</li>
+<li>Update the toc.yml files to reference the correct paths</li>
+</ol>
+<p>Example:</p>
+<pre><code class="lang-powershell">touch docs-docfx/docs/concepts/collection.md
+</code></pre>
+<h2 id="using-the-migration-helper-script">Using the Migration Helper Script</h2>
+<p>The migration helper script (<code>migration-helper.ps1</code>) can help automate the process of addressing these warnings. Use the following commands:</p>
+<pre><code class="lang-powershell"># Create directory structure
+.\migration-helper.ps1 -GitBookPath &quot;C:\Work\Git\public-docs-pages\docs-gitbook&quot; -DocFXPath &quot;C:\Work\Git\public-docs-pages\docs-docfx&quot; -CreateStructure
+
+# Migrate images
+.\migration-helper.ps1 -GitBookPath &quot;C:\Work\Git\public-docs-pages\docs-gitbook&quot; -DocFXPath &quot;C:\Work\Git\public-docs-pages\docs-docfx&quot; -MigrateImages
+</code></pre>
+<h2 id="final-cleanup">Final Cleanup</h2>
+<p>Once all content has been migrated, you should perform a final cleanup to address any remaining warnings:</p>
+<ol>
+<li>Run <code>docfx build</code> to get a list of all warnings</li>
+<li>Address each warning systematically</li>
+<li>Run <code>docfx build</code> again to verify that all warnings have been resolved</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>Warnings are a normal part of the migration process and should be addressed incrementally as you progress through the migration steps. By following the guidelines in this document, you can effectively manage and resolve these warnings to ensure a successful migration.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/XMPro/public-docs-pages/blob/gh-pages/docs-docfx/handling-docfx-warnings.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

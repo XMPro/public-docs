@@ -1,0 +1,12 @@
+- name: What is XMPro?
+  href: introduction.md
+- name: Getting Started
+  items:
+  - name: Browser Requirements
+    href: getting-started/browser-requirements.md
+  - name: Free Trial
+    href: getting-started/free-trial.md
+  - name: End-To-End Use Case
+    href: getting-started/end-to-end-use-case.md
+- name: Concepts
+  href: concepts/
