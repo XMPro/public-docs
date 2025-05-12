@@ -26,15 +26,15 @@ Watch the demo video to see XMPro's platform in action
 
 ## How The Documentation Is Organized
 
-* **Getting Started -** New here? Sign up for a free trial and get started with the End-To-End Use Case sample project.
+* **Getting Started -** New here? [Contact us](https://xmpro.com/contact-us/) and get started with the End-To-End Use Case by following [this detailed tutorial](getting-started/end-to-end-use-case.md).
 * **Resources** - A goldmine of general articles, such as release news, a sizing guideline, an icon library, and FAQs to elevate your product experience.
 * **Concepts -** Get detailed explanations of the platform's essential concepts, like Data Streams, Recommendations, Applications, and Connectors.
 * **How-To Guides -** Follow step-by-step tutorials to help you create Apps and Data Streams.
 * **Blocks -** Get detailed descriptions of the components you can use to design your App pages and how to configure them.
 * **Administration -** Find out how to manage users, licenses, and subscriptions in XMPro.\
-  \&#xNAN;_This documentation is only relevant to administrators._
+  &#xNAN;_&#x54;his documentation is only relevant to administrators._
 * **Installation -** Learn how to Install XMPro in a variety of environments.\
-  \&#xNAN;_This documentation is only relevant to administrators._
+  &#xNAN;_&#x54;his documentation is only relevant to administrators._
 * **Release Notes -** Stay up to date on the latest features and bug fixes.
 
 {% hint style="info" %}

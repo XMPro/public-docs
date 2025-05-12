@@ -5,7 +5,6 @@
 ## Getting Started
 
 * [Browser Requirements](getting-started/browser-requirements.md)
-* [Free Trial](getting-started/free-trial.md)
 * [End-To-End Use Case](getting-started/end-to-end-use-case.md)
 
 ## Resources

@@ -1,7 +1,7 @@
 # End-To-End Use Case
 
 {% hint style="info" %}
-This Use Case assumes the XMPro platform is installed and configured, or you are using the [Free Trial](free-trial.md) that has everything set up for you.
+This Use Case assumes the XMPro platform is already installed and configured.
 {% endhint %}
 
 This step-by-step tutorial is meant to be an introduction to using the XMPro platform. Completing it will give you a solid foundation to understand the more advanced concepts and detailed how-to guides. This tutorial will explain how to create and design a Data Stream, configure Stream Objects to ingest, analyze, transform, and perform actions on data. You will also learn how to set up a Recommendation to generate alerts based on rule logic, create and design an App, create Data Sources and Connections, and configure a simple Data Grid and Chart.
@@ -336,7 +336,7 @@ Configure the Run Recommendation Stream Object as follows:
 * _Columns To Return_: Leave empty (Return all columns)
 
 {% hint style="info" %}
-It is highly recommended that you use any [variables](../concepts/variable.md) that you already have that store the URL or key. You may use the variables that have already been set up if you are using the Free Trial.
+It is highly recommended that you use any [variables](../concepts/variable.md) that you already have that store the URL or key.
 {% endhint %}
 
 Otherwise, the App Designer URL and Key can be found by following these steps:
@@ -388,7 +388,7 @@ Configure the "Post Pump Overview" Stream Object to store in cache and output on
 * _Primary Key_: L\_PumpId
 
 {% hint style="info" %}
-It is highly recommended that you use any [variables](../concepts/variable.md) that you already have that store the URL or key. You may use the variables that have already been set up if you are using the Free Trial.
+It is highly recommended that you use any [variables](../concepts/variable.md) that you already have that store the URL or key.
 {% endhint %}
 
 {% hint style="info" %}
@@ -410,7 +410,7 @@ Configure the "Post Pump Specifics" Stream Object to cache and output 20 rows pe
 * _Primary Key_: L\_PumpId and L\_ReadingNo
 
 {% hint style="info" %}
-It is highly recommended that you use any [variables](../concepts/variable.md) that you already have that store the URL or key. You may use the variables that have already been set up if you are using the Free Trial.
+It is highly recommended that you use any [variables](../concepts/variable.md) that you already have that store the URL or key.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
@@ -884,7 +884,7 @@ Drag a Data Grid into the Maintenance History card and edit its Block Properties
 
 We want to add a SQL Data Source, but we don't have a SQL Connection yet. Press the + button next to the Connection select box and click on "SQL Connector."
 
-Give the new SQL Connector a Name, enter your own connection string, User Name, and Password, and choose a Database. If you are using the Free Trial, you can get these details in your welcome email. XMPro sets up a 2GB database for you to use during the 120-day trial period.
+Give the new SQL Connector a Name, enter your own connection string, User Name, and Password, and choose a Database.
 
 ![](<../.gitbook/assets/image (36).png>)
 
