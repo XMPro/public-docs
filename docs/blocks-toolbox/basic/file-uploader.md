@@ -1,6 +1,6 @@
 # File Uploader
 
-&#x20;A File uploader is a Block that allows the user to upload files in an application. The File can be uploaded, downloaded, or deleted. This can be useful if you want to share certain files with users who have access to your App.&#x20;
+A File uploader is a Block that allows the user to upload files in an application. The File can be uploaded, downloaded, or deleted. This can be useful if you want to share certain files with users who have access to your App.
 
 ## File Uploader Properties
 
@@ -26,7 +26,7 @@ The text that shows on top of the Button.
 
 #### Upload Failed Message
 
-The text of the message that is shown to the user when a file upload fails.&#x20;
+The text of the message that is shown to the user when a file upload fails.
 
 ### Behaviour
 
@@ -44,17 +44,17 @@ This allows you to specify the types of files that are allowed to be uploaded. I
 
 You can add file type extensions in the following way:
 
-![](<../../.gitbook/assets/Allowed ext (1).gif>)
+![](<../../.gitbook/assets/Allowed ext (1) (3).gif>)
 
 #### Max File Size (MB)
 
-This determines the maximum file size that can be uploaded. If you attempt to upload a file that exceeds the max size, it will not be uploaded.&#x20;
+This determines the maximum file size that can be uploaded. If you attempt to upload a file that exceeds the max size, it will not be uploaded.
 
 ![](<../../.gitbook/assets/File Size.png>)
 
 #### Multiple Upload
 
-This allows you to upload multiple files. All selected files are zipped and then uploaded to the application.&#x20;
+This allows you to upload multiple files. All selected files are zipped and then uploaded to the application.
 
 ![](<../../.gitbook/assets/image (1251).png>)
 
@@ -66,7 +66,7 @@ This option is available when Multiple Upload is enabled. It allows you to add a
 
 #### Allow Delete
 
-This allows the user to delete the uploaded file.&#x20;
+This allows the user to delete the uploaded file.
 
 ![](<../../.gitbook/assets/Allow Delete (2).png>)
 

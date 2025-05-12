@@ -36,7 +36,7 @@ The _value_ property is common to most Blocks;
 
 The value dictates whether or not the Checkbox was selected. This can either be true or false.
 
-![](<../../.gitbook/assets/image (1167).png>)
+![](<../../.gitbook/assets/image (1167) (1).png>)
 
 ### Action
 

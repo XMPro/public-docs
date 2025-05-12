@@ -1,6 +1,6 @@
 # Data Operations
 
-A Data Operation Block is a button with additional functionality that allows you to Insert or Delete records from a [Data Repeater Block ](../layout/box-and-data-repeater-box.md)that is bound to a Data Source.&#x20;
+A Data Operation Block is a button with additional functionality that allows you to Insert or Delete records from a [Data Repeater Block ](../layout/box-and-data-repeater-box.md)that is bound to a Data Source.
 
 ## Data Operation Properties
 
@@ -14,7 +14,7 @@ Properties that are common to most Blocks include _Visibility, Styling Mode, Too
 
 #### Text
 
-The text that shows on top of the Button.&#x20;
+The text that shows on top of the Button.
 
 ![](<../../.gitbook/assets/DO Text.png>)
 
@@ -24,11 +24,11 @@ If the Display Mode is set to 'Hyperlink', the default text will either be 'Add'
 
 #### Display Mode
 
-The Display Mode of a Data Operations Block can either be a Button or a Hyperlink.&#x20;
+The Display Mode of a Data Operations Block can either be a Button or a Hyperlink.
 
-![](<../../.gitbook/assets/DO - Display Mode (1).PNG>)
+![](<../../.gitbook/assets/DO - Display Mode (1) (1).PNG>)
 
-By default, the Block is configured with either an 'Add' or 'Delete' icon if the 'Button' Display Mode is selected.&#x20;
+By default, the Block is configured with either an 'Add' or 'Delete' icon if the 'Button' Display Mode is selected.
 
 ![](<../../.gitbook/assets/DO Icon.png>)
 
@@ -40,7 +40,7 @@ The type of the button can be changed depending on its purpose. Options include 
 
 ### Behavior
 
-#### Common Properties&#x20;
+#### Common Properties
 
 The _Disabled_ property is common to most Blocks. The _Disabled_ property is only available for the Data Operations Block if the _Display Mode_ property is set to 'Button';
 
@@ -48,7 +48,7 @@ The _Disabled_ property is common to most Blocks. The _Disabled_ property is onl
 
 #### Mode
 
-There are two modes that you can choose from: Insert and Delete. The Mode determines what operation will be performed on the Data Source and records.&#x20;
+There are two modes that you can choose from: Insert and Delete. The Mode determines what operation will be performed on the Data Source and records.
 
 'Insert' will add a new row to the list:
 
@@ -59,7 +59,7 @@ There are two modes that you can choose from: Insert and Delete. The Mode determ
 ![](../../.gitbook/assets/delete.gif)
 
 {% hint style="info" %}
-When a record is inserted or deleted, it does not immediately update the Data Source. To do this, you will need to add a regular Button with 'Update Data Sources' selected.&#x20;
+When a record is inserted or deleted, it does not immediately update the Data Source. To do this, you will need to add a regular Button with 'Update Data Sources' selected.
 
 [See the Common Properties article for more details on common action properties.](../common-properties.md#action)
 {% endhint %}
@@ -84,7 +84,6 @@ This is only available if the Display Mode property is set to 'Button'.
 
 This can either be set to 'True' or 'False'. If True, a dialog box will appear asking the user if they are sure they want to delete that particular record.
 
-This is only available if the Mode property is set to 'Delete'.&#x20;
+This is only available if the Mode property is set to 'Delete'.
 
-![](<../../.gitbook/assets/DO confirm diolog (1).png>)
-
+![](<../../.gitbook/assets/DO confirm diolog (1) (1).png>)

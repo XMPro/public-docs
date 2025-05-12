@@ -4,7 +4,7 @@
 This Block has been deprecated and will be removed in a future version. Please update your Apps by implementing the Metablock as shown in the [example](../advanced/metablock.md#autodesk-visualize-2d-and-3d-models-with-authentication) provided.
 {% endhint %}
 
-The Autodesk Forge Block integrates Autodesk Forge into the page. Autodesk Forge is a platform that offers APIs that allow you to access engineering data and designs from the cloud. Some APIs allow you to embed 2D or 3D views of your design into a webpage. The Autodesk Construction Cloud platform (ACC) is another feature that allows the user to construct new engineering designs using web apps. For more details, visit the [official Autodesk Forge website](https://forge.autodesk.com/).&#x20;
+The Autodesk Forge Block integrates Autodesk Forge into the page. Autodesk Forge is a platform that offers APIs that allow you to access engineering data and designs from the cloud. Some APIs allow you to embed 2D or 3D views of your design into a webpage. The Autodesk Construction Cloud platform (ACC) is another feature that allows the user to construct new engineering designs using web apps. For more details, visit the [official Autodesk Forge website](https://forge.autodesk.com/).
 
 ![](../../.gitbook/assets/xBwzL8XAze.gif)
 
@@ -28,9 +28,9 @@ The user must have an account on AutoDesk Forge to be able to use this section.
 
 This allows you to choose between manually entering a value for the _Client ID_ and _Client Secret_ or selecting from a static variable.
 
-![](<../../.gitbook/assets/Autodesk (1).gif>)
+![](<../../.gitbook/assets/Autodesk (1) (1).gif>)
 
-#### Client ID and Client Secret&#x20;
+#### Client ID and Client Secret
 
 This is the ID and Client Secret which can be found on the AutoDesk profile.
 
@@ -38,7 +38,7 @@ The Client ID and Client Secret properties are required for the Autodesk Forge B
 
 #### API Location
 
-Currently, there are only two options. US and EMEA which stands for Europe, Middle East, and Africa. &#x20;
+Currently, there are only two options. US and EMEA which stands for Europe, Middle East, and Africa.
 
 #### Bucket
 
@@ -46,7 +46,7 @@ Choose the container to store the [model file](autodesk-forge.md#model-file).
 
 #### Model File
 
-This is the Autodesk file that will be rendered in the application.&#x20;
+This is the Autodesk file that will be rendered in the application.
 
 ### Extension
 

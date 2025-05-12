@@ -12,10 +12,10 @@ When setting up a Recommendation, authors are now able to fine-tune the Alert Re
 
 Alert Scores are calculated based on these factors:
 
-* [**Recommendation**](../../how-tos/recommendations/manage-recommendations.md#create-a-recommendation) [ ](../../how-tos/recommendations/manage-recommendations.md#create-a-recommendation)-  The importance of the recommendation itself
-* [**Recommendation Category**](../../how-tos/manage-categories.md#adding-a-new-category)  - The importance of the recommendation's category
-* [**Recommendation Rule**](../../how-tos/recommendations/create-rules.md#create-rules) -  The importance of the specific rule
-* [**Recommendation Optional**](../../how-tos/recommendations/create-rules.md#create-rules)- Additional Rule Factor value retrieved from the Data Stream.&#x20;
+* [**Recommendation**](../../how-tos/recommendations/manage-recommendations.md#create-a-recommendation)-  The importance of the recommendation itself
+* [**Recommendation Category**](../../how-tos/manage-categories.md#adding-a-new-category) - The importance of the recommendation's category
+* [**Recommendation Rule**](../../how-tos/recommendations/create-rules.md#create-rules) - The importance of the specific rule
+* [**Recommendation Optional**](../../how-tos/recommendations/create-rules.md#create-rules)- Additional Rule Factor value retrieved from the Data Stream.
 
 As a recommendation creator, assigning a score to an alert lets you control its importance level more precisely. This Score helps the alert recipient to understand its relative importance.
 
@@ -23,7 +23,7 @@ As a recommendation creator, assigning a score to an alert lets you control its 
 
 You can view the order of alerts in the Recommendation Alerts list.
 
-<figure><img src="../../.gitbook/assets/Fig 1. Recommendation Alerts list (1).PNG" alt=""><figcaption><p>Fig 1. Recommendation Alerts list</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Fig 1. Recommendation Alerts list (1) (1).PNG" alt=""><figcaption><p>Fig 1. Recommendation Alerts list</p></figcaption></figure>
 
 You can also view the Scores using the Score Factor Matrix. Follow the steps mentioned [here](../../concepts/recommendation/recommendation-scoring.md#viewing-the-recommendation-scoring).
 
@@ -59,4 +59,4 @@ This new permission prevents users’ information from being exposed to users wh
 
 Introduced color palettes as visual cues for agent categories. As a user, you can now quickly distinguish between listeners, context providers, transformations, etc.
 
-<figure><img src="../../.gitbook/assets/Fig 6. Agent Category Visual Indicator (1).PNG" alt=""><figcaption><p>Fig 6. Agent Category Visual Indicator</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Fig 6. Agent Category Visual Indicator (1) (1).PNG" alt=""><figcaption><p>Fig 6. Agent Category Visual Indicator</p></figcaption></figure>

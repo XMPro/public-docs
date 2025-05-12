@@ -15,21 +15,21 @@ To troubleshoot using the Live View, follow the steps below:
 
 1. Click on _Publish_.
 
-![](<../../.gitbook/assets/TS\_1 (1).png>)
+![](<../../.gitbook/assets/TS_1 (1) (1).png>)
 
-&#x20;   2\. Click on _Live View_.\
-&#x20;   3\. Select the Agent/s to view the Live Data for.\
-&#x20;   4\. Click _Save_.
+2\. Click on _Live View_.\
+3\. Select the Agent/s to view the Live Data for.\
+4\. Click _Save_.
 
-![](<../../.gitbook/assets/TS\_2 (1).png>)
+![](<../../.gitbook/assets/TS_2 (1) (1).png>)
 
 {% hint style="info" %}
 If data is not being displayed when it should be, or if the values are not being displayed as expected, something may be going wrong with the Agent.
 {% endhint %}
 
-![](<../../.gitbook/assets/Manage DS\_HowToOpen2.png>)
+![](<../../.gitbook/assets/Manage DS_HowToOpen2.png>)
 
-![](../../.gitbook/assets/TS\_4.png)
+![](../../.gitbook/assets/TS_4.png)
 
 ## Troubleshooting using Error Endpoints
 
@@ -39,17 +39,17 @@ To Troubleshoot using the Error Endpoints, follow the steps below:
 2. Add an arrow from the error endpoint connected to the Event Printer.
 3. Click on _Publish_.
 
-![](<../../.gitbook/assets/TS\_5 (1).png>)
+![](<../../.gitbook/assets/TS_5 (1) (1).png>)
 
-&#x20;   4\. Click on _Live View_.\
-&#x20;   5\. Select the _Event Printer_.\
-&#x20;   6\. Click _Save_.
+4\. Click on _Live View_.\
+5\. Select the _Event Printer_.\
+6\. Click _Save_.
 
-![](../../.gitbook/assets/TS\_6.png)
+![](../../.gitbook/assets/TS_6.png)
 
 ## Troubleshooting when there is no data visible
 
-In some cases, the Event Printer does not show any data when trying to troubleshoot the Data Stream. If this is the case, the Collections Stream Host may be able to give some information. &#x20;
+In some cases, the Event Printer does not show any data when trying to troubleshoot the Data Stream. If this is the case, the Collections Stream Host may be able to give some information.
 
 1. Open the _Collections_ page from the left-hand menu.
 2. Click on the _Collection_.
@@ -58,7 +58,7 @@ In some cases, the Event Printer does not show any data when trying to troublesh
 5. View the logs from the Stream Host.
 
 {% hint style="info" %}
-Any errors that are generated from an Agent which are printed from the error endpoint are also printed in the Stream Host logs.&#x20;
+Any errors that are generated from an Agent which are printed from the error endpoint are also printed in the Stream Host logs.
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (1005).png>)
@@ -69,8 +69,8 @@ If the Stream Host is not running at all, you can view the logs from the install
 
 ![](<../../.gitbook/assets/image (1333).png>)
 
-![](../../.gitbook/assets/Troubleshoot\_9.png)
+![](../../.gitbook/assets/Troubleshoot_9.png)
 
-![](../../.gitbook/assets/Troubleshoot\_10.png)
+![](../../.gitbook/assets/Troubleshoot_10.png)
 
-![](../../.gitbook/assets/Troubleshoot\_11.png)
+![](../../.gitbook/assets/Troubleshoot_11.png)

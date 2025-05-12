@@ -1,6 +1,6 @@
 # Map
 
-This Block adds a map to the page. This is useful if you want to show locations to the user, such as where to find something. A Data Source can be connected to the Map to load predefined target locations. The map can then be useful for displaying locations stored in a database.&#x20;
+This Block adds a map to the page. This is useful if you want to show locations to the user, such as where to find something. A Data Source can be connected to the Map to load predefined target locations. The map can then be useful for displaying locations stored in a database.
 
 ![](<../../.gitbook/assets/image (996).png>)
 
@@ -18,7 +18,7 @@ Options that are specific to maps include the ability to change the _latitude, l
 
 #### Latitude & Longitude
 
-This is the default coordinator location of the Map.&#x20;
+This is the default coordinator location of the Map.
 
 ![](<../../.gitbook/assets/image (733).png>)
 
@@ -36,7 +36,7 @@ The _disabled_ property is common to most Blocks;
 
 Some of the properties are visible only when the dynamic mode option is enabled in _Markers Data Source_.
 
-&#x20;[See the Common Properties article for more details on common behavior properties.](../common-properties.md#behavior)
+[See the Common Properties article for more details on common behavior properties.](../common-properties.md#behavior)
 
 #### Use Variables
 
@@ -44,7 +44,7 @@ This allows you to choose between manually entering a value for the _Provider AP
 
 ![](../../.gitbook/assets/Map.gif)
 
-#### Provider&#x20;
+#### Provider
 
 {% hint style="danger" %}
 Google map and Google Static requires Provider API Key and the user needs to provide their own otherwise Google Static will not load and Google map will be shown in development mode. Bing does not require a Provider API Key to show the map.
@@ -70,7 +70,7 @@ This determines if the navigation controls on the right-hand side of the map are
 
 #### Auto-Adjust Position to Markers
 
-This will automatically change the camera position of the map to the area where the markers are.&#x20;
+This will automatically change the camera position of the map to the area where the markers are.
 
 ![](<../../.gitbook/assets/image (935).png>)
 
@@ -82,13 +82,13 @@ This determines if the markers of a location are visible. Actions are triggered 
 
 ### Overlay
 
-This sub-section of Behavior only applies when the [Provider](map.md#provider) option is Google. &#x20;
+This sub-section of Behavior only applies when the [Provider](map.md#provider) option is Google.
 
 #### Geo Json
 
-A GeoJSON file of type .json, representing simple geographical features, can be uploaded to the App Files and overlaid on the Map.&#x20;
+A GeoJSON file of type .json, representing simple geographical features, can be uploaded to the App Files and overlaid on the Map.
 
-<figure><img src="../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (256) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Map_GeoJSON.PNG" alt=""><figcaption></figcaption></figure>
 
@@ -100,13 +100,13 @@ An image file can be uploaded to the App Files and overlaid on the Map. Once an 
 
 #### Image South West point
 
-The coordinates of the South West point of the Image, in the format _latitude, longitude_.&#x20;
+The coordinates of the South West point of the Image, in the format _latitude, longitude_.
 
 <figure><img src="../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
 
 #### Image North East point
 
-The North East coordinates of the Image, in the format _latitude, longitude_.&#x20;
+The North East coordinates of the Image, in the format _latitude, longitude_.
 
 <figure><img src="../../.gitbook/assets/image (1675).png" alt=""><figcaption></figcaption></figure>
 
@@ -122,9 +122,9 @@ Enter the number of degrees to tilt the image. The default is zero.
 
 #### Mode
 
-This can be changed to either use _static items_ or a _dynamic data source_. In both cases, markers need to be configured in the [Data section](esri-map.md#data). If the static items option is chosen, markers for locations can be entered manually under the _Data_ section. If the dynamic data source option is chosen, marker locations coming from the Data Source can be used.&#x20;
+This can be changed to either use _static items_ or a _dynamic data source_. In both cases, markers need to be configured in the [Data section](esri-map.md#data). If the static items option is chosen, markers for locations can be entered manually under the _Data_ section. If the dynamic data source option is chosen, marker locations coming from the Data Source can be used.
 
-&#x20;[See the Common Properties article for more details on common Data Source properties.](../common-properties.md#data-source)
+[See the Common Properties article for more details on common Data Source properties.](../common-properties.md#data-source)
 
 ### Data
 
@@ -136,7 +136,7 @@ Markers for locations can be manually added and they will show on the Map. Marke
 
 #### Common Properties
 
-Actions are triggered when you click on a label marker on the map. Actions are only available if the dynamic mode option is enabled in _Markers Data Source_.&#x20;
+Actions are triggered when you click on a label marker on the map. Actions are only available if the dynamic mode option is enabled in _Markers Data Source_.
 
 Properties that are common to most Blocks include: _navigate to_ and _show confirmation dialog;_
 

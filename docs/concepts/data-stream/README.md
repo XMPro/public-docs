@@ -42,7 +42,7 @@ Increasing the Agent Event Queue Capacity may result in the Stream Host consumin
 
 ## The Canvas
 
-Data streams are crafted in an interactive canvas, allowing you to drag agents from the toolbox to the drawing area. In the same environment, configure agent settings, manage versions, define business cases, and more.&#x20;
+Data streams are crafted in an interactive canvas, allowing you to drag agents from the toolbox to the drawing area. In the same environment, configure agent settings, manage versions, define business cases, and more.
 
 Stream Objects on the canvas can be duplicated or deleted, and for easy identification and access, they're marked with a unique color and abbreviation.
 
@@ -52,11 +52,11 @@ Stream Objects on the canvas can be duplicated or deleted, and for easy identifi
 
 ## The Toolbox
 
-The toolbox is a component in the Data Stream Designer that allows you to choose an Agent from a library of Agents that have been uploaded to the system and drag the agent from the toolbox to the Canvas when building a stream. All agents in the toolbox will always be the latest version and will all be available for all users, regardless of their role, unless a user does not have permission to view any of the Agents.&#x20;
+The toolbox is a component in the Data Stream Designer that allows you to choose an Agent from a library of Agents that have been uploaded to the system and drag the agent from the toolbox to the Canvas when building a stream. All agents in the toolbox will always be the latest version and will all be available for all users, regardless of their role, unless a user does not have permission to view any of the Agents.
 
 Agents are grouped by category in the toolbox. To expand a category, click on the arrow next to the category name. Please note that if no agents in a particular category are uploaded, the entire category will be hidden. Thus, if you are missing some of the categories in the toolbox, it is likely that there aren’t any Agents uploaded belonging to that category.
 
-<figure><img src="../../.gitbook/assets/ds.newvisualindicator.concepts.data-stream.canvas.3 (1).png" alt=""><figcaption><p>Fig 4. Data Stream Toolbox Interface</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ds.newvisualindicator.concepts.data-stream.canvas.3 (1) (1).png" alt=""><figcaption><p>Fig 4. Data Stream Toolbox Interface</p></figcaption></figure>
 
 ## Building a stream
 

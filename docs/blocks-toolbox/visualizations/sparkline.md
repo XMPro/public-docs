@@ -8,7 +8,7 @@ A Sparkline is a Block that allows you to display data. A Sparkline can only dis
 
 #### Common Properties
 
-The Sparkline has the option to change its _visibility_ and to show a _tooltip_.&#x20;
+The Sparkline has the option to change its _visibility_ and to show a _tooltip_.
 
 [See the Common Properties article for more details on common appearance properties.](../common-properties.md#appearance)
 
@@ -18,7 +18,7 @@ Options that are specific to Sparkline include the ability to change the _type, 
 
 There are eight types of Sparkline. Area, Bar, Line, Spline, Spline Area, Step Area, Step Line, and Win/Loss.
 
-![](<../../.gitbook/assets/image (1231).png>)
+![](<../../.gitbook/assets/image (1231) (1).png>)
 
 #### Highlight First and Last Point
 
@@ -30,7 +30,7 @@ This will change the color used to highlight the first and last points.
 
 ![](<../../.gitbook/assets/image (707).png>)
 
-#### Show Min and Max&#x20;
+#### Show Min and Max
 
 This will highlight the min and max value on the Sparkline.
 
@@ -40,7 +40,7 @@ This will change the color of the min and max highlighter.
 
 ![](<../../.gitbook/assets/image (1636).png>)
 
-#### Line Color&#x20;
+#### Line Color
 
 This will change the color of the line.
 
@@ -50,7 +50,7 @@ This will change the width of the line.
 
 ![](<../../.gitbook/assets/image (1549).png>)
 
-#### Point Color&#x20;
+#### Point Color
 
 This will change the color of the point.
 
@@ -60,13 +60,13 @@ This will change the radius of the point.
 
 ![](<../../.gitbook/assets/image (709).png>)
 
-#### Background Color&#x20;
+#### Background Color
 
 This will change the background color of the tooltip.
 
 #### Format
 
-This will display the values in the selected format when the tooltip is shown.&#x20;
+This will display the values in the selected format when the tooltip is shown.
 
 ![](../../.gitbook/assets/1NaUfFWDUo.gif)
 

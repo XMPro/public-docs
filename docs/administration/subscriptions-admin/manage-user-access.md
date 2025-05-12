@@ -22,7 +22,7 @@ Follow the steps below to give access to a product for a user in a company other
 
 ## Approve User Access Request
 
-If there is [no Auto Approval or Default Subscription](setup-auto-approvals-default-subscriptions.md) setup, the Admin needs to approve a user's Access Request.&#x20;
+If there is [no Auto Approval or Default Subscription](setup-auto-approvals-default-subscriptions.md) setup, the Admin needs to approve a user's Access Request.
 
 If someone in your company lodged an access request for a product, an email will be sent to all Company Administrators within your company. The first available person with an administrative role within the Subscription Manager can approve the request. To approve an access request for a user, please follow the steps below.
 
@@ -35,7 +35,7 @@ If someone in your company lodged an access request for a product, an email will
 7. Click _Save_.
 8. The user who lodged the request will receive an email notifying him/ her that they have been granted access to the product.
 
-![](<../../.gitbook/assets/image (266).png>)
+![](<../../.gitbook/assets/image (266) (1).png>)
 
 ## **Editing Rights and Access for a User**
 
@@ -70,7 +70,7 @@ If you need to remove access for a user on a product, follow the steps below.
 
 ## Data Stream Designer Rights and Roles <a href="#data-stream-designer-rights-and-roles" id="data-stream-designer-rights-and-roles"></a>
 
-Several rights are maintained in Subscription Manager for Data Stream Designer. Each of these rights represents an aspect of the Data Stream Designer system that a user is allowed to see or access. Persons with administrative rights in Subscription Manager manage all rights.&#x20;
+Several rights are maintained in Subscription Manager for Data Stream Designer. Each of these rights represents an aspect of the Data Stream Designer system that a user is allowed to see or access. Persons with administrative rights in Subscription Manager manage all rights.
 
 ### Data Stream Designer Rights
 
@@ -80,7 +80,7 @@ The table below lists the rights that can be assigned to a user.
 
 ### Data Stream Designer Default Roles
 
-A user is assigned a role and each role has appropriate rights for that function enabled.&#x20;
+A user is assigned a role and each role has appropriate rights for that function enabled.
 
 The table below illustrates which rights are included with each of the default roles. These default roles can be amended by the global administrator - who can also add new roles.
 
@@ -88,7 +88,7 @@ The table below illustrates which rights are included with each of the default r
 
 ## ‌App Designer Rights and Roles
 
-‌Several App Designer rights are maintained in Subscription Manager. Each of these rights represents an aspect of the App Designer system that a user is allowed to see or access. Persons with administrative rights in Subscription Manager manage all rights.&#x20;
+‌Several App Designer rights are maintained in Subscription Manager. Each of these rights represents an aspect of the App Designer system that a user is allowed to see or access. Persons with administrative rights in Subscription Manager manage all rights.
 
 ### App Designer Rights
 
@@ -98,7 +98,7 @@ The table below lists the rights that can be assigned to a user.
 
 ### App Designer Default Roles
 
-A user is assigned a role and each role has appropriate rights for that function enabled.&#x20;
+A user is assigned a role and each role has appropriate rights for that function enabled.
 
 The table below illustrates which rights are included with each of the default roles. These default roles can be amended by the global administrator - who can also add new roles.
 
@@ -106,7 +106,7 @@ The table below illustrates which rights are included with each of the default r
 
 ## ‌AI Rights and Roles
 
-One right is maintained in Subscription Manager for XMPro AI. It represents an aspect of the AI system that a user is allowed to see or access. Persons with administrative rights in Subscription Manager manage it.&#x20;
+One right is maintained in Subscription Manager for XMPro AI. It represents an aspect of the AI system that a user is allowed to see or access. Persons with administrative rights in Subscription Manager manage it.
 
 ### AI Rights
 
@@ -116,7 +116,7 @@ The table below lists the right that can be assigned to a user.
 
 ### AI Default Roles
 
-A user is assigned a role and each role has appropriate rights for that function enabled.&#x20;
+A user is assigned a role and each role has appropriate rights for that function enabled.
 
 The table below illustrates which rights are included with each of the default roles. These default roles can be amended by the global administrator - who can also add new roles.
 

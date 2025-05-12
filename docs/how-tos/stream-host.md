@@ -18,7 +18,7 @@ Alternate methods can be found at [Install Stream Host](../installation/3.-compl
 
 ### How to Check Logs
 
-To check the logs for a Steam Host,  follow the steps below:
+To check the logs for a Steam Host, follow the steps below:
 
 1. Open the Collection page.
 2. Select the Collection.
@@ -29,7 +29,7 @@ To check the logs for a Steam Host,  follow the steps below:
 
 ### How to Set the Log Level
 
-You can change the Log level to either Info or Trace. To change the Log Level, follow the steps below:&#x20;
+You can change the Log level to either Info or Trace. To change the Log Level, follow the steps below:
 
 1. Open the Collection page.
 2. Select the Collection.
@@ -37,40 +37,40 @@ You can change the Log level to either Info or Trace. To change the Log Level, f
 4. Select the desired Stream Host.
 
 {% hint style="info" %}
-[See the Collection and Stream Hosts article for more information on the Log Level.](../concepts/collection.md#set-log-level)&#x20;
+[See the Collection and Stream Hosts article for more information on the Log Level.](../concepts/collection.md#set-log-level)
 {% endhint %}
 
 ![](<../.gitbook/assets/image (1659).png>)
 
-&#x20;   5\. Click on Set Log level.\
-&#x20;   6\. From the dropdown, select either Info or Trace.
+5\. Click on Set Log level.\
+6\. From the dropdown, select either Info or Trace.
 
 ![](<../.gitbook/assets/image (152).png>)
 
-&#x20;   7\. Click on OK.
+7\. Click on OK.
 
 ![](<../.gitbook/assets/image (643).png>)
 
 ### How to Filter Log Levels
 
-You can filter and narrow down the errors and messages that have already been logged in the table. For example, if you filter for _Info_ errors, only info level errors will be displayed. To filter the log level for a Steam Host,  follow the steps below:
+You can filter and narrow down the errors and messages that have already been logged in the table. For example, if you filter for _Info_ errors, only info level errors will be displayed. To filter the log level for a Steam Host, follow the steps below:
 
 1. Open the Collection page.
 2. Select the Collection.
 3. Click the Stream Hosts button.
 4. Select the desired Stream Host.
 
-![](<../.gitbook/assets/image (1687).png>)
+![](<../.gitbook/assets/image (1687) (1).png>)
 
-&#x20;   5\. Click the icon next to the Level column.\
-&#x20;   6\. Select the Log Level.\
-&#x20;   7\. Click OK.
+5\. Click the icon next to the Level column.\
+6\. Select the Log Level.\
+7\. Click OK.
 
 ![](<../.gitbook/assets/image (132).png>)
 
 ### How to Clean the Logs
 
-To clean the logs for a Steam Host,  follow the steps below:
+To clean the logs for a Steam Host, follow the steps below:
 
 1. Open the Collection page.
 2. Select the Collection.
@@ -79,14 +79,14 @@ To clean the logs for a Steam Host,  follow the steps below:
 
 ![](<../.gitbook/assets/image (930).png>)
 
-&#x20;   5\. Click the Delete Logs button.\
-&#x20;   6\. Confirm your action.
+5\. Click the Delete Logs button.\
+6\. Confirm your action.
 
 ![](<../.gitbook/assets/image (1158).png>)
 
 ### How to Export Logs
 
-To export the logs for a Steam Host,  follow the steps below:
+To export the logs for a Steam Host, follow the steps below:
 
 1. Open the Collection page.
 2. Select the Collection.
@@ -116,7 +116,7 @@ The options to override variables for a Stream Host are:
 * [Using Environment Variables](stream-host.md#using-environment-variables) - enables the scalable and efficient creation of multiple Docker Stream Hosts through scripting.
 * [Using Variables.xv files](stream-host.md#using-variables.xv-file) - requires manual edits for each Stream Host.
 
-In practice you'd use one or the other, but it may be helpful that the Stream Host&#x20;
+In practice you'd use one or the other, but it may be helpful that the Stream Host
 
 The Stream Host retrieves variable values in the following order:
 

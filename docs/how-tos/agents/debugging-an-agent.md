@@ -55,7 +55,7 @@ Only non-virtual agents could trigger all breakpoints inside the Agent's code. T
 
 #### Issue: 'Access to Path is denied' when publishing a Data Stream
 
-<figure><img src="../../.gitbook/assets/Access to path is denied (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Access to path is denied (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Make sure that Stream Host is ran in Administrator Mode
 

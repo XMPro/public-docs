@@ -2,9 +2,9 @@
 
 ## Overview
 
-A _Connector_ is a pre-built integration plug-in for the XMPro App Designer that allows you to connect to third-party data sources without writing code.&#x20;
+A _Connector_ is a pre-built integration plug-in for the XMPro App Designer that allows you to connect to third-party data sources without writing code.
 
-They can be used when integrating data from data sources such as a database into an Application. This can include real-time data from machines, websites, other streaming data, or contextual data such as the make or model of a certain item.&#x20;
+They can be used when integrating data from data sources such as a database into an Application. This can include real-time data from machines, websites, other streaming data, or contextual data such as the make or model of a certain item.
 
 Connectors are useful if you want to use the data within an Application or display the data to the user on a page of an Application.
 
@@ -12,7 +12,7 @@ Data Sources can include databases, Data Streams, or Recommendations. [See the D
 
 {% embed url="https://www.youtube.com/watch?v=1KbTHWZwgPI" %}
 
-Each Connector consists of code, [settings](connector.md#settings), and other properties that are packaged into a file that can be uploaded to App Designer.&#x20;
+Each Connector consists of code, [settings](connector.md#settings), and other properties that are packaged into a file that can be uploaded to App Designer.
 
 XMPro has a [library of Connectors](https://documentation.xmpro.com/resources/integrations#connectors) available to use. To acquire any of these Connectors, please contact your XMPro sales representative or write to us at [support@xmpro.com](mailto:support@xmpro.com). Alternatively, since Connectors can be written by anyone that has some knowledge of programming and has access to the required technologies, you can write your own Connector by following [these](../how-tos/connectors/building-connectors.md) instructions.
 
@@ -36,13 +36,13 @@ For example, consider the SQL Server Connector, which retrieves data from a SQL 
 
 The search bar can be used to find any specific Connectors that you may be looking for. There is a dropdown option where you can specify to search through everything in App Designer, or only for Connectors.
 
-![](<../.gitbook/assets/Search-Connectors (1).png>)
+![](<../.gitbook/assets/Search-Connectors (1) (1).png>)
 
 ## Adding a Connector
 
-Connectors can be added by uploading their XMP file on the connectors page. Each version of a Connector has its own XMP file. When uploading an app, any missing Connectors that the app needs must be updated or uploaded for the app to be imported successfully. &#x20;
+Connectors can be added by uploading their XMP file on the connectors page. Each version of a Connector has its own XMP file. When uploading an app, any missing Connectors that the app needs must be updated or uploaded for the app to be imported successfully.
 
-![](<../.gitbook/assets/Connectors\_2 (1).png>)
+![](<../.gitbook/assets/Connectors_2 (1).png>)
 
 ![](<../.gitbook/assets/image (1423).png>)
 
@@ -52,15 +52,15 @@ Connectors can have multiple versions. For example, a new version of a Connector
 
 Each version of a Connector has its own XMP file. When uploading a Connector, a specific version of that Connector will be uploaded. To upload a different version, you will need to upload the XMP file for that specific version you want to use.
 
-When you view a Connector, you can see the list of specific versions for that Connector. The number of apps using each version is shown next to the version number. Apps that you do not have access to will not show on the list. When you upload a new version, the new version will be displayed in this list.&#x20;
+When you view a Connector, you can see the list of specific versions for that Connector. The number of apps using each version is shown next to the version number. Apps that you do not have access to will not show on the list. When you upload a new version, the new version will be displayed in this list.
 
-When selecting a Connector to use in an app, the application will automatically choose the latest version available.&#x20;
+When selecting a Connector to use in an app, the application will automatically choose the latest version available.
 
 {% hint style="info" %}
 When a new version of a Connector is uploaded, any apps using older versions may need to be upgraded. [See the Data Integration article for more information on how to upgrade an app's connection.](application/data-integration.md#connection)
 {% endhint %}
 
-![](../.gitbook/assets/Connectors\_4.png)
+![](../.gitbook/assets/Connectors_4.png)
 
 ### View and Edit Applications
 
@@ -70,23 +70,23 @@ There is an alternate way to view or edit Applications directly from the Connect
 
 ### Publish and Unpublish Apps
 
-You can also publish or unpublish an Application that uses that version of the Connector.&#x20;
+You can also publish or unpublish an Application that uses that version of the Connector.
 
 As an Admin, this is useful if you need to unpublish an Application and you don't have access to it. See the [How to Admin Unpublish Override](../how-tos/publish/admin-unpublish-override.md) article for more details.
 
-![](../.gitbook/assets/PivotUpdated\_Connector.png)
+![](../.gitbook/assets/PivotUpdated_Connector.png)
 
 ## Actions on the Connector
 
-| **Action**        | **Description**                                                                                                                                                                                                                         |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Add               | Adds a new Connector.                                                                                                                                                                                                                   |
-| Select            | Selects multiple Connectors.                                                                                                                                                                                                            |
-| Delete            | Deletes the Connector.                                                                                                                                                                                                                  |
-| Manage Categories | Creates and edits categories to organize the Connectors. These categories are separate from the [App and Data Stream Categories](category.md).                                                                                          |
-| Save              | Saves any changes made to the Connector up to this point.                                                                                                                                                                               |
-| Discard           | Discards any changes made to the Connector up to this point.                                                                                                                                                                            |
-| Delete Versions   | Deletes a selected version of a Connector. You can only delete versions that don't have any apps using that version of the Connector. If you don't have access to an app that a version is using, you still cannot delete the version.  |
+| **Action**        | **Description**                                                                                                                                                                                                                        |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Add               | Adds a new Connector.                                                                                                                                                                                                                  |
+| Select            | Selects multiple Connectors.                                                                                                                                                                                                           |
+| Delete            | Deletes the Connector.                                                                                                                                                                                                                 |
+| Manage Categories | Creates and edits categories to organize the Connectors. These categories are separate from the [App and Data Stream Categories](category.md).                                                                                         |
+| Save              | Saves any changes made to the Connector up to this point.                                                                                                                                                                              |
+| Discard           | Discards any changes made to the Connector up to this point.                                                                                                                                                                           |
+| Delete Versions   | Deletes a selected version of a Connector. You can only delete versions that don't have any apps using that version of the Connector. If you don't have access to an app that a version is using, you still cannot delete the version. |
 
 ## Further Reading
 

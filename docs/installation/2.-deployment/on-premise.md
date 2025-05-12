@@ -21,7 +21,7 @@ This document will guide you through how to deploy the XMPro Platform in an on-p
 
 ## Architecture
 
-The following deployment diagram shows an example on-premise architecture and the necessary resources for the XMPro platform in Microsoft Windows.&#x20;
+The following deployment diagram shows an example on-premise architecture and the necessary resources for the XMPro platform in Microsoft Windows.
 
 ![Fig 1: Example XMPro architecture in Windows On-Premise](<../../.gitbook/assets/Windows_Architecture_as of March 1,2024x1.png>)
 
@@ -32,8 +32,8 @@ In order to proceed with the deployment, you are required to:
 1. Complete the steps in the **1. Preparation** guide:
    1. Meet the [**hardware** requirements](../install.md#hardware-requirements)
    2. Install the [**software** requirements](../install.md#software-requirements)
-   3. Follow the [certificate and communication steps](https://documentation.xmpro.com/installation/install#certificate-and-communication-steps)&#x20;
-2. Enable Active Scripting and Allow Scriptlets \
+   3. Follow the [certificate and communication steps](https://documentation.xmpro.com/installation/install#certificate-and-communication-steps)
+2. Enable Active Scripting and Allow Scriptlets\
    (so App Designer and Data Stream installers can authenticate with Subscription Manager)
    1. Open Internet Explorer.
    2. Open Tools.
@@ -59,7 +59,7 @@ In order to proceed with the deployment, you are required to:
    7. Click Next twice.
    8. With Role Services highlighted on the left, tick everything **except** _CGI_ under the _Application Development_ section.
    9. Click Next and Install.
-   10. Go to the Start button and Administrative Tools to confirm IIS Manager was installed.&#x20;
+   10. Go to the Start button and Administrative Tools to confirm IIS Manager was installed.
 
 {% hint style="info" %}
 Please contact your XMPro account manager or [**XMPro support**](https://xmpro.com/support/) to request the installers.
@@ -111,7 +111,7 @@ If this is the first time you are installing Subscription Manager, it is highly 
 8. Select the server instance to which you would like to connect
 
 {% hint style="info" %}
-If you already know the server instance name, it can be entered manually.  Otherwise, use the refresh button on the right to load all available servers. Selecting the “Local Servers” check box will limit the search to the local network.
+If you already know the server instance name, it can be entered manually. Otherwise, use the refresh button on the right to load all available servers. Selecting the “Local Servers” check box will limit the search to the local network.
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (1626).png>)
@@ -120,13 +120,13 @@ If you already know the server instance name, it can be entered manually.  Other
 
 9. Specify the authentication method that should be used: Windows or SQL
 
-&#x20; 9.1. Windows Authentication: you may leave the options as is
+9.1. Windows Authentication: you may leave the options as is
 
 {% hint style="danger" %}
 **Warning:** Configure a service account that can be used for Windows authentication.
 {% endhint %}
 
-&#x20; 9.2. SQL authentication:
+9.2. SQL authentication:
 
 * Click the "Change" button
 * Select the “Use SQL Authentication” option
@@ -144,13 +144,13 @@ If you already know the server instance name, it can be entered manually.  Other
 The Database section allows you to configure if you would like to use an existing database or create a new one. Leaving the options as default will result in a new database being created.
 {% endhint %}
 
-To change the pre-populated name of the new database or to select to use an existing database:&#x20;
+To change the pre-populated name of the new database or to select to use an existing database:
 
-10. Click the "Change" button&#x20;
+10. Click the "Change" button
 11. Make the changes needed by selecting the correct option
 12. Specify the name of the new database or select an existing database from the drop-down
 
-![](<../../.gitbook/assets/image (1144).png>)
+![](<../../.gitbook/assets/image (1144) (1).png>)
 
 ### Web Application
 
@@ -161,23 +161,23 @@ To change the pre-populated name of the new database or to select to use an exis
 {% hint style="info" %}
 This is your fully qualified domain name (FQDN). Please find some examples below explaining the DNS name.
 
-* https://localhost/xmprosubscriptionmanager&#x20;
+* https://localhost/xmprosubscriptionmanager
 * https://desktop-f64k32e/xmprosubscriptionmanager
 * https://demo.azurewebsites.com
 {% endhint %}
 
-| Complete Address                                 | DNS                     | Virtual Directory                       |
-| ------------------------------------------------ | ----------------------- | --------------------------------------- |
-| https://localhost/xmprosubscriptionmanager       | <p></p><p>localhost</p> | <p></p><p>xmprosubscriptionmanager </p> |
-| https://desktop-f64k32e/xmprosubscriptionmanager | desktop-f64k32e         | xmprosubscriptionmanager                |
-| https://demo.azurewebsites.com                   | demo.azurewebsites.com  |                                         |
+| Complete Address                                 | DNS                    | Virtual Directory        |
+| ------------------------------------------------ | ---------------------- | ------------------------ |
+| https://localhost/xmprosubscriptionmanager       | localhost              | xmprosubscriptionmanager |
+| https://desktop-f64k32e/xmprosubscriptionmanager | desktop-f64k32e        | xmprosubscriptionmanager |
+| https://demo.azurewebsites.com                   | demo.azurewebsites.com |                          |
 
 **Virtual Directory**
 
 14. Select the parent site from the Web Site drop-down
 
 {% hint style="info" %}
-By default, the Virtual Directory name will be "xmprosubscriptionmanager" which will be created within IIS for the Subscription Manager site. If you wish to change the name you can specify it in the "Virtual Directory Name" text box.&#x20;
+By default, the Virtual Directory name will be "xmprosubscriptionmanager" which will be created within IIS for the Subscription Manager site. If you wish to change the name you can specify it in the "Virtual Directory Name" text box.
 {% endhint %}
 
 15. Verify if the value in the content directory field is correct. If not, apply any changes needed
@@ -188,13 +188,13 @@ By default, the option to create a sub-directory within the content directory is
 
 #### **Application Pool**
 
-16. If you wish to change this name or use an existing application pool, click the Change button&#x20;
+16. If you wish to change this name or use an existing application pool, click the Change button
 
 {% hint style="info" %}
-By default, a new application pool will be created when installing the site. The new application pool will have the same name as the name specified in the “Application Pool Name” field.&#x20;
+By default, a new application pool will be created when installing the site. The new application pool will have the same name as the name specified in the “Application Pool Name” field.
 {% endhint %}
 
-17. Either select the “Create a new Application Pool” or “Use an existing Application Pool” option&#x20;
+17. Either select the “Create a new Application Pool” or “Use an existing Application Pool” option
 
 {% hint style="info" %}
 If you choose “Create a new Application Pool”, give it an appropriate name. If you choose “Use an existing Application Pool”, select an existing application pool from the drop-down.
@@ -218,8 +218,8 @@ The default option is “Local System”, which is a built-in security account. 
 
 ### SMTP
 
-19. Enter the SMTP details referenced in the [**1. Preparation**](../install.md#smtp-account) guide. \
-    By default, the "Enable Email Notification" is checked.&#x20;
+19. Enter the SMTP details referenced in the [**1. Preparation**](../install.md#smtp-account) guide.\
+    By default, the "Enable Email Notification" is checked.
 
 {% hint style="info" %}
 SMTP can be disabled by unchecking the "Enable Email Notification" checkbox if you don't want to receive email notifications. If at a later stage email notifications are needed, the installer can be run again to add SMTP functionality.
@@ -230,8 +230,6 @@ SMTP can be disabled by unchecking the "Enable Email Notification" checkbox if y
 {% hint style="danger" %}
 **Warning:** You are required to set up an SMTP account. Failing to do so will make registering new users very cumbersome.
 
-
-
 Check your connection to the email server using the "Test SMTP settings" button.
 {% endhint %}
 
@@ -241,7 +239,7 @@ During the installation process, you will be asked to upload two certificates: a
 
 #### **Signing Certificate**
 
-20. Start by browsing to a suitable _.pfx_ certificate file. Specify the password for the certificate&#x20;
+20. Start by browsing to a suitable _.pfx_ certificate file. Specify the password for the certificate
 21. Use the dropdown to select "Subject Name"
 
 {% hint style="info" %}
@@ -262,19 +260,17 @@ It is recommended that you choose “LocalMachine” as the Location for the enc
 ![](<../../.gitbook/assets/image (1431).png>)
 
 {% hint style="danger" %}
-**Warning:** Both certificates must contain a private key.&#x20;
+**Warning:** Both certificates must contain a private key.
 {% endhint %}
 
 ### Final Steps
 
-24. &#x20;Continue through the wizard, confirm the installation and the components will be installed
+24. Continue through the wizard, confirm the installation and the components will be installed
 
 ![](<../../.gitbook/assets/image (1658).png>)
 
 {% hint style="danger" %}
 **Warning:** Note the username and password on the last screen of the installer. This user has been created during installation as Subscription Manager itself needs at least one user in the system. Without it, you cannot add other users.
-
-
 
 Change the password of the default user to a new, secure password after logging in for the first time.
 {% endhint %}
@@ -283,7 +279,7 @@ Change the password of the default user to a new, secure password after logging 
 
 #### **Using Web Browser**
 
-25. &#x20;Access the website by putting the URL into your browser
+25. Access the website by putting the URL into your browser
 
 {% hint style="info" %}
 The format of the URL will be as follows: “_https://yourdnsname/virtualdirectoryname/_”
@@ -295,7 +291,7 @@ The format of the URL will be as follows: “_https://yourdnsname/virtualdirecto
 
 To install the Data Stream Designer and App Designer, you will need an Installation Profile.
 
-26. &#x20;Navigate to the XMPro Subscription Manager site as above
+26. Navigate to the XMPro Subscription Manager site as above
 27. Go to the Subscription Manager page
 
 <figure><img src="../../.gitbook/assets/Home Image Current.jfif" alt=""><figcaption></figcaption></figure>
@@ -304,10 +300,10 @@ To install the Data Stream Designer and App Designer, you will need an Installat
 
 ![](<../../.gitbook/assets/image (179).png>)
 
-29. &#x20;Enter a File Key and press OK to download the file
+29. Enter a File Key and press OK to download the file
 
 {% hint style="danger" %}
-**Warning:** Remember the file key as it is needed when installing Data Stream Designer and App Designer.&#x20;
+**Warning:** Remember the file key as it is needed when installing Data Stream Designer and App Designer.
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (1020).png>)
@@ -346,7 +342,7 @@ To solve this issue, use this [**article**](https://docs.xmpro.com/knowledge-bas
 7. Select the components that you would like to install
 
 {% hint style="info" %}
-If this is the first time you are installing the Data Stream Designer, it is highly recommended that you select both “Database” and “Web Application”. &#x20;
+If this is the first time you are installing the Data Stream Designer, it is highly recommended that you select both “Database” and “Web Application”.
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (120).png>)
@@ -367,13 +363,13 @@ If you already know the server instance name, it can be entered manually. Otherw
 
 9. Specify the authentication method that should be used: Windows or SQL
 
-&#x20; 9.1. Windows Authentication: you may leave the options as is
+9.1. Windows Authentication: you may leave the options as is
 
 {% hint style="danger" %}
 **Warning:** Configure a service account that can be used for Windows authentication.
 {% endhint %}
 
-&#x20; 9.2. SQL Authentication:  &#x20;
+9.2. SQL Authentication:
 
 * To connect to the database using SQL Server authentication, click the "Change" button
 * Select the “Use SQL Authentication” option
@@ -391,7 +387,7 @@ If you already know the server instance name, it can be entered manually. Otherw
 The Database section allows you to configure if you would like to use an existing database or create a new one. Leaving the options as default will result in a new database being created.
 {% endhint %}
 
-To change the pre-populated name of the new database or to select to use an existing database:&#x20;
+To change the pre-populated name of the new database or to select to use an existing database:
 
 10. Click the "Change" button and select the appropriate option
 11. Specify the name of the new database or select an existing database from the drop-down
@@ -408,7 +404,7 @@ To upgrade existing Server Variables, the details of the **Subscription Manager*
 
 #### Upgrade Server Variables?
 
-12. Tick to automatically upgrade the Server Variables. It is recommended, but not required. \
+12. Tick to automatically upgrade the Server Variables. It is recommended, but not required.\
     None of the other settings on this page are required if you choose not to upgrade.
 
 ![](<../../.gitbook/assets/DSD Encryption Upgrade 1.PNG>)
@@ -429,28 +425,28 @@ To upgrade existing Server Variables, the details of the **Subscription Manager*
 
 **DNS Name**
 
-16. &#x20;Verify if your DNS name is correct. If not, edit the value to contain the correct DNS name
+16. Verify if your DNS name is correct. If not, edit the value to contain the correct DNS name
 
 {% hint style="info" %}
 This is your fully qualified domain name (FQDN). Please find some examples below explaining the DNS name.
 
-* https://localhost/xmprosubscriptionmanager&#x20;
-* https://desktop-f64k32e/xmprosubscriptionmanager&#x20;
-* https://demo.azurewebsites.com&#x20;
+* https://localhost/xmprosubscriptionmanager
+* https://desktop-f64k32e/xmprosubscriptionmanager
+* https://demo.azurewebsites.com
 {% endhint %}
 
-| Complete Address                                 | DNS                     | Virtual Directory                       |
-| ------------------------------------------------ | ----------------------- | --------------------------------------- |
-| https://localhost/xmprosubscriptionmanager       | <p></p><p>localhost</p> | <p></p><p>xmprosubscriptionmanager </p> |
-| https://desktop-f64k32e/xmprosubscriptionmanager | desktop-f64k32e         | xmprosubscriptionmanager                |
-| https://demo.azurewebsites.com                   | demo.azurewebsites.com  |                                         |
+| Complete Address                                 | DNS                    | Virtual Directory        |
+| ------------------------------------------------ | ---------------------- | ------------------------ |
+| https://localhost/xmprosubscriptionmanager       | localhost              | xmprosubscriptionmanager |
+| https://desktop-f64k32e/xmprosubscriptionmanager | desktop-f64k32e        | xmprosubscriptionmanager |
+| https://demo.azurewebsites.com                   | demo.azurewebsites.com |                          |
 
 **Virtual Directory**
 
 17. Select the parent site from the Web Site drop-down
 
 {% hint style="info" %}
-By default, the Virtual Directory name will be "DataStreams" which will be created within IIS for the Data Stream site. If you wish to change the name you can specify it in the "Virtual Directory Name" text box.&#x20;
+By default, the Virtual Directory name will be "DataStreams" which will be created within IIS for the Data Stream site. If you wish to change the name you can specify it in the "Virtual Directory Name" text box.
 {% endhint %}
 
 18. Verify the value in the content directory field. If incorrect, apply any changes needed
@@ -461,13 +457,13 @@ By default, the option to create a sub-directory within the content directory is
 
 #### Application Pool
 
-19. If you wish to change the name or use an existing application pool, click the Change button&#x20;
+19. If you wish to change the name or use an existing application pool, click the Change button
 
 {% hint style="info" %}
-By default, a new application pool will be created when installing the site. The new application pool will have the same name as the name specified in the “Application Pool Name” field.&#x20;
+By default, a new application pool will be created when installing the site. The new application pool will have the same name as the name specified in the “Application Pool Name” field.
 {% endhint %}
 
-20. Either select the “Create a new Application Pool” or “Use an existing Application Pool” option&#x20;
+20. Either select the “Create a new Application Pool” or “Use an existing Application Pool” option
 
 {% hint style="info" %}
 If you choose “Create a new Application Pool”, give it an appropriate name. If you choose “Use an existing Application Pool”, select an existing application pool from the drop-down.
@@ -477,7 +473,7 @@ If you choose “Create a new Application Pool”, give it an appropriate name. 
 
 #### **Security Account**
 
-21. Select "Local System" as the security account.&#x20;
+21. Select "Local System" as the security account.
 
 {% hint style="info" %}
 The two options available to choose from are using a built-in security account or specifying your own security account.
@@ -530,7 +526,7 @@ This file ensures the Data Stream Designer contains the correct details for the 
 This "Setup" will install the installer you will use to install the database and website
 {% endhint %}
 
-4. When this initial installation is complete, open the start menu&#x20;
+4. When this initial installation is complete, open the start menu
 5. Search for "App Designer" and click on Run as Administrator
 
 ![](<../../.gitbook/assets/image (222).png>)
@@ -544,7 +540,7 @@ This "Setup" will install the installer you will use to install the database and
 7. Select the components that you would like to install and click "Next"
 
 {% hint style="info" %}
-If this is the first time you are installing Subscription Manager, it is highly recommended that you select both “Database” and “Web Application”.&#x20;
+If this is the first time you are installing Subscription Manager, it is highly recommended that you select both “Database” and “Web Application”.
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (323).png>)
@@ -556,7 +552,7 @@ If this is the first time you are installing Subscription Manager, it is highly 
 8. Select the server instance you would like to connect to
 
 {% hint style="info" %}
-If you already know the server instance name, it can be entered manually.  Otherwise, use the refresh button on the right to load all available servers. Selecting the “Local Servers” check box will limit the search to the local network.
+If you already know the server instance name, it can be entered manually. Otherwise, use the refresh button on the right to load all available servers. Selecting the “Local Servers” check box will limit the search to the local network.
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (891).png>)
@@ -565,13 +561,13 @@ If you already know the server instance name, it can be entered manually.  Other
 
 9. Specify the authentication method that should be used: Windows or SQL
 
-&#x20; 9.1. Windows Authentication: you may leave the options as is
+9.1. Windows Authentication: you may leave the options as is
 
 {% hint style="danger" %}
 **Warning:** Configure a service account that can be used for Windows authentication
 {% endhint %}
 
-&#x20; 9.2. SQL Authentication:&#x20;
+9.2. SQL Authentication:
 
 * Click the "Change" button
 * Select the “Use SQL Authentication” option
@@ -586,12 +582,12 @@ If you already know the server instance name, it can be entered manually.  Other
 **Database**
 
 {% hint style="info" %}
-The Database section allows you to configure if you would like to use an existing database or create a new one. Leaving the options as default will result in a new database being created.&#x20;
+The Database section allows you to configure if you would like to use an existing database or create a new one. Leaving the options as default will result in a new database being created.
 {% endhint %}
 
-To change the pre-populated name of the new database or to select to use an existing database:&#x20;
+To change the pre-populated name of the new database or to select to use an existing database:
 
-10. Click the "Change" button and select the appropriate option &#x20;
+10. Click the "Change" button and select the appropriate option
 11. Specify the name of the new database or select an existing database from the drop-down
 
 ![](<../../.gitbook/assets/image (131).png>)
@@ -620,7 +616,7 @@ Documentation for the [Azure](on-premise.md#server) and [Amazon](https://docs.aw
 
 #### Upgrade Server Variables?
 
-13. Tick to automatically upgrade the Server Variables. It is recommended, but not required. \
+13. Tick to automatically upgrade the Server Variables. It is recommended, but not required.\
     None of the other settings on this page are required if you choose not to upgrade.
 
 #### Server
@@ -644,22 +640,22 @@ Documentation for the [Azure](on-premise.md#server) and [Amazon](https://docs.aw
 {% hint style="info" %}
 This is your fully qualified domain name (FQDN). Please find some examples below explaining the DNS name.
 
-* https://localhost/xmprosubscriptionmanager&#x20;
-* https://desktop-f64k32e/xmprosubscriptionmanager &#x20;
-* https://demo.azurewebsites.com&#x20;
+* https://localhost/xmprosubscriptionmanager
+* https://desktop-f64k32e/xmprosubscriptionmanager
+* https://demo.azurewebsites.com
 {% endhint %}
 
-| https://localhost/xmprosubscriptionmanager       | <p></p><p>localhost</p> | <p></p><p>xmprosubscriptionmanager </p> |
-| ------------------------------------------------ | ----------------------- | --------------------------------------- |
-| https://desktop-f64k32e/xmprosubscriptionmanager | desktop-f64k32e         | xmprosubscriptionmanager                |
-| https://demo.azurewebsites.com                   | demo.azurewebsites.com  |                                         |
+| https://localhost/xmprosubscriptionmanager       | localhost              | xmprosubscriptionmanager |
+| ------------------------------------------------ | ---------------------- | ------------------------ |
+| https://desktop-f64k32e/xmprosubscriptionmanager | desktop-f64k32e        | xmprosubscriptionmanager |
+| https://demo.azurewebsites.com                   | demo.azurewebsites.com |                          |
 
 **Virtual Directory**
 
 18. Select the parent site from the Web Site drop-down
 
 {% hint style="info" %}
-By default, the Virtual Directory name will be "AppDesigner" which will be created within IIS for the Data Stream site. If you wish to change the name you can specify it in the "Virtual Directory Name" text box.&#x20;
+By default, the Virtual Directory name will be "AppDesigner" which will be created within IIS for the Data Stream site. If you wish to change the name you can specify it in the "Virtual Directory Name" text box.
 {% endhint %}
 
 19. Verify if the value in the content directory field is correct. If not, apply any changes needed
@@ -670,13 +666,13 @@ By default, the option to create a sub-directory within the content directory is
 
 #### **Application Pool**
 
-20. If you wish to change this name or use an existing application pool, click the Change button&#x20;
+20. If you wish to change this name or use an existing application pool, click the Change button
 
 {% hint style="info" %}
-By default, a new application pool will be created when installing the site. The new application pool will have the same name as the name specified in the “Application Pool Name” field.&#x20;
+By default, a new application pool will be created when installing the site. The new application pool will have the same name as the name specified in the “Application Pool Name” field.
 {% endhint %}
 
-21. Either select the “Create a new Application Pool” or “Use an existing Application Pool” option&#x20;
+21. Either select the “Create a new Application Pool” or “Use an existing Application Pool” option
 
 {% hint style="info" %}
 If you choose “Create a new Application Pool”, give it an appropriate name. If you choose “Use an existing Application Pool”, select an existing application pool from the drop-down.
@@ -706,8 +702,8 @@ You can either change it by selecting a different built-in security account from
 
 ### SMTP
 
-24. Enter the SMTP settings referenced in the [**1. Preparation**](../install.md#smtp-account) guide. \
-    By default, the "Enable Email Notification" is checked.&#x20;
+24. Enter the SMTP settings referenced in the [**1. Preparation**](../install.md#smtp-account) guide.\
+    By default, the "Enable Email Notification" is checked.
 
 {% hint style="info" %}
 SMTP can be disabled by unchecking the "Enable Email Notification" checkbox if you don't want to receive email notifications. If at a later stage email notifications are needed, the installer can be run again to add SMTP functionality.
@@ -717,8 +713,6 @@ SMTP can be disabled by unchecking the "Enable Email Notification" checkbox if y
 
 {% hint style="danger" %}
 **Warning:** You are required to set up an SMTP account. Failing to do so will make registering new users very cumbersome.
-
-
 
 It is highly recommended to check your connection to the email server using the "Test SMTP settings" button.
 {% endhint %}
@@ -758,8 +752,8 @@ The Installation Profile generated for Data Stream Installer can be used in this
 
 The installation of the XMPro Platform is now complete, but there are some environment setup steps before you can use the platform. Please click the below link for further instructions:
 
-{% content-ref url="../3.-complete-installation/" %}
-[3.-complete-installation](../3.-complete-installation/)
+{% content-ref url="../3.-complete-installation" %}
+[3.-complete-installation](../3.-complete-installation)
 {% endcontent-ref %}
 
 ## Upgrade XMPro
@@ -772,9 +766,9 @@ The process of uninstalling the XMPro installer must be repeated for each applic
 
 ### Uninstall Subscription Manager Installer
 
-1. Log on to the instance where the XMPro installers are installed.&#x20;
-2. From the start menu select XMPro Subscription Manager and right-click it.&#x20;
-3. Click Uninstall.&#x20;
+1. Log on to the instance where the XMPro installers are installed.
+2. From the start menu select XMPro Subscription Manager and right-click it.
+3. Click Uninstall.
 4. Select XMPro Subscription Manager from the list of programs displayed.
 5. Click Uninstall.
 6. When prompted to confirm uninstall click Yes.
@@ -782,7 +776,7 @@ The process of uninstalling the XMPro installer must be repeated for each applic
 
 <figure><img src="../../.gitbook/assets/image (1196).png" alt="" width="540"><figcaption></figcaption></figure>
 
-8. When prompted to select the install to modify click Cancel. \
+8. When prompted to select the install to modify click Cancel.\
    **We do not want to remove the installed XMPro site, only the installer.**
 
 <figure><img src="../../.gitbook/assets/image (1195).png" alt="" width="455"><figcaption></figcaption></figure>
@@ -803,7 +797,7 @@ The process of uninstalling the XMPro installer must be repeated for each applic
 
 <figure><img src="../../.gitbook/assets/image (1276).png" alt="" width="563"><figcaption></figcaption></figure>
 
-8. When prompted to select the install to modify click Cancel. \
+8. When prompted to select the install to modify click Cancel.\
    **We do not want to remove the installed XMPro site, only the installer.**
 
 <figure><img src="../../.gitbook/assets/image (1777).png" alt="" width="501"><figcaption></figcaption></figure>
@@ -824,7 +818,7 @@ The process of uninstalling the XMPro installer must be repeated for each applic
 
 <figure><img src="../../.gitbook/assets/image (1165).png" alt="" width="563"><figcaption></figcaption></figure>
 
-8. When prompted to select the install to modify click Cancel. \
+8. When prompted to select the install to modify click Cancel.\
    **We do not want to remove the installed XMPro site, only the installer.**
 
 <figure><img src="../../.gitbook/assets/image (1170).png" alt="" width="555"><figcaption></figcaption></figure>

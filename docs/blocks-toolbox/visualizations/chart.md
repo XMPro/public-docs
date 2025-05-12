@@ -62,7 +62,7 @@ When this is enabled, configured Action properties are triggered when the user c
 
 #### Y-Axis
 
-The Y-axis is the left-hand vertical axis or part of the graph. You can have multiple Y-axis on a Chart.&#x20;
+The Y-axis is the left-hand vertical axis or part of the graph. You can have multiple Y-axis on a Chart.
 
 ![](<../../.gitbook/assets/image (1639).png>)
 
@@ -70,7 +70,7 @@ A new Y-axis can be added from the _Block Properties_ tab when a Chart is select
 
 ![](<../../.gitbook/assets/image (980).png>)
 
-If you have multiple panes with multiple series, the Y-axis will only show on the pane that the series is on. In other words, a Y-axis will only be shown on the panes where it is being used.&#x20;
+If you have multiple panes with multiple series, the Y-axis will only show on the pane that the series is on. In other words, a Y-axis will only be shown on the panes where it is being used.
 
 #### Type
 
@@ -80,7 +80,7 @@ Changing the type will affect the X-Axis. Depending on the type, X-Axis can only
 
 #### Axis Line Color
 
-This specifies the color of the line for the axis. This property is available for both X and Y axes. The Y-Axis line color will change the color of the vertical line of the graph and the X-Axis line color will change the color of the horizontal line of the graph.  &#x20;
+This specifies the color of the line for the axis. This property is available for both X and Y axes. The Y-Axis line color will change the color of the vertical line of the graph and the X-Axis line color will change the color of the horizontal line of the graph.
 
 ![](<../../.gitbook/assets/image (175).png>)
 
@@ -118,7 +118,7 @@ This changes the color of the grid lines within the Chart. This property is avai
 
 This changes the color of the title within the Chart. This property is available for both X and Y axes.
 
-![](<../../.gitbook/assets/Title Color (1).png>)
+![](<../../.gitbook/assets/Title Color (1) (2).png>)
 
 #### Display Labels
 
@@ -134,9 +134,9 @@ The colors of the label that shows along the X-axis can also be changed.
 
 #### Value Margins Enabled
 
-If this is set to 'true', margins are added between the start and end values on the graph. For example, on a bar graph, the margin will move the first bar more to the right so the full bar is inside the graph, and all columns will be equal in width. It will also add a margin between the end and the last bar.&#x20;
+If this is set to 'true', margins are added between the start and end values on the graph. For example, on a bar graph, the margin will move the first bar more to the right so the full bar is inside the graph, and all columns will be equal in width. It will also add a margin between the end and the last bar.
 
-If this is set to 'false', the first and last bars may not be fully inside the chart, so the middle bars may be larger than the first and last bars. &#x20;
+If this is set to 'false', the first and last bars may not be fully inside the chart, so the middle bars may be larger than the first and last bars.
 
 This property is only available on the X-Axis.
 
@@ -195,7 +195,7 @@ Panes are sections of the graph that can contain their own series. If there are 
 
 ![](<../../.gitbook/assets/image (764).png>)
 
-A single pane can have multiple series.&#x20;
+A single pane can have multiple series.
 
 ![](<../../.gitbook/assets/image (109).png>)
 

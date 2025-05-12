@@ -18,13 +18,13 @@ This specifies the style of the control, including if it is underlined, highligh
 
 #### Placeholder
 
-This will show a temporary hint or description inside the field to help the user know what information is required. It disappears when the user enters a value.&#x20;
+This will show a temporary hint or description inside the field to help the user know what information is required. It disappears when the user enters a value.
 
 ![](<../.gitbook/assets/image (1465).png>)
 
 #### Tooltip
 
-This displays extra information about the field when the user hovers their mouse over it. &#x20;
+This displays extra information about the field when the user hovers their mouse over it.
 
 ![](<../.gitbook/assets/image (81).png>)
 
@@ -36,7 +36,7 @@ This determines if a clear button shows next to the value that the user entered.
 
 #### Icon
 
-The mode of the icon refers to the different ways the icon can be uploaded or added onto the control. This includes adding a pre-built icon from the library, uploading your own icon, or using the URL of an icon that exists on the web.&#x20;
+The mode of the icon refers to the different ways the icon can be uploaded or added onto the control. This includes adding a pre-built icon from the library, uploading your own icon, or using the URL of an icon that exists on the web.
 
 ![](<../.gitbook/assets/image (70).png>)
 
@@ -62,13 +62,13 @@ This describes the behavior of a control. For example, read-only or disabled pre
 
 ## Value <a href="#behavior" id="behavior"></a>
 
-The value is the value that is taken from the control such as the user input, or the default value of the control that you predefine.&#x20;
+The value is the value that is taken from the control such as the user input, or the default value of the control that you predefine.
 
 ![](<../.gitbook/assets/image (333).png>)
 
 ## Data Source
 
-Data Sources can be created for a page in the application and can be used to display contextual or real-time data to the user. Data sources can include databases or data streams and can be bound to controls on the page.&#x20;
+Data Sources can be created for a page in the application and can be used to display contextual or real-time data to the user. Data sources can include databases or data streams and can be bound to controls on the page.
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Data Sources.
@@ -90,7 +90,7 @@ This allows you to sort records in increasing or decreasing order.
 
 #### Show # of Results
 
-Shows a limited number of results.&#x20;
+Shows a limited number of results.
 
 ![](<../.gitbook/assets/image (849).png>)
 
@@ -106,7 +106,7 @@ This will determine if the default row is always shown, only shown when empty, o
 
 ## Validation
 
-Validation involves making sure the user enters the correct information on controls such as a form. Fields or Fieldsets (a group of fields) can be added to the page with a corresponding confirm button for the form. If the button and fields are configured to have validation and the user clicks on the confirm button, the fields in the form will be validated.&#x20;
+Validation involves making sure the user enters the correct information on controls such as a form. Fields or Fieldsets (a group of fields) can be added to the page with a corresponding confirm button for the form. If the button and fields are configured to have validation and the user clicks on the confirm button, the fields in the form will be validated.
 
 ### Field
 
@@ -131,7 +131,7 @@ If the user enters a value that does not match a specific pattern (for example, 
 Validation patterns use Regular Expressions (regex) to pattern search the value and determine validity.
 
 {% hint style="info" %}
-For more information on Regular Expressions, see the [JavaScript RegExp Reference article](https://www.w3schools.com/jsref/jsref\_obj\_regexp.asp) on w3schools.
+For more information on Regular Expressions, see the [JavaScript RegExp Reference article](https://www.w3schools.com/jsref/jsref_obj_regexp.asp) on w3schools.
 {% endhint %}
 
 #### Message
@@ -172,7 +172,7 @@ The URL to which the user is redirected, which is applicable when [Navigate To](
 ![](../.gitbook/assets/url2.PNG)
 
 {% hint style="info" %}
-You can use a [mailto](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml\_link\_mailto) link with the URL navigation to open a default mail program (for example, Microsoft Outlook) with an email address already added into the receiver field.
+You can use a [mailto](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto) link with the URL navigation to open a default mail program (for example, Microsoft Outlook) with an email address already added into the receiver field.
 {% endhint %}
 
 See the [Navigating Using Back URL article](../how-tos/apps/navigate-between-pages.md#navigating-using-back-url) for more information about appending a back URL so that the user can return to the page.
@@ -181,11 +181,11 @@ See the [Navigating Using Back URL article](../how-tos/apps/navigate-between-pag
 
 Tick for the URL to open in a new tab/window, instead of redirecting the current tab. This applies when [Navigate To](common-properties.md#navigate-to) is set to 'Page' or 'URL'.
 
-<figure><img src="../.gitbook/assets/image (420).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (420) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Pass Page Parameters
 
-You can use parameters if you want to send particular values to another page. For example, you may want to send the value of a control to another page as the user is navigating to it, in order to change the data on that page dynamically. &#x20;
+You can use parameters if you want to send particular values to another page. For example, you may want to send the value of a control to another page as the user is navigating to it, in order to change the data on that page dynamically.
 
 See the [Pass Parameters between Pages article](../how-tos/apps/pass-parameters-between-pages.md) for more information about how to pass parameters between pages.
 
@@ -195,17 +195,17 @@ You can configure what and how the data should be updated on the current page. S
 
 #### Update Data Sources
 
-Operations include inserting records, updating, deleting, or refreshing a data source. For example, if the user clicks on a button, the details they entered can then be inserted as a record in the database. If multiple operations are required, the order that these actions are executed can be changed. For example, you may want to update the database first before deleting a record.&#x20;
+Operations include inserting records, updating, deleting, or refreshing a data source. For example, if the user clicks on a button, the details they entered can then be inserted as a record in the database. If multiple operations are required, the order that these actions are executed can be changed. For example, you may want to update the database first before deleting a record.
 
 If the execution condition option is set to true, you will then be able to add a condition that will be checked before operations are executed. You also have the option to override the fields that are in the data source.
 
 {% hint style="info" %}
-If you're enabling an operation on a Block that does not populate or visualize from a Data Source, such as a Button, first bind a [Data Source](common-properties.md#data-source) to either the Block or its parent.&#x20;
+If you're enabling an operation on a Block that does not populate or visualize from a Data Source, such as a Button, first bind a [Data Source](common-properties.md#data-source) to either the Block or its parent.
 {% endhint %}
 
 #### Confirmation Dialog
 
-If the confirmation dialog option is enabled, a confirmation message dialog box will appear when the user clicks on the button.&#x20;
+If the confirmation dialog option is enabled, a confirmation message dialog box will appear when the user clicks on the button.
 
 The title and message of the dialog box can be configured as well as the text on the continue and cancel buttons.
 

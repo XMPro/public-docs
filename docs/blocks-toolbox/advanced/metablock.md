@@ -14,7 +14,7 @@ Only the [Presentation File (HTML)](metablock.md#presentation-file-html) is requ
 
 #### Presentation File (HTML)
 
-Upload the HTML script file that will be rendered in your Metablock, which is used to create dynamic blocks that may display data from a [Data Source](metablock.md#data-source) or from [Value Mapping](metablock.md#value-mapping-optional).&#x20;
+Upload the HTML script file that will be rendered in your Metablock, which is used to create dynamic blocks that may display data from a [Data Source](metablock.md#data-source) or from [Value Mapping](metablock.md#value-mapping-optional).
 
 ```html
 <div class="foo">bar</div>
@@ -149,7 +149,7 @@ In this example, both the `data` and `changes` variables contain identical data,
 
 </details>
 
-_You can refer to a working example script that demonstrates an Autodesk Forge visualization_ [_here_](metablock.md#example-files)_._&#x20;
+_You can refer to a working example script that demonstrates an Autodesk Forge visualization_ [_here_](metablock.md#example-files)_._
 
 ### Value
 
@@ -159,16 +159,16 @@ If you wish to define value mappings for run-time use, you can configure user-de
 
 The Value Mapping opens a new blade to setup the Key and Value configuration. The options for the Value Source are Static, [Dynamic](../../how-tos/apps/use-dynamic-properties.md), [Expression](../../how-tos/apps/use-expression-properties.md) and [Variables](../../concepts/variable.md).
 
-When selecting Server Variables as a Source for the Value Mapping, the list of unencrypted Server Variables will be displayed. Tick the **Encrypt** checkbox to use an encrypted Server Variable for values like keys, secrets, or password.&#x20;
+When selecting Server Variables as a Source for the Value Mapping, the list of unencrypted Server Variables will be displayed. Tick the **Encrypt** checkbox to use an encrypted Server Variable for values like keys, secrets, or password. Note that only **plain text** values are supported for **encrypted** Server Variables due to the request proxying process.
 
-Encrypted Server Variables will not have their value available immediately on the Metablock. Instead, you can use them inside a Fetch/XHR request or a Websocket/MQTT message before being forwarded to the actual target.
+Encrypted Server Variables will not have their value available immediately on the Metablock. Instead, you can use them inside a Fetch/XHR request or a WebSocket/MQTT message before being forwarded to the actual target.
 
 * **Fetch/XHR Request -** You can use encrypted server variables as part of the URL, Header, or Body of the Fetch/XHR request.
-* **Websocket/MQTT Message -** You can use encrypted server variables as part of the Websocket message. For MQTT Messages, you can use it as part of the following message types: Connect (Username and Password), Publish (Payload), and Subscribe (Subscribe Topics)
+* **WebSocket/MQTT Message -** You can use encrypted server variables as part of the WebSocket message. For MQTT Messages, you can use it as part of the following message types: Connect (Username and Password), Publish (Payload), and Subscribe (Subscribe Topics)
 
 #### Proxy Requests
 
-Tick to proxy requests on the AD Server before being forwarded to the actual request. This is ticked by default when using an encrypted server variable on the value mapping, but you can opt in to use it even without any encrypted server variable.
+Tick to proxy requests on the AD Server, so that encrypted server variables are replaced with the actual value before being forwarded to the target request. This is ticked by default when using an encrypted server variable on the value mapping, but you can opt in to use it even without any encrypted server variable.
 
 To use Value Mapping, include this predefined JavaScript function in your [Script File](metablock.md#script-file-javascript-optional):
 
@@ -219,7 +219,7 @@ Leverage Value Mapping to dynamically pass URLs from other data sources or utili
 
 ### Autodesk: visualize 2D & 3D models
 
-Access and visualize your engineering data and designs from the cloud using [Autodesk Platform Services](https://aps.autodesk.com/) (APS, formerly Forge).&#x20;
+Access and visualize your engineering data and designs from the cloud using [Autodesk Platform Services](https://aps.autodesk.com/) (APS, formerly Forge).
 
 Leverage [Value Mapping](metablock.md#value-mapping-optional) when embedding the [APS Viewer](https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/overview/) in XMPro App Pages to display interactive 2D and 3D views of your designs.
 
@@ -229,7 +229,7 @@ Leverage [Value Mapping](metablock.md#value-mapping-optional) when embedding the
 
 {% embed url="https://github.com/XMPro/meta-block-examples/tree/main/src/packages/aps-view-basic" %}
 
-### Autodesk: Visualize 2D & 3D models with authentication&#x20;
+### Autodesk: Visualize 2D & 3D models with authentication
 
 When authentication is needed to dynamically load 2D and 3D views of your designs using the [APS Viewer](https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/overview/). We could utilize a Connector or the Value Mapping and use server variables for the credentials. This eliminates the need for hardcoded credentials while maintaining secure access to the visualization platform, [Autodesk Platform Services](https://aps.autodesk.com/) (APS, formerly Forge). See the following Metablock examples on how to use these methods.
 
@@ -571,7 +571,7 @@ Link App Files Resources Example
 **Note:** Displaying the Metablock may take some time since it needs to finish loading all referenced App File resources before it is shown on the Application. Avoid referencing heavy files from the App Files and use external resources instead.
 {% endhint %}
 
-You can also dynamically load JavaScript files but only for external resources and not from the App Files.&#x20;
+You can also dynamically load JavaScript files but only for external resources and not from the App Files.
 
 ```javascript
 function loadScript(url) {

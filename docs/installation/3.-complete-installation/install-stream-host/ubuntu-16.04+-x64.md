@@ -26,7 +26,7 @@ XMPro Stream Host requires certain hardware and software specifications in order
 
 Refer to the [**hardware** requirements](../../install.md#hardware-requirements) and the [**software** requirements](../../install.md#software-requirements) in the **1. Preparation** guide.
 
-### **Software Install Commands**&#x20;
+### **Software Install Commands**
 
 Install required dependencies using the following commands:
 
@@ -81,7 +81,7 @@ During the installation process, you will be asked a few questions:
 
 These settings can be found in Data Stream Designer:
 
-![](<../../../.gitbook/assets/image (1489).png>)
+![](<../../../.gitbook/assets/image (1489) (1).png>)
 
 ## Uninstall
 

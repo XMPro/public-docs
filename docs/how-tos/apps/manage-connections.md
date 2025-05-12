@@ -1,6 +1,6 @@
 # Manage Connections
 
-The parameters defined in a Connection allow the App to connect to a source of data like a SQL Database and expose the entities as Data Sources within the Page. Connection parameters can include credentials such as a username, password, path, URL, or location identifier that you can use to make a remote connection to the Data Source.&#x20;
+The parameters defined in a Connection allow the App to connect to a source of data like a SQL Database and expose the entities as Data Sources within the Page. Connection parameters can include credentials such as a username, password, path, URL, or location identifier that you can use to make a remote connection to the Data Source.
 
 For example, Connection parameters to connect to an SQL Database would include the Server Name, Authentication type, Username, and password.
 
@@ -20,13 +20,13 @@ Connections can be added directly to an Application by adding it to the App Data
 
 ![](<../../.gitbook/assets/image (936).png>)
 
-![](../../.gitbook/assets/conn_1.png)
+![](<../../.gitbook/assets/conn_1 (2).png>)
 
-&#x20;   3\. Click on _App Data._\
-&#x20;   4\. Click on _add._\
-&#x20;   5\. Select a connector, for example, the SQL connector.\
-&#x20;   6\. Enter the details of the Connection, including it's name.\
-&#x20;   7\. Click on _Save_.
+3\. Click on _App Data._\
+4\. Click on _add._\
+5\. Select a connector, for example, the SQL connector.\
+6\. Enter the details of the Connection, including it's name.\
+7\. Click on _Save_.
 
 ![](<../../.gitbook/assets/conn_2 (1).png>)
 
@@ -45,10 +45,10 @@ To delete a single Connection, follow the steps below:
 
 ![](../../.gitbook/assets/conn_4.png)
 
-&#x20;   3\. Click on _App Data._\
-&#x20;   4\. Select the Connection.\
-&#x20;   5\. Click on _Delete._\
-&#x20;   &#x36;_._ Confirm that you want to delete the Connection.
+3\. Click on _App Data._\
+4\. Select the Connection.\
+5\. Click on _Delete._\
+&#x36;_._ Confirm that you want to delete the Connection.
 
 ![](../../.gitbook/assets/conn_5.png)
 
@@ -61,14 +61,14 @@ To delete multiple Connections, follow the steps below:
 
 ![](../../.gitbook/assets/conn_6.png)
 
-&#x20;   3\. Click on _App Data._\
-&#x20;   4\. Click on _Select_.\
-&#x20;   5\. Select multiple Connections to be deleted.\
-&#x20;   6\. Click on _Delete_.
+3\. Click on _App Data._\
+4\. Click on _Select_.\
+5\. Select multiple Connections to be deleted.\
+6\. Click on _Delete_.
 
 ![](<../../.gitbook/assets/conn_7 (1).png>)
 
-&#x20;   7\. Confirm that you want to delete the Connection.
+7\. Confirm that you want to delete the Connection.
 
 ![](../../.gitbook/assets/conn_8.png)
 
@@ -78,7 +78,7 @@ You can cancel the multi-select by clicking on the select button again.
 
 ## Data Stream Connections
 
-Navigate to the Data Stream Connector to access a comprehensive inventory of the Data Stream Connections for the Application. The connections are categorized based on the respective pages where they are utilized.&#x20;
+Navigate to the Data Stream Connector to access a comprehensive inventory of the Data Stream Connections for the Application. The connections are categorized based on the respective pages where they are utilized.
 
 You can use this list to verify the current version of the Data Stream in use and make any necessary updates if required.
 

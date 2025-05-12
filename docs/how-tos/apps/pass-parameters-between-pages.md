@@ -1,6 +1,6 @@
 # Pass Parameters Between Pages
 
-You can use Parameters if you want to send particular values to another Page. For example, if you have a list of machines, and a user selects one, the Application may open a new Page that displays information for that particular machine. In that case, you may want to pass the ID of the machine the user clicked on to the Page that is being opened.&#x20;
+You can use Parameters if you want to send particular values to another Page. For example, if you have a list of machines, and a user selects one, the Application may open a new Page that displays information for that particular machine. In that case, you may want to pass the ID of the machine the user clicked on to the Page that is being opened.
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Navigating between Pages.
@@ -18,15 +18,15 @@ A Parameter needs to be added to the Page that is receiving the data. In this ex
 
 ![](<../../.gitbook/assets/image (531).png>)
 
-&#x20;   3\. Click on the page where you want to data to be sent to.\
-&#x20;   4\. Click on _Page Data_.\
-&#x20;   5\. Click on the _plus_ to add a Parameter.
+3\. Click on the page where you want to data to be sent to.\
+4\. Click on _Page Data_.\
+5\. Click on the _plus_ to add a Parameter.
 
 ![](../../.gitbook/assets/params_2.png)
 
-&#x20;   6\. Add the name and type of the new Parameter.\
-&#x20;   7\. Click on _Create_.\
-&#x20;   8\. Click on _Save_.
+6\. Add the name and type of the new Parameter.\
+7\. Click on _Create_.\
+8\. Click on _Save_.
 
 ![](<../../.gitbook/assets/image (499).png>)
 
@@ -36,10 +36,10 @@ Now that a Parameter has been added, create a textbox or a way to display the va
 
 ![](../../.gitbook/assets/params_4.png)
 
-&#x20;   2\. Click on _Block Properties_.\
-&#x20;   3\. Click on the ‘_A_’ button to toggle between static and dynamic text.\
-&#x20;   4\. Select the Parameter from the dropdown.\
-&#x20;   5\. Click on _Save_.
+2\. Click on _Block Properties_.\
+3\. Click on the ‘_A_’ button to toggle between static and dynamic text.\
+4\. Select the Parameter from the dropdown.\
+5\. Click on _Save_.
 
 ![](../../.gitbook/assets/params_5.png)
 
@@ -66,27 +66,27 @@ When navigating between pages, you can also pass dynamic data - such as the Char
 
 <figure><img src="../../.gitbook/assets/ChartDrilldown_1.PNG" alt=""><figcaption></figcaption></figure>
 
-&#x20; 3\. Under ‘Action’, click on the Navigate To Dropdown and select Page.&#x20;
+3\. Under ‘Action’, click on the Navigate To Dropdown and select Page.
 
-&#x20; 4\. Select the page you want to navigate to.&#x20;
+4\. Select the page you want to navigate to.
 
-&#x20; 5\. Click Pass Page Parameters.
+5\. Click Pass Page Parameters.
 
-&#x20; 6\. Pass Page Parameter blade will open.
+6\. Pass Page Parameter blade will open.
 
 <figure><img src="../../.gitbook/assets/ChartDrilldown_3.png" alt=""><figcaption></figcaption></figure>
 
-&#x20; 7\. Type in the name of the parameter and select the type.
+7\. Type in the name of the parameter and select the type.
 
-&#x20; 8\. Click Add.
+8\. Click Add.
 
 <figure><img src="../../.gitbook/assets/ChartDrilldown_4.PNG" alt=""><figcaption></figcaption></figure>
 
-&#x20; 9\. Change the field type to Dynamic Value.
+9\. Change the field type to Dynamic Value.
 
-&#x20; 10\. Select the Chart value you want to pass on the next page.
+10\. Select the Chart value you want to pass on the next page.
 
-&#x20; 11\. Click _Apply_.
+11\. Click _Apply_.
 
 <figure><img src="../../.gitbook/assets/ChartDrilldown_5.png" alt=""><figcaption></figcaption></figure>
 
@@ -98,8 +98,8 @@ Once the Parameter has been configured, launch the application to see how the da
 
 ![](../../.gitbook/assets/params_8.png)
 
-&#x20;   2\. Click on the link that goes to the second page.\
-&#x20;   3\. The data sent from the first page should reach the second page.
+2\. Click on the link that goes to the second page.\
+3\. The data sent from the first page should reach the second page.
 
 ![](../../.gitbook/assets/params_9.png)
 
@@ -112,10 +112,10 @@ To edit a Parameter, follow the steps below:
 1. Click on _Page Data_.
 2. Click on the _pencil/edit_ button for the Parameter.
 
-![](../../.gitbook/assets/params_11.png)
+![](<../../.gitbook/assets/params_11 (1).png>)
 
-&#x20;   3\. Make changes to the Parameter.\
-&#x20;   4\. Click on _Save_.
+3\. Make changes to the Parameter.\
+4\. Click on _Save_.
 
 ![](../../.gitbook/assets/params_12.png)
 
@@ -128,10 +128,10 @@ To delete a Parameter, follow the steps below:
 
 ![](../../.gitbook/assets/params_13.png)
 
-&#x20;   3\. Click on _Delete._
+3\. Click on _Delete._
 
 ![](../../.gitbook/assets/params_14.png)
 
-&#x20;   4\. Confirm that you would like to delete the Parameter.
+4\. Confirm that you would like to delete the Parameter.
 
 ![](../../.gitbook/assets/params_15.png)

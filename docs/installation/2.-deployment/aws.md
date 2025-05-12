@@ -38,18 +38,17 @@ In order to proceed with the deployment, you are required to complete the steps 
 
 1. Meet the [**hardware** requirements](../install.md#hardware-requirements)
 2. Install the [**software** requirements](../install.md#software-requirements)
-3. Follow the [certificate and communication steps](../install.md#preparation-steps)&#x20;
+3. Follow the [certificate and communication steps](../install.md#preparation-steps)
 
 {% hint style="info" %}
 **Two SSL Certificates are required**
 
-1. An SSL Certificate in AWS Certificate Manager, used by IIS (See the [Appendix](aws.md#ssl-certificate-in-certificate-manager) guide).\
-
+1. An SSL Certificate in AWS Certificate Manager, used by IIS (See the [Appendix](aws.md#ssl-certificate-in-certificate-manager) guide).\\
 2. An SSL Certificate, used by the SM instance (added to the [S3 Bucket](aws.md#create-s3-bucket) during the installation).\
    Create or ask your administrator for an SSL certificate with the correct DNS name. A self-signed certificate is good enough. There are many ways to generate this certificate, one of which is described in the above [1. Preparation](../install.md#https-ssl-certificate) guide. Please note the file names **must** be called **ssl.pfx** and **ssl.password.txt**.
 {% endhint %}
 
-**Resources**&#x20;
+**Resources**
 
 We are going to be deploying the following resources, please ensure you have the desired domain names ready.
 
@@ -88,7 +87,7 @@ Search for **ElastiCache** in the _**Services**_ dropdown and select it.
 
 2\. Make sure _Redis_ is selected, click create.
 
-![](<../../.gitbook/assets/image (701).png>)
+![](<../../.gitbook/assets/image (701) (1).png>)
 
 3\. Provide a name for the cache, select the size and leave the rest of the Redis options as defaults.
 
@@ -132,7 +131,7 @@ In the AWS Management Console choose **RDS** under _**Database**_ in the _**Serv
 ![](<../../.gitbook/assets/image (1584).png>)
 
 3\. Provide the _DB instance Identifier_, _Username,_ and _Password_ for the RDS database instance.\
-&#x20;   Click create.
+Click create.
 
 ![](<../../.gitbook/assets/image (1476).png>)
 
@@ -150,7 +149,7 @@ Make a note of the following:
 * Password - as specified earlier
 {% endhint %}
 
-![](<../../.gitbook/assets/image (144).png>)
+![](<../../.gitbook/assets/image (144) (1).png>)
 
 6\. The security group will need to be modified to allow inbound traffic this is done as follows:
 
@@ -172,7 +171,7 @@ Make a note of the following:
 
 ![](<../../.gitbook/assets/image (193).png>)
 
-2\. In IAM click policies click Create policy&#x20;
+2\. In IAM click policies click Create policy
 
 ![](<../../.gitbook/assets/image (1353).png>)
 
@@ -258,7 +257,7 @@ You have successfully created the application. Next, we'll create the applicatio
 
 ![](<../../.gitbook/assets/image (108).png>)
 
-4\. Select the Platform information.&#x20;
+4\. Select the Platform information.
 
 5\. Select Sample Application and click Configure more options
 
@@ -284,7 +283,7 @@ You have successfully created the application. Next, we'll create the applicatio
 
 ![](<../../.gitbook/assets/image (1703).png>)
 
-11\. Under the _VPC_ section select the VPC this environment should run in, set the _visibility_ according to your requirements and select the load balancer availability zones.&#x20;
+11\. Under the _VPC_ section select the VPC this environment should run in, set the _visibility_ according to your requirements and select the load balancer availability zones.
 
 12\. Scroll down and click _Save._
 
@@ -341,7 +340,7 @@ You have successfully created the application. Next, we'll create the applicatio
 6. Select the Region for your bucket
 7. Remove the checkmark for Block Public Access
 
-![](<../../.gitbook/assets/image (793).png>)
+![](<../../.gitbook/assets/image (793) (1).png>)
 
 8. Acknowledge the warning for a public bucket
 
@@ -394,7 +393,7 @@ The signing certificate is between the end user and the load balancer. The insta
 
 ![](<../../.gitbook/assets/image (1374).png>)
 
-9\. Enter the Signing Certificate details:&#x20;
+9\. Enter the Signing Certificate details:
 
 ![](<../../.gitbook/assets/image (1387).png>)
 
@@ -420,7 +419,7 @@ The signing certificate is between the end user and the load balancer. The insta
 
 ![](<../../.gitbook/assets/image (684).png>)
 
-![](<../../.gitbook/assets/image (819).png>)
+![](<../../.gitbook/assets/image (819) (2).png>)
 
 2\. Click **Create parameter**.
 
@@ -461,7 +460,7 @@ The signing certificate is between the end user and the load balancer. The insta
 
 5\. Navigate to the URL and log in using the following credentials:
 
-* admin@xmpro․onxmpro․com&#x20;
+* admin@xmpro․onxmpro․com
 * Pass@word1
 
 ![](<../../.gitbook/assets/image (1505).png>)
@@ -580,7 +579,7 @@ The signing certificate is between the end user and the load balancer. The insta
 
 ![](<../../.gitbook/assets/image (320).png>)
 
-11. Enter the SMTP details referenced in the [1. Preparation](../install.md#smtp-account) guide and click Next.&#x20;
+11. Enter the SMTP details referenced in the [1. Preparation](../install.md#smtp-account) guide and click Next.
 
 ![](<../../.gitbook/assets/image (374).png>)
 
@@ -603,8 +602,6 @@ The signing certificate is between the end user and the load balancer. The insta
 16\. Click Next after the installation is complete.
 
 ![](<../../.gitbook/assets/image (385).png>)
-
-
 
 17\. Click Finish.
 
@@ -629,11 +626,11 @@ In the AWS console go to the Certificate Manager
 
 #### To request a new certificate
 
-![](<../../.gitbook/assets/64 (1).png>)
+![](<../../.gitbook/assets/64 (1) (1).png>)
 
 1. Click _**Get started**_ under Provision Certificate
 
-![](<../../.gitbook/assets/65 (1).png>)
+![](<../../.gitbook/assets/65 (1) (1).png>)
 
 2\. Click _**Request a certificate**_
 
@@ -796,6 +793,6 @@ This needs to be completed for each ELB Application.
 
 The installation of the XMPro Platform is now complete, but there are some environment setup steps before you can use the platform. Please click the below link for further instructions:
 
-{% content-ref url="../3.-complete-installation/" %}
-[3.-complete-installation](../3.-complete-installation/)
+{% content-ref url="../3.-complete-installation" %}
+[3.-complete-installation](../3.-complete-installation)
 {% endcontent-ref %}

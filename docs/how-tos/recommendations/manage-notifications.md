@@ -16,7 +16,7 @@ To create a Notification, follow the steps below:
 1. Open existing or [Create a new Rule](create-rules.md#create-rules).
 2. Click the + button at the top-right of the Notifications list.
 3. Enter Notification Name.
-4. Select the desired [Triggers](../../concepts/recommendation/notification.md#triggers).&#x20;
+4. Select the desired [Triggers](../../concepts/recommendation/notification.md#triggers).
 5. Select the [Channels ](../../concepts/recommendation/notification.md#channels)for the Notification.
 6. Save.
 
@@ -32,7 +32,7 @@ To clone an existing Notification, follow the steps below:
 4. Enter Notification name.
 5. Confirm the action.
 
-![](<../../.gitbook/assets/image (136).png>)
+![](<../../.gitbook/assets/image (136) (1).png>)
 
 ## Delete Notifications
 
@@ -44,4 +44,3 @@ To delete an existing Notification, follow the steps below:
 4. Confirm the action.
 
 ![](<../../.gitbook/assets/image (1741).png>)
-

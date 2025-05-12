@@ -36,11 +36,11 @@ The following configuration settings are required to run the Docker Stream Host.
 The Keys should be set as environment variables on the running Stream Host Container.
 {% endhint %}
 
-<table><thead><tr><th width="305">Key</th><th>Description</th><th data-hidden>Name</th></tr></thead><tbody><tr><td>xm__xmpro__Gateway__Id</td><td>A unique identifier for a Stream Host instance.<br><br>A <a href="https://www.guidgenerator.com/">Guid Generator</a> can be used to generate a unique identifier.</td><td></td></tr><tr><td>xm__xmpro__Gateway__CollectionId</td><td>The ID of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td></td></tr><tr><td>xm__xmpro__Gateway__Name</td><td>The name that appears in Data Stream Designer when viewing <a href="../../../how-tos/stream-host.md#how-to-find-online-hosts">Online Hosts</a>.<br><br>E.g. "<em>SH1-Device1-Docker</em>" or "<em>SH2-Device2-Winx64</em>".</td><td></td></tr><tr><td>xm__xmpro__Gateway__Secret</td><td>The secret key of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td><em>Server Url</em></td></tr><tr><td>xm__xmpro__Gateway__ServerUrl</td><td>The server url for where Data Stream Designer is hosted.<br><br>E.g. <em>"https://mysampleserver/datastreamdesigner/".</em> <br><br>Please note that this URL needs to end in a forward slash.</td><td><em>Collection ID</em></td></tr><tr><td>xm__xmpro__Gateway__Rank</td><td>An integer, by default is "0".<br><br>See <a href="../../../concepts/collection.md#stream-host-rank">Stream Host Rank</a> for further details<a href="../../../concepts/collection.md#stream-host-rank">.</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="305">Key</th><th>Description</th><th data-hidden>Name</th></tr></thead><tbody><tr><td>xm__xmpro__Gateway__Id</td><td>A unique identifier for a Stream Host instance.<br><br>A <a href="https://www.guidgenerator.com/">Guid Generator</a> can be used to generate a unique identifier.</td><td></td></tr><tr><td>xm__xmpro__Gateway__CollectionId</td><td>The ID of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td></td></tr><tr><td>xm__xmpro__Gateway__Name</td><td>The name that appears in Data Stream Designer when viewing <a href="../../../how-tos/stream-host.md#how-to-find-online-hosts">Online Hosts</a>.<br><br>E.g. "<em>SH1-Device1-Docker</em>" or "<em>SH2-Device2-Winx64</em>".</td><td></td></tr><tr><td>xm__xmpro__Gateway__Secret</td><td>The secret key of your Collection.<br><br>This can be retrieved from a Data Stream Designer "Collection"</td><td><em>Server Url</em></td></tr><tr><td>xm__xmpro__Gateway__ServerUrl</td><td>The server url for where Data Stream Designer is hosted.<br><br>E.g. <em>"https://mysampleserver/datastreamdesigner/".</em><br><br>Please note that this URL needs to end in a forward slash.</td><td><em>Collection ID</em></td></tr><tr><td>xm__xmpro__Gateway__Rank</td><td>An integer, by default is "0".<br><br>See <a href="../../../concepts/collection.md#stream-host-rank">Stream Host Rank</a> for further details<a href="../../../concepts/collection.md#stream-host-rank">.</a></td><td></td></tr></tbody></table>
 
 These settings can be found in Data Stream Designer:
 
-![Fig 1: Collection details in Data Stream Designer](<../../../.gitbook/assets/image (1489).png>)
+![Fig 1: Collection details in Data Stream Designer](<../../../.gitbook/assets/image (1489) (1).png>)
 
 ## Repository
 
@@ -54,7 +54,7 @@ xmpro.azurecr.io/stream-host
 
 ### Image Tags
 
-All images are tagged with the release version number, starting from `4.4.2`. For example, use a version tag to reference the Stream Host for v4.4.2:&#x20;
+All images are tagged with the release version number, starting from `4.4.2`. For example, use a version tag to reference the Stream Host for v4.4.2:
 
 ```
 xmpro.azurecr.io/stream-host:4.4.2
@@ -67,7 +67,7 @@ xmpro.azurecr.io/stream-host:latest
 ```
 
 {% hint style="warning" %}
-Using the `latest` tag stores a copy of the image on your system. This cached version may not be the latest release if a newer release has since been published.&#x20;
+Using the `latest` tag stores a copy of the image on your system. This cached version may not be the latest release if a newer release has since been published.
 
 We recommend specifying the specific version or re-pulling the image if a newer release has occurred since your last Stream Host docker install.
 {% endhint %}
@@ -76,7 +76,7 @@ We recommend specifying the specific version or re-pulling the image if a newer 
 
 A Stream Host running a Data Stream must provide the capabilities to run each Agents in the Data Stream. Choose your image depending on the capabilities that are required.
 
-<table><thead><tr><th width="454">Image Name</th><th>Description</th></tr></thead><tbody><tr><td><code>xmpro.azurecr.io/stream-host:[tag]</code></td><td>A lightweight <strong>Debian</strong> option capable of running most Agents.<br><em>Available from v4.4.5.</em></td></tr><tr><td><code>xmpro.azurecr.io/stream-host-alpine:[tag]</code></td><td>A lightweight <strong>Alpine</strong> option capable of running most Agents.<br><em>Available from v4.4.3.</em></td></tr><tr><td><code>xmprocontrib.azurecr.io/sh-ubuntu-python-nvidia:latest</code></td><td>Ubuntu, <br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only processing.</td></tr><tr><td><code>xmprocontrib.azurecr.io/sh-alpine-python:latest</code></td><td>Alpine, <br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only processing.</td></tr></tbody></table>
+<table><thead><tr><th width="454">Image Name</th><th>Description</th></tr></thead><tbody><tr><td><code>xmpro.azurecr.io/stream-host:[tag]</code></td><td>A lightweight <strong>Debian</strong> option capable of running most Agents.<br><em>Available from v4.4.5.</em></td></tr><tr><td><code>xmpro.azurecr.io/stream-host-alpine:[tag]</code></td><td>A lightweight <strong>Alpine</strong> option capable of running most Agents.<br><em>Available from v4.4.3.</em></td></tr><tr><td><code>xmprocontrib.azurecr.io/sh-ubuntu-python-nvidia:latest</code></td><td>Ubuntu,<br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only processing.</td></tr><tr><td><code>xmprocontrib.azurecr.io/sh-alpine-python:latest</code></td><td>Alpine,<br>Required when using the <a href="https://xmpro.gitbook.io/python">Python Agent</a> for CPU-only processing.</td></tr></tbody></table>
 
 ### Creating a Custom Image
 
@@ -84,7 +84,7 @@ You may need a Stream Host that has capabilities that differ from the available 
 
 #### Add additional Python modules
 
-The docker image can be used to create a custom stream-host with additional Python modules installed. Use `xmprocontrib.azurecr.io/sh-alpine-python:latest` as the base image for python workloads.&#x20;
+The docker image can be used to create a custom stream-host with additional Python modules installed. Use `xmprocontrib.azurecr.io/sh-alpine-python:latest` as the base image for python workloads.
 
 _Example requirements.txt file_
 

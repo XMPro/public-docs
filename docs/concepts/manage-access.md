@@ -1,6 +1,6 @@
 # Manage Access
 
-Managing the access of users is important as it can improve the security of XMPro Objects. Permissions are given to users only based on what they need to do, for example, someone who only needs to view something can be given _read_ access. This can hide additional functionality that users do not need and also protect against unintentional tampering.&#x20;
+Managing the access of users is important as it can improve the security of XMPro Objects. Permissions are given to users only based on what they need to do, for example, someone who only needs to view something can be given _read_ access. This can hide additional functionality that users do not need and also protect against unintentional tampering.
 
 Whether or not you can design a particular data stream, application, or other XMPro Objects is determined by the permissions that you have on it. The person that originally created the XMPro Object will be listed as the owner and can never lose his/her right to access it unless it is deleted. Other users can then be assigned read or read-and-write access.
 
@@ -35,16 +35,16 @@ The _Read_ permission will allow a person to view the XMPro Object, but making a
 | Edit                 | ✓     | ✓        | ✓     | ✗    |
 | Delete               | ✓     | ✓        | ✗     | ✗    |
 | Manage Versions      |       |          |       |      |
-|   • View             | ✓     | ✓        | ✓     | ✓    |
-|   • Create/Copy      | ✓     | ✓        | ✓     | ✗    |
-|   • Delete           | ✓     | ✓        | ✗     | ✗    |
+| • View               | ✓     | ✓        | ✓     | ✓    |
+| • Create/Copy        | ✓     | ✓        | ✓     | ✗    |
+| • Delete             | ✓     | ✓        | ✗     | ✗    |
 | Manage Access        | ✓     | ✓        | ✗     | ✗    |
 
-![](<../.gitbook/assets/Access\_1 (1).png>)
+![](<../.gitbook/assets/Access_1 (1).png>)
 
-![](<../.gitbook/assets/Access\_2 (2).png>)
+![](<../.gitbook/assets/Access_2 (2).png>)
 
-![](<../.gitbook/assets/Access\_3 (2).png>)
+![](<../.gitbook/assets/Access_3 (2).png>)
 
 ## Actions on the Manage Access page
 
@@ -58,13 +58,11 @@ The _Read_ permission will allow a person to view the XMPro Object, but making a
 
 ## Manage Run Access
 
-
-
 {% hint style="warning" %}
 For Apps, if a User has Design Access they will also automatically have access to run the App in view mode. However, for Recommendations, a User can only view Recommendation Alerts if they or their Business Role has Run Access, regardless of whether they have Design Access to the Recommendation.
 {% endhint %}
 
-![Run Access for the ACME Company and David only ](<../.gitbook/assets/image (574).png>)
+![Run Access for the ACME Company and David only](<../.gitbook/assets/image (574).png>)
 
 ## Business Roles (Company Administrator)
 
@@ -72,7 +70,7 @@ Business Roles are a hierarchical representation of the different areas of an or
 
 Business Roles are managed by the Administrator of a Company through the Users page.
 
-![](<../.gitbook/assets/image (1209).png>)
+![](<../.gitbook/assets/image (1209) (1).png>)
 
 All new users will automatically be added under the default 'All Employees' Business Role. Users can be moved, but not deleted from this list. A User can only be listed once underneath one Business Role.
 
@@ -86,7 +84,7 @@ Alternatively, a user's business role can also be managed from the user blade. S
 
 ### Sync Business Roles from Azure AD
 
-If [Azure AD](../installation/3.-complete-installation/configure-sso-optional/sso-azure-ad.md) has been linked as your External Identity Provider, you can specify a claim name that Azure AD or the graph API will pass to Subscription Manager.&#x20;
+If [Azure AD](../installation/3.-complete-installation/configure-sso-optional/sso-azure-ad.md) has been linked as your External Identity Provider, you can specify a claim name that Azure AD or the graph API will pass to Subscription Manager.
 
 When a user logs in, Subscription Manager will look at the value specified in this Claim and assign them to the Business Role with the same name.
 

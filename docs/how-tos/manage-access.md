@@ -1,6 +1,6 @@
 # Manage Access
 
-XMPro Objects such as Data Streams, Recommendations, Applications, and more can be shared with different users. The person that originally created the XMPro Object will be listed as the owner. When sharing the XMPro Object with other users, users can either be given Co-owner, read, or write access.&#x20;
+XMPro Objects such as Data Streams, Recommendations, Applications, and more can be shared with different users. The person that originally created the XMPro Object will be listed as the owner. When sharing the XMPro Object with other users, users can either be given Co-owner, read, or write access.
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Managing Access.
@@ -19,11 +19,11 @@ To share XMPro Objects with users, follow the steps below:
 
 ![](<../.gitbook/assets/image (409).png>)
 
-&#x20;   5\. Add the user to give them access.  \
-&#x20;   6\. Choose read, write, or co-owner permissions. \
-&#x20;   7\. Click _Ok_.
+5\. Add the user to give them access.\
+6\. Choose read, write, or co-owner permissions.\
+7\. Click _Ok_.
 
-![](../.gitbook/assets/Access\_2.png)
+![](../.gitbook/assets/Access_2.png)
 
 ## Editing User permissions
 
@@ -36,10 +36,10 @@ To edit the permissions of an existing user, follow the steps below:
 
 ![](<../.gitbook/assets/image (587).png>)
 
-&#x20;   5\. Edit their permissions.\
-&#x20;   6\. Click on _Save_.
+5\. Edit their permissions.\
+6\. Click on _Save_.
 
-![](../.gitbook/assets/Access\_4.png)
+![](../.gitbook/assets/Access_4.png)
 
 ## Deleting permissions from Users
 
@@ -50,12 +50,12 @@ To delete the permissions of an existing user, follow the steps below:
 3. Open the _Design Access_ Tab.
 4. Click on a user.
 
-![](<../.gitbook/assets/image (421).png>)
+![](<../.gitbook/assets/image (421) (1).png>)
 
-&#x20;   5\. Click on _Delete_.\
-&#x20;   6\. Confirm that you really want to delete all permissions for the selected user.
+5\. Click on _Delete_.\
+6\. Confirm that you really want to delete all permissions for the selected user.
 
-![](../.gitbook/assets/Access\_6.png)
+![](../.gitbook/assets/Access_6.png)
 
 ## Deleting permissions of multiple Users
 
@@ -69,10 +69,10 @@ To delete the permissions of multiple existing users, follow the steps below:
 
 ![](<../.gitbook/assets/image (1562).png>)
 
-&#x20;   6\. Click on _Delete_.\
-&#x20;   7\. Confirm that you really want to delete all permissions for the selected users.
+6\. Click on _Delete_.\
+7\. Confirm that you really want to delete all permissions for the selected users.
 
-![](../.gitbook/assets/Access\_8.png)
+![](../.gitbook/assets/Access_8.png)
 
 ## Editing Permissions on the Run Access
 

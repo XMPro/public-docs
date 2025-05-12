@@ -2,7 +2,7 @@
 
 Recommendations enable engineers or employees of an organization to respond to critical events based on expert knowledge in the organization before the opportunity expires, while managers can close the loop by monitoring that it is done in a timely and appropriate manner.
 
-Recommendation Alerts are advanced alerts that are triggered when a critical event occurs. Alerts get created when real-time data meets the conditions of recommendation rules. The Alerts are then discovered by employees through email or SMS notifications and the monitoring of systems.&#x20;
+Recommendation Alerts are advanced alerts that are triggered when a critical event occurs. Alerts get created when real-time data meets the conditions of recommendation rules. The Alerts are then discovered by employees through email or SMS notifications and the monitoring of systems.
 
 Discussions allow users to message each other about the particular event that triggered the alert. Other people who view the alert can also view those discussions to be up-to-date with any new information. Triage Instructions are instructions given to help whoever is resolving the Recommendation Alert. Custom Forms can also be shown to the user when they view an alert. Users can use the forms to enter relevant information over the course of resolving the Alert.
 
@@ -14,7 +14,7 @@ Recommendations are created and managed in the App Designer. To manage Recommend
 
 ![](<../../.gitbook/assets/image (1472).png>)
 
-![](<../../.gitbook/assets/image (1870).png>)
+![](<../../.gitbook/assets/image (1870) (1).png>)
 
 ## Finding Recommendations
 
@@ -24,7 +24,7 @@ The search bar can be used to find any specific Recommendations that you may be 
 
 ## Category
 
-Recommendations can be grouped into [categories](../../how-tos/recommendations/manage-categories.md). This refers to the category under which the Recommendation is found in the Recommendations list.&#x20;
+Recommendations can be grouped into [categories](../../how-tos/recommendations/manage-categories.md). This refers to the category under which the Recommendation is found in the Recommendations list.
 
 ## Data Stream
 

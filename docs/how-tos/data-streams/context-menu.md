@@ -22,27 +22,27 @@ You can disable/enable a Stream Object through the Context Menu.
 
 ### Disable a Stream Object
 
-Stream Objects can be disabled in a Data Stream. Disabled Stream Objects will be excluded from the output when the Data Stream is published.&#x20;
+Stream Objects can be disabled in a Data Stream. Disabled Stream Objects will be excluded from the output when the Data Stream is published.
 
 ![](<../../.gitbook/assets/image (1470).png>)
 
 Observe that the Disabled Stream Object is now greyed out.
 
-![](../../.gitbook/assets/Agent\_Exluded.png)
+![](../../.gitbook/assets/Agent_Exluded.png)
 
 {% hint style="warning" %}
-Agents with no entry points and multiple entry points cannot be disabled.&#x20;
+Agents with no entry points and multiple entry points cannot be disabled.
 {% endhint %}
 
 ### Enable a Stream Object
 
-Disabled Stream Objects can again be enabled in a Data Stream. Enabled Stream Objects will be Included in the output when the Data Stream is published.&#x20;
+Disabled Stream Objects can again be enabled in a Data Stream. Enabled Stream Objects will be Included in the output when the Data Stream is published.
 
 ![](../../.gitbook/assets/Enable.png)
 
 Observe that the Stream Object is not greyed out.
 
-![](<../../.gitbook/assets/Included (1).png>)
+![](<../../.gitbook/assets/Included (1) (1).png>)
 
 ## Copy
 

@@ -1,6 +1,6 @@
 # File Library
 
-The File Library Block allows you to upload and store multiple files in your App. Files can be uploaded, downloaded, or deleted. This can be useful if you want to share certain files with users who have access to your App.&#x20;
+The File Library Block allows you to upload and store multiple files in your App. Files can be uploaded, downloaded, or deleted. This can be useful if you want to share certain files with users who have access to your App.
 
 ![](../../.gitbook/assets/Main.PNG)
 
@@ -40,9 +40,9 @@ You can add file library extensions in the following way:
 
 #### Max File Size (MB)
 
-This determines the maximum file size that can be uploaded. If you attempt to upload a file that exceeds the max size, it will not be uploaded.&#x20;
+This determines the maximum file size that can be uploaded. If you attempt to upload a file that exceeds the max size, it will not be uploaded.
 
-![](<../../.gitbook/assets/Max File Size (1).png>)
+![](<../../.gitbook/assets/Max File Size (1) (1).png>)
 
 #### Allow Delete
 
@@ -54,4 +54,4 @@ This specifies if each file can be deleted or not. Each file has a checkbox next
 
 This specifies if the upload icon in the top-right of the File Library block is visible or not. If visible, the user can click on the icon to upload files. If not visible, they will be unable to upload files.
 
-![](<../../.gitbook/assets/Allow Upload (1).png>)
+![](<../../.gitbook/assets/Allow Upload (1) (2).png>)

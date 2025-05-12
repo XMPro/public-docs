@@ -22,7 +22,7 @@ Will show borders around the grid.
 
 #### Show Headers
 
-Will show the headers/column title.&#x20;
+Will show the headers/column title.
 
 ![](<../../.gitbook/assets/image (820).png>)
 
@@ -52,7 +52,7 @@ Column Chooser button will be displayed and the user has the ability to hide/sho
 
 #### Enable Paging
 
-The default option is to show all the results. The user can specify how many items should be displayed per page and pages will be displayed under the grid.&#x20;
+The default option is to show all the results. The user can specify how many items should be displayed per page and pages will be displayed under the grid.
 
 ![](<../../.gitbook/assets/image (375).png>)
 
@@ -96,7 +96,7 @@ This will enable editing the row by clicking the item.
 
 #### Allow Search
 
-This will let you search the grid with the search bar.&#x20;
+This will let you search the grid with the search bar.
 
 ![](<../../.gitbook/assets/Allow Search.gif>)
 
@@ -107,15 +107,15 @@ Grid data can be edited in several modes. Set the Edit Mode property to specify 
 | Mode                     | Description                                                                                                                                                                                                                                                                                                                                                  |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Batch                    | <p>A user edits data cell by cell. Changes are not updated until a user clicks the Save button. In this mode, the "Add" button is found above the grid rather than in the grid's header row, along with the Save and Reset buttons.</p><p><img src="../../.gitbook/assets/image (560).png" alt=""></p>                                                       |
-| Batch With External Save | <p>A user edits data cell by cell. Changes are not updated until a user clicks an external Block (e.g. a Button) with Update Data Sources corresponding to the grid's data source. </p><p><img src="../../.gitbook/assets/image (192).png" alt=""></p>                                                                                                       |
+| Batch With External Save | <p>A user edits data cell by cell. Changes are not updated until a user clicks an external Block (e.g. a Button) with Update Data Sources corresponding to the grid's data source.</p><p><img src="../../.gitbook/assets/image (192).png" alt=""></p>                                                                                                        |
 | Cell                     | <p>A user edits data cell by cell. Changes are saved once a cell loses focus, or discarded if a user presses Esc.</p><p><img src="../../.gitbook/assets/image (94).png" alt=""></p>                                                                                                                                                                          |
 | Row                      | <p>A user edits data row by row. When a user clicks an "Edit" button in the right-most column, the corresponding row enters the editing state, and the "Save" and "Cancel" buttons appear in the right-most column. Pressing the "Save" button will update your data source immediately.</p><p><img src="../../.gitbook/assets/image (1662).png" alt=""></p> |
 
 #### Allow Search
 
-This will show a search bar at the top of the Data Grid.&#x20;
+This will show a search bar at the top of the Data Grid.
 
-![](<../../.gitbook/assets/Allow Search (1).PNG>)
+![](<../../.gitbook/assets/Allow Search (1) (1).PNG>)
 
 #### Allow Export to Excel
 
@@ -137,7 +137,7 @@ The search bar will be added for each column and the user can search the results
 
 #### Enable Filter Panel
 
-Create Filter button will be displayed and clicking it will open a Filter Builder. If a user changes the filter expression in the Filter Panel the changes are reflected in the Enable Row Filtering and Enable Column Filtering, and vice versa.&#x20;
+Create Filter button will be displayed and clicking it will open a Filter Builder. If a user changes the filter expression in the Filter Panel the changes are reflected in the Enable Row Filtering and Enable Column Filtering, and vice versa.
 
 ![](<../../.gitbook/assets/Filter Panel.png>)
 
@@ -155,13 +155,13 @@ This defines the default filter selected in the Filter Panel. Anyone visiting th
 
 #### Auto-Adjust Column Widths
 
-Will try to adjust the width of the column to show results as much as possible.&#x20;
+Will try to adjust the width of the column to show results as much as possible.
 
 ![](<../../.gitbook/assets/image (814).png>)
 
 #### Store User Customization
 
-Changes made to the grid are saved in the cookies on your browser between page refresh and window changes. This can include column reordering, resizing and applied filters. &#x20;
+Changes made to the grid are saved in the cookies on your browser between page refresh and window changes. This can include column reordering, resizing and applied filters.
 
 ![](../../.gitbook/assets/mSChl3YXB8.gif)
 
@@ -185,11 +185,11 @@ The Data Source property is required for the Data Grid.
 
 ### Columns
 
-List of all columns from the selected Data Source. Users can reorder or change the _visibility, name, type, alignment, width,_ set it as _read-only, and set the_ Editor type. &#x20;
+List of all columns from the selected Data Source. Users can reorder or change the _visibility, name, type, alignment, width,_ set it as _read-only, and set the_ Editor type.
 
 #### Format
 
-If the Type field is set to Number, you have the option to format the field as default (none), currency, or percentage.&#x20;
+If the Type field is set to Number, you have the option to format the field as default (none), currency, or percentage.
 
 ![](<../../.gitbook/assets/image (1328).png>)
 
@@ -205,17 +205,17 @@ By default, the values are displayed in the user's browser's locale format.
 
 #### Editor Type - Lookup
 
-The lookup field will only appear when the cell or the row is in edit mode. The Lookup editor type has three configurable properties.&#x20;
+The lookup field will only appear when the cell or the row is in edit mode. The Lookup editor type has three configurable properties.
 
 The column's value is automatically mapped to the Text property.
 
-For more details about Data Source [see the Common Properties article for more details on common data source properties](data-grid.md#data-source).&#x20;
+For more details about Data Source [see the Common Properties article for more details on common data source properties](data-grid.md#data-source).
 
 Display Field is the value of what text will be displayed.
 
 Value Field selection from the new Data Source needs to match the value that is in the cell.
 
-![](<../../.gitbook/assets/Grid lookup (1).gif>)
+![](<../../.gitbook/assets/Grid lookup (1) (1).gif>)
 
 #### Editor Type - Hyperlink
 
@@ -225,7 +225,7 @@ The column's value is automatically mapped to the Text property.
 
 #### Editor Type - Indicator
 
-![](<../../.gitbook/assets/image (1408).png>)
+![](<../../.gitbook/assets/image (1408) (1).png>)
 
 The value in the field has to be a valid color format. The indicator editor type is based on the Indicator block with less configurable options. [See the Indicator article for more details on how to configure the Indicator block.](indicator.md#appearance)
 
@@ -241,7 +241,7 @@ We recommend opening XMPro URLs in the same tab/window - as users may experience
 
 #### Column Reordering
 
-Reordering columns is possible at runtime and is enabled by default on every Grid. Users can change the order by dragging one column to another position.&#x20;
+Reordering columns is possible at runtime and is enabled by default on every Grid. Users can change the order by dragging one column to another position.
 
 ![](../../.gitbook/assets/6Zmk90rqqV.gif)
 
@@ -261,12 +261,12 @@ Properties that are common to most Blocks include: _Navigate to_ and _Show Confi
 
 ## Override Grid Values
 
-When saving grid rows to a Data Source, you may want to override some values. For instance, if you want to update a column with the current date and time, or replace a column with a [Parameter](../../concepts/application/navigation-and-parameters.md) or [Variable](../../concepts/application/variables-and-expressions.md#variables).&#x20;
+When saving grid rows to a Data Source, you may want to override some values. For instance, if you want to update a column with the current date and time, or replace a column with a [Parameter](../../concepts/application/navigation-and-parameters.md) or [Variable](../../concepts/application/variables-and-expressions.md#variables).
 
 To do this follow these instructions:
 
-1. On the Data Grid, enable the Allow Updating property and set the Edit Mode to Batch With External Save.&#x20;
-2. Then, under the Action accordion in the Block Properties of a Button or other Block, click the button with the gear icon of the corresponding Data Source to the Data Grid.&#x20;
+1. On the Data Grid, enable the Allow Updating property and set the Edit Mode to Batch With External Save.
+2. Then, under the Action accordion in the Block Properties of a Button or other Block, click the button with the gear icon of the corresponding Data Source to the Data Grid.
 3. Press the + button to the right of Override Values, select the column to override, and press Add.
 4. In the Value column of Override Values, choose a static or dynamic value.
 5. Press Apply on the Update Data Source page, and Save the App Page.

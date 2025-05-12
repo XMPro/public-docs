@@ -14,7 +14,7 @@ XMPro has a [library of Connectors](https://documentation.xmpro.com/resources/in
 
 The parameters defined in a Connection allow the App to connect to a source of data like a SQL Database and expose the entities as Data Sources within the Page. Connection parameters can include credentials such as a username, password, path, URL, or location identifier that you can use to make a remote connection to the Data Source. For example, connection parameters to connect to an SQL Database would include the Server Name, Authentication type, Username, and password.
 
-A new App will have the Recommendations Connector and the Data Stream Connector by default. Connections are managed in an App by clicking the App Data command. Any Connections that were created with an older version of a Connector will have an upgrade icon.&#x20;
+A new App will have the Recommendations Connector and the Data Stream Connector by default. Connections are managed in an App by clicking the App Data command. Any Connections that were created with an older version of a Connector will have an upgrade icon.
 
 ![](<../../.gitbook/assets/image (478).png>)
 
@@ -24,7 +24,7 @@ The properties of a Connection are dependent on the type of Connector. To see th
 
 If the Connector has a newer version, an upgrade icon will appear on the App Data list indicating that the Connection can be upgraded, and the Upgrade action will become available. This upgrades the Connection to use the latest uploaded version of the Connector.
 
-![](<../../.gitbook/assets/DI\_a (1).png>)
+![](<../../.gitbook/assets/DI_a (1).png>)
 
 ## Data Source
 
@@ -34,23 +34,23 @@ If the Connection has the ability to have Live Data Updates, the checkbox will b
 
 ### Primary Key
 
-A primary key is the column or columns that contain values that uniquely identify each row in a table. Without a primary key, we cannot update, insert or delete data in the table. The Primary Key is a required field and cannot be empty. If the selected Entity has a Primary Key it will be specified automatically in the Primary Key field otherwise it has to be specified manually by selecting one or multiple columns from the list.&#x20;
+A primary key is the column or columns that contain values that uniquely identify each row in a table. Without a primary key, we cannot update, insert or delete data in the table. The Primary Key is a required field and cannot be empty. If the selected Entity has a Primary Key it will be specified automatically in the Primary Key field otherwise it has to be specified manually by selecting one or multiple columns from the list.
 
 ### Data Source Validation
 
 ![](<../../.gitbook/assets/Primary Key explained.png>)
 
-A Data Source may become invalid due to several issues. The most common ones can be expired passwords, deleted entity or unreachable servers. If a Data Source becomes invalid a count will be visible on the Page Data tab to notify the user.&#x20;
+A Data Source may become invalid due to several issues. The most common ones can be expired passwords, deleted entity or unreachable servers. If a Data Source becomes invalid a count will be visible on the Page Data tab to notify the user.
 
 ![](../../.gitbook/assets/PageValidation1.png)
 
-If you click the Page Data tab of the page, an exclamation mark will be visible in front of the Data Source name and hovering over the exclamation mark will show a detailed error. &#x20;
+If you click the Page Data tab of the page, an exclamation mark will be visible in front of the Data Source name and hovering over the exclamation mark will show a detailed error.
 
-![](<../../.gitbook/assets/PageValidation2 (1).png>)
+![](<../../.gitbook/assets/PageValidation2 (1) (1).png>)
 
 ## Data Source in the Page Blocks
 
-A Data Source may be attached to many Blocks. Blocks that allow Data Sources to be attached have a section in Block Properties called Data Source.&#x20;
+A Data Source may be attached to many Blocks. Blocks that allow Data Sources to be attached have a section in Block Properties called Data Source.
 
 If a Data Source is applied to a Block, depending on what type of Block it is, it will either repeat itself or repeat its child elements per the number of rows of the Data Source or use the data to populate its items or visualization.
 

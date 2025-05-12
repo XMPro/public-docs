@@ -12,11 +12,11 @@ To verify the integrity of your Stream, you can simply click on the “_Integrit
 * Database name
 * Table name
 
-If any of these values are incorrect or not specified, the Agent will be marked with red, and its code will return a list of errors that it found, which you will see in the form of a list when you hover over the Agent with your mouse cursor. To read more about how the code works, [see the Building Agents article](../../how-tos/agents/building-agents.md). &#x20;
+If any of these values are incorrect or not specified, the Agent will be marked with red, and its code will return a list of errors that it found, which you will see in the form of a list when you hover over the Agent with your mouse cursor. To read more about how the code works, [see the Building Agents article](../../how-tos/agents/building-agents.md).
 
-![](<../../.gitbook/assets/IC\_1 (2).png>)
+![](<../../.gitbook/assets/IC_1 (2).png>)
 
-![](<../../.gitbook/assets/IC\_2 (1).png>)
+![](<../../.gitbook/assets/IC_2 (1) (1).png>)
 
 ## Further Reading
 

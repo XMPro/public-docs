@@ -1,6 +1,6 @@
 # Manage Agents
 
-Agents create the foundation for Data Streams, and they can be connected to other Agents to create the flow of data. Each Agent performs a specific function. They are useful as they can be used to either retrieve data in real-time, display data, filter or sort the data, or save them to another database, depending on the function of that individual Agent.&#x20;
+Agents create the foundation for Data Streams, and they can be connected to other Agents to create the flow of data. Each Agent performs a specific function. They are useful as they can be used to either retrieve data in real-time, display data, filter or sort the data, or save them to another database, depending on the function of that individual Agent.
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Agents.
@@ -16,7 +16,7 @@ Creating an Agent can be divided into two parts:
 
 Agents are generally written in C# as library projects that make use of the [XMPro.IoT.Framework](https://www.nuget.org/packages/XMPro.IOT.Framework/) NuGet package.
 
-XMPro.IoT.Framework requires your project to be written using a predefined structure. This structure requires you to implement certain interfaces, depending on the type of Agent you are creating.&#x20;
+XMPro.IoT.Framework requires your project to be written using a predefined structure. This structure requires you to implement certain interfaces, depending on the type of Agent you are creating.
 
 To learn more about how to use this framework, refer to [these](building-agents.md) instructions.
 
@@ -26,9 +26,9 @@ Code for some Agents has been made available on [GitHub.](https://github.com/XMP
 
 ### Packaging the Agent
 
-After writing your code, you need to use the [XMPro Package Manager](https://apps.microsoft.com/store/detail/xmpro-package-manager/9N3F4WNSLGZK?hl=en-us\&gl=us\&activetab=pivot%3Aoverviewtab) Windows 10 desktop application to package your Agent.&#x20;
+After writing your code, you need to use the [XMPro Package Manager](https://apps.microsoft.com/store/detail/xmpro-package-manager/9N3F4WNSLGZK?hl=en-us\&gl=us\&activetab=pivot%3Aoverviewtab) Windows 10 desktop application to package your Agent.
 
-This application allows you to specify all the properties your Agent requires, add the user settings in the form of controls, and allows you to upload the DLL of the Agent you’ve written. Finally, it will create a file with a “.xmp” extension, which you can upload to Data Stream Designer and start to use to build Streams.&#x20;
+This application allows you to specify all the properties your Agent requires, add the user settings in the form of controls, and allows you to upload the DLL of the Agent you’ve written. Finally, it will create a file with a “.xmp” extension, which you can upload to Data Stream Designer and start to use to build Streams.
 
 To package the Agent, refer to [these](packaging-agents.md) instructions.
 
@@ -44,12 +44,12 @@ After writing a new Agent and packaging it, you can upload it to Data Stream Des
 6. Click _Save_.
 
 {% hint style="info" %}
-&#x20;The _Metadata_ field allows you to add tags for the Agent. You can either select a value from the drop-down that appears when you click in the field or type a new value and press _Enter_.
+The _Metadata_ field allows you to add tags for the Agent. You can either select a value from the drop-down that appears when you click in the field or type a new value and press _Enter_.
 {% endhint %}
 
-![](../../.gitbook/assets/Agents\_3.png)
+![](../../.gitbook/assets/Agents_3.png)
 
-![](<../../.gitbook/assets/Agents\_4 (1).png>)
+![](<../../.gitbook/assets/Agents_4 (1) (1).png>)
 
 Additional information that forms part of the Agent’s details will be displayed on the form, such as the version and Metadata.
 
@@ -60,17 +60,17 @@ The newly uploaded Agent will now be available in the toolbox on the Use Case ca
 1. Open the Data Streams page from the left-hand menu.
 2. Select your Data Stream.
 
-![](../../.gitbook/assets/Agents\_6.png)
+![](../../.gitbook/assets/Agents_6.png)
 
-&#x20;   3\. Expand the category in the toolbox where your Agent is located.\
-&#x20;   4\. Click on your Agent and drag the Agent to the canvas.\
-&#x20;   5\. Click _Save_.
+3\. Expand the category in the toolbox where your Agent is located.\
+4\. Click on your Agent and drag the Agent to the canvas.\
+5\. Click _Save_.
 
-![](../../.gitbook/assets/UP\_1.png)
+![](../../.gitbook/assets/UP_1.png)
 
 ## Bulk Adding Agents
 
-Uploading multiple Agents begins like a [single Agent](manage-agents.md#uploading-an-agent-to-data-stream-designer), except a compressed (.zip) file is selected.&#x20;
+Uploading multiple Agents begins like a [single Agent](manage-agents.md#uploading-an-agent-to-data-stream-designer), except a compressed (.zip) file is selected.
 
 {% hint style="info" %}
 A 100 MB limit applies to the decompressed file size, not the compressed one.
@@ -87,7 +87,7 @@ If any Agents fail the initial validation due to a missing category, a status co
 
 <figure><img src="../../.gitbook/assets/bulk-upload-category-fail.PNG" alt=""><figcaption></figcaption></figure>
 
-The status column will advise which Agents were uploaded successfully, and which were ignored as the version already exists.&#x20;
+The status column will advise which Agents were uploaded successfully, and which were ignored as the version already exists.
 
 ![](../../.gitbook/assets/bulk-upload-version-fail.PNG)
 
@@ -104,28 +104,28 @@ To remove one or more versions of a specific Agent, first, make sure that the ve
 3. Select the versions you would like to delete.
 4. Click _Delete_.
 
-![](../../.gitbook/assets/Agents\_10.png)
+![](../../.gitbook/assets/Agents_10.png)
 
 ## **Deleting Agents**
 
 When planning to remove multiple Agents completely at the same time, make sure they are not being used anymore. Open the _Agents_ page from the left-hand menu and follow the steps below:
 
-1. &#x20;Click on “_Select_“.
+1. Click on “_Select_“.
 2. Select all the Agents you would like to remove.
 3. Click on “_Delete_“.
 
 {% hint style="info" %}
-&#x20;To cancel the selection, click on “_Select_” again.
+To cancel the selection, click on “_Select_” again.
 {% endhint %}
 
-![](../../.gitbook/assets/Agents\_11.png)
+![](../../.gitbook/assets/Agents_11.png)
 
-&#x20;   4\. Confirm that you would like to delete all versions of the selected Agents.
+4\. Confirm that you would like to delete all versions of the selected Agents.
 
-![](../../.gitbook/assets/Agents\_12.png)
+![](../../.gitbook/assets/Agents_12.png)
 
 ## Finding Help for Agents
 
-Help documentation is available for every Agent. These pages provide context, configuration definitions, an example, and release notes to help if you are unsure of anything related to the Agent you are configuring.&#x20;
+Help documentation is available for every Agent. These pages provide context, configuration definitions, an example, and release notes to help if you are unsure of anything related to the Agent you are configuring.
 
 [See the Integrations article for the list of Agent documentation links.](https://documentation.xmpro.com/resources/integrations)

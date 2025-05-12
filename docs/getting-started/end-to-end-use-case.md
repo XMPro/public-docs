@@ -22,7 +22,7 @@ Engineers should be provided a view to check the history of pump telemetry, main
 
 ## 1. Design Data Streams with Real-Time Data Sources
 
-The Use Case requires that we gather the Flow Rate and Temperature data from three pumps constantly, and pass it on to be analyzed and have actions performed on the data. We will achieve this with the use of Data Streams. A Data Stream is a visual representation of a flow of data. It is created through the Data Stream Designer.&#x20;
+The Use Case requires that we gather the Flow Rate and Temperature data from three pumps constantly, and pass it on to be analyzed and have actions performed on the data. We will achieve this with the use of Data Streams. A Data Stream is a visual representation of a flow of data. It is created through the Data Stream Designer.
 
 To access the Data Stream Designer, log into your XMPro Account and press the button in the top-left corner of the screen and click on the Data Stream Designer item.
 
@@ -107,14 +107,14 @@ Your connected Stream Objects should look like this:
 Now we will configure the added Stream Objects. Save your Data Stream now and after every change to propagate the changes throughout the Data Stream.
 
 {% hint style="info" %}
-&#x20;See the article on [how to configure Stream Objects](../concepts/data-stream/stream-object-configuration.md) for more information.
+See the article on [how to configure Stream Objects](../concepts/data-stream/stream-object-configuration.md) for more information.
 {% endhint %}
 
 #### Simulate Pump Data
 
 ![](<../.gitbook/assets/image (392).png>)
 
-We will need to simulate ingesting data about flow rate and temperature from sensors in the pumps. We can achieve this with the Event Simulator Agent. The "Simulate Pump Data" Event Simulator will constantly generate data defined by the Event Definitions at a rate defined by the Events per Second property.&#x20;
+We will need to simulate ingesting data about flow rate and temperature from sensors in the pumps. We can achieve this with the Event Simulator Agent. The "Simulate Pump Data" Event Simulator will constantly generate data defined by the Event Definitions at a rate defined by the Events per Second property.
 
 {% hint style="info" %}
 To edit the configuration of a Stream Object, either double-click it or click it once to select it and click the "Configure" button on the canvas header.
@@ -125,14 +125,14 @@ Edit the "Simulate Pump Data" Stream Object and click the + button to the right 
 Add two event definitions as follows:
 
 * _Name_: WaterTemperature\
-  &#xNAN;_&#x54;ype_: Range\
-  &#xNAN;_&#x4D;inimum Value_: 100\
-  &#xNAN;_&#x4D;aximum Value_: 160\
-  &#xNAN;_&#x53;pike Value_: 0
+  \&#xNAN;_Type_: Range\
+  \&#xNAN;_Minimum Value_: 100\
+  \&#xNAN;_Maximum Value_: 160\
+  \&#xNAN;_Spike Value_: 0
 *   _Name_: FlowRate\
-    &#xNAN;_&#x54;ype_: Range\
-    &#xNAN;_&#x4D;inimum Value_: 14000\
-    &#xNAN;_&#x4D;aximum Value_: 16000
+    \&#xNAN;_Type_: Range\
+    \&#xNAN;_Minimum Value_: 14000\
+    \&#xNAN;_Maximum Value_: 16000
 
     _Spike Value_: 0
 
@@ -146,7 +146,7 @@ Change the Events per Second to 1. Click "Apply" on the Simulate Pump Data confi
 
 ![](<../.gitbook/assets/image (805).png>)
 
-We need to add a way to simulate having three different pumps. At the moment the data is not identified, so we will need to add a range of identifiers to the data. This can be achieved with the Calculated Field Agent. The "Add Pump Identifier" Calculated Field will add a "PumpId" field to the data generated with values "A", "B", and "C" for each subsequent row.&#x20;
+We need to add a way to simulate having three different pumps. At the moment the data is not identified, so we will need to add a range of identifiers to the data. This can be achieved with the Calculated Field Agent. The "Add Pump Identifier" Calculated Field will add a "PumpId" field to the data generated with values "A", "B", and "C" for each subsequent row.
 
 To configure the Stream Object, double click on "Add Pump Identifier" to open its configuration. Or, you can also highlight the Stream Object and click on the "Configure" option at the top of the Data Stream.
 
@@ -155,8 +155,8 @@ Keep "Append to Current" as the "Results Returned As" value. This will add the v
 Click the + button to the right of the Expressions grid to add the following expression:
 
 * _Calculated Field_: "PumpId" - The field won't exist yet in the dropdown, so you must enter it yourself.\
-  &#xNAN;_&#x45;xpression_: `ReadingNo % 2 == 0 ? "A" : ReadingNo % 3 == 0 ? "B" : "C"`\
-  &#xNAN;_&#x44;ata Type_: String
+  \&#xNAN;_Expression_: `ReadingNo % 2 == 0 ? "A" : ReadingNo % 3 == 0 ? "B" : "C"`\
+  \&#xNAN;_Data Type_: String
 
 ![](<../.gitbook/assets/image (1294).png>)
 
@@ -164,13 +164,13 @@ Press "Apply" on the PumpId expression and the Add Pump Identifier configuration
 
 #### Simulate Context Data for Assets
 
-![](<../.gitbook/assets/image (1810).png>)
+![](<../.gitbook/assets/image (1810) (1).png>)
 
-There is often metadata associated with assets that is not part of the live data from the sensors.  In this case, metadata includes whether the pump is currently under maintenance, the manufacturer, and the last service date. We must retrieve this data from elsewhere. In a production environment, this might be an SAP EAM system, but for this example, we can achieve this through the CSV Context Provider Agent.
+There is often metadata associated with assets that is not part of the live data from the sensors. In this case, metadata includes whether the pump is currently under maintenance, the manufacturer, and the last service date. We must retrieve this data from elsewhere. In a production environment, this might be an SAP EAM system, but for this example, we can achieve this through the CSV Context Provider Agent.
 
-Double-click on the "Simulate Context Data for Assets" Stream Object to open the configuration menu. You can also highlight the Stream Object and click on the "Configure" option at the top of the Data Stream. &#x20;
+Double-click on the "Simulate Context Data for Assets" Stream Object to open the configuration menu. You can also highlight the Stream Object and click on the "Configure" option at the top of the Data Stream.
 
-&#x20;Download the provided file. The contents of the file are below the download link.
+Download the provided file. The contents of the file are below the download link.
 
 {% file src="../.gitbook/assets/AssetsContext.csv" %}
 AssetsContext.csv
@@ -185,7 +185,7 @@ C,FALSE,Bosch,2020-01-04
 
 Then under Data check the _Use Uploaded File?_ checkbox and upload the file into the CSV Context Provider. The CSV Definition will be automatically detected and filled.
 
-Change _UnderMaintenance_ from a _String_ to a _Boolean_, using the options from the dropdown. Also change _ServiceDate_ from a _String_ to a _DateTime_, using the dropdown. Leave the _Limit Rows_, _Filter Criteria,_ and _Sort by_ properties as their default values.&#x20;
+Change _UnderMaintenance_ from a _String_ to a _Boolean_, using the options from the dropdown. Also change _ServiceDate_ from a _String_ to a _DateTime_, using the dropdown. Leave the _Limit Rows_, _Filter Criteria,_ and _Sort by_ properties as their default values.
 
 When completed, press the "Apply" button at the top of the configuration, and then save the Data Stream.
 
@@ -218,13 +218,13 @@ Press "Apply" on the Contextualize Data configuration page, and press "Save" on 
 
 ### Create Analytics and Calculations
 
-In this section, we will add some analytics and calculations that will find exceptions, transform the units of the data and find the average level across 5 seconds.&#x20;
+In this section, we will add some analytics and calculations that will find exceptions, transform the units of the data and find the average level across 5 seconds.
 
 #### Ignore Pumps Under Maintenance
 
 ![](<../.gitbook/assets/image (983).png>)
 
-We want to only pass data onward in the Stream if the current pump is not under maintenance. This can be achieved with the Filter Agent. To do this, drag in a Filter Agent and connect the "Contextualize Data" Join endpoint to the Filter.&#x20;
+We want to only pass data onward in the Stream if the current pump is not under maintenance. This can be achieved with the Filter Agent. To do this, drag in a Filter Agent and connect the "Contextualize Data" Join endpoint to the Filter.
 
 Rename the Filter to "Ignore Pumps Under Maintenance", and save. Double-click on the Stream Object to open the configuration menu. Click on the + symbol to add a new rule for the filter. Select "Add Condition", and configure the Filter to have the logic `R_UnderMaintenance` `Equals` `false`.
 
@@ -232,7 +232,7 @@ The configuration and Data Stream should look like this:
 
 ![](../.gitbook/assets/E2E_2.png)
 
-There are two green outputs to the Filter Stream Object, the left output is where the data is output to when the filter is true. The right output is where the data is output to when the filter is false. The left True Output should be the output that you connect to the next Stream Object.&#x20;
+There are two green outputs to the Filter Stream Object, the left output is where the data is output to when the filter is true. The right output is where the data is output to when the filter is false. The left True Output should be the output that you connect to the next Stream Object.
 
 ![](<../.gitbook/assets/image (627).png>)
 
@@ -242,9 +242,9 @@ Press "Apply" on the Ignore Pumps Under Maintenance Data configuration page, and
 
 ![](<../.gitbook/assets/image (426).png>)
 
-The data from the Pump Data has different units than what we want to use - it is measured in L/m and we want the units to be in L/s. This can be solved with the Calculated Field Agent. To transform the data, drag in a Calculated Field Agent, and rename it to "Change Unit to L/s".&#x20;
+The data from the Pump Data has different units than what we want to use - it is measured in L/m and we want the units to be in L/s. This can be solved with the Calculated Field Agent. To transform the data, drag in a Calculated Field Agent, and rename it to "Change Unit to L/s".
 
-Connect the "Ignore Pumps Under maintenance" Filter endpoint to the Calculated Field and Save. Make sure you connect the left True Output of the  "Ignore Pumps Under maintenance" Stream Object to the Calculated Field's input.&#x20;
+Connect the "Ignore Pumps Under maintenance" Filter endpoint to the Calculated Field and Save. Make sure you connect the left True Output of the "Ignore Pumps Under maintenance" Stream Object to the Calculated Field's input.
 
 ![](../.gitbook/assets/nLryP9xJvq.gif)
 
@@ -333,16 +333,16 @@ Configure the Run Recommendation Stream Object as follows:
 * _Key_: the App Designer Key.
 * _Output on first occurrence Only?_: true
 * _Entity Identifier_: L\_PumpId - this is for the Recommendation to create separate Alerts for each Entity
-* _Columns To Return_: Leave empty (Return all columns)&#x20;
+* _Columns To Return_: Leave empty (Return all columns)
 
 {% hint style="info" %}
 It is highly recommended that you use any [variables](../concepts/variable.md) that you already have that store the URL or key. You may use the variables that have already been set up if you are using the Free Trial.
 {% endhint %}
 
-&#x20;Otherwise, the App Designer URL and Key can be found by following these steps:
+Otherwise, the App Designer URL and Key can be found by following these steps:
 
 1. Open the App Designer in a new tab by clicking the "Waffle" button (a.ka. "App Launcher") in the top left corner of the page and clicking "App Designer".
-2. Copy the App Designer URL from the browser's address bar and paste it into the Url field in the Run Recommendation configuration.&#x20;
+2. Copy the App Designer URL from the browser's address bar and paste it into the Url field in the Run Recommendation configuration.
 3. Click the "Settings" button in the top bar and click the "Copy" button to the right of the Integration Key and paste it in the Key field in the Run Recommendation configuration. You will only be able to see this if you have Admin access. If you do not have Admin access, you can ask an Admin to share the key with you.
 
 {% hint style="info" %}
@@ -367,7 +367,7 @@ We want to send data to an App to be displayed as a decision support dashboard f
 
 Drag two XMPro App Agents onto the Data Stream and name them "Post Pump Overview" and "Post Pump Specifics". One will send an overview of the data for all pumps, and the other will send a large cached amount of data for each pump.
 
-Now we run into a problem; we want to connect multiple agents to the same data. To solve this, drag a Broadcast Agent into the Stream, and rename it to "Broadcast". Disconnect the "Ignore Pumps Under Maintenance" input arrow and connect it to the new Broadcast Stream Object. You can disconnect the arrow by highlighting the arrow itself and clicking on the "Delete" button at the top of the Data Stream.&#x20;
+Now we run into a problem; we want to connect multiple agents to the same data. To solve this, drag a Broadcast Agent into the Stream, and rename it to "Broadcast". Disconnect the "Ignore Pumps Under Maintenance" input arrow and connect it to the new Broadcast Stream Object. You can disconnect the arrow by highlighting the arrow itself and clicking on the "Delete" button at the top of the Data Stream.
 
 Alternatively, you can click on the green rectangle (input) on the "Ignore Pumps Under Maintenance" Stream Object, and drag the arrow to the green rectangle (input) of the "Broadcast" Stream Object. Connect the Broadcast endpoints to the two XMPro App Stream Objects and the "Ignore Pumps Under maintenance" Filter, as shown in the video below:
 
@@ -484,15 +484,15 @@ Give the Rule the following properties:
 The tags for the Alert Heading and Alert Description fields will not work if they are copied and pasted into the field. You will need to select the tags yourself by adding an `@` symbol and selecting from the tags in the list.
 {% endhint %}
 
-| Name              | Value                                                                                                                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Rule Name         | Medium - Flow rate falling                                                                                                                                                | The Rule Name is for identification only and will not be shown to the user in the Recommendation Alerts grid or detailed view.                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Alert Headline    | Warning `@L_PumpId`: Flow rate is falling                                                                                                                                 | This refers to the headline that the Recommendation Alert will be created with. Any tag (starting with @) will be replaced with the value output from the Data Stream. Add tags by typing @ and selecting the item.                                                                                                                                                                                                                                                                                                                                        |
-| Alert Description | Flow rate is reported to be falling, danger of plant overheating and shutdown. Flow Rate: `@FlowRateAvg` Coolant Temperature: `@CoolantTemperatureAvg`                    | This refers to the description that the Recommendation Alert will be created with. Any tag (starting with @) will be replaced with the value output from the Data Stream.                                                                                                                                                                                                                                                                                                                                                                                  |
-| Alert Ranking     | Medium                                                                                                                                                                    | The priority level that the Recommendation Alert will be created with. Priority level determines the order in which the Alerts will be displayed.                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Icon              | An icon of your choice (hover your mouse over the default icon to upload a different one - sample icons can be found in the [Icon Library](../resources/icon-library.md)) | The icon that will be displayed on the Recommendation Alert in the grid and in detailed view.                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Impact Metric     | <p>Prefix: <em>$</em></p><p>Value: <em>15</em></p><p>Unit of Measurement: <em>K</em></p>                                                                                  | The impact that the Recommendation Alert will have. For example, if the value for this was $15K, that means that the cost of the condition causing the Alert would be $15K (or $15000). This will be shown on Alerts in the Recommendation Block in App Pages.                                                                                                                                                                                                                                                                                             |
-| Rule Logic        | `FlowRateAvg` `Is less than or equal to` `250`                                                                                                                            | <p>Data sent from the selected Data Stream is passed through the Rule Logic and if the conditions created are met by the data (and if Recurrence is set to All Occurrences or First Occurrence and no Pending Alert exists), a new Recommendation Alert will be created. </p><p>You can add new conditions or groups by clicking the + button. Groups can be nested within each other to create advanced logic. In an "And" group, all the conditions must be true, and in an "Or" group, only one of the conditions must be true to trigger an alert.</p> |
+| Name              | Value                                                                                                                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Rule Name         | Medium - Flow rate falling                                                                                                                                                | The Rule Name is for identification only and will not be shown to the user in the Recommendation Alerts grid or detailed view.                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Alert Headline    | Warning `@L_PumpId`: Flow rate is falling                                                                                                                                 | This refers to the headline that the Recommendation Alert will be created with. Any tag (starting with @) will be replaced with the value output from the Data Stream. Add tags by typing @ and selecting the item.                                                                                                                                                                                                                                                                                                                                       |
+| Alert Description | Flow rate is reported to be falling, danger of plant overheating and shutdown. Flow Rate: `@FlowRateAvg` Coolant Temperature: `@CoolantTemperatureAvg`                    | This refers to the description that the Recommendation Alert will be created with. Any tag (starting with @) will be replaced with the value output from the Data Stream.                                                                                                                                                                                                                                                                                                                                                                                 |
+| Alert Ranking     | Medium                                                                                                                                                                    | The priority level that the Recommendation Alert will be created with. Priority level determines the order in which the Alerts will be displayed.                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Icon              | An icon of your choice (hover your mouse over the default icon to upload a different one - sample icons can be found in the [Icon Library](../resources/icon-library.md)) | The icon that will be displayed on the Recommendation Alert in the grid and in detailed view.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Impact Metric     | <p>Prefix: <em>$</em></p><p>Value: <em>15</em></p><p>Unit of Measurement: <em>K</em></p>                                                                                  | The impact that the Recommendation Alert will have. For example, if the value for this was $15K, that means that the cost of the condition causing the Alert would be $15K (or $15000). This will be shown on Alerts in the Recommendation Block in App Pages.                                                                                                                                                                                                                                                                                            |
+| Rule Logic        | `FlowRateAvg` `Is less than or equal to` `250`                                                                                                                            | <p>Data sent from the selected Data Stream is passed through the Rule Logic and if the conditions created are met by the data (and if Recurrence is set to All Occurrences or First Occurrence and no Pending Alert exists), a new Recommendation Alert will be created.</p><p>You can add new conditions or groups by clicking the + button. Groups can be nested within each other to create advanced logic. In an "And" group, all the conditions must be true, and in an "Or" group, only one of the conditions must be true to trigger an alert.</p> |
 
 The Rule Logic determines whether a Recommendation Alert will be created on receiving data from the Data Stream.
 
@@ -504,22 +504,22 @@ The Rule Logic determines whether a Recommendation Alert will be created on rece
 
 ### Create recommendations & Triage Instructions
 
-There should be some instructions for the engineers to follow to help resolve the issue when it occurs. This can be provided through the Triage Instructions.&#x20;
+There should be some instructions for the engineers to follow to help resolve the issue when it occurs. This can be provided through the Triage Instructions.
 
-Continue creating the Rule with the following properties:&#x20;
+Continue creating the Rule with the following properties:
 
-| Name                                        | Value            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enable Form                                 | false            | A flag that determines whether the Recommendation Alert will be created with a [Form](../concepts/recommendation/form.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Additional Recommendation Management Column | -                | An additional column in the Recommendation Alerts grid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Resolution                                  | Manual           | <p>Resolution determines whether new data from the Data Stream will automatically resolve the Recommendation Alert if the Rule Logic is no longer true. </p><p><strong>Manual Resolution:</strong> A user must manually resolve each recommendation. </p><p><strong>Automatic Resolution:</strong> Recommendation auto resolves when trigger conditions are no longer true. This may impact performance.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Recurrence                                  | First Occurrence | <p>Recurrence determines whether new data from the Data Stream will create new Recommendation Alerts if there already exists a Pending Recommendation Alert and the Rule Logic is true. Recurrence will create an Alert for each unique Entity selected by the Data Stream. For example, since there are three pumps (A, B, and C), each pump will generate its own Alert when something goes wrong, and it will need to be resolved before new Alerts for that pump are created. </p><p><strong>First Occurrence:</strong> The current recommendation must be resolved before others can be triggered for the same rule.</p><p><strong>All Occurrences:</strong> A new recommendation will be triggered every time the rule conditions are true.</p><p>Recurrence will be disabled and be considered to be <strong>First Occurrence</strong> if the Recommendation has <strong>Execution Order</strong> enabled.</p> |
-| Log Data On                                 | First Occurrence | <p>Determines whether new events from the Data Stream that satisfy the Rule Logic, after a recommendation has been triggered, will be logged or not.</p><p><strong>First Occurrence:</strong> Current recommendation will only log the initial event which triggered the recommendation.</p><p><strong>All Occurrences:</strong> Event data will be stored for every instance that satisfies the rule logic.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Enable Triage Instructions                  | true             | A flag that determines whether the Recommendation Alert will be created with Triage Instructions.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Triage Instructions                         |                  | <p>Instructions to help whoever is resolving the Recommendation Alert.</p><p><em>Find the Triage Instructions below to copy for this use case.</em></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Name                                        | Value            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enable Form                                 | false            | A flag that determines whether the Recommendation Alert will be created with a [Form](../concepts/recommendation/form.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Additional Recommendation Management Column | -                | An additional column in the Recommendation Alerts grid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Resolution                                  | Manual           | <p>Resolution determines whether new data from the Data Stream will automatically resolve the Recommendation Alert if the Rule Logic is no longer true.</p><p><strong>Manual Resolution:</strong> A user must manually resolve each recommendation.</p><p><strong>Automatic Resolution:</strong> Recommendation auto resolves when trigger conditions are no longer true. This may impact performance.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Recurrence                                  | First Occurrence | <p>Recurrence determines whether new data from the Data Stream will create new Recommendation Alerts if there already exists a Pending Recommendation Alert and the Rule Logic is true. Recurrence will create an Alert for each unique Entity selected by the Data Stream. For example, since there are three pumps (A, B, and C), each pump will generate its own Alert when something goes wrong, and it will need to be resolved before new Alerts for that pump are created.</p><p><strong>First Occurrence:</strong> The current recommendation must be resolved before others can be triggered for the same rule.</p><p><strong>All Occurrences:</strong> A new recommendation will be triggered every time the rule conditions are true.</p><p>Recurrence will be disabled and be considered to be <strong>First Occurrence</strong> if the Recommendation has <strong>Execution Order</strong> enabled.</p> |
+| Log Data On                                 | First Occurrence | <p>Determines whether new events from the Data Stream that satisfy the Rule Logic, after a recommendation has been triggered, will be logged or not.</p><p><strong>First Occurrence:</strong> Current recommendation will only log the initial event which triggered the recommendation.</p><p><strong>All Occurrences:</strong> Event data will be stored for every instance that satisfies the rule logic.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Enable Triage Instructions                  | true             | A flag that determines whether the Recommendation Alert will be created with Triage Instructions.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Triage Instructions                         |                  | <p>Instructions to help whoever is resolving the Recommendation Alert.</p><p><em>Find the Triage Instructions below to copy for this use case.</em></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-| <p>Possible problems causing a discharge pressure drop:</p><p></p><p><strong>Blocked Suction Pipe</strong></p><p>A partial obstruction can be caused by a piece of foreign material being drawn across the bottom of the suction pipe during the operation of the pump. Such an obstruction may not be sufficient to stop operation completely, but will result in a reduced output from the pump. It will also cause a drop in discharge pressure and amps, and will increase the vacuum reading on the pump suction. Rough running and vibration of the pump may also occur due to cavitation within the pump.</p><p></p><p><strong>Blocked Impeller</strong></p><p>Impellers are capable of passing a certain size particle. If a particle larger in size enters the suction pipe, it may become lodged in the eye of the impeller, restricting the output of the pump. Such an obstruction will usually result in a drop of amperes and a drop in both discharge pressure and suction vacuum readings. The out-of-balance effects resulting from this condition may cause pump vibration.</p><p></p><p><strong>SHUTTING DOWN PROCEDURE</strong></p><p>Before you shut down the pump, it should be allowed to operate for a short period on only clean water to clear the system.</p><p></p><p>Then proceed as follows:</p><ol><li>Depress the ‘STOP PUMP’ push-button on the control panel.</li><li>Gland seal water (if any) must be left on during all subsequent operations, namely: start-up, running, shutdown, runback and system drain. Gland water may only then be turned off.</li></ol> |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Possible problems causing a discharge pressure drop:</p><p><strong>Blocked Suction Pipe</strong></p><p>A partial obstruction can be caused by a piece of foreign material being drawn across the bottom of the suction pipe during the operation of the pump. Such an obstruction may not be sufficient to stop operation completely, but will result in a reduced output from the pump. It will also cause a drop in discharge pressure and amps, and will increase the vacuum reading on the pump suction. Rough running and vibration of the pump may also occur due to cavitation within the pump.</p><p><strong>Blocked Impeller</strong></p><p>Impellers are capable of passing a certain size particle. If a particle larger in size enters the suction pipe, it may become lodged in the eye of the impeller, restricting the output of the pump. Such an obstruction will usually result in a drop of amperes and a drop in both discharge pressure and suction vacuum readings. The out-of-balance effects resulting from this condition may cause pump vibration.</p><p><strong>SHUTTING DOWN PROCEDURE</strong></p><p>Before you shut down the pump, it should be allowed to operate for a short period on only clean water to clear the system.</p><p>Then proceed as follows:</p><ol><li>Depress the ‘STOP PUMP’ push-button on the control panel.</li><li>Gland seal water (if any) must be left on during all subsequent operations, namely: start-up, running, shutdown, runback and system drain. Gland water may only then be turned off.</li></ol> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### Provide additional resources for decision support
 
@@ -537,7 +537,7 @@ Click on the "Recommendations" button to go back to the Recommendation Alerts gr
 
 ![](<../.gitbook/assets/image (405).png>)
 
-To see more details about the alert, click on a row in the "Recommendation Alerts" grid. The Recommendation Alert page provides details of the alert and allows you to monitor, discuss, and take action.&#x20;
+To see more details about the alert, click on a row in the "Recommendation Alerts" grid. The Recommendation Alert page provides details of the alert and allows you to monitor, discuss, and take action.
 
 ![](<../.gitbook/assets/image (1717).png>)
 
@@ -553,22 +553,22 @@ To make amendments to the Recommendation, you will first need to unpublish the R
 
 Create the new Rule with the following properties:
 
-| Name                                        | Value                                                                                                                                                                            |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Rule Name                                   | Critical - Plant is overheating                                                                                                                                                  |
-| Alert Headline                              | Alert `@L_PumpId`: Plant has started to overheat due to low flow.                                                                                                                |
-| Alert Description                           | Plant is overheating due to low flow rate, immediate action is required to avoid damage. Temperature:  ﻿`@CoolantTemperatureAvg`﻿ Flow Rate: ﻿`@FlowRateAvg`﻿                    |
-| Alert Ranking                               | High                                                                                                                                                                             |
-| Icon                                        | Feel free to load a suitable icon or use the default. Sample icons can be found in the [Icon Library](../resources/icon-library.md).                                             |
-| Impact Metric                               | <p>Prefix: <em>$</em></p><p>Value: <em>25</em></p><p>Unit of Measurement: <em>K</em></p>                                                                                         |
-| Rule Logic                                  | <p><code>FlowRateAvg</code> <code>Is less than or equal to</code> <code>250</code> </p><p> <code>CoolantTemperatureAvg</code>﻿ <code>Is greater than</code> <code>130</code></p> |
-| Enable Form                                 | false                                                                                                                                                                            |
-| Additional Recommendation Management Column | -                                                                                                                                                                                |
-| Resolution                                  | Manual                                                                                                                                                                           |
-| Recurrence                                  | First Occurrence                                                                                                                                                                 |
-| Log Data On                                 | First Occurrence                                                                                                                                                                 |
-| Enable Triage Instructions                  | false                                                                                                                                                                            |
-| Enable Resources                            | false                                                                                                                                                                            |
+| Name                                        | Value                                                                                                                                                                          |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Rule Name                                   | Critical - Plant is overheating                                                                                                                                                |
+| Alert Headline                              | Alert `@L_PumpId`: Plant has started to overheat due to low flow.                                                                                                              |
+| Alert Description                           | Plant is overheating due to low flow rate, immediate action is required to avoid damage. Temperature: ﻿`@CoolantTemperatureAvg`﻿ Flow Rate: ﻿`@FlowRateAvg`﻿                   |
+| Alert Ranking                               | High                                                                                                                                                                           |
+| Icon                                        | Feel free to load a suitable icon or use the default. Sample icons can be found in the [Icon Library](../resources/icon-library.md).                                           |
+| Impact Metric                               | <p>Prefix: <em>$</em></p><p>Value: <em>25</em></p><p>Unit of Measurement: <em>K</em></p>                                                                                       |
+| Rule Logic                                  | <p><code>FlowRateAvg</code> <code>Is less than or equal to</code> <code>250</code></p><p><code>CoolantTemperatureAvg</code>﻿ <code>Is greater than</code> <code>130</code></p> |
+| Enable Form                                 | false                                                                                                                                                                          |
+| Additional Recommendation Management Column | -                                                                                                                                                                              |
+| Resolution                                  | Manual                                                                                                                                                                         |
+| Recurrence                                  | First Occurrence                                                                                                                                                               |
+| Log Data On                                 | First Occurrence                                                                                                                                                               |
+| Enable Triage Instructions                  | false                                                                                                                                                                          |
+| Enable Resources                            | false                                                                                                                                                                          |
 
 ![](<../.gitbook/assets/image (190).png>)
 
@@ -583,7 +583,6 @@ You can see the full Recommendation in action by clicking the "Publish" command 
 ![](<../.gitbook/assets/image (46).png>)
 
 3\. Create Event Boards & Apps
-
 
 The Use Case requires that the Engineers should be provided a view to check the history of Pump telemetry, maintenance records, and Reservoir Level in order to enable them to take necessary action. This requirement can be met through the use of an App with a couple of Pages.
 
@@ -606,7 +605,7 @@ Give the App the following properties:
 
 Click on the "Save" button. This will take you to a page where you can view the list of pages in the App or edit the App itself. Click on the Landing Page to edit it.
 
-![](<../.gitbook/assets/image (1201).png>)
+![](<../.gitbook/assets/image (1201) (1).png>)
 
 ### App Layout
 
@@ -649,7 +648,7 @@ The result should look like this:
 
 ![](<../.gitbook/assets/image (796).png>)
 
-We want to display the properties of the pumps in regularly spaced and sized cards on an App page. To do this, create one card with a Data Source, which will repeat the card for each pump.&#x20;
+We want to display the properties of the pumps in regularly spaced and sized cards on an App page. To do this, create one card with a Data Source, which will repeat the card for each pump.
 
 Change the Left Vertical Stacked Layout's Display property in the Block Styling to block, so that the cards will overflow to however many pumps are present.
 
@@ -657,7 +656,7 @@ Press the "Save" button at the top of the Application designer.
 
 ![](<../.gitbook/assets/image (609).png>)
 
-Follow the steps below to select the left Card and delete it. We will replace the default Card with a useful layout.&#x20;
+Follow the steps below to select the left Card and delete it. We will replace the default Card with a useful layout.
 
 1. Open the Page Layers.
 2. Expand to the Left Vertical Stacked Layout's Card.
@@ -676,14 +675,14 @@ Replace the deleted Card by dragging in a Card from the Blocks, which will inclu
 See the article on [Blocks](../concepts/application/block.md) for more information.
 {% endhint %}
 
-We want the card to take up half the width of the left section, and overflow to the next line when there are more than 2 cards.&#x20;
+We want the card to take up half the width of the left section, and overflow to the next line when there are more than 2 cards.
 
-1. Select the new Card using the Page Layers tab.&#x20;
-2. Click on the "Block Styling" tab.&#x20;
+1. Select the new Card using the Page Layers tab.
+2. Click on the "Block Styling" tab.
 3. At the top, in the "Style Group" field, click on the checkbox on the left of the "card-gutter" tag to unselect the card-gutter style group. This is because we only want to apply styles to this specific element.
-4. Under the "General" subsection, change "Display" to "inline-block".&#x20;
+4. Under the "General" subsection, change "Display" to "inline-block".
 5. Under the "Dimensions" subsection, change the Width to 50.
-6. Under the "Dimensions" subsection, change the unit to %.&#x20;
+6. Under the "Dimensions" subsection, change the unit to %.
 
 ![](<../.gitbook/assets/image (118).png>)
 
@@ -705,11 +704,11 @@ The "Status" indicator should be red or green, depending on whether the pump is 
 
 ### Data Source for Pump Data
 
-Add the Data Source that will be used to display our pump data.&#x20;
+Add the Data Source that will be used to display our pump data.
 
 1. Click on the "Page Data" button.
-2. Click the + button next to Data Sources.&#x20;
-3. Add a Data Source with _Name_ as Pump Data, _Connection_ as Data Streams Connector, and _Entity_ as Post Pump Overview.&#x20;
+2. Click the + button next to Data Sources.
+3. Add a Data Source with _Name_ as Pump Data, _Connection_ as Data Streams Connector, and _Entity_ as Post Pump Overview.
 4. Check Live Data Updates as well to keep the data constantly updated.
 5. Click on the "Save" button.
 
@@ -773,11 +772,11 @@ Click on the "Page Layers" tab. Expand the carets until you get to "Box Hyperlin
 ![](<../.gitbook/assets/image (1116).png>)
 
 1. Click on the "Block Properties" tab.
-2. Change the _Navigate to_ property to "Page", the _Page_ property to "Pump Details", and click the "Edit" button to the right of Pass Page Parameters.&#x20;
-3. Press the + button on the Pass Page Parameters page to add a new Parameter to the Pump Details Page.&#x20;
-4. Name the Parameter "PumpId" and give it the _Type_ "String".&#x20;
-5. Click on "Add".&#x20;
-6. As mentioned previously, clicking on the icon on the left of the textbox field can toggle between Static, Dynamic, and Expression modes. Click on the button in the Value column once to change it to 'Dynamic' mode, which is indicated by the Database symbol.&#x20;
+2. Change the _Navigate to_ property to "Page", the _Page_ property to "Pump Details", and click the "Edit" button to the right of Pass Page Parameters.
+3. Press the + button on the Pass Page Parameters page to add a new Parameter to the Pump Details Page.
+4. Name the Parameter "PumpId" and give it the _Type_ "String".
+5. Click on "Add".
+6. As mentioned previously, clicking on the icon on the left of the textbox field can toggle between Static, Dynamic, and Expression modes. Click on the button in the Value column once to change it to 'Dynamic' mode, which is indicated by the Database symbol.
 7. Select the value "L\_PumpId" as this is the value we want to pass to the drill-down page.
 8. Click "Apply" to apply your changes to the Pump Details page's Parameters and the Box Hyperlink.
 
@@ -791,7 +790,7 @@ If you are unable to see the parameters in the drop-down list, double-check that
 
 To see the navigation in action, launch the Landing Page and click on one of the cards. You will be navigated to the Pump Details page.
 
-Press the "Edit" button at the top right of the Pump Details page to edit it.&#x20;
+Press the "Edit" button at the top right of the Pump Details page to edit it.
 
 We want a similar layout for this page, so follow the steps from the Landing Page to duplicate the Vertical Stacked Layout, and make the left side twice as wide as the right side. [See the instructions that previously showed how to do this](end-to-end-use-case.md#app-layout).
 
@@ -803,15 +802,15 @@ We want the top left card to be twice as tall as the bottom left card, so change
 
 ![](<../.gitbook/assets/image (520).png>)
 
-We want the title of the page to be the Pump's name, so change the Title's Text property to an expression value `"Pump " + {Parameter.PumpId}`.&#x20;
+We want the title of the page to be the Pump's name, so change the Title's Text property to an expression value `"Pump " + {Parameter.PumpId}`.
 
 We also want the Headings of the page to explain what is being shown, so change the top-left heading's text to "Details" and the bottom-left heading's text to "Maintenance History".
 
 ![](<../.gitbook/assets/image (1668).png>)
 
-We need to get the data from the Data Stream. Go back to the Page Data tab, and next to 'Data Sources', click on the "plus" symbol to add another Data Source. Name the new Data Source "Pump Live Data", with the Connection "Data Streams Connector", Entity as "Post Pump Specifics", and Live Data Updates checked.&#x20;
+We need to get the data from the Data Stream. Go back to the Page Data tab, and next to 'Data Sources', click on the "plus" symbol to add another Data Source. Name the new Data Source "Pump Live Data", with the Connection "Data Streams Connector", Entity as "Post Pump Specifics", and Live Data Updates checked.
 
-Drag a Chart into the Details card. Highlight the Chart, and in the Block Properties tab, set the Data Source of the Chart to "Pump Live Data".&#x20;
+Drag a Chart into the Details card. Highlight the Chart, and in the Block Properties tab, set the Data Source of the Chart to "Pump Live Data".
 
 Add a Filter to the Data Source of `L_PumpId` `Equals` `{Parameter.PumpId}`. Click on the "plus" button to start adding the filter.
 
@@ -825,7 +824,7 @@ When selecting the "PumpId", press the button on the left of the field to toggle
 See the [Chart](../blocks-toolbox/visualizations/chart.md) article for more information.
 {% endhint %}
 
-We want the chart to look great and display a line series in a separate panel for flow rate and temperature.  To do this, edit the Block Properties of the Chart as follows:
+We want the chart to look great and display a line series in a separate panel for flow rate and temperature. To do this, edit the Block Properties of the Chart as follows:
 
 In the Appearance accordion item set the _Legend Alignment_ to "Align Bottom Center".
 
@@ -846,7 +845,7 @@ In the Data accordion item, add two series with the + button to the right of the
 | X Axis Data | L\_Timestamp     | L\_Timestamp        |
 | Y Axis Data | L\_FlowRate      | L\_WaterTemperature |
 
-When making the 'Temperature' series, you will need to add a new Pane called 'Temperature.'&#x20;
+When making the 'Temperature' series, you will need to add a new Pane called 'Temperature.'
 
 To add a new Pane for the chart, click the 'Edit' button next to 'Pane' in the series property page.
 
@@ -915,7 +914,7 @@ Launch the page with the PumpId parameter "A", "B", or "C" to see this in action
 
 ![](<../.gitbook/assets/image (265).png>)
 
-### Easy Access to Recommendations&#xD;
+### Easy Access to Recommendations
 
 We want engineers to be able to see and respond to Recommendation Alerts from this App, so we should drag a Recommendations Block into the right card of both Pages. Also, rename the heading to "Recommendations".
 

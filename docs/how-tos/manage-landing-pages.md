@@ -1,10 +1,10 @@
 # Manage Landing Pages & Favorites
 
-In App Designer, the Landing Page can be set for what Application Landing Page all users in the company will see when they first open App Designer.&#x20;
+In App Designer, the Landing Page can be set for what Application Landing Page all users in the company will see when they first open App Designer.
 
 Apps and Data Streams can be favorited for fast access in future from Subscription Manager.
 
-&#x20;Favorite commonly used Blocks for fast access when building Apps in App Designer.
+Favorite commonly used Blocks for fast access when building Apps in App Designer.
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Applications.
@@ -19,14 +19,14 @@ It is recommended that you read the article listed below to improve your underst
 To set the Company's Landing Page for either Mobile or Desktop, follow the steps below:
 
 1. Click on Settings
-2. Select from the list of available Applications.&#x20;
+2. Select from the list of available Applications.
 3. Click on Save.
 
 {% hint style="info" %}
-You can only select Applications that are already published.&#x20;
+You can only select Applications that are already published.
 {% endhint %}
 
-![Fig 1: Set a Landing Page  ](../.gitbook/assets/select-landing-page.png)
+![Fig 1: Set a Landing Page](../.gitbook/assets/select-landing-page.png)
 
 ## Favorite an App
 
@@ -54,7 +54,7 @@ To Favorite Data Streams, follow the steps below:
 Data Streams can only be favorited using the category tiles list.
 {% endhint %}
 
-![Fig 4: Favorite a Data Stream](<../.gitbook/assets/Manage Landing Pages - Fave 3 (1).png>)
+![Fig 4: Favorite a Data Stream](<../.gitbook/assets/Manage Landing Pages - Fave 3 (1) (1).png>)
 
 ![Fig 5: Favorited Data Streams in Subscription Manager](<../.gitbook/assets/Manage Landing Pages - Fave 4.png>)
 
@@ -73,9 +73,9 @@ To Favorite a Block, including Widgets, follow the steps below.
 
 _Added in v4.4.17_
 
-To Favorite an Agent, follow the steps below.&#x20;
+To Favorite an Agent, follow the steps below.
 
-1. Click on the star to favorite an Agent (hover over the block to reveal the star).&#x20;
+1. Click on the star to favorite an Agent (hover over the block to reveal the star).
 2. A solid star is the visual indicator for favorited Agents.
 
 <figure><img src="../.gitbook/assets/Fav an agent (1).png" alt=""><figcaption></figcaption></figure>

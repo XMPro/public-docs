@@ -14,7 +14,7 @@ Other Agents, however, require settings to be filled in before you can successfu
 * Upload a CSV file
 * Specify the CSV definition (name of each column in the CSV file along with what data type the values in each column are)
 
-If these values have been provided correctly, the data will be read from the CSV file you specified when you [publish](../../how-tos/publish/) your stream.&#x20;
+If these values have been provided correctly, the data will be read from the CSV file you specified when you [publish](../../how-tos/publish/) your stream.
 
 ![](<../../.gitbook/assets/image (451).png>)
 
@@ -50,7 +50,7 @@ For the data to be written to the database in a specific format, you need to map
 
 Next, you can go ahead and configure the Input Mapping by clicking on the arrow that connects the CSV Listener and the SQL Server Writer Agents. Then, click on “_Configure_“. Choose which column should be mapped to which column by selecting the correct value from the drop-down menu for each row. Please note that the data types of the items being mapped to each other need to be the same. If not, the value in the left column will be disabled and you will not be able to select it.
 
-Remember that, even though the same principle applies to all Agents, input mapping might be done differently for different Agents.&#x20;
+Remember that, even though the same principle applies to all Agents, input mapping might be done differently for different Agents.
 
 ![](<../../.gitbook/assets/image (274).png>)
 
@@ -82,7 +82,7 @@ The **Prefix** option allows you to specify that columns should be matched based
 * In the CSV listener Agent, there is a column named “A01\__Temperature_“
 * In the SQL Server Writer Agent, there is a column named “_Temperature_“
 
-In the images below, “_A01” is specified as the postfix. Based on the prefix given, the column “A01_\__Temperature_” in the CSV Listener can be matched to the column “_Temperature_” in the SQL Server Writer Agent. &#x20;
+In the images below, “_A01” is specified as the postfix. Based on the prefix given, the column “A01_\__Temperature_” in the CSV Listener can be matched to the column “_Temperature_” in the SQL Server Writer Agent.
 
 ![](<../../.gitbook/assets/image (559).png>)
 
@@ -93,7 +93,7 @@ The **Postfix** option allows you to specify that columns should be matched base
 * In the file uploaded to the CSV listener Agent, there are columns named “_Temperature\_A01_“ and “_Vibration\_A01_“
 * In the table referenced in the SQL Server Writer Agent configurations, there are columns named “_Temperature_“ and “_Vibration_“
 
-In the images below, “_\_A01_” is specified as the postfix. Based on the postfix given, the columns “_Temperature\_A01_“ and “_Vibration\_A01_“ in the CSV Listener can be matched to the columns “_Temperature_“ and “_Vibration_“ in the SQL Server Writer Agent. &#x20;
+In the images below, “_\_A01_” is specified as the postfix. Based on the postfix given, the columns “_Temperature\_A01_“ and “_Vibration\_A01_“ in the CSV Listener can be matched to the columns “_Temperature_“ and “_Vibration_“ in the SQL Server Writer Agent.
 
 ![](<../../.gitbook/assets/image (1405).png>)
 
@@ -104,11 +104,11 @@ The **Expression** option allows you to use a regular expression to match the co
 * In the file uploaded to the CSV Listener Agent, there is a column named “_Device\_Temperature\_Fahrenheit_“
 * In the table referenced in the SQL Server Writer Agent configurations, there is a column named “_Temperature_“
 
-In the images below, “_Device\_$1\_Fahrenheit_” is used as the regular expression. Based on this expression, the column “_Device\_Temperature\_Fahrenheit_” in the CSV listener is mapped to the column “_Temperature_” in the SQL Server Writer Agent. &#x20;
+In the images below, “_Device\_$1\_Fahrenheit_” is used as the regular expression. Based on this expression, the column “_Device\_Temperature\_Fahrenheit_” in the CSV listener is mapped to the column “_Temperature_” in the SQL Server Writer Agent.
 
 ![](<../../.gitbook/assets/image (1094).png>)
 
-![](<../../.gitbook/assets/image (1041).png>)
+![](<../../.gitbook/assets/image (1041) (1).png>)
 
 #### **Show Unmapped**
 

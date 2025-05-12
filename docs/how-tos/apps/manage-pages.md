@@ -1,6 +1,6 @@
 # Manage Pages
 
-A Page is a web page built with XMPro's App Designer. Pages allow you to separate the Application into sections, navigate between the Pages, and pass data between Pages using Parameters.&#x20;
+A Page is a web page built with XMPro's App Designer. Pages allow you to separate the Application into sections, navigate between the Pages, and pass data between Pages using Parameters.
 
 {% hint style="info" %}
 It is recommended that you read the article listed below to improve your understanding of Pages.
@@ -17,12 +17,12 @@ To create a Page within an existing application, follow the steps below:
 1. Click on _Applications_ from the left-hand menu.
 2. Click on the _edit_ button of the Application from the list.
 
-![](<../../.gitbook/assets/image (445).png>)
+![](<../../.gitbook/assets/image (445) (3).png>)
 
-&#x20;   3\. Click on the _plus_ button to add a new Page.\
-&#x20;   4\. Enter the details of the new Page.\
-&#x20;   5\. Choose the layout of the new Page.\
-&#x20;   6\. Click on _Save_.
+3\. Click on the _plus_ button to add a new Page.\
+4\. Enter the details of the new Page.\
+5\. Choose the layout of the new Page.\
+6\. Click on _Save_.
 
 ![](<../../.gitbook/assets/image (25).png>)
 
@@ -32,11 +32,11 @@ The new Page will show in the list of pages for the Application.
 
 ## Designing a Page
 
-Once a Page has been created, you can design your Page to meet your specifications. There are many Blocks or controls that can be added from the Blocks tab such as Text, Number, and Date Boxes, Grids, Charts, Gauges, Accordions, and Tabs. [The full list of Blocks can be found here](../../concepts/application/block.md#list-of-blocks).&#x20;
+Once a Page has been created, you can design your Page to meet your specifications. There are many Blocks or controls that can be added from the Blocks tab such as Text, Number, and Date Boxes, Grids, Charts, Gauges, Accordions, and Tabs. [The full list of Blocks can be found here](../../concepts/application/block.md#list-of-blocks).
 
 ### Adding New Blocks
 
-Blocks are accessed through the Blocks tab in the page designer and can be added to the page by dragging them into the Canvas. Blocks can also be searched by typing in the search bar at the top.&#x20;
+Blocks are accessed through the Blocks tab in the page designer and can be added to the page by dragging them into the Canvas. Blocks can also be searched by typing in the search bar at the top.
 
 ![](../../.gitbook/assets/4.jpg)
 
@@ -79,11 +79,11 @@ Sometimes you may need to be more precise in dragging a Block. In this case, you
 Once a Page has been designed, you can view the finished product of the designed Page by launching it.
 
 1. Click on the page you want to preview.
-2. Click on _Launch_.&#x20;
+2. Click on _Launch_.
 
 ![](../../.gitbook/assets/5.jpg)
 
-![](../../.gitbook/assets/Page\_4.png)
+![](../../.gitbook/assets/Page_4.png)
 
 ## Deleting a Page
 
@@ -93,9 +93,9 @@ To delete the Page, open the Page itself and delete it via the settings menu. Fo
 
 ![](../../.gitbook/assets/7.jpg)
 
-&#x20;   2\. Click on _Settings_.\
-&#x20;   3\. Click on _Delete_.\
-&#x20;   4\. Confirm that you want to delete the Page.
+2\. Click on _Settings_.\
+3\. Click on _Delete_.\
+4\. Confirm that you want to delete the Page.
 
 ![](../../.gitbook/assets/8.jpg)
 
@@ -104,7 +104,7 @@ To delete the Page, open the Page itself and delete it via the settings menu. Fo
 * [How to Import an App Page](import-an-app-page.md)
 * [How to Design Pages for Mobile](design-pages-for-mobile.md)
 * [How to Navigate between Pages](navigate-between-pages.md)
-* [How to Manage Connections](manage-connections.md)&#x20;
+* [How to Manage Connections](manage-connections.md)
 * [How to Use Dynamic Properties](use-dynamic-properties.md)
 * [How to Use Expression Properties](use-expression-properties.md)
 * [How to Use the Page Layers](use-page-layers.md)

@@ -36,7 +36,7 @@ To edit the information of a Company, please follow the steps below.
 Please note that the Company's icon will replace the XMPro logo in the top-left corner (Whitelabel).
 {% endhint %}
 
-![](<../../.gitbook/assets/Logo-remove3 (1).png>)
+![](<../../.gitbook/assets/Logo-remove3 (1) (1).png>)
 
 ## **Upload a Company Logo**
 
