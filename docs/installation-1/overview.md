@@ -8,7 +8,7 @@ XMPro Platform consists of three main components:
 
 XMPro supports a wide range of deployment options e.g. Cloud, Docker, On-Premise, etc. The complete process - encompassing preparation, installation, setup, and loading templates - is depicted in the flowchart below.
 
-<figure><img src="../.gitbook/assets/Installation_Overview.png" alt=""><figcaption><p>Fig 1: The installation process overview. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Installation_Overview.png" alt=""><figcaption><p>Fig 1: The installation process overview.</p></figcaption></figure>
 
 ## Artifacts
 

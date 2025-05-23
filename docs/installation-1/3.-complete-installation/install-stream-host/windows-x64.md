@@ -29,25 +29,25 @@ XMPro Stream Host requires certain hardware and software specifications in order
 
 ## Initial Steps
 
-&#x20; 1\. Run the executable installer file that you’ve downloaded as administrator
+1\. Run the executable installer file that you’ve downloaded as administrator
 
-&#x20; 2\. When the installation wizard opens, click Next
+2\. When the installation wizard opens, click Next
 
 ![](<../../../.gitbook/assets/image (726).png>)
 
-&#x20; 3\. Read and accept the license agreement by ticking the check box at the bottom and click Next
+3\. Read and accept the license agreement by ticking the check box at the bottom and click Next
 
 ![](<../../../.gitbook/assets/image (241).png>)
 
-&#x20; 4\. Click the Change button to choose the location for the Stream Host to be installed
+4\. Click the Change button to choose the location for the Stream Host to be installed
 
-&#x20; 5\. Browse to the directory you would like to use, or use the default, and click Next
+5\. Browse to the directory you would like to use, or use the default, and click Next
 
 ![](<../../../.gitbook/assets/image (178).png>)
 
 ## Host Type Selection
 
-&#x20; 1\. Select the host type and click Next
+1\. Select the host type and click Next
 
 ![](<../../../.gitbook/assets/image (665).png>)
 
@@ -58,14 +58,14 @@ It will be listed in the Start menu under the name “_XMPro Stream Host_“ and
 {% endhint %}
 
 {% hint style="info" %}
-_Windows Service_ is recommended for production environments.&#x20;
+_Windows Service_ is recommended for production environments.
 
 It will automatically start after installation completes and the name of the service will be the same as the “_Device Name_” you specified when you downloaded the Connection Profile file or manually added the name to the installer.
 {% endhint %}
 
 ## Connection Profile
 
-&#x20; 1\. Select your preferred setup mode and click Next
+1\. Select your preferred setup mode and click Next
 
 ![](<../../../.gitbook/assets/image (552).png>)
 
@@ -73,11 +73,11 @@ It will automatically start after installation completes and the name of the ser
 
 Follow these steps if you selected _Connection Profile:_
 
-&#x20; 1\. Click Browse and select the Connection Profile file you downloaded earlier in the [guide](./)
+1\. Click Browse and select the Connection Profile file you downloaded earlier in the [guide](./)
 
-&#x20; 2\. In the File Key textbox enter the key used to create the Connection Profile&#x20;
+2\. In the File Key textbox enter the key used to create the Connection Profile
 
-&#x20; _3_. Click Next and let the wizard install the Stream Host
+_3_. Click Next and let the wizard install the Stream Host
 
 {% hint style="info" %}
 If you selected _Manual_, see the section below for instructions on how to set it up.

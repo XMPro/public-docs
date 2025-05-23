@@ -8,7 +8,7 @@ description: v4.3.1
 
 ## Overview
 
-Data caching is a technique used to improve the performance and responsiveness of applications. It works by storing frequently accessed data in a fast and easily accessible location.&#x20;
+Data caching is a technique used to improve the performance and responsiveness of applications. It works by storing frequently accessed data in a fast and easily accessible location.
 
 When an application needs the data it can be retrieved quickly without having to go through time-consuming operations like accessing a database.
 
@@ -16,9 +16,9 @@ _Distributed caching_ takes the concept of caching further by caching data in an
 
 ### In-memory caching: Single Server
 
-The default behavior for all XMPro installations is that this location is on the host server memory, i.e. a single server.&#x20;
+The default behavior for all XMPro installations is that this location is on the host server memory, i.e. a single server.
 
-### Distributed caching: Multiple Servers&#x20;
+### Distributed caching: Multiple Servers
 
 Auto Scale, XMPro's implementation of distributed caching, offers a superior caching approach that is highly recommended, particularly for larger production-ready implementations. XMPro utilizes “Redis” (Remote Dictionary Server), which is a popular open-source data structure store for XMPro’s distributed caching needs.
 

@@ -8,7 +8,7 @@ description: v4.3.0
 
 ## Overview
 
-Application logging refers to recording and storing information about the events and activities that occur within a software application. It involves capturing relevant data, such as error messages, warnings, user interactions, and system events, and storing them in a log file or database.&#x20;
+Application logging refers to recording and storing information about the events and activities that occur within a software application. It involves capturing relevant data, such as error messages, warnings, user interactions, and system events, and storing them in a log file or database.
 
 Application logging is essential for troubleshooting and debugging, as it helps identify and analyze issues that may arise during the application's execution. It also provides valuable insights into the application's performance, usage patterns, and security.
 
@@ -29,7 +29,7 @@ Subscription Manager currently only supports logging to file.
 From v4.4.4., logging for all products is always enabled and the feature flag does not need to be enabled. Lightweight logging to file is active by default and we recommend that it is reviewed.
 {% endhint %}
 
-Repeat these steps for any of the XMPro products (Application Designer, Data Stream Designer, and AI XMPro) - except Subscription Manager and Stream Hosts.&#x20;
+Repeat these steps for any of the XMPro products (Application Designer, Data Stream Designer, and AI XMPro) - except Subscription Manager and Stream Hosts.
 
 1. Navigate to the IIS location where the XMPro product has been installed.
 2. Open the _appsettings.json_ file.
@@ -175,7 +175,7 @@ The above example provides for the following:
 
 ## Application Insights
 
-This utilizes the Serilog application insights sink. See [Serilog sinks file for Application Insights](https://github.com/serilog-contrib/serilog-sinks-applicationinsights) for a complete set of configuration options.&#x20;
+This utilizes the Serilog application insights sink. See [Serilog sinks file for Application Insights](https://github.com/serilog-contrib/serilog-sinks-applicationinsights) for a complete set of configuration options.
 
 Below are the steps for an _**example**_ of how it can be used in App Designer, Data Stream Designer, Stream Hosts, and AI XMPro:
 
@@ -201,7 +201,7 @@ Below are the steps for an _**example**_ of how it can be used in App Designer, 
 
 ## Application Insights plus Telemetry
 
-This utilizes the Serilog application insights sink to write events to Microsoft Azure Application Insights and collect valuable Telemetry data.&#x20;
+This utilizes the Serilog application insights sink to write events to Microsoft Azure Application Insights and collect valuable Telemetry data.
 
 Below are the steps for an _**example**_ of how it can be used in App Designer, Data Stream Designer, Stream Hosts, and AI XMPro:
 
@@ -220,13 +220,13 @@ Below are the steps for an _**example**_ of how it can be used in App Designer, 
 
 ## Datadog
 
-This utilizes the Serilog datadog sink. See [Serilog Sinks File for Datadog](https://github.com/DataDog/serilog-sinks-datadog-logs) for a complete set of configuration options.&#x20;
+This utilizes the Serilog datadog sink. See [Serilog Sinks File for Datadog](https://github.com/DataDog/serilog-sinks-datadog-logs) for a complete set of configuration options.
 
 Below are the steps for an _**example**_ of how it can be used in App Designer, Data Stream Designer, Stream Hosts, and AI:
 
 1. Open the _appsettings.json_ file.
-2. Determine the site parameter by checking [here](https://docs.datadoghq.com/getting\_started/site/#access-the-datadog-site).
-3. Get the endpoint/URL and port number by checking [here](https://docs.datadoghq.com/logs/log\_collection/?tab=host#supported-endpoints).
+2. Determine the site parameter by checking [here](https://docs.datadoghq.com/getting_started/site/#access-the-datadog-site).
+3. Get the endpoint/URL and port number by checking [here](https://docs.datadoghq.com/logs/log_collection/?tab=host#supported-endpoints).
 4. Add the “DatadogLogs” Serilog configuration inside the WriteTo array.
 5. Save the file and restart the XMPro product service or Stream Host.
 

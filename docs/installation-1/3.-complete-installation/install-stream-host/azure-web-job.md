@@ -24,28 +24,28 @@ If you require more Stream Hosts, follow these steps to add additional Azure Web
 
 XMPro Stream Host can be hosted as a Web Job in Azure. Following are the steps required to set up a web job:
 
-&#x20; 1\. Install a Stream Host locally as a Console Application
+1\. Install a Stream Host locally as a Console Application
 
 {% hint style="danger" %}
 **Warning:** Read the instructions in the [Install Stream Host on Windows x64 article](windows-x64.md).
 {% endhint %}
 
-&#x20; 2\. Copy the installed files and add them to this [zip](https://firebasestorage.googleapis.com/v0/b/gitbook-legacy-files/o/assets%2F-MZAQh4Gn3jXbTJU2Mb4%2F-MdQnhG4EDOuuKUgRaen%2F-Md\_\_5-am8y9M1w3Ms85%2FSH%20WebJob.zip?alt=media\&token=31a4ebd0-111a-4081-af43-dbfef057e559)
+2\. Copy the installed files and add them to this [zip](https://firebasestorage.googleapis.com/v0/b/gitbook-legacy-files/o/assets%2F-MZAQh4Gn3jXbTJU2Mb4%2F-MdQnhG4EDOuuKUgRaen%2F-Md__5-am8y9M1w3Ms85%2FSH%20WebJob.zip?alt=media\&token=31a4ebd0-111a-4081-af43-dbfef057e559)
 
 {% hint style="info" %}
 Installed files can usually be found at _C:\Program Files\XMPro Stream Host\\\*_
 {% endhint %}
 
-&#x20; 3\. Azure may restrict file uploads to 50Mb. If so, remove these from the zip to cut down the size:
+3\. Azure may restrict file uploads to 50Mb. If so, remove these from the zip to cut down the size:
 
 * Cache folder
 * Logs folder
 * \*.jar files
 * \*.pdb
 
-&#x20; 4\. Create a Web Job as per the instructions on the [Microsoft Documentation site](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create#CreateContinuous).
+4\. Create a Web Job as per the instructions on the [Microsoft Documentation site](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create#CreateContinuous).
 
-&#x20; 5\. Choose the following settings:
+5\. Choose the following settings:
 
 | **Name**    | **Value**                    |
 | ----------- | ---------------------------- |

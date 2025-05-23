@@ -10,7 +10,7 @@ description: v4.2.3
 
 [Health checks](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-6.0) are the industry standard for the initial diagnostic step of the troubleshooting process, which provides information about the health and readiness of XMPro services. The health checks achieve this by performing periodic evaluations of connected services - each of which returns a status of healthy or unhealthy.
 
-The health checks are disabled by default. Once the health checks are turned on, you can opt to view them in the [Health UI](configure-health-checks-optional.md#health-ui) or add the [endpoints](configure-health-checks-optional.md#health-endpoints) to your existing business application health monitoring IT solution.  &#x20;
+The health checks are disabled by default. Once the health checks are turned on, you can opt to view them in the [Health UI](configure-health-checks-optional.md#health-ui) or add the [endpoints](configure-health-checks-optional.md#health-endpoints) to your existing business application health monitoring IT solution.
 
 {% hint style="info" %}
 It is also possible to include [third-party endpoints](configure-health-checks-optional.md#adding-third-party-endpoints) - enabling you to monitor all of your health checks in a central location.
@@ -24,7 +24,7 @@ Each XMPro service has an endpoint that can be accessed to determine its overall
 2. Connection to the databases
 3. Connection to Redis Cache
 
-The raw JSON of the results can be accessed through the health path of the service's URL. For example, _https://xmpro-ad-sample.azurewebsites.net/health_&#x20;
+The raw JSON of the results can be accessed through the health path of the service's URL. For example, _https://xmpro-ad-sample.azurewebsites.net/health_
 
 <figure><img src="../../.gitbook/assets/health-endpoint-result.png" alt=""><figcaption><p>Fig 1: Healthy JSON output using Postman</p></figcaption></figure>
 
@@ -38,7 +38,7 @@ The UI provides a user-friendly display of the responses from the health endpoin
 
 To access the health checks performed, visit the health UI of any of the services using the health-ui path. For example, _https://xmpro-ad-sample.azurewebsites.net/health-ui._
 
-_The health check for XMPro AI was added in v4.4.5._&#x20;
+_The health check for XMPro AI was added in v4.4.5._
 
 <figure><img src="../../.gitbook/assets/health-ui.png" alt=""><figcaption><p>Fig 2: The Health Checks interface</p></figcaption></figure>
 
@@ -49,8 +49,8 @@ The following steps describe how to turn on the health check functionality.
 ### Application Designer
 
 1. Navigate to the IIS location where Application Designer has been installed.
-2. Open the App Designer  _appsettings.json_ file.
-3. Set `enableHealthCheck` in the `featureFlags` object to _true_.&#x20;
+2. Open the App Designer _appsettings.json_ file.
+3. Set `enableHealthCheck` in the `featureFlags` object to _true_.
 
 {% hint style="info" %}
 This feature flag turns on both the `/health` and `/health-ui` endpoints.
@@ -58,7 +58,7 @@ This feature flag turns on both the `/health` and `/health-ui` endpoints.
 
 <figure><img src="../../.gitbook/assets/Configure Health Check - setup step 1.png" alt=""><figcaption><p>Fig 3: Step 3</p></figcaption></figure>
 
-4. Configure the URLs you want to include in the health checks within the `healthChecks` object. The standard endpoint for each XMPro service is `/health/ping`.&#x20;
+4. Configure the URLs you want to include in the health checks within the `healthChecks` object. The standard endpoint for each XMPro service is `/health/ping`.
 
 ```json
 "healthChecks": {
@@ -82,7 +82,7 @@ This feature flag turns on both the `/health` and `/health-ui` endpoints.
     }
 ```
 
-5. Configure the `/health` endpoints you want to include in the UI within the `HealthChecksUI` object.&#x20;
+5. Configure the `/health` endpoints you want to include in the UI within the `HealthChecksUI` object.
 
 ```json
 "HealthChecksUI": {
@@ -162,7 +162,7 @@ Repeat the above steps for XMPro AI, using these values for step 4:
 
 ## Adding Third-Party Endpoints
 
-Third-party endpoints are supported and can be included as part of the health check. These are added in the same place as the XMPro service health checks.&#x20;
+Third-party endpoints are supported and can be included as part of the health check. These are added in the same place as the XMPro service health checks.
 
 {% hint style="info" %}
 Only endpoints that do not need additional authorization are currently supported for the health checks.
@@ -176,4 +176,4 @@ Only endpoints that do not need additional authorization are currently supported
 
 Below are the properties in this configuration when including other URLs in the health check:
 
-<table><thead><tr><th width="164.57142857142856">Property</th><th>Description</th></tr></thead><tbody><tr><td>url</td><td>Determines the URL to check.</td></tr><tr><td>name</td><td>Determines the name/identifier of the health check to be performed.</td></tr><tr><td>tags</td><td>Determines the tag for the health check. This is useful for tagging/grouping health checks.</td></tr><tr><td>timeout</td><td>The amount of time to wait for a response from the site. The health check will return as <code>Unhealthy</code> if the timeout is reached while waiting for the URL. <br>By default, this is empty and will wait for the URL indefinitely.</td></tr></tbody></table>
+<table><thead><tr><th width="164.57142857142856">Property</th><th>Description</th></tr></thead><tbody><tr><td>url</td><td>Determines the URL to check.</td></tr><tr><td>name</td><td>Determines the name/identifier of the health check to be performed.</td></tr><tr><td>tags</td><td>Determines the tag for the health check. This is useful for tagging/grouping health checks.</td></tr><tr><td>timeout</td><td>The amount of time to wait for a response from the site. The health check will return as <code>Unhealthy</code> if the timeout is reached while waiting for the URL.<br>By default, this is empty and will wait for the URL indefinitely.</td></tr></tbody></table>

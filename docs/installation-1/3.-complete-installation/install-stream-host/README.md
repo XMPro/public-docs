@@ -1,7 +1,7 @@
 # Install Stream Host
 
 {% hint style="info" %}
-**Want to run Stream Host in Docker?** Please jump to "[Docker instructions for Stream Host](docker/)".
+**Want to run Stream Host in Docker?** Please jump to "[Docker instructions for Stream Host](docker.md)".
 {% endhint %}
 
 ## Download the Connection Profile
@@ -49,8 +49,8 @@ Choose the platform where you will install the Stream Host:
 [ubuntu-16.04+-x64.md](ubuntu-16.04+-x64.md)
 {% endcontent-ref %}
 
-{% content-ref url="docker/" %}
-[docker](docker/)
+{% content-ref url="docker.md" %}
+[docker.md](docker.md)
 {% endcontent-ref %}
 
 ## Troubleshooting
