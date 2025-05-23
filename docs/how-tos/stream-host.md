@@ -10,9 +10,9 @@ It is recommended that you read the article listed below to improve your underst
 
 ## How to Install a Stream Host
 
-The recommended Stream Host deployment is as a Docker container - see the [Docker](../installation/3.-complete-installation/install-stream-host/docker.md) instructions.
+The recommended Stream Host deployment is as a Docker container - see the [Docker](../installation-1/3.-complete-installation/install-stream-host/docker.md) instructions.
 
-Alternate methods can be found at [Install Stream Host](../installation/3.-complete-installation/install-stream-host/).
+Alternate methods can be found at [Install Stream Host](../installation-1/3.-complete-installation/install-stream-host/).
 
 ## Logs
 
@@ -128,7 +128,7 @@ The Stream Host retrieves variable values in the following order:
 
 _v4.4.2_
 
-This option can be applied to any Stream Host install scenario, although it is better suited for when running [Stream Host on Docker](../installation/3.-complete-installation/install-stream-host/docker.md).
+This option can be applied to any Stream Host install scenario, although it is better suited for when running [Stream Host on Docker](../installation-1/3.-complete-installation/install-stream-host/docker.md).
 
 Create an environment variable that is applied to a running Stream Host instance, prefixing the name of the variable that should be overridden with `xmvariable__`
 

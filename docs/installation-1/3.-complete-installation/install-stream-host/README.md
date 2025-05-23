@@ -1,19 +1,19 @@
 # Install Stream Host
 
 {% hint style="info" %}
-**Want to run Stream Host in Docker?** Please jump to "[Docker instructions for Stream Host](docker/)".
+**Want to run Stream Host in Docker?** Please jump to "[Docker instructions for Stream Host](docker.md)".
 {% endhint %}
 
 ## Download the Connection Profile
 
-Each Data Stream created in Data Stream Designer must belong to a [Collection](broken-reference). You can download the information in a Collection as a file, known as a Connection Profile. This profile includes the _device name, collection ID, server URL, secret,_ and _key_.
+Each Data Stream created in Data Stream Designer must belong to a [Collection](../../../concepts/collection.md). You can download the information in a Collection as a file, known as a Connection Profile. This profile includes the _device name, collection ID, server URL, secret,_ and _key_.
 
 To simplify installing a Stream Host (also called a device), download the Connection Profile to avoid manually copying Collection details from Data Stream Designer to the installer.
 
 To obtain a Connection Profile, follow the steps below.
 
-1. [Log into Data Stream Designer](broken-reference) and open the _Collections_ page from the left-hand menu.
-2. Select the Collection you wish to use. If there isn’t a Collection available, you can [create one](broken-reference) by clicking the _New_ button, choosing a name for the collection, and clicking _Ok_.
+1. [Log into Data Stream Designer](../../../administration/users/register-an-account.md) and open the _Collections_ page from the left-hand menu.
+2. Select the Collection you wish to use. If there isn’t a Collection available, you can [create one](../../../how-tos/data-streams/manage-collections.md) by clicking the _New_ button, choosing a name for the collection, and clicking _Ok_.
 3. Click on _Connection Profile_.
 4. Choose a name for the device.
 5. Enter the File Key.
@@ -49,8 +49,8 @@ Choose the platform where you will install the Stream Host:
 [ubuntu-16.04+-x64.md](ubuntu-16.04+-x64.md)
 {% endcontent-ref %}
 
-{% content-ref url="docker/" %}
-[docker](docker/)
+{% content-ref url="docker.md" %}
+[docker.md](docker.md)
 {% endcontent-ref %}
 
 ## Troubleshooting

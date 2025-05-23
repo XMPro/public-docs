@@ -1,4 +1,4 @@
-# Implementation
+# Implementation FAQs
 
 Find answers to some of the most frequently asked implementation questions.
 
@@ -12,7 +12,7 @@ A synopsis of our framework for a project is as follows:
 
 * Define the Business Problem that needs to be addressed
 * Identify Bad Actors (_Refer Bad Actors image)_
-* Care must be taken to identify the initial Use Case &#x20;
+* Care must be taken to identify the initial Use Case
   * Refer McKinsey [study](https://www.mckinsey.com/capabilities/operations/our-insights/toward-smart-production-machine-intelligence-in-business-operations) 4 steps on page 12
   * Refer McKinsey [study](https://www.mckinsey.com/capabilities/operations/our-insights/capturing-the-true-value-of-industry-four-point-zero) Avoid Pilot Purgatory
 * Gather data for the initial Proof of Value or Pilot
@@ -30,7 +30,7 @@ A synopsis of our framework for a project is as follows:
 
 Always start small. Digital transformation is achieved by many small projects that lock in success at each step. The overall goal is to achieve project success early and expand.
 
-There will be many challenges for you to achieve success, by starting with small projects you lower the overall risk of failure.  The positive flip side of small projects is that you fail fast, and the costs are limited.
+There will be many challenges for you to achieve success, by starting with small projects you lower the overall risk of failure. The positive flip side of small projects is that you fail fast, and the costs are limited.
 
 <figure><img src="../../.gitbook/assets/FAQ Easy Wins.png" alt=""><figcaption></figcaption></figure>
 
@@ -41,7 +41,7 @@ We think it makes sense to think of two components of PdM (Predictive Maintenanc
 * First Principle / Engineering Models – The starting point for most predictive solutions supported by real-time sensor data
 * AI / Statistical Models – Use the AI / Statistical models to augment decision support but requires quality data and contextual models
 
-&#x20;Subject to quality data, the First Principle / Engineering Models are the fast start as the formula is agreed upon and the model is ready to go.  AI / Statistical Models require more effort and analysis – one will need the assets failure history and time and resources to refine your models.
+Subject to quality data, the First Principle / Engineering Models are the fast start as the formula is agreed upon and the model is ready to go. AI / Statistical Models require more effort and analysis – one will need the assets failure history and time and resources to refine your models.
 
 <figure><img src="../../.gitbook/assets/FAQ Predictive Maintenance 1.png" alt=""><figcaption></figcaption></figure>
 
@@ -77,7 +77,7 @@ Below is our strategy for expansion in asset-intensive industries with transfera
 
 ### Can XMPro be installed and used on-premise?
 
-Yes. Currently, the majority of XMPro deployments are Cloud-based. XMPro can be deployed on-premises, on Azure/AWS, or as a hybrid with parts on-premises and in the cloud.&#x20;
+Yes. Currently, the majority of XMPro deployments are Cloud-based. XMPro can be deployed on-premises, on Azure/AWS, or as a hybrid with parts on-premises and in the cloud.
 
 Typically for the hybrid deployment, the stream host is deployed on-premises with the core application being hosted on the cloud.
 
@@ -85,8 +85,8 @@ On-premise deployments have been driven by the need for remote locations, as wel
 
 #### Further Reading
 
-* [On-Premise deployment](../../installation/2.-deployment/on-premise.md)
-* [All deployment options](../../installation/2.-deployment/)
+* [On-Premise deployment](../../installation-1/2.-deployment/on-premise.md)
+* [All deployment options](../../installation/2.-deployment)
 
 ### If XMPro is in the Cloud, can I connect to my On-Premise application(s)?
 
@@ -94,12 +94,12 @@ Yes. If your applications are internet-facing, then a cloud stream host can be u
 
 #### Further Reading
 
-* [Azure Deployment Diagram](../../installation/2.-deployment/azure.md#azure-resources-and-sizing)
-* [AWS Deployment Diagram](../../installation/2.-deployment/aws.md#architecture)
+* [Azure Deployment Diagram](../../installation-1/2.-deployment/azure.md#azure-resources-and-sizing)
+* [AWS Deployment Diagram](../../installation-1/2.-deployment/aws.md#architecture)
 
 ### Do I need a separate server for the stream host, or will it run on the same application server?
 
-The preferred approach is to have a separate infrastructure for the stream host.&#x20;
+The preferred approach is to have a separate infrastructure for the stream host.
 
 It is possible that your XMPro deployment has only one Stream Host. However, this is rarely the case and we suggest the following considerations:
 
@@ -129,9 +129,9 @@ The processing of large swathes of past time series data is possible, but there 
 
 #### XMPro App Designer Server memory scenarios
 
-The XMPro App Designer Server will reserve the required memory for each unique query while there is at least 1 active user interacting with it. A unique query is defined as a Time Series Chart instance, with the same date selection and same data source. The number of concurrent queries with at least 1 active user will have an influence on the XMPro App Designer Server performance.&#x20;
+The XMPro App Designer Server will reserve the required memory for each unique query while there is at least 1 active user interacting with it. A unique query is defined as a Time Series Chart instance, with the same date selection and same data source. The number of concurrent queries with at least 1 active user will have an influence on the XMPro App Designer Server performance.
 
-If one user runs a query that consumes 2 GB of server memory and a different user performs that same query, then the server consumes no additional memory and instead used the cached query.&#x20;
+If one user runs a query that consumes 2 GB of server memory and a different user performs that same query, then the server consumes no additional memory and instead used the cached query.
 
 If a different query is run that consumes 4 GB of server memory, then a total of 6 GB of memory would be consumed, and so on. Depending on the server configuration this could impact overall server performance and response time (user experience)."
 
@@ -149,13 +149,13 @@ There are several influences on XMPro App Designer Server and XMPro App Designer
 * Client Available CPU speed
 * Client Available Memory
 * Web Browser and Version
-* XMPro Platform Version&#x20;
+* XMPro Platform Version
 
 #### SQL vs ADX
 
 The first consideration that impacts response time is the amount of data queried at the data source and the volume of data transmitted in response. The second consideration is the volume and complexity of data that the App Designer Server needs to parse.
 
-Figures 1 & 2 illustrate the reason for the improved performance of ADX over SQL.&#x20;
+Figures 1 & 2 illustrate the reason for the improved performance of ADX over SQL.
 
 Amending the aggregation period will be almost instantaneous on ADX. On SQL this is likely to be slower.
 
@@ -164,7 +164,7 @@ Amending the aggregation period will be almost instantaneous on ADX. On SQL this
 #### Issues for consideration to address overall performance
 
 * The Time Series Analysis data loads initially and then again whenever the date selection is changed.
-  * Thus the initial selection should be limited, e.g. 3 hours.&#x20;
+  * Thus the initial selection should be limited, e.g. 3 hours.
   * The appropriate initial selection depends upon the frequency of data points, i.e., if the time interval is every second, every minute, or every hour.
   * The number of assets affects performance - not whether they are selected. All data points for all assets for the data range selection are loaded so that the query does not need to be reloaded when a user changes their asset selection.
 * Limit the number of records fetched from the source system, either by using aggregation at the source if possible (or) by limiting to a shorter date range selection.

@@ -1,6 +1,32 @@
 # Table of contents
 
-* [What is XMPro?](README.md)
+## Installation
+
+* [Overview](README.md)
+* [1. Preparation](installation/install.md)
+* [2. Install XMPro](installation/2.-deployment/README.md)
+  * [Azure](installation/2.-deployment/azure.md)
+  * [AWS](installation/2.-deployment/aws.md)
+  * [On-Premise](installation/2.-deployment/on-premise.md)
+* [3. Complete Installation](installation/3.-complete-installation/README.md)
+  * [Configure Auto Scale (Optional)](installation/3.-complete-installation/configure-auto-scale-optional.md)
+  * [Configure Health Checks (Optional)](installation/3.-complete-installation/configure-health-checks-optional.md)
+  * [Configure Logging (Optional)](installation/3.-complete-installation/configure-logging-optional.md)
+  * [Configure SSO (Optional)](installation/3.-complete-installation/configure-sso-optional/README.md)
+    * [SSO - Azure AD](installation/3.-complete-installation/configure-sso-optional/sso-azure-ad.md)
+    * [SSO - ADFS](installation/3.-complete-installation/configure-sso-optional/sso-adfs.md)
+  * [Create Base Company](installation/3.-complete-installation/set-up-a-tenant-company.md)
+  * [Install Stream Host](installation/3.-complete-installation/install-stream-host/README.md)
+    * [Windows x64](installation/3.-complete-installation/install-stream-host/windows-x64.md)
+    * [Azure Web Job](installation/3.-complete-installation/install-stream-host/azure-web-job.md)
+    * [Ubuntu 20.04 x64](installation/3.-complete-installation/install-stream-host/ubuntu-16.04+-x64.md)
+    * [Docker](installation/3.-complete-installation/install-stream-host/docker/README.md)
+      * [Docker v4.4.2 - v4.4.18](installation/3.-complete-installation/install-stream-host/docker/docker.md)
+  * [Install Agents & Connectors](installation/3.-complete-installation/install-connectors.md)
+
+***
+
+* [What is XMPro?](<README (1).md>)
 
 ## Getting Started
 
@@ -702,26 +728,26 @@
 
 ## Installation
 
-* [Overview](installation/overview.md)
-* [1. Preparation](installation/install.md)
-* [2. Install XMPro](installation/2.-deployment/README.md)
-  * [Azure](installation/2.-deployment/azure.md)
-  * [AWS](installation/2.-deployment/aws.md)
-  * [On-Premise](installation/2.-deployment/on-premise.md)
-* [3. Complete Installation](installation/3.-complete-installation/README.md)
-  * [Configure Auto Scale (Optional)](installation/3.-complete-installation/configure-auto-scale-optional.md)
-  * [Configure Health Checks (Optional)](installation/3.-complete-installation/configure-health-checks-optional.md)
-  * [Configure Logging (Optional)](installation/3.-complete-installation/configure-logging-optional.md)
-  * [Configure SSO (Optional)](installation/3.-complete-installation/configure-sso-optional/README.md)
-    * [SSO - Azure AD](installation/3.-complete-installation/configure-sso-optional/sso-azure-ad.md)
-    * [SSO - ADFS](installation/3.-complete-installation/configure-sso-optional/sso-adfs.md)
-  * [Create Base Company](installation/3.-complete-installation/set-up-a-tenant-company.md)
-  * [Install Stream Host](installation/3.-complete-installation/install-stream-host/README.md)
-    * [Windows x64](installation/3.-complete-installation/install-stream-host/windows-x64.md)
-    * [Azure Web Job](installation/3.-complete-installation/install-stream-host/azure-web-job.md)
-    * [Ubuntu 20.04 x64](installation/3.-complete-installation/install-stream-host/ubuntu-16.04+-x64.md)
-    * [Docker](installation/3.-complete-installation/install-stream-host/docker.md)
-  * [Install Agents & Connectors](installation/3.-complete-installation/install-connectors.md)
+* [Overview](installation-1/overview.md)
+* [1. Preparation](installation-1/install.md)
+* [2. Install XMPro](installation-1/2.-deployment/README.md)
+  * [Azure](installation-1/2.-deployment/azure.md)
+  * [AWS](installation-1/2.-deployment/aws.md)
+  * [On-Premise](installation-1/2.-deployment/on-premise.md)
+* [3. Complete Installation](installation-1/3.-complete-installation/README.md)
+  * [Configure Auto Scale (Optional)](installation-1/3.-complete-installation/configure-auto-scale-optional.md)
+  * [Configure Health Checks (Optional)](installation-1/3.-complete-installation/configure-health-checks-optional.md)
+  * [Configure Logging (Optional)](installation-1/3.-complete-installation/configure-logging-optional.md)
+  * [Configure SSO (Optional)](installation-1/3.-complete-installation/configure-sso-optional/README.md)
+    * [SSO - Azure AD](installation-1/3.-complete-installation/configure-sso-optional/sso-azure-ad.md)
+    * [SSO - ADFS](installation-1/3.-complete-installation/configure-sso-optional/sso-adfs.md)
+  * [Create Base Company](installation-1/3.-complete-installation/set-up-a-tenant-company.md)
+  * [Install Stream Host](installation-1/3.-complete-installation/install-stream-host/README.md)
+    * [Windows x64](installation-1/3.-complete-installation/install-stream-host/windows-x64.md)
+    * [Azure Web Job](installation-1/3.-complete-installation/install-stream-host/azure-web-job.md)
+    * [Ubuntu 20.04 x64](installation-1/3.-complete-installation/install-stream-host/ubuntu-16.04+-x64.md)
+    * [Docker](installation-1/3.-complete-installation/install-stream-host/docker.md)
+  * [Install Agents & Connectors](installation-1/3.-complete-installation/install-connectors.md)
 
 ## Release Notes
 

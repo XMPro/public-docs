@@ -96,7 +96,7 @@ This optional functionality allows a user's Business Role to be synced to a corr
    `<identityProviders businessRoleClaim="PUT THE CLAIM NAME HERE">`
 5. Save the file and restart the Subscription Manager service.
 
-[See the Sync Business Roles from Azure AD article for more information](broken-reference).
+[See the Sync Business Roles from Azure AD article for more information](../../../concepts/manage-access.md#sync-business-roles-with-an-external-identity-provider).
 
 ## Guest User access across Tenants
 

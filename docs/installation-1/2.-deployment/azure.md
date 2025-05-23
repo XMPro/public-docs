@@ -55,7 +55,7 @@ This section provides information about installing the XMPro platform from scrat
 
 4\. Download the file from the link provided below:
 
-{% file src="broken-reference" %}
+{% file src="../../.gitbook/assets/mainTemplate_v4.4.16.json" %}
 
 5\. Select "Load File" and then Open the downloaded "mainTemplate\_\[Version].json"
 
@@ -131,7 +131,7 @@ Login using the Super Admin account **admin@xmpro.onxmpro.com**.
 
 This sends a request to XMPro for an App Designer license for this Company.
 
-![](<../../.gitbook/assets/image (1434).png>)
+![](<../../.gitbook/assets/image (423).png>)
 
 {% hint style="danger" %}
 The _Generate a license request_ link will only work if SMTP was set up during installation.

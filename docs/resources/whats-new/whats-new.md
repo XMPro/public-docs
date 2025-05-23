@@ -4,7 +4,7 @@
 
 ## Overview
 
-Introducing the XMPro 4.3 release, where we continue to prioritize initiatives aligned with our higher goals of achieving faster time to value, distributed intelligence, and secure deployments.  Our [product roadmap](https://youtu.be/XeEpso-ykMI) outlines how each initiative serves a specific purpose within these categories.
+Introducing the XMPro 4.3 release, where we continue to prioritize initiatives aligned with our higher goals of achieving faster time to value, distributed intelligence, and secure deployments. Our [product roadmap](https://youtu.be/XeEpso-ykMI) outlines how each initiative serves a specific purpose within these categories.
 
 We have concentrated our efforts on two key initiatives: the cloud-to-edge continuum and AI & engineering excellence. These areas reflect our commitment to delivering cutting-edge solutions and ensuring excellence in artificial intelligence and engineering practices.
 
@@ -14,11 +14,11 @@ We have concentrated our efforts on two key initiatives: the cloud-to-edge conti
 
 The XMPro platform needs to be performant, scalable, and monitored in order to be fully cloud agnostic. We strive to implement industry best practices to achieve this.
 
-### Auto Scale - Distributed Caching&#x20;
+### Auto Scale - Distributed Caching
 
 This feature aligns with the EDGE continuum bucket, enabling XMPro to run distributed infrastructure essential for HDT cloud computing.
 
-[Auto Scale](../../installation/3.-complete-installation/configure-auto-scale-optional.md), XMPro's implementation of caching has been overhauled with a distributed storage feature that promises improved caching capabilities. It offers a superior caching approach that is highly recommended, particularly for larger production-ready implementations.
+[Auto Scale](../../installation-1/3.-complete-installation/configure-auto-scale-optional.md), XMPro's implementation of caching has been overhauled with a distributed storage feature that promises improved caching capabilities. It offers a superior caching approach that is highly recommended, particularly for larger production-ready implementations.
 
 It uses a technology called Redis, a flexible technology that offers a distributed storage feature that makes use of multiple smaller cache entries. In this setup, some nodes act as masters, handling the processing of data, while others serve as backups. This way, if one node goes down, the others can take over to keep the system running smoothly.
 
@@ -30,17 +30,17 @@ The introduction of health check endpoints is essential for cloud-agnostic appli
 
 Health check endpoints play a crucial role by allowing easy identification of problems without requiring extensive technical knowledge or login credentials. They provide a snapshot of each XMPro product's health, including its interconnected components and overall system status.
 
-Administrators can [configure health checks](../../installation/3.-complete-installation/configure-health-checks-optional.md) and add additional systems to monitor, further enhancing the product's stability and performance.
+Administrators can [configure health checks](../../installation-1/3.-complete-installation/configure-health-checks-optional.md) and add additional systems to monitor, further enhancing the product's stability and performance.
 
-The output can be consumed by your preferred provider, such as Azure's Application Insights, or use the default Health UI.&#x20;
+The output can be consumed by your preferred provider, such as Azure's Application Insights, or use the default Health UI.
 
 <figure><img src="../../.gitbook/assets/health-ui-v4.3.png" alt=""><figcaption><p>Fig 2: The default Health UI with example health checks on App Designer and Data Stream Designer.</p></figcaption></figure>
 
-### Logging Provider Support&#x20;
+### Logging Provider Support
 
-[Logging Provider Support](../../installation/3.-complete-installation/configure-logging-optional.md) is a new feature that introduces the implementation of Serilog, a diagnostic logging library for .NET applications. This library enables the capture of log events with structured data. Providing administrators with valuable insights into the behavior and performance of XMPro.
+[Logging Provider Support](../../installation-1/3.-complete-installation/configure-logging-optional.md) is a new feature that introduces the implementation of Serilog, a diagnostic logging library for .NET applications. This library enables the capture of log events with structured data. Providing administrators with valuable insights into the behavior and performance of XMPro.
 
-Three logging outputs are supported: [Logging to file](../../installation/3.-complete-installation/configure-logging-optional.md#logging-to-file) support has been added for all XMPro products, whereas [Application Insights](../../installation/3.-complete-installation/configure-logging-optional.md#application-insights) and [Datadog](../../installation/3.-complete-installation/configure-logging-optional.md#datadog) support has been added for all products aside from Subscription Manager. These are cloud-based application monitoring and analytics services.&#x20;
+Three logging outputs are supported: [Logging to file](../../installation-1/3.-complete-installation/configure-logging-optional.md#logging-to-file) support has been added for all XMPro products, whereas [Application Insights](../../installation-1/3.-complete-installation/configure-logging-optional.md#application-insights) and [Datadog](../../installation-1/3.-complete-installation/configure-logging-optional.md#datadog) support has been added for all products aside from Subscription Manager. These are cloud-based application monitoring and analytics services.
 
 ### Deployment Automation
 
@@ -52,13 +52,13 @@ Accelerate time to value by choosing to automatically deploy the regular, smalle
 
 ## AI and Engineering Excellence
 
-The new [XMPro AI article](../../concepts/xmpro-ai/) describes various ways in which AI is infused into the Digital Twin Platform.&#x20;
+The new [XMPro AI article](../../concepts/xmpro-ai/) describes various ways in which AI is infused into the Digital Twin Platform.
 
 ### XMPro Notebook
 
 This release introduces the [XMPro Notebook](../../concepts/xmpro-ai/xmpro-notebook.md), which is an embedded version of [Jupyterhub](https://jupyter.org/hub) and will be available for evaluation on new XMPro Freemium accounts.
 
-XMPro Notebook provides an intuitive and flexible interface for data analysis, scientific computing, machine learning, and more. Users can write code and execute cells independently, which facilitates step-by-step exploration and experimentation with real-time data.  \
+XMPro Notebook provides an intuitive and flexible interface for data analysis, scientific computing, machine learning, and more. Users can write code and execute cells independently, which facilitates step-by-step exploration and experimentation with real-time data.\
 \
 Existing customers and Freemium users can [contact us](https://xmpro.com/contact-us/) for access and licensing options. Please visit [XMPro AI](https://xmpro.com/xmpro-ai/) for more information about XMPro AI and XMPro’s Intelligent Digital Twin Suite.
 
@@ -66,10 +66,10 @@ Existing customers and Freemium users can [contact us](https://xmpro.com/contact
 
 ### Application Designer's Time Series Chart Performance
 
-Performance of the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-analysis.md) Block, when using the new [TSC SQL Connector](https://xmpro.gitbook.io/tsc-sql-server-connector/), has been significantly enhanced due to optimized client-side querying.&#x20;
+Performance of the [Time Series Chart](../../blocks-toolbox/visualizations/time-series-analysis.md) Block, when using the new [TSC SQL Connector](https://xmpro.gitbook.io/tsc-sql-server-connector/), has been significantly enhanced due to optimized client-side querying.
 
-The advantage of this Connector is that it is optimized for server-side processing of the required grouping into buckets needed for the Time Series Chart data points, reducing the response time and size, and enabling quicker retrieval of data for longer periods. &#x20;
+The advantage of this Connector is that it is optimized for server-side processing of the required grouping into buckets needed for the Time Series Chart data points, reducing the response time and size, and enabling quicker retrieval of data for longer periods. 
 
 Look out for the future release of TSC-optimized Azure Data Explorer and Historian Connectors.
 
-<figure><img src="../../.gitbook/assets/Whats New_TSC SQL Connector Result.gif" alt=""><figcaption><p>Fig 4: XMPro  Integration: TSC SQL Server Connector.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Whats New_TSC SQL Connector Result.gif" alt=""><figcaption><p>Fig 4: XMPro Integration: TSC SQL Server Connector.</p></figcaption></figure>
