@@ -85,7 +85,7 @@ On-premise deployments have been driven by the need for remote locations, as wel
 
 #### Further Reading
 
-* [On-Premise deployment](../../installation/2.-deployment/on-premise/)
+* [On-Premise deployment](../../installation/2.-deployment/windows-server-2022/)
 * [All deployment options](../../installation/2.-deployment)
 
 ### If XMPro is in the Cloud, can I connect to my On-Premise application(s)?

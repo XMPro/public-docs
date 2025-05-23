@@ -707,11 +707,11 @@
 * [2. Install XMPro](installation-1/2.-deployment/README.md)
   * [Azure](installation/2.-deployment/azure.md)
   * [AWS](installation/2.-deployment/aws.md)
-  * [Windows Server 2022](installation/2.-deployment/on-premise/README.md)
-    * [Prerequisites](installation/2.-deployment/on-premise/prerequisites.md)
-    * [Install](installation/2.-deployment/on-premise/install.md)
-    * [Upgrade](installation/2.-deployment/on-premise/upgrade.md)
-    * [Troubleshooting](installation/2.-deployment/on-premise/troubleshooting.md)
+  * [Windows Server 2022](installation/2.-deployment/windows-server-2022/README.md)
+    * [Prerequisites](installation/2.-deployment/windows-server-2022/prerequisites.md)
+    * [Install](installation/2.-deployment/windows-server-2022/install.md)
+    * [Upgrade](installation/2.-deployment/windows-server-2022/upgrade.md)
+    * [Troubleshooting](installation/2.-deployment/windows-server-2022/troubleshooting.md)
 * [3. Complete Installation](installation-1/3.-complete-installation/README.md)
   * [Configure Auto Scale (Optional)](installation-1/3.-complete-installation/configure-auto-scale-optional.md)
   * [Configure Health Checks (Optional)](installation-1/3.-complete-installation/configure-health-checks-optional.md)
@@ -730,7 +730,8 @@
 
 ## Release Notes
 
-* [v4.4.18](release-notes/v4.4.18.md)
+* [v4.4.19](release-notes/v4.4.18.md)
+* [v4.4.18](release-notes/v4.4.18-1.md)
 * [v4.4.17](release-notes/v4.4.17.md)
 * [v4.4.16](release-notes/v4.4.16.md)
 * [v4.4.15](release-notes/v4.4.15.md)

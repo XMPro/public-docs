@@ -12,6 +12,6 @@ XMPro Platform can be installed using a range of Infrastructure, please choose t
 [aws.md](../../installation/2.-deployment/aws.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../installation/2.-deployment/on-premise/" %}
-[on-premise](../../installation/2.-deployment/on-premise/)
+{% content-ref url="../../installation/2.-deployment/windows-server-2022/" %}
+[windows-server-2022](../../installation/2.-deployment/windows-server-2022/)
 {% endcontent-ref %}
