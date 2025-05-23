@@ -10,7 +10,7 @@ Before attempting any of the supported XMPro deployment options (e.g. Cloud, On-
 * [Twilio Account (Optional)](install.md#twilio-account-optional)
 
 {% hint style="info" %}
-[**Browser Requirements**](broken-reference)
+[**Browser Requirements**](../getting-started/browser-requirements.md)
 
 * Supported Browsers
 * Supported Operating Systems
@@ -23,7 +23,7 @@ Before attempting any of the supported XMPro deployment options (e.g. Cloud, On-
 
 ### Hardware Requirements
 
-For each environment, refer to the [Sizing Guideline](broken-reference) guideline to compute resources needed for small, medium, and large deployments:
+For each environment, refer to the [Sizing Guideline](../resources/sizing-guideline.md) guideline to compute resources needed for small, medium, and large deployments:
 
 * Azure
 * AWS
@@ -31,13 +31,13 @@ For each environment, refer to the [Sizing Guideline](broken-reference) guidelin
 
 ### Software Requirements
 
-This section describes the software that must be installed on the server before installing XMPro (refer [2. Install XMPro](2.-deployment) section), as well as the software required for the post-installation step of installing a Stream Host.
+This section describes the software that must be installed on the server before installing XMPro (refer [2. Install XMPro](../installation/2.-deployment) section), as well as the software required for the post-installation step of installing a Stream Host.
 
-#### Web Application Servers and SQL Database Servers
+#### Web Application Servers and SQL Database Server
 
 The following software must be installed on the web application server per product:
 
-<table><thead><tr><th width="466">Software Requirements</th><th width="92">Azure 1</th><th width="74">AWS</th><th>On-Prem</th></tr></thead><tbody><tr><td><strong>Subscription Manager (SM) Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48">Microsoft .NET Framework 4.8 Runtime</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Application Designer (AD) Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">Microsoft ASP.NET Core Runtime 8 (Hosting Bundle)</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Data Stream Designer (DS)</strong> <strong>Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">Microsoft ASP.NET Core Runtime 8 (Hosting Bundle)</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>SQL Database Server (Combined SM, AD, DS)</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Microsoft SQL Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<table><thead><tr><th width="466">Software Requirements</th><th width="92">Azure 1</th><th width="74">AWS</th><th>On-Prem</th></tr></thead><tbody><tr><td><strong>Windows Installers</strong></td><td></td><td></td><td></td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481">Microsoft .NET Framework 4.8.1 Runtime</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td><strong>Subscription Manager (SM) Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48">Microsoft .NET Framework 4.8 Runtime</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Application Designer (AD) Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">Microsoft ASP.NET Core Runtime 8 (Hosting Bundle)</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Data Stream Designer (DS)</strong> <strong>Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">Microsoft ASP.NET Core Runtime 8 (Hosting Bundle)</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>SQL Database Server (Combined SM, AD, DS)</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Microsoft SQL Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
 
 {% hint style="info" %}
 **Footnotes**
@@ -49,7 +49,7 @@ The following software must be installed on the web application server per produ
 
 The following software must be installed on the Stream Host server:
 
-<table data-full-width="false"><thead><tr><th width="266">Software Requirements</th><th width="122">Windows</th><th width="141">Azure Web Job</th><th width="111">Ubuntu </th><th>Docker</th></tr></thead><tbody><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.3-windows-x64-installer">ASP.NET Core Runtime 8.0.3</a></td><td>No <strong>1</strong></td><td>Yes <strong>2</strong></td><td>Yes <strong>3</strong></td><td>No</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.3-windows-x64-installer">.NET Runtime 8.0.3</a></td><td>No <strong>1</strong></td><td>Yes <strong>2</strong></td><td>Yes <strong>3</strong></td><td>No</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="266">Software Requirements</th><th width="122">Windows</th><th width="141">Azure Web Job</th><th width="111">Ubuntu</th><th>Docker</th></tr></thead><tbody><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.3-windows-x64-installer">ASP.NET Core Runtime 8.0.3</a></td><td>No <strong>1</strong></td><td>Yes <strong>2</strong></td><td>Yes <strong>3</strong></td><td>No</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.3-windows-x64-installer">.NET Runtime 8.0.3</a></td><td>No <strong>1</strong></td><td>Yes <strong>2</strong></td><td>Yes <strong>3</strong></td><td>No</td></tr></tbody></table>
 
 {% hint style="info" %}
 **Footnotes**
@@ -147,6 +147,7 @@ The self-signed certificate can also be generated through IIS, following the ins
 <figure><img src="../docs/.gitbook/assets/Installation_Preparation_Server_Cert3.png" alt=""><figcaption><p>Fig 4: Enter a friendly name</p></figcaption></figure>
 
 4. Confirm the certificate is generated and listed on 'Server Certificates'
+5. Right click on the certificate and Export, taking note of the location and password entered for later use
 
 ### SMTP Account
 

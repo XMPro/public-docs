@@ -84,11 +84,11 @@ Alternatively, a user's business role can also be managed from the user blade. S
 
 ### Sync Business Roles from Azure AD
 
-If [Azure AD](../installation-1/3.-complete-installation/configure-sso-optional/sso-azure-ad.md) has been linked as your External Identity Provider, you can specify a claim name that Azure AD or the graph API will pass to Subscription Manager.
+If [Azure AD](../installation/3.-complete-installation/configure-sso-optional/sso-azure-ad.md) has been linked as your External Identity Provider, you can specify a claim name that Azure AD or the graph API will pass to Subscription Manager.
 
 When a user logs in, Subscription Manager will look at the value specified in this Claim and assign them to the Business Role with the same name.
 
-[See the Sync Azure AD Role to SM's Business Role article for information on how to configure the claim name.](../installation-1/3.-complete-installation/configure-sso-optional/sso-azure-ad.md#sync-azure-ad-role-with-sms-business-role)
+[See the Sync Azure AD Role to SM's Business Role article for information on how to configure the claim name.](../installation/3.-complete-installation/configure-sso-optional/sso-azure-ad.md#sync-azure-ad-role-with-sms-business-role)
 
 {% hint style="info" %}
 If a Business Role with the same name doesn't exist, it will be created as a child under the default Business Role, 'All Employees'.

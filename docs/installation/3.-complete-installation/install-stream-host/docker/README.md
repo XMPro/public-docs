@@ -1,4 +1,5 @@
 ---
+description: v4.4.19
 layout:
   title:
     visible: true
@@ -90,16 +91,16 @@ A Stream Host running a Data Stream must provide the capabilities to run each Ag
 
 ## Python Package Installation
 
-For Python-enabled images, you can install packages using either:
+For Python-enabled images, you can install packages using:
 
-A **`requirements.txt` file**
+Either a **`requirements.txt`** file,
 
 ```docker
 pandas==2.1.4
 numpy==1.26.3
 ```
 
-**The `SH_PIP_MODULES` environment variable:**
+Or the **`SH_PIP_MODULES`** environment variable:
 
 <pre><code><strong>SH_PIP_MODULES = pandas==2.1.4 numpy==1.26.3
 </strong></code></pre>
@@ -273,6 +274,6 @@ For more information on Docker Compose, see the [Docker Compose Overview](https:
 
 Your Stream Host installation is now complete. To install default Agents & Connectors, visit:
 
-{% content-ref url="../../install-connectors.md" %}
-[install-connectors.md](../../install-connectors.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

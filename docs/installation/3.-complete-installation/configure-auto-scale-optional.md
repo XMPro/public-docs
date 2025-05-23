@@ -51,9 +51,9 @@ Although Auto Scale has a bigger impact on App Designer performance, it is for a
 ```
 
 2. Upgrade [Data Streams Connector](https://xmpro.gitbook.io/data-streams-connector/) to V2.0+.\
-   Refer to [Manage Connectors](broken-reference) for a guide on adding a Connector and view the versions in use.
+   Refer to [Manage Connectors](../../how-tos/connectors/manage-connectors.md#adding-a-connector) for a guide on adding a Connector and view the versions in use.
 3. Upgrade Apps to use Data Streams Connector V2.0+.\
-   Refer to [Data Integration ](broken-reference)for a guide on how to upgrade an App's connection.
+   Refer to [Data Integration ](../../concepts/application/data-integration.md#connection)for a guide on how to upgrade an App's connection.
 
 {% hint style="warning" %}
 Upgrading the Connector will clear the cache from the existing connector, and all data for the consuming App will be lost.

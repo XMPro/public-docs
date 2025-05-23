@@ -26,7 +26,7 @@ If your installation requires multiple Stream Hosts, please be aware that Stream
 
 A container runtime tool capable of running Docker images, such as [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
-The XMPro Docker Stream Host image has already met the rest of the [**hardware** requirements](../../../install.md#hardware-requirements) and [**software** requirements](../../../install.md#software-requirements).
+The XMPro Docker Stream Host image has already met the rest of the [**hardware** requirements](broken-reference) and [**software** requirements](broken-reference).
 
 ### Configuration Settings
 
@@ -210,6 +210,6 @@ docker-compose down
 
 The stream host installation is complete. Please click below to install the default Agents & Connectors:
 
-{% content-ref url="../../install-connectors.md" %}
-[install-connectors.md](../../install-connectors.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
