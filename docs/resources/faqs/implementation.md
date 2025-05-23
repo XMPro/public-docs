@@ -95,7 +95,7 @@ Yes. If your applications are internet-facing, then a cloud stream host can be u
 #### Further Reading
 
 * [Azure Deployment Diagram](broken-reference)
-* [AWS Deployment Diagram](../../installation-1/2.-deployment/aws.md#architecture)
+* [AWS Deployment Diagram](../../installation/2.-deployment/aws.md#architecture)
 
 ### Do I need a separate server for the stream host, or will it run on the same application server?
 

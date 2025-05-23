@@ -706,7 +706,7 @@
 * [1. Preparation](installation/install.md)
 * [2. Install XMPro](installation-1/2.-deployment/README.md)
   * [Azure](installation/2.-deployment/azure.md)
-  * [AWS](installation-1/2.-deployment/aws.md)
+  * [AWS](installation/2.-deployment/aws.md)
   * [Windows Server 2022](installation/2.-deployment/on-premise/README.md)
     * [Prerequisites](installation/2.-deployment/on-premise/prerequisites.md)
     * [Install](installation/2.-deployment/on-premise/install.md)
