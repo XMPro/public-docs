@@ -10,7 +10,7 @@ _Navigate To and Show Confirmation Dialog;Navigate To and Show Confirmation Dial
 
 #### Common Properties
 
-You can change the _visibility, styling mode_, _placeholder_, and _tooltip_.&#x20;
+You can change the _visibility, styling mode_, _placeholder_, and _tooltip_.
 
 [See the Common Properties article for more details on common appearance properties.](../common-properties.md#appearance)
 
@@ -38,11 +38,11 @@ This specified the format of the date. The options are date, time, or date and t
 
 ![](<../../.gitbook/assets/image (874).png>)
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
 #### Picker Type
 
-This specifies the way the calendar or clock is displayed to the user. Options for this include default, calendar, list, rollers, or native.&#x20;
+This specifies the way the calendar or clock is displayed to the user. Options for this include default, calendar, list, rollers, or native.
 
 ![](<../../.gitbook/assets/image (1615).png>)
 

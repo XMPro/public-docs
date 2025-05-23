@@ -4,14 +4,14 @@
 
 XMPro Platform can be installed using a range of Infrastructure, please choose the option below that best suits your requirements:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../installation/2.-deployment/azure.md" %}
+[azure.md](../../installation/2.-deployment/azure.md)
 {% endcontent-ref %}
 
 {% content-ref url="aws.md" %}
 [aws.md](aws.md)
 {% endcontent-ref %}
 
-{% content-ref url="on-premise.md" %}
-[on-premise.md](on-premise.md)
+{% content-ref url="../../installation/2.-deployment/on-premise/" %}
+[on-premise](../../installation/2.-deployment/on-premise/)
 {% endcontent-ref %}

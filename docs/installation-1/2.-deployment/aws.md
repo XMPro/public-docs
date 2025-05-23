@@ -36,16 +36,16 @@ There are two accounts set up: one for production and one for non-production. Bo
 
 In order to proceed with the deployment, you are required to complete the steps in the **1. Preparation** guide:
 
-1. Meet the [**hardware** requirements](../install.md#hardware-requirements)
-2. Install the [**software** requirements](../install.md#software-requirements)
-3. Follow the [certificate and communication steps](../install.md#preparation-steps)
+1. Meet the [**hardware** requirements](../../installation/install.md#hardware-requirements)
+2. Install the [**software** requirements](../../installation/install.md#software-requirements)
+3. Follow the [certificate and communication steps](../../installation/install.md#preparation-steps)
 
 {% hint style="info" %}
 **Two SSL Certificates are required**
 
 1. An SSL Certificate in AWS Certificate Manager, used by IIS (See the [Appendix](aws.md#ssl-certificate-in-certificate-manager) guide).\\
 2. An SSL Certificate, used by the SM instance (added to the [S3 Bucket](aws.md#create-s3-bucket) during the installation).\
-   Create or ask your administrator for an SSL certificate with the correct DNS name. A self-signed certificate is good enough. There are many ways to generate this certificate, one of which is described in the above [1. Preparation](../install.md#https-ssl-certificate) guide. Please note the file names **must** be called **ssl.pfx** and **ssl.password.txt**.
+   Create or ask your administrator for an SSL certificate with the correct DNS name. A self-signed certificate is good enough. There are many ways to generate this certificate, one of which is described in the above [1. Preparation](../../installation/install.md#https-ssl-certificate) guide. Please note the file names **must** be called **ssl.pfx** and **ssl.password.txt**.
 {% endhint %}
 
 **Resources**
@@ -352,8 +352,8 @@ You have successfully created the application. Next, we'll create the applicatio
 
 ![](<../../.gitbook/assets/image (1637).png>)
 
-10. Copy the _sign.pfx_ and _sign.password.txt_ files (the signing certificate referenced in the [1. Preparation](../install.md#signing-certificate) guide) into the bucket and ensure the files are publicly accessible.
-11. Copy the _ssl.pfx_ and _ssl.password.txt_ files (the SSL certificate referenced in the [1. Preparation](../install.md#https-ssl-certificate) guide) into the bucket and ensure the files are publicly accessible.
+10. Copy the _sign.pfx_ and _sign.password.txt_ files (the signing certificate referenced in the [1. Preparation](../../installation/install.md#signing-certificate) guide) into the bucket and ensure the files are publicly accessible.
+11. Copy the _ssl.pfx_ and _ssl.password.txt_ files (the SSL certificate referenced in the [1. Preparation](../../installation/install.md#https-ssl-certificate) guide) into the bucket and ensure the files are publicly accessible.
 
 {% hint style="info" %}
 The signing certificate is between the end user and the load balancer. The instance SSL certificate is used between the instances and the load balancer.
@@ -389,7 +389,7 @@ The signing certificate is between the end user and the load balancer. The insta
 
 ![](<../../.gitbook/assets/image (1642).png>)
 
-8. Enter the SMTP details referenced in the [1. Preparation](../install.md#smtp-account) guide and click Test SMTP settings (1), If successful, click Next (2).
+8. Enter the SMTP details referenced in the [1. Preparation](../../installation/install.md#smtp-account) guide and click Test SMTP settings (1), If successful, click Next (2).
 
 ![](<../../.gitbook/assets/image (1374).png>)
 
@@ -569,7 +569,7 @@ The signing certificate is between the end user and the load balancer. The insta
 
 8\. Provide the SQL endpoint and click Next.
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (2).png>)
 
 9\. Provide the DNS name for the environment and click Next.
 
@@ -579,11 +579,11 @@ The signing certificate is between the end user and the load balancer. The insta
 
 ![](<../../.gitbook/assets/image (320).png>)
 
-11. Enter the SMTP details referenced in the [1. Preparation](../install.md#smtp-account) guide and click Next.
+11. Enter the SMTP details referenced in the [1. Preparation](../../installation/install.md#smtp-account) guide and click Next.
 
 ![](<../../.gitbook/assets/image (374).png>)
 
-12. Enter the Twilio details referenced in the [1. Preparation](../install.md#twilio-optional) guide and click Next. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.
+12. Enter the Twilio details referenced in the [1. Preparation](../../installation/install.md#twilio-optional) guide and click Next. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.
 
 ![](<../../.gitbook/assets/image (1532).png>)
 

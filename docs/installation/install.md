@@ -1,6 +1,6 @@
 # 1. Preparation
 
-Before attempting any of the supported XMPro deployment options (e.g. Cloud, On-Premise), these are the server prerequisites:
+Before attempting any of the supported XMPro deployment options (e.g. Cloud, Windows Server 2022), these are the server prerequisites:
 
 * [Hardware Requirements](install.md#hardware-requirements)
 * [Software Requirements](install.md#software-requirements)
@@ -27,17 +27,17 @@ For each environment, refer to the [Sizing Guideline](../resources/sizing-guidel
 
 * Azure
 * AWS
-* On-Prem
+* Windows Server 2022
 
 ### Software Requirements
 
-This section describes the software that must be installed on the server before installing XMPro (refer [2. Install XMPro](../installation/2.-deployment) section), as well as the software required for the post-installation step of installing a Stream Host.
+This section describes the software that must be installed on the server before installing XMPro (refer [2. Install XMPro](2.-deployment) section), as well as the software required for the post-installation step of installing a Stream Host.
 
 #### Web Application Servers and SQL Database Server
 
 The following software must be installed on the web application server per product:
 
-<table><thead><tr><th width="466">Software Requirements</th><th width="92">Azure 1</th><th width="74">AWS</th><th>On-Prem</th></tr></thead><tbody><tr><td><strong>Windows Installers</strong></td><td></td><td></td><td></td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481">Microsoft .NET Framework 4.8.1 Runtime</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td><strong>Subscription Manager (SM) Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48">Microsoft .NET Framework 4.8 Runtime</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Application Designer (AD) Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">Microsoft ASP.NET Core Runtime 8 (Hosting Bundle)</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Data Stream Designer (DS)</strong> <strong>Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">Microsoft ASP.NET Core Runtime 8 (Hosting Bundle)</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>SQL Database Server (Combined SM, AD, DS)</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Microsoft SQL Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<table><thead><tr><th width="446">Software Requirements</th><th width="70">Azure 1</th><th width="70">AWS</th><th>Windows Server 2022</th></tr></thead><tbody><tr><td><strong>Windows Installers</strong></td><td></td><td></td><td></td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481">Microsoft .NET Framework 4.8.1 Runtime</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td><strong>Subscription Manager (SM) Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48">Microsoft .NET Framework 4.8 Runtime</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Application Designer (AD) Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">Microsoft ASP.NET Core Runtime 8 (Hosting Bundle)</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Data Stream Designer (DS)</strong> <strong>Web Application Server</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">Microsoft ASP.NET Core Runtime 8 (Hosting Bundle)</a></td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Microsoft Internet Information Services (IIS) 10</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="https://www.iis.net/downloads/microsoft/url-rewrite">IIS URL Rewrite 2.1</a></td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><strong>SQL Database Server (Combined SM, AD, DS)</strong></td><td></td><td></td><td></td></tr><tr><td>Windows Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Microsoft SQL Server 2019 or 2022</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
 
 {% hint style="info" %}
 **Footnotes**
@@ -56,7 +56,7 @@ The following software must be installed on the Stream Host server:
 
 **1** Not a prerequisite from v4.4.1+.\
 **2** As per the ARM template for your Azure instance.\
-**3** See the Ubuntu software install commands [here](3.-complete-installation/install-stream-host/ubuntu-16.04+-x64.md#software-install-commands).
+**3** See the Ubuntu software install commands [here](../installation-1/3.-complete-installation/install-stream-host/ubuntu-16.04+-x64.md#software-install-commands).
 {% endhint %}
 
 ## Certificate and Communication Steps

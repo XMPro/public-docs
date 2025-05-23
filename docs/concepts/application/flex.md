@@ -22,7 +22,7 @@ The alignment of the items in the main-axis (horizontal if `flex-direction` is `
 
 The alignment of the items in the cross-axis (vertical if `flex-direction` is `row` or `row-reverse`, horizontal if `flex-direction` is `column` or `column-reverse`) is determined by the `align-items` property. The options include `flex-start`, `flex-end`, `stretch`, and `center`.
 
-![align-items: flex-end;](<../../.gitbook/assets/image (5).png>)
+![align-items: flex-end;](<../../.gitbook/assets/image (5) (2).png>)
 
 ![align-items: center;](<../../.gitbook/assets/image (1365).png>)
 

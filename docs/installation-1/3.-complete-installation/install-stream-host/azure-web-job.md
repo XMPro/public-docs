@@ -16,7 +16,7 @@ layout:
 
 ## Prerequisites
 
-The first Azure Web Job is created as part of the Azure ARM Template and has already met the [**hardware** requirements](../../install.md#hardware-requirements) and [**software** requirements](../../install.md#software-requirements).
+The first Azure Web Job is created as part of the Azure ARM Template and has already met the [**hardware** requirements](../../../installation/install.md#hardware-requirements) and [**software** requirements](../../../installation/install.md#software-requirements).
 
 If you require more Stream Hosts, follow these steps to add additional Azure Web Job Stream hosts.
 

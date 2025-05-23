@@ -10,17 +10,17 @@ This Block allows you to display data in the format of a Pivot Grid. The Pivot G
 
 #### Common Properties
 
-Options for the appearance include its _visibility_.&#x20;
+Options for the appearance include its _visibility_.
 
 [See the Common Properties article for more details on common appearance properties.](../common-properties.md#appearance)
 
-Options that are specific to Pivot Grids include the options to _show borders, show column totals, show column grand totals, show row totals, show row grand totals, show drill down,_ and _show totals prior_.&#x20;
+Options that are specific to Pivot Grids include the options to _show borders, show column totals, show column grand totals, show row totals, show row grand totals, show drill down,_ and _show totals prior_.
 
 [For details on common grid properties, see the Data Grid article](../basic/data-grid.md#common-properties).
 
 #### Show Column Totals
 
-This specifies if the totals across each row are counted and displayed on the side of a grouped column.&#x20;
+This specifies if the totals across each row are counted and displayed on the side of a grouped column.
 
 ![](<../../.gitbook/assets/image (976).png>)
 
@@ -32,7 +32,7 @@ This specifies if the totals across each row are counted and displayed on the si
 
 ![](<../../.gitbook/assets/image (1256).png>)
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (2).png>)
 
 #### Show Row Totals
 
@@ -58,15 +58,15 @@ When this is enabled, selecting any of the values in the data region will open a
 
 #### Show Totals Prior
 
-By default, the totals for columns and rows are displayed at the end of the grouped row or column. If this option is enabled, the totals for columns or rows will be displayed before them, instead of after.&#x20;
+By default, the totals for columns and rows are displayed at the end of the grouped row or column. If this option is enabled, the totals for columns or rows will be displayed before them, instead of after.
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11) (1).png>)
 
 ![](<../../.gitbook/assets/image (387).png>)
 
 ### Behavior
 
-Options for the behavior include _sorting the data by summary, allowing sorting, allowing filtering_, and _retaining the layout_.&#x20;
+Options for the behavior include _sorting the data by summary, allowing sorting, allowing filtering_, and _retaining the layout_.
 
 #### Allow sorting by summary
 
@@ -76,7 +76,7 @@ This allows the user to sort by each individual column. To sort, right-click on 
 
 #### Allow Sorting
 
-This displays an arrow next to the row or column name. This lets the user sort the order of the columns and rows based on their names.&#x20;
+This displays an arrow next to the row or column name. This lets the user sort the order of the columns and rows based on their names.
 
 ![](../../.gitbook/assets/GJDM3NfbXy.gif)
 
@@ -84,13 +84,13 @@ This displays an arrow next to the row or column name. This lets the user sort t
 
 #### Allow Filtering
 
-This displays a filter icon next to the row or column name. This allows the user to filter the rows or columns to only display certain values.&#x20;
+This displays a filter icon next to the row or column name. This allows the user to filter the rows or columns to only display certain values.
 
 ![](<../../.gitbook/assets/image (783).png>)
 
 ![](<../../.gitbook/assets/image (791).png>)
 
-#### Retain Layout&#x20;
+#### Retain Layout
 
 If set to true, this will save the column, row, and data layout configuration in the browser. If changes are made to the Pivot Grid, and the user leaves the page and comes back later, the layout of the table will be the same as before they left it. If this option is set to false, the layout will reset to the default fields specified under _Fields_.
 
@@ -98,7 +98,7 @@ If set to true, this will save the column, row, and data layout configuration in
 
 #### Common Properties
 
-Data Sources can be connected to a Pivot Grid. This will allow you to display data on the Pivot Grid.&#x20;
+Data Sources can be connected to a Pivot Grid. This will allow you to display data on the Pivot Grid.
 
 [See the Common Properties article for more details on common Data Source properties.](../common-properties.md#data-source)
 
@@ -118,6 +118,6 @@ The data type of the row, column, or cell. This can be a number, string of chara
 
 #### Data Field
 
-This is the field from the Data Source that is going to be used when displaying the data.&#x20;
+This is the field from the Data Source that is going to be used when displaying the data.
 
 ![](<../../.gitbook/assets/image (390).png>)

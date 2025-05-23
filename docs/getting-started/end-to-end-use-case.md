@@ -663,7 +663,7 @@ Follow the steps below to select the left Card and delete it. We will replace th
 3. Click the Card item to select the Card element.
 4. Click the last button on the blue toolbar to delete the Card.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ![](<../.gitbook/assets/image (519).png>)
 
@@ -692,7 +692,7 @@ Rename the Metric text items to "Status", "Flow Rate", and "Coolant Temperature"
 
 Right-align the remaining two Values by expanding the Typography section and changing the Text Align property to Right.
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 Drag two Indicator Blocks from the Blocks tab into the deleted Value text item's box. Click the Box and change the Flex Justify to End. This will align the Indicators to the right side of the box.
 
