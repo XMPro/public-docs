@@ -14,6 +14,15 @@ layout:
 
 # Ubuntu 20.04 x64
 
+{% hint style="info" %}
+### End of Life Statement for Ubuntu 20.04 Stream Host <a href="#end-of-life-statement-for-ubuntu-2004-stream-host" id="end-of-life-statement-for-ubuntu-2004-stream-host"></a>
+
+[Ubuntu 20.04 LTS](https://ubuntu.com/about/release-cycle) will reach its end of standard support on 31 May 2025. After this date, security updates and maintenance for Ubuntu 20.04 will no longer be provided unless you have an extended support subscription. Running the XMPro Stream Host on an unsupported operating system may expose your environment to security vulnerabilities and compliance risks.
+
+**Recommended Action:**\
+XMPro strongly recommends using the [Docker-based Stream Host](docker.md) as the preferred method for all new installations and upgrades. The Docker Stream Host offers improved portability, simplified updates, and is supported on a wide range of modern platforms, including newer Ubuntu LTS releases.
+{% endhint %}
+
 ## Prerequisites
 
 ### **Downloads**
