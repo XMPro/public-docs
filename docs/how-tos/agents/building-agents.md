@@ -35,10 +35,11 @@ The interfaces that can be implemented are as follows:
 * [IPollingAgent](building-agents.md#ipolling-agent)
 * [IReceivingAgent](building-agents.md#ireceivingagent)
 * [IPublishesError](building-agents.md#ipublisherror)
+* [IAgentLogger](building-agents.md#liagentlogger) (v4.4.19)
 
 The matrix below shows which interface needs to be implemented for which category Agent:
 
-<table><thead><tr><th width="176">Agent Category</th><th width="104">IAgent</th><th width="145">IPollingAgent</th><th width="159">IReceivingAgent</th><th>IPublishesError</th></tr></thead><tbody><tr><td><em>Listener</em></td><td>Required</td><td>Recommended</td><td>Optional</td><td>Optional</td></tr><tr><td><em>Context Provider</em></td><td>Required</td><td>Recommended</td><td>Optional</td><td>Optional</td></tr><tr><td><em>Transformation</em></td><td>Required</td><td>Optional</td><td>Required</td><td>Optional</td></tr><tr><td><em>Action Agent/ Function</em></td><td>Required</td><td>Optional</td><td>Required</td><td>Optional</td></tr><tr><td><em>AI &#x26; Machine Learning</em></td><td>Required</td><td>Optional</td><td>Required</td><td>Optional</td></tr></tbody></table>
+<table><thead><tr><th width="167">Agent Category</th><th width="91">IAgent</th><th width="118">IPollingAgent</th><th width="129">IReceivingAgent</th><th width="131">IPublishesError</th><th>IAgentLogger</th></tr></thead><tbody><tr><td><em>Listener</em></td><td>Required</td><td>Recommend</td><td>Optional</td><td>Optional</td><td>Optional</td></tr><tr><td><em>Context Provider</em></td><td>Required</td><td>Recommend</td><td>Optional</td><td>Optional</td><td>Optional</td></tr><tr><td><em>Transformation</em></td><td>Required</td><td>Optional</td><td>Required</td><td>Optional</td><td>Optional</td></tr><tr><td><em>Action Agent/ Function</em></td><td>Required</td><td>Optional</td><td>Required</td><td>Optional</td><td>Optional</td></tr><tr><td><em>AI &#x26; Machine Learning / Gen AI</em></td><td>Required</td><td>Optional</td><td>Required</td><td>Optional</td><td>Optional</td></tr></tbody></table>
 
 {% hint style="info" %}
 The _IPollingAgent_ interface is not strictly required for _Listeners_ or _Context Providers_, however, it is generally used in most cases. Not implementing _IPollingAgent_ for a _Listener_ or _Context Provider_ should be considered an advanced option.
@@ -82,7 +83,7 @@ string mySetting = parameters[“myUniqueKey”];
 Before a template is rendered on the screen, or if a postback occurs on any control in the template, the method below would be called to allow the Agent an opportunity to make any necessary runtime changes to the template, for example, verifying user credentials, displaying all tables of a selected database in a drop-down list, etc. In this example, no changes are being made to the template but, if needed, they can be added to the _**todo**_ section.
 
 {% hint style="info" %}
-&#x20;For a postback to occur after a user navigates out of a setting field, the _Postback_ property needs to be set to _true_ when packaging the Agent.
+For a postback to occur after a user navigates out of a setting field, the _Postback_ property needs to be set to _true_ when packaging the Agent.
 {% endhint %}
 
 ```csharp
@@ -167,9 +168,9 @@ void Start()
 
 ### Destroy
 
-Each Agent needs to implement a _Destroy_ method, which will be invoked if the _Create_ method was called successfully, when a data stream is either being unpublished or it encounters an error and fails to start.&#x20;
+Each Agent needs to implement a _Destroy_ method, which will be invoked if the _Create_ method was called successfully, when a data stream is either being unpublished or it encounters an error and fails to start.
 
-Use this method to release any resources or memory that your Agent may have acquired during its creation and lifetime.&#x20;
+Use this method to release any resources or memory that your Agent may have acquired during its creation and lifetime.
 
 ```csharp
 void Destroy()
@@ -241,11 +242,11 @@ IEnumerable<Attribute> GetInputAttributes(string endpoint, IDictionary<string, s
 
 This method returns a collection consisting of Attribute, which is a type that represents the name and type of a given attribute in the incoming payload.
 
-#### **Input Mapping**&#x20;
+#### **Input Mapping**
 
 In most cases, if an incoming payload structure is supposed to be different from what the parent is sending, i.e. the Input Payload has been specified above, the user will have to map parent outputs to the current Agent’s inputs. To enable this, mark the _Require Input Map_ flag as true in the Stream Integration Manager when packaging the Agent.
 
-#### **Endpoint**&#x20;
+#### **Endpoint**
 
 Each Agent can have a number of input and output [endpoints](../../concepts/agent/#endpoints). Endpoints are the points where incoming or outgoings arrows are connected. Each endpoint consists of a _Name\<String>_ attribute. You will be passed an endpoint name when queried for an _Input_ payload definition. Be sure to specify the endpoint name when querying the parent’s output payload definition.
 
@@ -270,7 +271,7 @@ void Receive(string endpointName, JArray events)
 The _endpointName_ parameter will identify which endpoint the events have been received at.
 
 {% hint style="info" %}
-&#x20;It is not guaranteed that the _Start_ method will be invoked before the _Receive_ method. Use the _Create_ method to execute any logic that needs to be executed before the _Receive_ method is called.
+It is not guaranteed that the _Start_ method will be invoked before the _Receive_ method. Use the _Create_ method to execute any logic that needs to be executed before the _Receive_ method is called.
 {% endhint %}
 
 ## IPublishError
@@ -295,12 +296,131 @@ this.OnPublishError?.Invoke(this, new OnErrorArgs(AgentId, Timestamp, Source, Er
 Error endpoints should be enabled in XMPro Stream Integration Manager when packaging the Agent. This can be done by selecting the “Add On Error Endpoint?” checkbox. See the image on the right for an example.
 {% endhint %}
 
+## IAgentLogger
+
+An Agent can output logging to the the [Data Stream Logs](https://documentation.xmpro.com/how-tos/data-streams/check-data-stream-logs#view-data-stream-logs) by implementing the _IAgentLogger_ interface. Like [IPublishError](building-agents.md#ipublisherror), this can be used for errors, but it can also be used to log information or warning messages too.
+
+The prerequisite to use this interface are [XMPro.IoT.Framework](https://www.nuget.org/packages/XMPro.IOT.Framework/) v4.4.19+ and Data Stream Designer v4.4.19+.
+
+1.  Add an empty constructor to your Agent entry point class and another constructor that accepts an IAgentLogger. See following code for the contents of the two constructors:
+
+    ```csharp
+    private readonly AgentLoggerProxy _loggerProxy;
+
+    public BaseAgent
+    {
+        _loggerProxy = new AgentLoggerProxy();
+    }
+
+    public BaseAgent(IAgentLogger logger)
+    {
+        _loggerProxy = new AgentLoggerProxy(logger);
+    }
+    ```
+2.  The IAgentLogger interface contains the logging methods but a proxy class is needed to execute it to avoid compatibility issues with older SH and DS. Create the AgentLoggerProxy class with the following contents:
+
+    ```csharp
+    public class AgentLoggerProxy
+    {
+        private readonly object? _logger;
+        private readonly Type? _loggerType;
+        private readonly Dictionary<string, MethodInfo?> _methods;
+
+        public AgentLoggerProxy(object? logger = null)
+        {
+            _logger = logger;
+            _loggerType = logger?.GetType();
+            _methods = new Dictionary<string, MethodInfo?>();
+
+            if (logger != null)
+            {
+                // Cache all method infos
+                _methods["LogInfo"] = _loggerType?.GetMethod("LogInfo",
+                    new[] { typeof(string), typeof(object[]) });
+
+                _methods["LogErrorWithException"] = _loggerType?.GetMethod("LogError",
+                    new[] { typeof(Exception), typeof(string), typeof(object[]) });
+
+                _methods["LogError"] = _loggerType?.GetMethod("LogError",
+                    new[] { typeof(string), typeof(object[]) });
+
+                _methods["LogWarning"] = _loggerType?.GetMethod("LogWarning",
+                    new[] { typeof(string), typeof(object[]) });
+
+                _methods["LogDebug"] = _loggerType?.GetMethod("LogDebug",
+                    new[] { typeof(string), typeof(object[]) });
+            }
+        }
+
+        public void LogInfo(string messageTemplate, params object[] args)
+        {
+            if (_logger != null && _methods["LogInfo"] != null)
+            {
+                _methods["LogInfo"]!.Invoke(_logger, new object[] { messageTemplate, args });
+            }
+        }
+
+        public void LogError(Exception ex, string messageTemplate, params object[] args)
+        {
+            if (_logger != null && _methods["LogErrorWithException"] != null)
+            {
+                _methods["LogErrorWithException"]!.Invoke(_logger, new object[] { ex, messageTemplate, args });
+            }
+        }
+
+        public void LogError(string messageTemplate, params object[] args)
+        {
+            if (_logger != null && _methods["LogError"] != null)
+            {
+                _methods["LogError"]!.Invoke(_logger, new object[] { messageTemplate, args });
+            }
+        }
+
+        public void LogWarning(string messageTemplate, params object[] args)
+        {
+            if (_logger != null && _methods["LogWarning"] != null)
+            {
+                _methods["LogWarning"]!.Invoke(_logger, new object[] { messageTemplate, args });
+            }
+        }
+
+        public void LogDebug(string messageTemplate, params object[] args)
+        {
+            if (_logger != null && _methods["LogDebug"] != null)
+            {
+                _methods["LogDebug"]!.Invoke(_logger, new object[] { messageTemplate, args });
+            }
+        }
+
+        public bool HasLogger => _logger != null;
+    }
+    ```
+3.  Call the logging methods of the proxy class. This will now display the logs on Stream Host.
+
+    ```csharp
+    protected void LogMessage(string source, string message)
+    {
+        if (_loggerProxy.HasLogger)
+        {
+            loggerProxy.LogInfo($"[{source}] {message}");
+        }
+    }
+
+    protected void LogError(Exception? ex, string message)
+    {
+        if (_loggerProxy.HasLogger)
+        {
+            _loggerProxy.LogError(ex, message);
+        }
+    }
+    ```
+
 ## Example
 
 The code below is an example of a basic MQTT Listener Agent. Take note of how the interfaces and methods have been implemented.
 
 {% hint style="info" %}
-&#x20;Please note that this example uses the _M2MqttDotnetCore 1.0.7_ NuGet package.
+Please note that this example uses the _M2MqttDotnetCore 1.0.7_ NuGet package.
 {% endhint %}
 
 ```csharp
