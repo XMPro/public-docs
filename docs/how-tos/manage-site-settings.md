@@ -32,7 +32,7 @@ This key is used to verify Agents that integrate with the App Designer. The Inte
 
 Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a desktop computer.
 
-#### Mobile Landing Page&#x20;
+#### Mobile Landing Page
 
 Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a mobile device.
 
@@ -40,7 +40,7 @@ Optionally override the default [landing page](../concepts/landing-pages.md) to 
 
 Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a desktop computer.
 
-#### Mobile  Landing Page
+#### Mobile Landing Page
 
 Optionally override the default [landing page](../concepts/landing-pages.md) to use a published Application for the whole company when using a mobile device.
 
@@ -72,7 +72,7 @@ Standard reports give the administrator a view into where (which Applications) a
 
 This report shows all loaded Connectors, their versions, and how many times each version is used in an Application, if any.
 
-This master list shows the administrator which Connectors are installed and their utilization. This assists in identifying new Connectors or versions not yet added.&#x20;
+This master list shows the administrator which Connectors are installed and their utilization. This assists in identifying new Connectors or versions not yet added.
 
 #### Connector Usage Details Report
 
@@ -84,7 +84,7 @@ This detailed report assists in gauging the impact of upgrading one or more Conn
 
 #### Embed Script
 
-The supplied html script tag is inserted into every App Designer html page. Use this to load an external JavaScript script, such as to provide localized support or track user usage. For example, the below script embeds a chatbot into App Designer.&#x20;
+Added in v4.4.17, the supplied html script tag is inserted into every App Designer html page. Use this to load an external JavaScript script, such as to provide localized support or track user usage. For example, the below script embeds a chatbot into App Designer.
 
 ```javascript
 // example script to embed a fastbot trained on appropriate documentation
@@ -140,12 +140,12 @@ Enables the logging and display of stream metrics ([Stream Load](data-streams/us
 
 _Added v4.3.7_
 
-The default value that is used for the polling interval when a Polling Agent is added to a [Streaming](../concepts/data-stream/#data-stream-type) type Data Stream.&#x20;
+The default value that is used for the polling interval when a Polling Agent is added to a [Streaming](../concepts/data-stream/#data-stream-type) type Data Stream.
 
 If there is no value provided for this setting, the polling interval defaults to 3600 seconds (1 hour).
 
 {% hint style="info" %}
-The default is applied when the Agent is added to the canvas. A change to this site setting will only take effect for Agents added afterward.&#x20;
+The default is applied when the Agent is added to the canvas. A change to this site setting will only take effect for Agents added afterward.
 {% endhint %}
 
 #### Live View Usage
@@ -159,15 +159,15 @@ We recommend that users always close the Live View of a published Data Stream be
 The Live View Usage includes the following:
 
 * The number of Stream Objects (Agents) with Live View enabled and the number of Data Streams affected.
-*   A button to reset the Live View usage.&#x20;
+*   A button to reset the Live View usage.
 
     <figure><img src="../.gitbook/assets/Manage Site Settings - DS Live View Usage.PNG" alt=""><figcaption><p>Fig 3: Live View Usage and Reset Button</p></figcaption></figure>
 
-Resetting the Live View will close any connections that may have been left open if a user closes the Data Stream canvas without first closing the Live View.&#x20;
+Resetting the Live View will close any connections that may have been left open if a user closes the Data Stream canvas without first closing the Live View.
 
-It will also stop any open Live View blades from receiving data. To start receiving data again, re-open the Live View and reselect the Stream Objects.&#x20;
+It will also stop any open Live View blades from receiving data. To start receiving data again, re-open the Live View and reselect the Stream Objects.
 
-Refer to the [Live View Usage Report](manage-site-settings.md#live-view-usage-report) for a list of Stream Objects and Data Streams that are preselected for Live View.&#x20;
+Refer to the [Live View Usage Report](manage-site-settings.md#live-view-usage-report) for a list of Stream Objects and Data Streams that are preselected for Live View.
 
 {% hint style="info" %}
 A Stream Object with Live View enabled is an indicator that a user has viewed the data - it is not confirmation whether the user closed the connection.
@@ -176,10 +176,10 @@ A Stream Object with Live View enabled is an indicator that a user has viewed th
 {% hint style="success" %}
 The Live View issue is addressed in the v4.3.7 release:
 
-1. Open connections are closed regardless of how the Live View is closed (e.g. navigating away or closing the tab).&#x20;
-2. All connections are closed when the Data Stream Designer app service is restarted.&#x20;
+1. Open connections are closed regardless of how the Live View is closed (e.g. navigating away or closing the tab).
+2. All connections are closed when the Data Stream Designer app service is restarted.
 
-If you've upgraded to v4.3.7, use the Reset Live View button once to ensure all connections are closed.&#x20;
+If you've upgraded to v4.3.7, use the Reset Live View button once to ensure all connections are closed.
 {% endhint %}
 
 ### Reports
@@ -194,13 +194,13 @@ Standard reports give the administrator a view into where (which Data Stream) an
 
 This report shows all Agents that have Live View enabled. Additional information includes the Data Stream name, Data Stream version, Data Stream owner, the Collection name, the Stream Object name, and whether the Data Stream is published.
 
-This report along with the [Reset option](manage-site-settings.md#live-view-usage) was useful prior to v4.3.7, to determine where connections may have been left open.&#x20;
+This report along with the [Reset option](manage-site-settings.md#live-view-usage) was useful prior to v4.3.7, to determine where connections may have been left open.
 
 #### Agent Usage Report
 
 This report shows all loaded Agents, their versions, their categories, and how many times a version is used in a Data Stream, if any.
 
-This master list shows the administrator which Agents are installed and their utilization. This assists in identifying new Agents or versions not yet added.&#x20;
+This master list shows the administrator which Agents are installed and their utilization. This assists in identifying new Agents or versions not yet added.
 
 #### Agent Usage Details Report
 
@@ -227,28 +227,28 @@ For example, a user cannot tag/search users outside their business role tree pat
 This defaults to true on new installations. Toggle it off to make all user information visible to all users in the company.
 
 {% hint style="warning" %}
-The exception for this setting is a user with an Administrator role for the Subscription Manager product. They can assign access to XMPro objects to any user or business role in the company.&#x20;
+The exception for this setting is a user with an Administrator role for the Subscription Manager product. They can assign access to XMPro objects to any user or business role in the company.
 {% endhint %}
 
 ### **Global Notification**
 
 _Added v4.4.0_
 
-Global Administrators can display a global notification across the top of all products in the XMPro suite for a specific period. This aids in communicating important information to users, such as a notice advising of planned maintenance downtime and a hyperlink to release notes.&#x20;
+Global Administrators can display a global notification across the top of all products in the XMPro suite for a specific period. This aids in communicating important information to users, such as a notice advising of planned maintenance downtime and a hyperlink to release notes.
 
 Choose a type of hint, warning, or error to set the notification icon and banner color. The banner can be dismissed for a session.
 
 #### Discard "Global Notification" Settings
 
-Clears all Global Notification settings and hides the current message, if any.&#x20;
+Clears all Global Notification settings and hides the current message, if any.
 
 #### Type
 
-This determines the icon and color of the notification banner. The options are a hint, warning, or error. &#x20;
+This determines the icon and color of the notification banner. The options are a hint, warning, or error.
 
 #### Message
 
-A message of up to 500 characters is displayed in the notification banner. Basic text formatting, lists, and links are supported.&#x20;
+A message of up to 500 characters is displayed in the notification banner. Basic text formatting, lists, and links are supported.
 
 #### Show Now
 
@@ -256,15 +256,15 @@ Enabling this setting results in the notification banner being immediately shown
 
 #### Show On (your local time)
 
-The date and time when the notification will be shown to users. It is stored as UTC, but displayed in the administrator's local time zone.&#x20;
+The date and time when the notification will be shown to users. It is stored as UTC, but displayed in the administrator's local time zone.
 
-This setting is not available when [Show Now](manage-site-settings.md#show-now) is enabled.&#x20;
+This setting is not available when [Show Now](manage-site-settings.md#show-now) is enabled.
 
 #### Hide On (your local time)
 
 An optional date and time when the notification should no longer be shown to users. It is stored as UTC, but displayed in the administrator's local time zone.
 
-Leave blank if you want the message to be shown until it is manually cleared - either by clicking [Discard "Global Notifications" Settings](manage-site-settings.md#discard-global-notification-settings), clearing the [Message](manage-site-settings.md#message) or Show option.&#x20;
+Leave blank if you want the message to be shown until it is manually cleared - either by clicking [Discard "Global Notifications" Settings](manage-site-settings.md#discard-global-notification-settings), clearing the [Message](manage-site-settings.md#message) or Show option.
 
 ### **Support**
 
