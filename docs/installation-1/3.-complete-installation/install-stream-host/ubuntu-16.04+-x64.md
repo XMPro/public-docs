@@ -33,7 +33,7 @@ Follow the instructions in the [Install Stream Host](./) guide to download the c
 
 XMPro Stream Host requires certain hardware and software specifications in order to install and run.
 
-Refer to the [**hardware** requirements](../../../installation/install.md#hardware-requirements) and the [**software** requirements](../../../installation/install.md#software-requirements) in the **1. Preparation** guide.
+Refer to the [**hardware** requirements](../../../installation/1.-preparation.md#hardware-requirements) and the [**software** requirements](../../../installation/1.-preparation.md#software-requirements) in the **1. Preparation** guide.
 
 ### **Software Install Commands**
 

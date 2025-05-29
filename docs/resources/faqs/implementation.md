@@ -85,7 +85,7 @@ On-premise deployments have been driven by the need for remote locations, as wel
 
 #### Further Reading
 
-* [On-Premise deployment](../../installation/2.-deployment/windows-server-2022/)
+* [On-Premise deployment](../../installation/2.-install-xmpro/windows-server-2022/)
 * [All deployment options](../../installation/2.-deployment)
 
 ### If XMPro is in the Cloud, can I connect to my On-Premise application(s)?
@@ -95,7 +95,7 @@ Yes. If your applications are internet-facing, then a cloud stream host can be u
 #### Further Reading
 
 * [Azure Deployment Diagram](broken-reference)
-* [AWS Deployment Diagram](../../installation/2.-deployment/aws.md#architecture)
+* [AWS Deployment Diagram](../../installation/2.-install-xmpro/aws.md#architecture)
 
 ### Do I need a separate server for the stream host, or will it run on the same application server?
 

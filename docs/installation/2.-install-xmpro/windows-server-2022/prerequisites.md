@@ -19,7 +19,7 @@ layout:
 
 1. ## Hardware Requirements
    1. XMPro Web Server
-      1. Ensure your server meets the minimum [XMPro Platform hardware requirements](../../install.md#hardware-requirements)&#x20;
+      1. Ensure your server meets the minimum [XMPro Platform hardware requirements](../../1.-preparation.md#hardware-requirements)&#x20;
       2. Ensure your server meets the minimum [Windows Server 2022 hardware requirements](https://learn.microsoft.com/en-us/windows-server/get-started/hardware-requirements?tabs=cpu\&pivots=windows-server-2022)
    2. Database Server
       1. _Note: These instructions are based on SQL Server running on a different server however SQL Server can be run on the same XMPro Web Server._

@@ -153,7 +153,7 @@ The default option is “Local System”, which is a built-in security account. 
 
 ### SMTP
 
-19. Enter the SMTP details referenced in the [**1. Preparation**](../../install.md#smtp-account) guide.\
+19. Enter the SMTP details referenced in the [**1. Preparation**](../../1.-preparation.md#smtp-account) guide.\
     By default, the "Enable Email Notification" is checked.
 
 {% hint style="info" %}
@@ -637,7 +637,7 @@ You can either change it by selecting a different built-in security account from
 
 ### SMTP
 
-24. Enter the SMTP settings referenced in the [**1. Preparation**](../../install.md#smtp-account) guide.\
+24. Enter the SMTP settings referenced in the [**1. Preparation**](../../1.-preparation.md#smtp-account) guide.\
     By default, the "Enable Email Notification" is checked.
 
 {% hint style="info" %}
@@ -654,7 +654,7 @@ It is highly recommended to check your connection to the email server using the 
 
 ### Twilio (Optional)
 
-25. Enter the Twilio details referenced in the [**1. Preparation**](../../install.md#twilio-optional) guide. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.
+25. Enter the Twilio details referenced in the [**1. Preparation**](../../1.-preparation.md#twilio-optional) guide. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.
 
 ![](<../../../.gitbook/assets/image (51).png>)
 

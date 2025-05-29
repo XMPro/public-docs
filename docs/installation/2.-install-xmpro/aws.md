@@ -36,16 +36,16 @@ There are two accounts set up: one for production and one for non-production. Bo
 
 In order to proceed with the deployment, you are required to complete the steps in the **1. Preparation** guide:
 
-1. Meet the [**hardware** requirements](../install.md#hardware-requirements)
-2. Install the [**software** requirements](../install.md#software-requirements)
-3. Follow the [certificate and communication steps](../install.md#preparation-steps)
+1. Meet the [**hardware** requirements](../1.-preparation.md#hardware-requirements)
+2. Install the [**software** requirements](../1.-preparation.md#software-requirements)
+3. Follow the [certificate and communication steps](../1.-preparation.md#preparation-steps)
 
 {% hint style="info" %}
 **Two SSL Certificates are required**
 
 1. An SSL Certificate in AWS Certificate Manager, used by IIS (See the [Appendix](aws.md#ssl-certificate-in-certificate-manager) guide).\\
 2. An SSL Certificate, used by the SM instance (added to the [S3 Bucket](aws.md#create-s3-bucket) during the installation).\
-   Create or ask your administrator for an SSL certificate with the correct DNS name. A self-signed certificate is good enough. There are many ways to generate this certificate, one of which is described in the above [1. Preparation](../install.md#https-ssl-certificate) guide. Please note the file names **must** be called **ssl.pfx** and **ssl.password.txt**.
+   Create or ask your administrator for an SSL certificate with the correct DNS name. A self-signed certificate is good enough. There are many ways to generate this certificate, one of which is described in the above [1. Preparation](../1.-preparation.md#https-ssl-certificate) guide. Please note the file names **must** be called **ssl.pfx** and **ssl.password.txt**.
 {% endhint %}
 
 **Resources**
@@ -365,7 +365,7 @@ The signing certificate is between the end user and the load balancer. The insta
 
 ![](<../../.gitbook/assets/image (1642).png>)
 
-9. Enter the SMTP details referenced in the [1. Preparation](../install.md#smtp-account) guide and click Test SMTP settings (1), If successful, click Next (2).
+9. Enter the SMTP details referenced in the [1. Preparation](../1.-preparation.md#smtp-account) guide and click Test SMTP settings (1), If successful, click Next (2).
 
 ![](<../../.gitbook/assets/image (1374).png>)
 
@@ -569,11 +569,11 @@ In the AWS Management Console, navigate to **Elastic Beanstalk.**
 
 ![](<../../.gitbook/assets/image (320).png>)
 
-8. Enter the SMTP details referenced in the [1. Preparation](../install.md#smtp-account) guide and click Next.
+8. Enter the SMTP details referenced in the [1. Preparation](../1.-preparation.md#smtp-account) guide and click Next.
 
 ![](<../../.gitbook/assets/image (374).png>)
 
-9. Enter the Twilio details referenced in the [1. Preparation](../install.md#twilio-optional) guide and click Next. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.
+9. Enter the Twilio details referenced in the [1. Preparation](../1.-preparation.md#twilio-optional) guide and click Next. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.
 
 ![](<../../.gitbook/assets/image (1532).png>)
 
@@ -694,7 +694,7 @@ In AWS Console navigate to **Aurora and RDS**
 
 
     ![](<../../.gitbook/assets/image (1642).png>)
-9.  Enter the SMTP details referenced in the [1. Preparation](../install.md#smtp-account) guide and click Test SMTP settings (1), If successful, click Next (2). \
+9.  Enter the SMTP details referenced in the [1. Preparation](../1.-preparation.md#smtp-account) guide and click Test SMTP settings (1), If successful, click Next (2). \
 
 
     ![](<../../.gitbook/assets/image (1374).png>)
@@ -848,11 +848,11 @@ Navigate back to **Elastic Beanstalk** and open the **Environment** page
 
 
     ![](../../.gitbook/assets/ad-upgrade-pathdns.png)
-8.  Enter the SMTP details referenced in the [1. Preparation](../install.md#smtp-account) guide and click Test SMTP settings (1), If successful, click Next (2).\
+8.  Enter the SMTP details referenced in the [1. Preparation](../1.-preparation.md#smtp-account) guide and click Test SMTP settings (1), If successful, click Next (2).\
 
 
     ![](<../../.gitbook/assets/image (374).png>)
-9.  Enter the Twilio details referenced in the [1. Preparation](../install.md#twilio-optional) guide and click Next. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.\
+9.  Enter the Twilio details referenced in the [1. Preparation](../1.-preparation.md#twilio-optional) guide and click Next. If you don't want SMS notifications you can select "None" from the "Select Provider" dropdown.\
 
 
     ![](<../../.gitbook/assets/image (1532).png>)
