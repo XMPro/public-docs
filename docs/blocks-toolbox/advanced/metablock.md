@@ -161,7 +161,7 @@ The Value Mapping opens a new blade to setup the Key and Value configuration. Th
 
 When selecting Server Variables as a Source for the Value Mapping, the list of unencrypted Server Variables will be displayed. Tick the **Encrypt** checkbox to use an encrypted Server Variable for values like keys, secrets, or password. Note that only **plain text** values are supported for **encrypted** Server Variables due to the request proxying process.
 
-Encrypted Server Variables will not have their value available immediately on the Metablock. Instead, you can use them inside a Fetch/XHR request or a WebSocket/MQTT message before being forwarded to the actual target.
+From v4.4.18, encrypted Server Variables will not have their value available immediately on the Metablock. Instead, you can use them inside a Fetch/XHR request or a WebSocket/MQTT message before being forwarded to the actual target.
 
 * **Fetch/XHR Request -** You can use encrypted server variables as part of the URL, Header, or Body of the Fetch/XHR request.
 * **WebSocket/MQTT Message -** You can use encrypted server variables as part of the WebSocket message. For MQTT Messages, you can use it as part of the following message types: Connect (Username and Password), Publish (Payload), and Subscribe (Subscribe Topics)
@@ -468,7 +468,7 @@ We have added security features in Metablock to safeguard the users from potenti
 * Modal Dialogs
 * JavaScript Features
 * External Resources
-* Allowed Downloads
+* Allowed Downloads (v4.4.18)
 
 Additionally, Metablock allows the use of specific hardware APIs for enhanced application capabilities, including camera, encrypted-media, full-screen, geo-location, speaker, accelerometer, gyroscope, magnetometer, and midi.
 
@@ -496,7 +496,7 @@ function onValueMappingLoaded(data) {
 
 ### How can I load multiple script files?
 
-To load external script files, include a script block like you would usually do on an html file. The same thing applies for styles/css files.
+From v4.4.18, you can load external script files by including a script block - the same as you would usually do in a html file. The same applies to style/CSS files.
 
 ```html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
