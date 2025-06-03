@@ -4,6 +4,52 @@ Find answers to some of the most frequently asked configuration questions.
 
 ## App Designer
 
+### What should I do when my SQL stored procedure exceeds the 30-second timeout?
+
+It is not possible to change the 30-second timeout limit. Instead, use this asynchronous approach with Data Streams, to ensure users aren't made to wait:
+
+1. **Create a Queue Table**
+
+```sql
+CREATE TABLE StoredProcQueue (
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    Parameters NVARCHAR(MAX),
+    Status NVARCHAR(50) DEFAULT 'Pending',
+    CreatedDate DATETIME DEFAULT GETDATE(),
+    CompletedDate DATETIME NULL
+)
+```
+
+2. Modify Your App's **button action to insert a record** into the queue table with input parameters
+3. **Create a Data Stream**
+   1. **SQL Listener Agent** to trigger the data stream when new records are inserted into `StoredProcQueue`
+   2. **SQL Action Agent** to execute your stored procedure using the parameters from the queue record, with an appropriate execution timeout.
+4. Optionally, **update the queue record status** when processing completes. Your App can query the table to display progress to users.
+
+#### Further Reading
+
+* [SQL Server Listener and Action Agents](https://xmpro.gitbook.io/sql-server)
+
+### How do I pass selected grid rows to a stored procedure?
+
+You can accomplish this by linking the grid's selection to a variable, then using that variable as input to your stored procedure. Follow these steps:
+
+1. **Create** a **String Variable** `SelectedWorkOrderIDs` to store the comma-delimited list of selected primary key values
+2. **Configure** the **Data Grid** to **allow multiple selection** and bind the **Value** property to `Variables > SelectedWorkOrderIDs` so that the variable  is automatically updated when a user selects/deselects rows
+3. **Add** a **Box** to hold the butto&#x6E;**. Connect** the **Data Source** to your **stored procedure** and **bind the stored procedure input parameter** to the variable using "Dynamic Properties".
+4. **Add** a **Button** within the Box. Set the **Action** to **Refresh Data Source** (the parent Box's stored procedure), so that when clicked it will execute the stored procedure with the selected primary key values as input.
+
+#### Important Considerations
+
+* To avoid errors when the button executes on page load or when clicked without any orders selected, ensure the stored procedure handles null or empty string parameters gracefully.
+* You could return a value from the stored procedure, e.g. status message.
+* If your stored procedure takes longer than 30 seconds to execute, see [What should I do when my SQL stored procedure exceeds the 30-second timeout?](configuration.md#what-should-i-do-when-my-sql-stored-procedure-exceeds-the-30-second-timeout)
+
+#### Further Reading
+
+* [Data Grid Properties](../../blocks-toolbox/basic/data-grid.md#behavior)
+* [Page Variables](../../concepts/application/variables-and-expressions.md#variables)
+
 ### How do I rotate text in App Designer?
 
 In the video below, we demonstrate how to rotate text -90 degrees around the z-axis using block styling's transform option.
@@ -35,6 +81,23 @@ The [Date Selector](../../blocks-toolbox/basic/date-selector.md) date display fo
 
 You should adjust your browser's display language settings - rather than your computer's local settings - to change the date format in XMPro.
 
+### I've added a new recommendation - why can't I see the triggered alerts in the recommendation grid view?
+
+You, as the owner of the recommendation, will not see the recommendation alerts unless you give yourself _Run Access_ to your own recommendations.
+
+#### Further Reading
+
+* [How to manage run access](../../concepts/manage-access.md#manage-run-access)
+
+### How do I drill down with data from a chart? <a href="#toc118190992" id="toc118190992"></a>
+
+You can achieve this by combining navigating between pages and passing data to the Page by configuring the Pass Page Parameters. The data passed can be static, an expression, or dynamic. Please refer to the how-to article below for step-by-step instructions.
+
+#### Further Reading
+
+* [Navigation and parameters](../../concepts/application/navigation-and-parameters.md)
+* [How to pass dynamic data to the page](../../how-tos/apps/pass-parameters-between-pages.md#passing-dynamic-data-to-the-page)
+
 ## Data Stream Designer
 
 ### Can I use an older version of an Agent in a Data Stream?
@@ -43,7 +106,7 @@ _"I'm copying the same pattern used in another Data Stream and I want to use the
 
 No, using an older version of an Agent when a newer version is available is not possible. The latest Agent should incorporate all of the functionalities of the previous version as well as any further modifications made.
 
-However, you could clone the original Data Stream and choose not to upgrade the Agent to the latest version. &#x20;
+However, you could clone the original Data Stream and choose not to upgrade the Agent to the latest version.
 
 #### Further Reading
 
@@ -79,9 +142,9 @@ Generally, the number of events published per Agent decreases as you work throug
 
 We advise you to only have one recommendation agent on a data stream.
 
-A recommendation rule is configured against a single Data Stream, not a given Stream Object in a Stream. It will find the first Run Recommendation in the selected Data Stream and let you define your Recommendation Rule against the output payload of that Agent.  If the payload differs at runtime, you may get weird results when triggering a recommendation alert.
+A recommendation rule is configured against a single Data Stream, not a given Stream Object in a Stream. It will find the first Run Recommendation in the selected Data Stream and let you define your Recommendation Rule against the output payload of that Agent. If the payload differs at runtime, you may get weird results when triggering a recommendation alert.
 
-If the data cannot be merged (using a join or union transformation) and used in the different recommendations, then consider creating 3 different data streams.  Remember you can have one **data stream** feed data to as many **recommendations** as you want to, BUT you should only have one _run recommendation agent_ on a data stream canvas.
+If the data cannot be merged (using a join or union transformation) and used in the different recommendations, then consider creating 3 different data streams. Remember you can have one **data stream** feed data to as many **recommendations** as you want to, BUT you should only have one _run recommendation agent_ on a data stream canvas.
 
 <figure><img src="../../.gitbook/assets/FAQ Run Recommendation.png" alt=""><figcaption></figcaption></figure>
 
@@ -93,23 +156,6 @@ Although a wide variety of data can be surfaced from a Data Stream into your App
 
 * [List of App Designer Connectors](../../concepts/application/data-integration.md#app-designer-connector)
 * [Connector](../../concepts/connector.md)
-
-### I've added a new recommendation - why can't I see the triggered alerts in the recommendation grid view?
-
-You, as the owner of the recommendation, will not see the recommendation alerts unless you give yourself _Run Access_ to your own recommendations.&#x20;
-
-#### Further Reading
-
-* [How to manage run access](../../concepts/manage-access.md#manage-run-access)
-
-### How do I drill down with data from a chart? <a href="#toc118190992" id="toc118190992"></a>
-
-You can achieve this by combining navigating between pages and passing data to the Page by configuring the Pass Page Parameters. The data passed can be static, an expression, or dynamic. Please refer to the how-to article below for step-by-step instructions.
-
-#### Further Reading
-
-* [Navigation and parameters](../../concepts/application/navigation-and-parameters.md)
-* [How to pass dynamic data to the page](../../how-tos/apps/pass-parameters-between-pages.md#passing-dynamic-data-to-the-page)
 
 ### How do I set up Stream Host Variables/provide unique Asset configuration?
 
@@ -127,7 +173,7 @@ To delete a Data Stream, your account must meet the following conditions:
 1. You need **Co-Owner** or **Write** access to the specific Data Stream.
 2. You must have the **DeleteUseCase** product right assigned to your user account, which is configured in Subscription Manager.
 
-Once you have access to the Data Stream and the right to delete, click Properties to access the Delete button.&#x20;
+Once you have access to the Data Stream and the right to delete, click Properties to access the Delete button.
 
 The Delete button on the canvas is used to delete Stream Objects.
 
