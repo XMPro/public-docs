@@ -76,6 +76,15 @@ Allows the user to select multiple items from the grid.
 
 ![](<../../.gitbook/assets/Allow Multiple Selection.gif>)
 
+#### Multiple Selection Mode
+
+Choose how the select all and deselect all will be applied to the Data Grid:
+
+* Page - recommended for large datasets (200+ rows).
+* All Pages - recommended for small datasets.
+
+Note: applies when paging and multiple selection are enabled.
+
 #### Allow Adding
 
 Add button will be displayed and the user can add/insert rows by clicking on it.

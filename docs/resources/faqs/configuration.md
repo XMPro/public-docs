@@ -59,6 +59,12 @@ You can accomplish this by linking the grid's selection to a variable, then usin
 * [Data Grid Properties](../../blocks-toolbox/basic/data-grid.md#behavior)
 * [Page Variables](../../concepts/application/variables-and-expressions.md#variables)
 
+### Why can't I de-select 3000+ rows in my Data Grid? I have enabled paging and multi-select.
+
+You are likely using the [Multiple Selection Mode](../../blocks-toolbox/basic/data-grid.md#multiple-selection-mode) "All Pages" option - which will have difficulty with such dataset over 200 records. Rather use "Pages" option, which selects and de-selects rows on the current page, removing performance issues regardless of the size of your dataset.&#x20;
+
+If you need cross-page selection, evaluate whether filtering could reduce your dataset before selection. Or perhaps you could include a "Process All" button.
+
 ### How do I rotate text in App Designer?
 
 In the video below, we demonstrate how to rotate text -90 degrees around the z-axis using block styling's transform option.
