@@ -9,7 +9,7 @@ It is recommended that you read the article listed below to improve your underst
 * [How to Manage Pages](manage-pages.md)
 {% endhint %}
 
-## Configuring Navigation between Pages
+## Configure Navigation between Pages
 
 To add Navigation between Pages, make sure the Application has more than one Page. [See the Manage Pages article to read more about adding Pages.](manage-pages.md)
 
@@ -48,7 +48,7 @@ Some Pages do not automatically have links to other Pages. For example, the Land
 
 ![](../../.gitbook/assets/Nav_7.png)
 
-## Navigating between Pages at Runtime
+## Navigate between Pages at Runtime
 
 After the Navigation between Pages has been added, you can Launch the App to see what it will look like at runtime. Follow the steps below to Launch and view the App:
 
@@ -63,13 +63,13 @@ After the Navigation between Pages has been added, you can Launch the App to see
 
 ![](../../.gitbook/assets/Nav_10.png)
 
-## Deleting Navigation between Pages
+## Delete Navigation between Pages
 
 You can delete the navigation functionality by either deleting the Block itself or by deleting the settings under _Action_ in the _Block Properties_ tab.
 
 ![](../../.gitbook/assets/Nav_11.png)
 
-## Navigating Using Back URL
+## Navigate Using Back URL
 
 You can include a back URL to the current page when configuring a Navigate To URL, so that the user can return to the original page. For example, you want to open an Alert from a custom templated list and the alert drill-down needs a back URL.
 
@@ -88,22 +88,15 @@ To append a back URL, follow these steps:
 
 6\. Configure the URL with back parameters, similar to the below:
 
+{% code overflow="wrap" %}
 ```
 "https://xmad-sample.azurewebsites.net/viewalert;id="+"12345"+";backUrl=render;backParams=\{\"appId\":\""+appId+"\",\"pageId\":\""+pageId+"\",\"categoryName\":\""+categoryName+"\",\"appVersion\":\""+appVersion+"\"\}"
 ```
+{% endcode %}
 
 <figure><img src="../../.gitbook/assets/BackURL_6.PNG" alt=""><figcaption></figcaption></figure>
 
-## Copying App Link
-
-You can copy the App link if you want to share it. This creates a link to the published app version - or to the latest version if there is no published version.
-
-1. Click More.
-2. Click Copy App Link.
-
-<figure><img src="../../.gitbook/assets/image (1762).png" alt=""><figcaption></figcaption></figure>
-
-## Copying Page Link
+## Copy the Page Link
 
 You can copy a specific App Page link if you want to share it. This will create a link to the specific app version and page.
 

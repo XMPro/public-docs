@@ -1,10 +1,10 @@
 # Page Data
 
-You can use Page Data to update the data on the current page when an Action is performed. In the example shown below, each button is configured to update the value of the variable shown in the text control with a different value. &#x20;
+You can use Page Data to update the data on the current page when an Action is performed. In the example shown below, each button is configured to update the value of the variable shown in the text control with a different value.
 
 ![](<../../.gitbook/assets/Page Data Example.gif>)
 
-## Adding a Page Data to Control
+## Adding Page Data to a Control
 
 To add Page Data follow the steps below:
 
@@ -17,7 +17,7 @@ To add Page Data follow the steps below:
 
 ![](<../../.gitbook/assets/Page Data.png>)
 
-## Removing a Page Data from Control
+## Removing Page Data from a Control
 
 To remove Page Data follow the steps below:
 
@@ -28,4 +28,3 @@ To remove Page Data follow the steps below:
 5. Click Apply.
 
 ![](<../../.gitbook/assets/Page Data remove.png>)
-

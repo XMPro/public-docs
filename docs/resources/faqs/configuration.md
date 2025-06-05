@@ -6,18 +6,27 @@ Find answers to some of the most frequently asked configuration questions.
 
 ### What should I do when my SQL stored procedure exceeds the 30-second timeout?
 
-It is not possible to change the 30-second timeout limit. Instead, use this asynchronous approach with Data Streams, to ensure users aren't made to wait:
+It is not possible to change the 30-second timeout limit. First optimize your stored procedure with the help of a tool like Claude. If it still times out, use this asynchronous approach with Data Streams to ensure users don't wait:
 
 1. **Create a Queue Table**
 
 ```sql
 CREATE TABLE StoredProcQueue (
-    ID INT IDENTITY(1,1) PRIMARY KEY,
+    ID BIGINT IDENTITY(1,1) PRIMARY KEY,
     Parameters NVARCHAR(MAX),
-    Status NVARCHAR(50) DEFAULT 'Pending',
-    CreatedDate DATETIME DEFAULT GETDATE(),
-    CompletedDate DATETIME NULL
-)
+    Status TINYINT NOT NULL DEFAULT 0, -- 0=Pending, 1=Processing, 2=Completed, 3=Failed
+    CreatedDate DATETIME2 DEFAULT GETDATE(),
+    CompletedDate DATETIME2 NULL
+);
+
+-- Critical indexes for performance
+CREATE INDEX IX_StoredProcQueue_Status_Created 
+ON StoredProcQueue (Status, CreatedDate) 
+WHERE Status IN (0, 1); -- Only index active records
+
+CREATE INDEX IX_StoredProcQueue_Cleanup 
+ON StoredProcQueue (Status, CompletedDate) 
+WHERE Status IN (2, 3); -- For cleanup operations
 ```
 
 2. Modify Your App's **button action to insert a record** into the queue table with input parameters

@@ -11,7 +11,9 @@ It is recommended that you read the article listed below to improve your underst
 
 ## Adding a Parameter to the Page
 
-A Parameter needs to be added to the Page that is receiving the data. In this example, there are two Pages that exist in the Application: the main Landing Page and the secondary Page. The second page is the Page where the Parameter is made. To add a Parameter to a page, follow the steps below:
+A Parameter needs to be added to the Page that is receiving the data. In this example, there are two Pages that exist in the Application: the main Landing Page and the secondary Page. The second page is the Page where the Parameter is added.&#x20;
+
+### Step One: Add a Parameter (receiving Page)
 
 1. Click on _Applications_ from the left-hand menu.
 2. Click on the _edit_ button of the Application from the list.
@@ -30,6 +32,8 @@ A Parameter needs to be added to the Page that is receiving the data. In this ex
 
 ![](<../../.gitbook/assets/image (499).png>)
 
+### Step Two: Display the Parameter (receiving Page)
+
 Now that a Parameter has been added, create a textbox or a way to display the value when it is passed to the Page during runtime.
 
 1. Add a textbox to the Page so you will be able to display the value when it is passed from the main page to this page.
@@ -42,6 +46,8 @@ Now that a Parameter has been added, create a textbox or a way to display the va
 5\. Click on _Save_.
 
 ![](../../.gitbook/assets/params_5.png)
+
+### Step Three: Populate the Parameter (sending Page)
 
 The data has to be sent from the main page to the secondary page. To pass data from the main Landing Page using the Parameter you just created, follow the steps below:
 

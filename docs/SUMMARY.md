@@ -541,6 +541,7 @@
   * [Import an App Page](how-tos/apps/import-an-app-page.md)
   * [Design Pages for Mobile](how-tos/apps/design-pages-for-mobile.md)
   * [Navigate Between Pages](how-tos/apps/navigate-between-pages.md)
+  * [Navigate Between Apps](how-tos/apps/navigate-between-apps.md)
   * [Pass Parameters Between Pages](how-tos/apps/pass-parameters-between-pages.md)
   * [Page Data](how-tos/apps/page-data.md)
   * [Manage Connections](how-tos/apps/manage-connections.md)
