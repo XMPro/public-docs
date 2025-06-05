@@ -717,7 +717,7 @@
   * [Configure Health Checks (Optional)](installation-1/3.-complete-installation/configure-health-checks-optional.md)
   * [Configure Logging (Optional)](installation-1/3.-complete-installation/configure-logging-optional.md)
   * [Configure SSO (Optional)](installation-1/3.-complete-installation/configure-sso-optional/README.md)
-    * [SSO - Azure AD](installation-1/3.-complete-installation/configure-sso-optional/sso-azure-ad.md)
+    * [SSO - Azure Entra ID](installation-1/3.-complete-installation/configure-sso-optional/sso-azure-ad.md)
     * [SSO - ADFS](installation-1/3.-complete-installation/configure-sso-optional/sso-adfs.md)
   * [Create Base Company](installation-1/3.-complete-installation/set-up-a-tenant-company.md)
   * [Install Stream Host](installation-1/3.-complete-installation/install-stream-host/README.md)

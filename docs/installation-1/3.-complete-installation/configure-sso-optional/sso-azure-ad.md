@@ -1,4 +1,4 @@
-# SSO - Azure AD
+# SSO - Azure Entra ID
 
 In this article, we will look at how to set up Azure AD so that it can be used as an external identity provider for Subscription Manager, allowing single sign-on capability between Azure AD and Subscription Manager.
 
@@ -25,25 +25,31 @@ Next, create a secret for Subscription Manager. Follow the steps below:
 3. Add a description for your new client secret.
 4. Choose a duration.
 5. Click _Add._
+6. Copy the value of the newly generated secret and store it safely for later use.
 
 ![](https://docs.xmpro.com/wp-content/uploads/2019/07/add-secret-1-1.png)
 
 ![](https://docs.xmpro.com/wp-content/uploads/2019/07/add-secret-2-2.png)
 
-{% hint style="info" %}
-Both the application client ID and the secret need to be added to Subscription Manager’s _web.config_ file.
+{% hint style="danger" %}
+**Warning:** Both the application (client) ID and the secret need to be added to Subscription Manager’s _web.config_ file. You will not be able to retrieve the secret once the page has been closed. Make sure to copy and safely store the secret before the page is closed, or you will need to repeat the previous steps.
 {% endhint %}
 
-6. Navigate to the IIS location where Subscription Manager has been installed.
-7. Open the file _web.config_ file.
-8. Scroll down to the “_xmpro_” section.
+7. On the left, click _Token Configuration_.
+8. Click _Add Optional Claim_.
+9. Select the _ID_ token type.
+10. Select _upn_ from the list of claims.
+11. Click Add, and then Save.
+12. Navigate to the IIS location where Subscription Manager has been installed.
+13. Open the file _web.config_ file.
+14. Scroll down to the “_xmpro_” section.
 
 {% hint style="info" %}
 This section might have to be decrypted, for which you can find instructions [here](https://docs.xmpro.com/knowledge-base-2/how-to-encrypt-and-decrypt-a-web-config-file/).
 {% endhint %}
 
-9. Add the application (client) ID that you copied earlier to the `clientId` attribute of the `azureAD` element
-10. Copy the secret and add it to the _web.config_.
+15. Add the application (client) ID that you copied earlier to the `clientId` attribute of the `azureAD` element.
+16. Add the secret that you created earlier to the `key` attribute of the `azureAD` element.
 
 <figure><img src="../../../.gitbook/assets/SSO_AzureAD_web_config_clientId_and_key.png" alt=""><figcaption></figcaption></figure>
 
@@ -52,7 +58,7 @@ If you're using the Azure key store to manage app settings and secrets, use the 
 `<azureAD clientId="${ADClientID}" key="${ADSecret}" />`
 {% endhint %}
 
-11. And define the following secrets in the key store:
+17. And define the following secrets in the key store:
 
 | **Name**   | **Value**          |
 | ---------- | ------------------ |
@@ -61,11 +67,11 @@ If you're using the Azure key store to manage app settings and secrets, use the 
 
 ## Authentication
 
-12. Copy the baseUrl value in the _web.config_ - you will need it later in this guide.
+18. Copy the baseUrl value in the _web.config_ - you will need it later in this guide.
 
 <figure><img src="../../../.gitbook/assets/SSO_AzureAD_web_config_baseUrl.png" alt=""><figcaption></figcaption></figure>
 
-13. In Azure Portal, click on _Authentication_ and add the following URL in the space provided:
+19. In Azure Portal, click on _Authentication_ and add the following URL in the space provided:
 
 *   The URL where Subscription Manager is hosted (base URL, which you have just copied), ending in “_identity/signin-azuread_”
 
@@ -73,15 +79,15 @@ If you're using the Azure key store to manage app settings and secrets, use the 
 
 ![](https://docs.xmpro.com/wp-content/uploads/2019/07/authentication-4.png)
 
-14. On the Authentication page, scroll down until you see “_Advanced Settings_“.
-15. Select “_ID tokens_” and click _Save_.
+20. On the Authentication page, scroll down until you see “_Advanced Settings_“.
+21. Select “_ID tokens_” and click _Save_.
 
 ![](https://docs.xmpro.com/wp-content/uploads/2019/07/authentication-advanced-settings.png)
 
 ## API permissions
 
-16. Select _API permissions_ on the left-hand menu.
-17. Make sure the permissions set on the application correspond to the image below.
+22. Select _API permissions_ on the left-hand menu.
+23. Make sure the permissions set on the application correspond to the image below.
 
 ![](https://docs.xmpro.com/wp-content/uploads/2019/07/permissions-1.png)
 
