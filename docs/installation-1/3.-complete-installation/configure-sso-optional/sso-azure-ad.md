@@ -40,9 +40,11 @@ Next, create a secret for Subscription Manager. Follow the steps below:
 9. Select the _ID_ token type.
 10. Select _upn_ from the list of claims.
 11. Click Add, and then Save.
-12. Navigate to the IIS location where Subscription Manager has been installed.
-13. Open the file _web.config_ file.
-14. Scroll down to the “_xmpro_” section.
+12. Open the app _Manifest_.
+13. Set _"acceptMappedClaims": true (applies from v4.4.19+)_
+14. Navigate to the IIS location where Subscription Manager has been installed.
+15. Open the file _web.config_ file.
+16. Scroll down to the “_xmpro_” section.
 
 {% hint style="info" %}
 This section might have to be decrypted, for which you can find instructions [here](https://docs.xmpro.com/knowledge-base-2/how-to-encrypt-and-decrypt-a-web-config-file/).
