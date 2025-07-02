@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Windows Server 2022
 
 This document will guide you through how to deploy the XMPro Platform on a single Windows Server 2022 machine. For custom deployments, including multi machine deployments, contact XMPro for additional instructions.

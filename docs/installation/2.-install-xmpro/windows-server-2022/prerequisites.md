@@ -2,17 +2,6 @@
 description: >-
   In order to proceed with the deployment, you are required to meet the hardware
   and software requirements listed below:
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Prerequisites
