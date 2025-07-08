@@ -14,10 +14,11 @@ After you have installed App Designer and Data Stream Designer and set up a new 
 
 4\. Download the files from each of the following links:
 
-* [Tier 5 - Open Source](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Agents.zip)
+* [Tier 5 - Open Source (1 of 2)](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Agents%20\(1%20of%202\).zip)
+* [Tier 5 - Open Source (2 of 2)](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Agents%20\(2%20of%202\).zip)
 * [Tier 6 - XMPro Internal](https://xmappstore.blob.core.windows.net/tier6/Tier%206%20-%20Agents.zip)
 
-5\. Click Select file and upload the _Tier 5 - Agents.zip_ file found in the link above
+5\. Click Select file and upload the _Tier 5 - Agents (1 of 2).zip_ file found in the link above
 
 <figure><img src="../../.gitbook/assets/Complete Installation - Add Agents - select file.png" alt=""><figcaption></figcaption></figure>
 
@@ -25,7 +26,7 @@ After you have installed App Designer and Data Stream Designer and set up a new 
 
 <figure><img src="../../.gitbook/assets/Complete Installation - Add Agents - see catrgories.png" alt=""><figcaption></figcaption></figure>
 
-7\. Click Discard and repeat the above steps for the Tier 6 file
+7\. Click Discard and repeat the above steps for the other 2 files.
 
 ## App Designer - Connectors
 

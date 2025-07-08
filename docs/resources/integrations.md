@@ -58,7 +58,10 @@ Looking for an Agent that is not on the list? Send us a [request](mailto:support
 
 #### Tier 5
 
-Download the tier 5 files [here](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Agents.zip).
+Download the tier 5 files:
+
+* [Tier 5 - Agents (1 of 2)](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Agents%20\(1%20of%202\).zip)
+* [Tier 5 - Agents (2 of 2)](https://xmappstore.blob.core.windows.net/tier5/Tier%205%20-%20Agents%20\(2%20of%202\).zip)
 
 Use these individual files if you are not on v4.1.13 or higher:
 
